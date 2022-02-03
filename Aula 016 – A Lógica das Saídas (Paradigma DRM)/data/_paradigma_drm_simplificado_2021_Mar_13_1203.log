@@ -1,0 +1,1493 @@
+3.0357 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+21.3712 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000C7452F6DD8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000C74998EC88>, multiSample=False, name='window1', numSamples=2, pos=[233.0, 84.0], screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.3716 	EXP 	window1: mouseVisible = True
+21.3718 	EXP 	window1: recordFrameIntervals = False
+21.7031 	EXP 	window1: recordFrameIntervals = True
+22.0720 	EXP 	window1: recordFrameIntervals = False
+22.4108 	EXP 	Created instructions_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1.8)
+22.4614 	EXP 	Created spacebar_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='spacebar_msg', opacity=1.0, ori=0, pos=array([ 0.7, -0.7]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+22.5256 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='word', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+22.5447 	EXP 	Created instructions_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1.8)
+22.5886 	EXP 	Created spacebar_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='spacebar_msg', opacity=1.0, ori=0, pos=array([ 0.7, -0.7]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+22.6354 	EXP 	Created math_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='math_trial', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1.8)
+22.6553 	EXP 	Created instructions_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1.8)
+22.6992 	EXP 	Created spacebar_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='spacebar_msg', opacity=1.0, ori=0, pos=array([ 0.7, -0.7]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+22.7134 	EXP 	Created fixation_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='fixation_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+22.7709 	EXP 	Created general_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='general_instruction', opacity=1.0, ori=0, pos=array([0. , 0.6]), rgb=array([0., 0., 0.]), text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+22.8023 	EXP 	Created test_trial_word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='test_trial_word', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+22.8286 	EXP 	Created end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='end', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+22.9270 	EXP 	Imported instructions_initial.xlsx as conditions, 3 conditions, 2 params
+22.9279 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+22.9289 	EXP 	New trial (rep=0, index=0): OrderedDict([('main_instruction', 'Olá, seja bem-vindo(a) ao nosso laboratório! Neste estudo, você verá uma lista de palavras. Tente memorizar todas as palavras, pois você receberá um teste de memória posteriormente.'), ('spacebar_color', 'black')])
+23.0406 	EXP 	instructions_msg: text = 'Olá, seja bem-vindo(a) ao nosso laboratório! Neste estudo, você verá uma lista de palavras. Tente memorizar todas as palavras, pois você receberá um teste de memória posteriormente.'
+23.0406 	EXP 	spacebar_msg: color = 'black (named)'
+23.0406 	EXP 	instructions_msg: autoDraw = True
+23.0406 	EXP 	spacebar_msg: autoDraw = True
+24.2558 	EXP 	New trial (rep=0, index=1): OrderedDict([('main_instruction', 'Em caso de dúvidas, chame o(a) experimentador(a).'), ('spacebar_color', 'black')])
+24.2936 	DATA 	Keypress: space
+24.3295 	EXP 	instructions_msg: autoDraw = False
+24.3295 	EXP 	spacebar_msg: autoDraw = False
+24.3295 	EXP 	instructions_msg: text = 'Em caso de dúvidas, chame o(a) experimentador(a).'
+24.3295 	EXP 	spacebar_msg: color = 'black (named)'
+24.3295 	EXP 	instructions_msg: autoDraw = True
+24.3295 	EXP 	spacebar_msg: autoDraw = True
+24.8413 	DATA 	Keypress: space
+24.8736 	EXP 	New trial (rep=0, index=2): OrderedDict([('main_instruction', 'Caso não tenha dúvidas, pressione [BARRA DE ESPAÇO] para dar início ao estudo da lista de palavras.'), ('spacebar_color', 'white')])
+24.9656 	EXP 	instructions_msg: autoDraw = False
+24.9656 	EXP 	spacebar_msg: autoDraw = False
+24.9656 	EXP 	instructions_msg: text = 'Caso não tenha dúvidas, pressione [BARRA DE ESPAÇO] para dar início ao estudo da lista de palavras.'
+24.9656 	EXP 	spacebar_msg: color = 'white (named)'
+24.9656 	EXP 	instructions_msg: autoDraw = True
+24.9656 	EXP 	spacebar_msg: autoDraw = True
+25.4695 	EXP 	Imported conditions.xlsx as conditions, 10 conditions, 1 params
+25.4708 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+25.4718 	EXP 	New trial (rep=0, index=0): OrderedDict([('condition', 'montanha')])
+25.4941 	EXP 	Imported montanha.xlsx as conditions, 15 conditions, 1 params
+25.4950 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+25.4959 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'escalada')])
+25.5168 	DATA 	Keypress: space
+25.5513 	EXP 	instructions_msg: autoDraw = False
+25.5513 	EXP 	spacebar_msg: autoDraw = False
+25.5513 	EXP 	word: text = 'escalada'
+26.5231 	EXP 	word: autoDraw = True
+26.9623 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'natureza')])
+27.0245 	EXP 	word: autoDraw = False
+27.0245 	EXP 	word: text = 'natureza'
+27.9964 	EXP 	word: autoDraw = True
+28.4678 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'beleza')])
+28.5141 	EXP 	word: autoDraw = False
+28.5141 	EXP 	word: text = 'beleza'
+29.4855 	EXP 	word: autoDraw = True
+29.9576 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'árvores')])
+30.0204 	EXP 	word: autoDraw = False
+30.0204 	EXP 	word: text = 'árvores'
+30.9923 	EXP 	word: autoDraw = True
+31.4644 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'liberdade')])
+31.5102 	EXP 	word: autoDraw = False
+31.5102 	EXP 	word: text = 'liberdade'
+32.4821 	EXP 	word: autoDraw = True
+32.9538 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'alpinismo')])
+33.0164 	EXP 	word: autoDraw = False
+33.0164 	EXP 	word: text = 'alpinismo'
+33.9883 	EXP 	word: autoDraw = True
+34.4599 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'aventura')])
+34.5060 	EXP 	word: autoDraw = False
+34.5060 	EXP 	word: text = 'aventura'
+35.4780 	EXP 	word: autoDraw = True
+35.9496 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'subir')])
+35.9969 	EXP 	word: autoDraw = False
+35.9969 	EXP 	word: text = 'subir'
+36.9675 	EXP 	word: autoDraw = True
+37.4410 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'rocha')])
+37.4854 	EXP 	word: autoDraw = False
+37.4854 	EXP 	word: autoDraw = False
+37.4854 	EXP 	word: text = 'rocha'
+38.4573 	EXP 	word: autoDraw = True
+38.9311 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'russa')])
+38.9752 	EXP 	word: autoDraw = False
+38.9752 	EXP 	word: autoDraw = False
+38.9752 	EXP 	word: text = 'russa'
+39.9471 	EXP 	word: autoDraw = True
+40.4203 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'obstáculo')])
+40.4660 	EXP 	word: autoDraw = False
+40.4660 	EXP 	word: autoDraw = False
+40.4660 	EXP 	word: text = 'obstáculo'
+41.4369 	EXP 	word: autoDraw = True
+41.9097 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'serra')])
+41.9558 	EXP 	word: autoDraw = False
+41.9558 	EXP 	word: autoDraw = False
+41.9558 	EXP 	word: text = 'serra'
+42.9260 	EXP 	word: autoDraw = True
+43.4000 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'terra')])
+43.4443 	EXP 	word: autoDraw = False
+43.4443 	EXP 	word: autoDraw = False
+43.4443 	EXP 	word: text = 'terra'
+44.4157 	EXP 	word: autoDraw = True
+44.8899 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'pico')])
+44.9347 	EXP 	word: autoDraw = False
+44.9347 	EXP 	word: autoDraw = False
+44.9347 	EXP 	word: text = 'pico'
+45.9055 	EXP 	word: autoDraw = True
+46.3791 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'morro')])
+46.4244 	EXP 	word: autoDraw = False
+46.4244 	EXP 	word: autoDraw = False
+46.4244 	EXP 	word: text = 'morro'
+47.3954 	EXP 	word: autoDraw = True
+47.8696 	EXP 	New trial (rep=0, index=1): OrderedDict([('condition', 'devagar')])
+47.9012 	EXP 	Imported devagar.xlsx as conditions, 15 conditions, 1 params
+47.9022 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+47.9030 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'lento')])
+47.9467 	EXP 	word: autoDraw = False
+47.9467 	EXP 	word: autoDraw = False
+47.9467 	EXP 	word: text = 'lento'
+48.9188 	EXP 	word: autoDraw = True
+49.3931 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'calma')])
+49.4366 	EXP 	word: autoDraw = False
+49.4366 	EXP 	word: autoDraw = False
+49.4366 	EXP 	word: text = 'calma'
+50.4079 	EXP 	word: autoDraw = True
+50.8819 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'parar')])
+50.9259 	EXP 	word: autoDraw = False
+50.9259 	EXP 	word: autoDraw = False
+50.9259 	EXP 	word: text = 'parar'
+51.8978 	EXP 	word: autoDraw = True
+52.3711 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'tartaruga')])
+52.4156 	EXP 	word: autoDraw = False
+52.4156 	EXP 	word: autoDraw = False
+52.4156 	EXP 	word: text = 'tartaruga'
+53.3875 	EXP 	word: autoDraw = True
+53.8611 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'caminhar')])
+53.9052 	EXP 	word: autoDraw = False
+53.9052 	EXP 	word: autoDraw = False
+53.9052 	EXP 	word: text = 'caminhar'
+54.8773 	EXP 	word: autoDraw = True
+55.3503 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'cuidado')])
+55.3963 	EXP 	word: autoDraw = False
+55.3963 	EXP 	word: autoDraw = False
+55.3963 	EXP 	word: text = 'cuidado'
+56.3670 	EXP 	word: autoDraw = True
+56.8405 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'demora')])
+56.8846 	EXP 	word: autoDraw = False
+56.8846 	EXP 	word: autoDraw = False
+56.8846 	EXP 	word: text = 'demora'
+57.8562 	EXP 	word: autoDraw = True
+58.3296 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'andar')])
+58.3756 	EXP 	word: autoDraw = False
+58.3756 	EXP 	word: autoDraw = False
+58.3756 	EXP 	word: text = 'andar'
+59.3459 	EXP 	word: autoDraw = True
+59.8198 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'trânsito')])
+59.8807 	EXP 	word: autoDraw = False
+59.8807 	EXP 	word: autoDraw = False
+59.8807 	EXP 	word: text = 'trânsito'
+60.8203 	EXP 	word: autoDraw = True
+61.2932 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'atenção')])
+61.3370 	EXP 	word: autoDraw = False
+61.3370 	EXP 	word: autoDraw = False
+61.3370 	EXP 	word: text = 'atenção'
+62.3091 	EXP 	word: autoDraw = True
+62.7827 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'lerdo')])
+62.8275 	EXP 	word: autoDraw = False
+62.8275 	EXP 	word: autoDraw = False
+62.8275 	EXP 	word: text = 'lerdo'
+63.7982 	EXP 	word: autoDraw = True
+64.2725 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'paciência')])
+64.3340 	EXP 	word: autoDraw = False
+64.3340 	EXP 	word: autoDraw = False
+64.3340 	EXP 	word: text = 'paciência'
+65.3049 	EXP 	word: autoDraw = True
+65.7786 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'preguiça')])
+65.8226 	EXP 	word: autoDraw = False
+65.8226 	EXP 	word: autoDraw = False
+65.8226 	EXP 	word: text = 'preguiça'
+66.7945 	EXP 	word: autoDraw = True
+67.2692 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'lesma')])
+67.3125 	EXP 	word: autoDraw = False
+67.3125 	EXP 	word: autoDraw = False
+67.3125 	EXP 	word: text = 'lesma'
+68.2844 	EXP 	word: autoDraw = True
+68.7580 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'atraso')])
+68.8034 	EXP 	word: autoDraw = False
+68.8034 	EXP 	word: autoDraw = False
+68.8034 	EXP 	word: text = 'atraso'
+69.7736 	EXP 	word: autoDraw = True
+70.2476 	EXP 	New trial (rep=0, index=2): OrderedDict([('condition', 'cadeira')])
+70.2791 	EXP 	Imported cadeira.xlsx as conditions, 15 conditions, 1 params
+70.2801 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+70.2809 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'sentar')])
+70.3251 	EXP 	word: autoDraw = False
+70.3251 	EXP 	word: autoDraw = False
+70.3251 	EXP 	word: text = 'sentar'
+71.2971 	EXP 	word: autoDraw = True
+71.7724 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'mesa')])
+71.8161 	EXP 	word: autoDraw = False
+71.8161 	EXP 	word: autoDraw = False
+71.8161 	EXP 	word: text = 'mesa'
+72.7868 	EXP 	word: autoDraw = True
+73.2597 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'madeira')])
+73.3059 	EXP 	word: autoDraw = False
+73.3059 	EXP 	word: autoDraw = False
+73.3059 	EXP 	word: text = 'madeira'
+74.2762 	EXP 	word: autoDraw = True
+74.7499 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'objeto')])
+74.7940 	EXP 	word: autoDraw = False
+74.7940 	EXP 	word: autoDraw = False
+74.7940 	EXP 	word: text = 'objeto'
+75.7659 	EXP 	word: autoDraw = True
+76.2403 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'comodidade')])
+76.2841 	EXP 	word: autoDraw = False
+76.2841 	EXP 	word: autoDraw = False
+76.2841 	EXP 	word: text = 'comodidade'
+77.2555 	EXP 	word: autoDraw = True
+77.7293 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'sala')])
+77.7744 	EXP 	word: autoDraw = False
+77.7744 	EXP 	word: autoDraw = False
+77.7744 	EXP 	word: text = 'sala'
+78.7453 	EXP 	word: autoDraw = True
+79.2197 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'balanço')])
+79.2630 	EXP 	word: autoDraw = False
+79.2630 	EXP 	word: autoDraw = False
+79.2630 	EXP 	word: text = 'balanço'
+80.2350 	EXP 	word: autoDraw = True
+80.7091 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'móvel')])
+80.7540 	EXP 	word: autoDraw = False
+80.7540 	EXP 	word: autoDraw = False
+80.7540 	EXP 	word: text = 'móvel'
+81.7249 	EXP 	word: autoDraw = True
+82.1987 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'encosto')])
+82.2424 	EXP 	word: autoDraw = False
+82.2424 	EXP 	word: autoDraw = False
+82.2424 	EXP 	word: text = 'encosto'
+83.2144 	EXP 	word: autoDraw = True
+83.6879 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'aula')])
+83.7321 	EXP 	word: autoDraw = False
+83.7321 	EXP 	word: autoDraw = False
+83.7321 	EXP 	word: text = 'aula'
+84.7042 	EXP 	word: autoDraw = True
+85.1774 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'estofado')])
+85.2219 	EXP 	word: autoDraw = False
+85.2219 	EXP 	word: autoDraw = False
+85.2219 	EXP 	word: text = 'estofado'
+86.1937 	EXP 	word: autoDraw = True
+86.6674 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'apoio')])
+86.7125 	EXP 	word: autoDraw = False
+86.7125 	EXP 	word: autoDraw = False
+86.7125 	EXP 	word: text = 'apoio'
+87.6825 	EXP 	word: autoDraw = True
+88.1544 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'poltrona')])
+88.2012 	EXP 	word: autoDraw = False
+88.2012 	EXP 	word: autoDraw = False
+88.2012 	EXP 	word: text = 'poltrona'
+89.1720 	EXP 	word: autoDraw = True
+89.6446 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'banco')])
+89.6741 	EXP 	word: autoDraw = False
+89.6741 	EXP 	word: autoDraw = False
+89.6741 	EXP 	word: text = 'banco'
+90.6450 	EXP 	word: autoDraw = True
+91.1166 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'decoração')])
+91.1471 	EXP 	word: autoDraw = False
+91.1471 	EXP 	word: autoDraw = False
+91.1471 	EXP 	word: text = 'decoração'
+92.1186 	EXP 	word: autoDraw = True
+92.5923 	EXP 	New trial (rep=0, index=3): OrderedDict([('condition', 'alegria')])
+92.6264 	EXP 	Imported alegria.xlsx as conditions, 15 conditions, 1 params
+92.6273 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+92.6282 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'sorriso')])
+92.6702 	EXP 	word: autoDraw = False
+92.6702 	EXP 	word: autoDraw = False
+92.6702 	EXP 	word: text = 'sorriso'
+93.6421 	EXP 	word: autoDraw = True
+94.1169 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'felicidade')])
+94.1598 	EXP 	word: autoDraw = False
+94.1598 	EXP 	word: autoDraw = False
+94.1598 	EXP 	word: text = 'felicidade'
+95.1319 	EXP 	word: autoDraw = True
+95.6056 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'festa')])
+95.6509 	EXP 	word: autoDraw = False
+95.6509 	EXP 	word: autoDraw = False
+95.6509 	EXP 	word: text = 'festa'
+96.6218 	EXP 	word: autoDraw = True
+97.0947 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'vida')])
+97.1394 	EXP 	word: autoDraw = False
+97.1394 	EXP 	word: autoDraw = False
+97.1394 	EXP 	word: text = 'vida'
+98.1109 	EXP 	word: autoDraw = True
+98.5848 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'amigos')])
+98.6298 	EXP 	word: autoDraw = False
+98.6298 	EXP 	word: autoDraw = False
+98.6298 	EXP 	word: text = 'amigos'
+99.6005 	EXP 	word: autoDraw = True
+100.0741 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'família')])
+100.1186 	EXP 	word: autoDraw = False
+100.1186 	EXP 	word: autoDraw = False
+100.1186 	EXP 	word: text = 'família'
+101.0903 	EXP 	word: autoDraw = True
+101.5644 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'paz')])
+101.6093 	EXP 	word: autoDraw = False
+101.6093 	EXP 	word: autoDraw = False
+101.6093 	EXP 	word: text = 'paz'
+102.5800 	EXP 	word: autoDraw = True
+103.0545 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'nascimento')])
+103.0990 	EXP 	word: autoDraw = False
+103.0990 	EXP 	word: autoDraw = False
+103.0990 	EXP 	word: text = 'nascimento'
+104.0699 	EXP 	word: autoDraw = True
+104.5427 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'filhos')])
+104.5888 	EXP 	word: autoDraw = False
+104.5888 	EXP 	word: autoDraw = False
+104.5888 	EXP 	word: text = 'filhos'
+105.5595 	EXP 	word: autoDraw = True
+106.0329 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'euforia')])
+106.0772 	EXP 	word: autoDraw = False
+106.0772 	EXP 	word: autoDraw = False
+106.0772 	EXP 	word: text = 'euforia'
+107.0493 	EXP 	word: autoDraw = True
+107.5230 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'pular')])
+107.5670 	EXP 	word: autoDraw = False
+107.5670 	EXP 	word: autoDraw = False
+107.5670 	EXP 	word: text = 'pular'
+108.5387 	EXP 	word: autoDraw = True
+109.0132 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'diversão')])
+109.0565 	EXP 	word: autoDraw = False
+109.0565 	EXP 	word: autoDraw = False
+109.0565 	EXP 	word: text = 'diversão'
+110.0282 	EXP 	word: autoDraw = True
+110.5025 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'sucesso')])
+110.5471 	EXP 	word: autoDraw = False
+110.5471 	EXP 	word: autoDraw = False
+110.5471 	EXP 	word: text = 'sucesso'
+111.5178 	EXP 	word: autoDraw = True
+111.9915 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'carnaval')])
+112.0379 	EXP 	word: autoDraw = False
+112.0379 	EXP 	word: autoDraw = False
+112.0379 	EXP 	word: text = 'carnaval'
+113.0065 	EXP 	word: autoDraw = True
+113.4828 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'gol')])
+113.5260 	EXP 	word: autoDraw = False
+113.5260 	EXP 	word: autoDraw = False
+113.5260 	EXP 	word: text = 'gol'
+114.4973 	EXP 	word: autoDraw = True
+114.9713 	EXP 	New trial (rep=0, index=4): OrderedDict([('condition', 'exercito')])
+115.0068 	EXP 	Imported exercito.xlsx as conditions, 15 conditions, 1 params
+115.0078 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+115.0086 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'soldado')])
+115.0492 	EXP 	word: autoDraw = False
+115.0492 	EXP 	word: autoDraw = False
+115.0492 	EXP 	word: text = 'soldado'
+116.0206 	EXP 	word: autoDraw = True
+116.4947 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'armas')])
+116.5383 	EXP 	word: autoDraw = False
+116.5383 	EXP 	word: autoDraw = False
+116.5383 	EXP 	word: text = 'armas'
+117.5101 	EXP 	word: autoDraw = True
+117.9843 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'guerra')])
+118.0280 	EXP 	word: autoDraw = False
+118.0280 	EXP 	word: autoDraw = False
+118.0280 	EXP 	word: text = 'guerra'
+118.9998 	EXP 	word: autoDraw = True
+119.4735 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'disciplina')])
+119.5177 	EXP 	word: autoDraw = False
+119.5177 	EXP 	word: autoDraw = False
+119.5177 	EXP 	word: text = 'disciplina'
+120.4898 	EXP 	word: autoDraw = True
+120.9637 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'farda')])
+121.0087 	EXP 	word: autoDraw = False
+121.0087 	EXP 	word: autoDraw = False
+121.0087 	EXP 	word: text = 'farda'
+121.9789 	EXP 	word: autoDraw = True
+122.4529 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'ordem')])
+122.4979 	EXP 	word: autoDraw = False
+122.4979 	EXP 	word: autoDraw = False
+122.4979 	EXP 	word: text = 'ordem'
+123.4691 	EXP 	word: autoDraw = True
+123.9422 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'militar')])
+123.9865 	EXP 	word: autoDraw = False
+123.9865 	EXP 	word: autoDraw = False
+123.9865 	EXP 	word: text = 'militar'
+124.9583 	EXP 	word: autoDraw = True
+125.4323 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'marcha')])
+125.4762 	EXP 	word: autoDraw = False
+125.4762 	EXP 	word: autoDraw = False
+125.4762 	EXP 	word: text = 'marcha'
+126.4480 	EXP 	word: autoDraw = True
+126.9194 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'defesa')])
+126.9491 	EXP 	word: autoDraw = False
+126.9491 	EXP 	word: autoDraw = False
+126.9491 	EXP 	word: text = 'defesa'
+127.9210 	EXP 	word: autoDraw = True
+128.3947 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'uniforme')])
+128.4389 	EXP 	word: autoDraw = False
+128.4389 	EXP 	word: autoDraw = False
+128.4389 	EXP 	word: text = 'uniforme'
+129.4107 	EXP 	word: autoDraw = True
+129.8848 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'proteção')])
+129.9285 	EXP 	word: autoDraw = False
+129.9285 	EXP 	word: autoDraw = False
+129.9285 	EXP 	word: text = 'proteção'
+130.9004 	EXP 	word: autoDraw = True
+131.3740 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'organização')])
+131.4182 	EXP 	word: autoDraw = False
+131.4182 	EXP 	word: autoDraw = False
+131.4182 	EXP 	word: text = 'organização'
+132.3902 	EXP 	word: autoDraw = True
+132.8643 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'rigidez')])
+132.9091 	EXP 	word: autoDraw = False
+132.9091 	EXP 	word: autoDraw = False
+132.9091 	EXP 	word: text = 'rigidez'
+133.8799 	EXP 	word: autoDraw = True
+134.3536 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'batalha')])
+134.3976 	EXP 	word: autoDraw = False
+134.3976 	EXP 	word: autoDraw = False
+134.3976 	EXP 	word: text = 'batalha'
+135.3698 	EXP 	word: autoDraw = True
+135.8437 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'quartel')])
+135.9038 	EXP 	word: autoDraw = False
+135.9038 	EXP 	word: autoDraw = False
+135.9038 	EXP 	word: text = 'quartel'
+136.8756 	EXP 	word: autoDraw = True
+137.3499 	EXP 	New trial (rep=0, index=5): OrderedDict([('condition', 'doce')])
+137.3858 	EXP 	Imported doce.xlsx as conditions, 15 conditions, 1 params
+137.3868 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+137.3877 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'açúcar')])
+137.4272 	EXP 	word: autoDraw = False
+137.4272 	EXP 	word: autoDraw = False
+137.4272 	EXP 	word: text = 'açúcar'
+138.3993 	EXP 	word: autoDraw = True
+138.8736 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'gostoso')])
+138.9169 	EXP 	word: autoDraw = False
+138.9169 	EXP 	word: autoDraw = False
+138.9169 	EXP 	word: text = 'gostoso'
+139.8885 	EXP 	word: autoDraw = True
+140.3623 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'chocolate')])
+140.4074 	EXP 	word: autoDraw = False
+140.4074 	EXP 	word: autoDraw = False
+140.4074 	EXP 	word: text = 'chocolate'
+141.3782 	EXP 	word: autoDraw = True
+141.8525 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'sabor')])
+141.8971 	EXP 	word: autoDraw = False
+141.8971 	EXP 	word: autoDraw = False
+141.8971 	EXP 	word: text = 'sabor'
+142.8680 	EXP 	word: autoDraw = True
+143.3415 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'mel')])
+143.3869 	EXP 	word: autoDraw = False
+143.3869 	EXP 	word: autoDraw = False
+143.3869 	EXP 	word: text = 'mel'
+144.3579 	EXP 	word: autoDraw = True
+144.8318 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'sorvete')])
+144.8754 	EXP 	word: autoDraw = False
+144.8754 	EXP 	word: autoDraw = False
+144.8754 	EXP 	word: text = 'sorvete'
+145.8473 	EXP 	word: autoDraw = True
+146.3211 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'delícia')])
+146.3665 	EXP 	word: autoDraw = False
+146.3665 	EXP 	word: autoDraw = False
+146.3665 	EXP 	word: text = 'delícia'
+147.3372 	EXP 	word: autoDraw = True
+147.8101 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'bala')])
+147.8563 	EXP 	word: autoDraw = False
+147.8563 	EXP 	word: autoDraw = False
+147.8563 	EXP 	word: text = 'bala'
+148.8269 	EXP 	word: autoDraw = True
+149.3003 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'salgado')])
+149.3446 	EXP 	word: autoDraw = False
+149.3446 	EXP 	word: autoDraw = False
+149.3446 	EXP 	word: text = 'salgado'
+150.3162 	EXP 	word: autoDraw = True
+150.7905 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'guloseima')])
+150.8357 	EXP 	word: autoDraw = False
+150.8357 	EXP 	word: autoDraw = False
+150.8357 	EXP 	word: text = 'guloseima'
+151.8060 	EXP 	word: autoDraw = True
+152.2800 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'diabetes')])
+152.3247 	EXP 	word: autoDraw = False
+152.3247 	EXP 	word: autoDraw = False
+152.3247 	EXP 	word: text = 'diabetes'
+153.2955 	EXP 	word: autoDraw = True
+153.7699 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'gordura')])
+153.8145 	EXP 	word: autoDraw = False
+153.8145 	EXP 	word: autoDraw = False
+153.8145 	EXP 	word: text = 'gordura'
+154.7854 	EXP 	word: autoDraw = True
+155.2591 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'cárie')])
+155.3042 	EXP 	word: autoDraw = False
+155.3042 	EXP 	word: autoDraw = False
+155.3042 	EXP 	word: text = 'cárie'
+156.2751 	EXP 	word: autoDraw = True
+156.7494 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'torta')])
+156.7939 	EXP 	word: autoDraw = False
+156.7939 	EXP 	word: autoDraw = False
+156.7939 	EXP 	word: text = 'torta'
+157.7649 	EXP 	word: autoDraw = True
+158.2384 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'paladar')])
+158.2825 	EXP 	word: autoDraw = False
+158.2825 	EXP 	word: autoDraw = False
+158.2825 	EXP 	word: text = 'paladar'
+159.2547 	EXP 	word: autoDraw = True
+159.7278 	EXP 	New trial (rep=0, index=6): OrderedDict([('condition', 'aranha')])
+159.7651 	EXP 	Imported aranha.xlsx as conditions, 15 conditions, 1 params
+159.7661 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+159.7670 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'teia')])
+159.8056 	EXP 	word: autoDraw = False
+159.8056 	EXP 	word: autoDraw = False
+159.8056 	EXP 	word: text = 'teia'
+160.7777 	EXP 	word: autoDraw = True
+161.2523 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'veneno')])
+161.2966 	EXP 	word: autoDraw = False
+161.2966 	EXP 	word: autoDraw = False
+161.2966 	EXP 	word: text = 'veneno'
+162.2673 	EXP 	word: autoDraw = True
+162.7411 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'inseto')])
+162.7850 	EXP 	word: autoDraw = False
+162.7850 	EXP 	word: autoDraw = False
+162.7850 	EXP 	word: text = 'inseto'
+163.7571 	EXP 	word: autoDraw = True
+164.2313 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'peluda')])
+164.2747 	EXP 	word: autoDraw = False
+164.2747 	EXP 	word: autoDraw = False
+164.2747 	EXP 	word: text = 'peluda'
+165.2462 	EXP 	word: autoDraw = True
+165.7204 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'perigo')])
+165.7810 	EXP 	word: autoDraw = False
+165.7810 	EXP 	word: autoDraw = False
+165.7810 	EXP 	word: text = 'perigo'
+166.7529 	EXP 	word: autoDraw = True
+167.2265 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'nojo')])
+167.2717 	EXP 	word: autoDraw = False
+167.2717 	EXP 	word: autoDraw = False
+167.2717 	EXP 	word: text = 'nojo'
+168.2427 	EXP 	word: autoDraw = True
+168.7168 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'feia')])
+168.7615 	EXP 	word: autoDraw = False
+168.7615 	EXP 	word: autoDraw = False
+168.7615 	EXP 	word: text = 'feia'
+169.7318 	EXP 	word: autoDraw = True
+170.2070 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'patas')])
+170.2500 	EXP 	word: autoDraw = False
+170.2500 	EXP 	word: autoDraw = False
+170.2500 	EXP 	word: text = 'patas'
+171.2218 	EXP 	word: autoDraw = True
+171.6952 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'pernas')])
+171.7405 	EXP 	word: autoDraw = False
+171.7405 	EXP 	word: autoDraw = False
+171.7405 	EXP 	word: text = 'pernas'
+172.7114 	EXP 	word: autoDraw = True
+173.1854 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'picada')])
+173.2292 	EXP 	word: autoDraw = False
+173.2292 	EXP 	word: autoDraw = False
+173.2292 	EXP 	word: text = 'picada'
+174.2011 	EXP 	word: autoDraw = True
+174.6746 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'mosca')])
+174.7190 	EXP 	word: autoDraw = False
+174.7190 	EXP 	word: autoDraw = False
+174.7190 	EXP 	word: text = 'mosca'
+175.6908 	EXP 	word: autoDraw = True
+176.1646 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'peçonha')])
+176.2097 	EXP 	word: autoDraw = False
+176.2097 	EXP 	word: autoDraw = False
+176.2097 	EXP 	word: text = 'peçonha'
+177.1805 	EXP 	word: autoDraw = True
+177.6540 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'bicho')])
+177.6996 	EXP 	word: autoDraw = False
+177.6996 	EXP 	word: autoDraw = False
+177.6996 	EXP 	word: text = 'bicho'
+178.6702 	EXP 	word: autoDraw = True
+179.1441 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'mordida')])
+179.1881 	EXP 	word: autoDraw = False
+179.1881 	EXP 	word: autoDraw = False
+179.1881 	EXP 	word: text = 'mordida'
+180.1600 	EXP 	word: autoDraw = True
+180.6334 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'asquerosa')])
+180.6784 	EXP 	word: autoDraw = False
+180.6784 	EXP 	word: autoDraw = False
+180.6784 	EXP 	word: text = 'asquerosa'
+181.6499 	EXP 	word: autoDraw = True
+182.1236 	EXP 	New trial (rep=0, index=7): OrderedDict([('condition', 'agulha')])
+182.1537 	EXP 	Imported agulha.xlsx as conditions, 15 conditions, 1 params
+182.1548 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+182.1556 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'costura')])
+182.2007 	EXP 	word: autoDraw = False
+182.2007 	EXP 	word: autoDraw = False
+182.2007 	EXP 	word: text = 'costura'
+183.1395 	EXP 	word: autoDraw = True
+183.6133 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'linha')])
+183.6580 	EXP 	word: autoDraw = False
+183.6580 	EXP 	word: autoDraw = False
+183.6580 	EXP 	word: text = 'linha'
+184.6288 	EXP 	word: autoDraw = True
+185.1034 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'fina')])
+185.1480 	EXP 	word: autoDraw = False
+185.1480 	EXP 	word: autoDraw = False
+185.1480 	EXP 	word: text = 'fina'
+186.1184 	EXP 	word: autoDraw = True
+186.5925 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'ponta')])
+186.6375 	EXP 	word: autoDraw = False
+186.6375 	EXP 	word: autoDraw = False
+186.6375 	EXP 	word: text = 'ponta'
+187.6083 	EXP 	word: autoDraw = True
+188.0823 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'furar')])
+188.1260 	EXP 	word: autoDraw = False
+188.1260 	EXP 	word: autoDraw = False
+188.1260 	EXP 	word: text = 'furar'
+189.0980 	EXP 	word: autoDraw = True
+189.5715 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'injeção')])
+189.6157 	EXP 	word: autoDraw = False
+189.6157 	EXP 	word: autoDraw = False
+189.6157 	EXP 	word: text = 'injeção'
+190.5878 	EXP 	word: autoDraw = True
+191.0617 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'seringa')])
+191.1053 	EXP 	word: autoDraw = False
+191.1053 	EXP 	word: autoDraw = False
+191.1053 	EXP 	word: text = 'seringa'
+192.0769 	EXP 	word: autoDraw = True
+192.5509 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'espetar')])
+192.5963 	EXP 	word: autoDraw = False
+192.5963 	EXP 	word: autoDraw = False
+192.5963 	EXP 	word: text = 'espetar'
+193.5673 	EXP 	word: autoDraw = True
+194.0400 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'tricô')])
+194.1014 	EXP 	word: autoDraw = False
+194.1014 	EXP 	word: autoDraw = False
+194.1014 	EXP 	word: text = 'tricô'
+195.0733 	EXP 	word: autoDraw = True
+195.5474 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'bordar')])
+195.5923 	EXP 	word: autoDraw = False
+195.5923 	EXP 	word: autoDraw = False
+195.5923 	EXP 	word: text = 'bordar'
+196.5629 	EXP 	word: autoDraw = True
+197.0365 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'palheiro')])
+197.0820 	EXP 	word: autoDraw = False
+197.0820 	EXP 	word: autoDraw = False
+197.0820 	EXP 	word: text = 'palheiro'
+198.0528 	EXP 	word: autoDraw = True
+198.5267 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'máquinas')])
+198.5717 	EXP 	word: autoDraw = False
+198.5717 	EXP 	word: autoDraw = False
+198.5717 	EXP 	word: text = 'máquinas'
+199.5425 	EXP 	word: autoDraw = True
+200.0158 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'metal')])
+200.0614 	EXP 	word: autoDraw = False
+200.0614 	EXP 	word: autoDraw = False
+200.0614 	EXP 	word: text = 'metal'
+201.0321 	EXP 	word: autoDraw = True
+201.5050 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'fio')])
+201.5498 	EXP 	word: autoDraw = False
+201.5498 	EXP 	word: autoDraw = False
+201.5498 	EXP 	word: text = 'fio'
+202.5221 	EXP 	word: autoDraw = True
+202.9952 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'fincar')])
+203.0396 	EXP 	word: autoDraw = False
+203.0396 	EXP 	word: autoDraw = False
+203.0396 	EXP 	word: text = 'fincar'
+204.0111 	EXP 	word: autoDraw = True
+204.4856 	EXP 	New trial (rep=0, index=8): OrderedDict([('condition', 'rei')])
+204.5228 	EXP 	Imported rei.xlsx as conditions, 15 conditions, 1 params
+204.5238 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+204.5246 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'coroa')])
+204.5626 	EXP 	word: autoDraw = False
+204.5626 	EXP 	word: autoDraw = False
+204.5626 	EXP 	word: text = 'coroa'
+205.5342 	EXP 	word: autoDraw = True
+206.0091 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'poder')])
+206.0531 	EXP 	word: autoDraw = False
+206.0531 	EXP 	word: autoDraw = False
+206.0531 	EXP 	word: text = 'poder'
+207.0244 	EXP 	word: autoDraw = True
+207.4979 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'rainha')])
+207.5428 	EXP 	word: autoDraw = False
+207.5428 	EXP 	word: autoDraw = False
+207.5428 	EXP 	word: text = 'rainha'
+208.5139 	EXP 	word: autoDraw = True
+208.9869 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'riqueza')])
+209.0328 	EXP 	word: autoDraw = False
+209.0328 	EXP 	word: autoDraw = False
+209.0328 	EXP 	word: text = 'riqueza'
+210.0034 	EXP 	word: autoDraw = True
+210.4772 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'castelo')])
+210.5223 	EXP 	word: autoDraw = False
+210.5223 	EXP 	word: autoDraw = False
+210.5223 	EXP 	word: text = 'castelo'
+211.4931 	EXP 	word: autoDraw = True
+211.9673 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'autoridade')])
+212.0121 	EXP 	word: autoDraw = False
+212.0121 	EXP 	word: autoDraw = False
+212.0121 	EXP 	word: text = 'autoridade'
+212.9830 	EXP 	word: autoDraw = True
+213.4565 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'trono')])
+213.5018 	EXP 	word: autoDraw = False
+213.5018 	EXP 	word: autoDraw = False
+213.5018 	EXP 	word: text = 'trono'
+214.4728 	EXP 	word: autoDraw = True
+214.9457 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'monarquia')])
+214.9902 	EXP 	word: autoDraw = False
+214.9902 	EXP 	word: autoDraw = False
+214.9902 	EXP 	word: text = 'monarquia'
+215.9618 	EXP 	word: autoDraw = True
+216.4359 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'majestade')])
+216.4800 	EXP 	word: autoDraw = False
+216.4800 	EXP 	word: autoDraw = False
+216.4800 	EXP 	word: text = 'majestade'
+217.4516 	EXP 	word: autoDraw = True
+217.9252 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'soberano')])
+217.9705 	EXP 	word: autoDraw = False
+217.9705 	EXP 	word: autoDraw = False
+217.9705 	EXP 	word: text = 'soberano'
+218.9414 	EXP 	word: autoDraw = True
+219.4152 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'império')])
+219.4595 	EXP 	word: autoDraw = False
+219.4595 	EXP 	word: autoDraw = False
+219.4595 	EXP 	word: text = 'império'
+220.4310 	EXP 	word: autoDraw = True
+220.9046 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'nobreza')])
+220.9489 	EXP 	word: autoDraw = False
+220.9489 	EXP 	word: autoDraw = False
+220.9489 	EXP 	word: text = 'nobreza'
+221.9208 	EXP 	word: autoDraw = True
+222.3946 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'palácio')])
+222.4396 	EXP 	word: autoDraw = False
+222.4396 	EXP 	word: autoDraw = False
+222.4396 	EXP 	word: text = 'palácio'
+223.4105 	EXP 	word: autoDraw = True
+223.8839 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'dono')])
+223.9293 	EXP 	word: autoDraw = False
+223.9293 	EXP 	word: autoDraw = False
+223.9293 	EXP 	word: text = 'dono'
+224.9004 	EXP 	word: autoDraw = True
+225.3721 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'líder')])
+225.4181 	EXP 	word: autoDraw = False
+225.4181 	EXP 	word: autoDraw = False
+225.4181 	EXP 	word: text = 'líder'
+226.3887 	EXP 	word: autoDraw = True
+226.8609 	EXP 	New trial (rep=0, index=9): OrderedDict([('condition', 'carro')])
+226.8926 	EXP 	Imported carro.xlsx as conditions, 15 conditions, 1 params
+226.8945 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+226.8961 	EXP 	New trial (rep=0, index=0): OrderedDict([('palavra', 'transporte')])
+226.9421 	EXP 	word: autoDraw = False
+226.9421 	EXP 	word: autoDraw = False
+226.9421 	EXP 	word: text = 'transporte'
+227.9130 	EXP 	word: autoDraw = True
+228.3869 	EXP 	New trial (rep=0, index=1): OrderedDict([('palavra', 'velocidade')])
+228.4320 	EXP 	word: autoDraw = False
+228.4320 	EXP 	word: autoDraw = False
+228.4320 	EXP 	word: text = 'velocidade'
+229.4026 	EXP 	word: autoDraw = True
+229.8757 	EXP 	New trial (rep=0, index=2): OrderedDict([('palavra', 'motor')])
+229.9203 	EXP 	word: autoDraw = False
+229.9203 	EXP 	word: autoDraw = False
+229.9203 	EXP 	word: text = 'motor'
+230.8926 	EXP 	word: autoDraw = True
+231.3657 	EXP 	New trial (rep=0, index=3): OrderedDict([('palavra', 'locomoção')])
+231.4115 	EXP 	word: autoDraw = False
+231.4115 	EXP 	word: autoDraw = False
+231.4115 	EXP 	word: text = 'locomoção'
+232.3824 	EXP 	word: autoDraw = True
+232.8560 	EXP 	New trial (rep=0, index=4): OrderedDict([('palavra', 'rodas')])
+232.8999 	EXP 	word: autoDraw = False
+232.8999 	EXP 	word: autoDraw = False
+232.8999 	EXP 	word: text = 'rodas'
+233.8716 	EXP 	word: autoDraw = True
+234.3451 	EXP 	New trial (rep=0, index=5): OrderedDict([('palavra', 'viagem')])
+234.3894 	EXP 	word: autoDraw = False
+234.3894 	EXP 	word: autoDraw = False
+234.3894 	EXP 	word: text = 'viagem'
+235.3611 	EXP 	word: autoDraw = True
+235.8353 	EXP 	New trial (rep=0, index=6): OrderedDict([('palavra', 'pneu')])
+235.8802 	EXP 	word: autoDraw = False
+235.8802 	EXP 	word: autoDraw = False
+235.8802 	EXP 	word: text = 'pneu'
+236.8509 	EXP 	word: autoDraw = True
+237.3249 	EXP 	New trial (rep=0, index=7): OrderedDict([('palavra', 'status')])
+237.3688 	EXP 	word: autoDraw = False
+237.3688 	EXP 	word: autoDraw = False
+237.3688 	EXP 	word: text = 'status'
+238.3406 	EXP 	word: autoDraw = True
+238.8148 	EXP 	New trial (rep=0, index=8): OrderedDict([('palavra', 'automóvel')])
+238.8595 	EXP 	word: autoDraw = False
+238.8595 	EXP 	word: autoDraw = False
+238.8595 	EXP 	word: text = 'automóvel'
+239.8303 	EXP 	word: autoDraw = True
+240.3044 	EXP 	New trial (rep=0, index=9): OrderedDict([('palavra', 'necessidade')])
+240.3482 	EXP 	word: autoDraw = False
+240.3482 	EXP 	word: autoDraw = False
+240.3482 	EXP 	word: text = 'necessidade'
+241.3201 	EXP 	word: autoDraw = True
+241.7941 	EXP 	New trial (rep=0, index=10): OrderedDict([('palavra', 'estrada')])
+241.8391 	EXP 	word: autoDraw = False
+241.8391 	EXP 	word: autoDraw = False
+241.8391 	EXP 	word: text = 'estrada'
+242.8094 	EXP 	word: autoDraw = True
+243.2834 	EXP 	New trial (rep=0, index=11): OrderedDict([('palavra', 'novo')])
+243.3282 	EXP 	word: autoDraw = False
+243.3282 	EXP 	word: autoDraw = False
+243.3282 	EXP 	word: text = 'novo'
+244.2996 	EXP 	word: autoDraw = True
+244.7725 	EXP 	New trial (rep=0, index=12): OrderedDict([('palavra', 'direção')])
+244.8180 	EXP 	word: autoDraw = False
+244.8180 	EXP 	word: autoDraw = False
+244.8180 	EXP 	word: text = 'direção'
+245.7887 	EXP 	word: autoDraw = True
+246.2627 	EXP 	New trial (rep=0, index=13): OrderedDict([('palavra', 'rápido')])
+246.3068 	EXP 	word: autoDraw = False
+246.3068 	EXP 	word: autoDraw = False
+246.3068 	EXP 	word: text = 'rápido'
+247.2785 	EXP 	word: autoDraw = True
+247.7520 	EXP 	New trial (rep=0, index=14): OrderedDict([('palavra', 'gasolina')])
+247.7975 	EXP 	word: autoDraw = False
+247.7975 	EXP 	word: autoDraw = False
+247.7975 	EXP 	word: text = 'gasolina'
+248.7686 	EXP 	word: autoDraw = True
+249.2675 	EXP 	Imported instructions_distractor.xlsx as conditions, 3 conditions, 2 params
+249.2685 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+249.2696 	EXP 	New trial (rep=0, index=0): OrderedDict([('main_instruction', 'Agora, você verá uma série de operações matemáticas. Por exemplo, você verá "10 × 10 = 200?" Se você achar que a operação está correta, aperte a tecla [ S ]. Se você achar que a operação está incorreta, aperte a tecla [ N ].'), ('spacebar_color', 'black')])
+249.3698 	EXP 	word: autoDraw = False
+249.3698 	EXP 	word: autoDraw = False
+249.3698 	EXP 	instructions_msg: text = 'Agora, você verá uma série de operações matemáticas. Por exemplo, você verá "10 × 10 = 200?" Se você achar que a operação está correta, aperte a tecla [ S ]. Se você achar que a operação está incorreta, aperte a tecla [ N ].'
+249.3698 	EXP 	spacebar_msg: color = 'black (named)'
+249.3698 	EXP 	instructions_msg: autoDraw = True
+249.3698 	EXP 	spacebar_msg: autoDraw = True
+367.4831 	EXP 	New trial (rep=0, index=1): OrderedDict([('main_instruction', 'Em caso de dúvidas, chame o(a) experimentador(a).'), ('spacebar_color', 'black')])
+367.5152 	DATA 	Keypress: space
+367.5392 	EXP 	instructions_msg: autoDraw = False
+367.5392 	EXP 	spacebar_msg: autoDraw = False
+367.5392 	EXP 	instructions_msg: text = 'Em caso de dúvidas, chame o(a) experimentador(a).'
+367.5392 	EXP 	spacebar_msg: color = 'black (named)'
+367.5392 	EXP 	instructions_msg: autoDraw = True
+367.5392 	EXP 	spacebar_msg: autoDraw = True
+369.3897 	EXP 	New trial (rep=0, index=2): OrderedDict([('main_instruction', 'Caso não tenha dúvidas, pressione [BARRA DE ESPAÇO] para dar início à resolução das operações matemáticas.'), ('spacebar_color', 'white')])
+369.4422 	DATA 	Keypress: space
+369.4640 	EXP 	instructions_msg: autoDraw = False
+369.4640 	EXP 	spacebar_msg: autoDraw = False
+369.4640 	EXP 	instructions_msg: text = 'Caso não tenha dúvidas, pressione [BARRA DE ESPAÇO] para dar início à resolução das operações matemáticas.'
+369.4640 	EXP 	spacebar_msg: color = 'white (named)'
+369.4640 	EXP 	instructions_msg: autoDraw = True
+369.4640 	EXP 	spacebar_msg: autoDraw = True
+369.9426 	DATA 	Keypress: space
+370.1682 	EXP 	Imported math_problems.xlsx as conditions, 90 conditions, 2 params
+370.1704 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+370.1713 	EXP 	New trial (rep=0, index=0): OrderedDict([('math', '12 × 18 = 216?'), ('math_resp', 's')])
+370.2338 	EXP 	instructions_msg: autoDraw = False
+370.2338 	EXP 	spacebar_msg: autoDraw = False
+370.2338 	EXP 	math_trial: text = '12 × 18 = 216?(S/N)'
+370.2338 	EXP 	math_trial: autoDraw = True
+430.2408 	EXP 	Imported instructions_test.xlsx as conditions, 4 conditions, 2 params
+430.2417 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+430.2426 	EXP 	New trial (rep=0, index=0): OrderedDict([('main_instruction', 'Agora, você verá uma série de palavras. Você deverá julgar se cada uma das palavras foi ou não vista na lista que você estudou anteriormente.'), ('spacebar_color', 'black')])
+430.3227 	EXP 	math_trial: autoDraw = False
+430.3227 	EXP 	instructions_msg: text = 'Agora, você verá uma série de palavras. Você deverá julgar se cada uma das palavras foi ou não vista na lista que você estudou anteriormente.'
+430.3227 	EXP 	spacebar_msg: color = 'black (named)'
+430.3227 	EXP 	instructions_msg: autoDraw = True
+430.3227 	EXP 	spacebar_msg: autoDraw = True
+446.8366 	EXP 	New trial (rep=0, index=1): OrderedDict([('main_instruction', ' Se você acredita ter visto uma determinada palavra anteriormente, aperte a tecla [ S ]. Se você acredita não ter visto uma determinada palavra anteriormente, aperte a tecla [ N ].'), ('spacebar_color', 'black')])
+446.8931 	DATA 	Keypress: space
+446.9276 	EXP 	instructions_msg: autoDraw = False
+446.9276 	EXP 	spacebar_msg: autoDraw = False
+446.9276 	EXP 	instructions_msg: text = ' Se você acredita ter visto uma determinada palavra anteriormente, aperte a tecla [ S ]. Se você acredita não ter visto uma determinada palavra anteriormente, aperte a tecla [ N ].'
+446.9276 	EXP 	spacebar_msg: color = 'black (named)'
+446.9276 	EXP 	instructions_msg: autoDraw = True
+446.9276 	EXP 	spacebar_msg: autoDraw = True
+448.3087 	EXP 	New trial (rep=0, index=2): OrderedDict([('main_instruction', 'Em caso de dúvidas, chame o(a) experimentador(a).'), ('spacebar_color', 'black')])
+448.3546 	DATA 	Keypress: space
+448.3850 	EXP 	instructions_msg: autoDraw = False
+448.3850 	EXP 	spacebar_msg: autoDraw = False
+448.3850 	EXP 	instructions_msg: text = 'Em caso de dúvidas, chame o(a) experimentador(a).'
+448.3850 	EXP 	spacebar_msg: color = 'black (named)'
+448.3850 	EXP 	instructions_msg: autoDraw = True
+448.3850 	EXP 	spacebar_msg: autoDraw = True
+448.7269 	EXP 	New trial (rep=0, index=3): OrderedDict([('main_instruction', 'Caso não tenha dúvidas, pressione [BARRA DE ESPAÇO] para dar início ao teste de memória.'), ('spacebar_color', 'white')])
+448.7753 	DATA 	Keypress: space
+448.8013 	EXP 	instructions_msg: autoDraw = False
+448.8013 	EXP 	spacebar_msg: autoDraw = False
+448.8013 	EXP 	instructions_msg: text = 'Caso não tenha dúvidas, pressione [BARRA DE ESPAÇO] para dar início ao teste de memória.'
+448.8013 	EXP 	spacebar_msg: color = 'white (named)'
+448.8013 	EXP 	instructions_msg: autoDraw = True
+448.8013 	EXP 	spacebar_msg: autoDraw = True
+449.7728 	EXP 	Imported test_items.xlsx as conditions, 60 conditions, 4 params
+449.7747 	EXP 	Created sequence: random, trialTypes=60, nReps=1, seed=None
+449.7758 	EXP 	New trial (rep=0, index=0): OrderedDict([('list_name', 'fruta'), ('probe_item', 'saudável'), ('item_condition', 'new'), ('corr_ans', 'n')])
+449.7871 	DATA 	Keypress: space
+449.8222 	EXP 	instructions_msg: autoDraw = False
+449.8222 	EXP 	spacebar_msg: autoDraw = False
+449.8222 	EXP 	test_trial_word: text = 'saudável'
+450.2917 	EXP 	fixation_cross: autoDraw = True
+451.2625 	EXP 	general_instruction: autoDraw = True
+451.2625 	EXP 	test_trial_word: autoDraw = True
+451.2960 	EXP 	fixation_cross: autoDraw = False
+454.8957 	EXP 	New trial (rep=0, index=1): OrderedDict([('list_name', 'agulha'), ('probe_item', 'fina'), ('item_condition', 'old'), ('corr_ans', 's')])
+454.9074 	DATA 	Keypress: n
+454.9272 	EXP 	fixation_cross: autoDraw = False
+454.9272 	EXP 	general_instruction: autoDraw = False
+454.9272 	EXP 	test_trial_word: autoDraw = False
+454.9272 	EXP 	test_trial_word: text = 'fina'
+455.3972 	EXP 	fixation_cross: autoDraw = True
+456.4011 	EXP 	fixation_cross: autoDraw = False
+456.4011 	EXP 	general_instruction: autoDraw = True
+456.4011 	EXP 	test_trial_word: autoDraw = True
+458.4888 	EXP 	New trial (rep=0, index=2): OrderedDict([('list_name', 'ladrão'), ('probe_item', 'roubo'), ('item_condition', 'new'), ('corr_ans', 'n')])
+458.5047 	DATA 	Keypress: s
+458.5270 	EXP 	fixation_cross: autoDraw = False
+458.5270 	EXP 	general_instruction: autoDraw = False
+458.5270 	EXP 	test_trial_word: autoDraw = False
+458.5270 	EXP 	test_trial_word: text = 'roubo'
+458.9959 	EXP 	fixation_cross: autoDraw = True
+459.9998 	EXP 	fixation_cross: autoDraw = False
+459.9998 	EXP 	general_instruction: autoDraw = True
+459.9998 	EXP 	test_trial_word: autoDraw = True
+460.4141 	EXP 	New trial (rep=0, index=3): OrderedDict([('list_name', 'doce'), ('probe_item', 'doce'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+460.4260 	DATA 	Keypress: n
+460.4507 	EXP 	fixation_cross: autoDraw = False
+460.4507 	EXP 	general_instruction: autoDraw = False
+460.4507 	EXP 	test_trial_word: autoDraw = False
+460.4507 	EXP 	test_trial_word: text = 'doce'
+460.9205 	EXP 	fixation_cross: autoDraw = True
+461.9247 	EXP 	fixation_cross: autoDraw = False
+461.9247 	EXP 	general_instruction: autoDraw = True
+461.9247 	EXP 	test_trial_word: autoDraw = True
+462.3025 	DATA 	Keypress: s
+462.3386 	EXP 	New trial (rep=0, index=4): OrderedDict([('list_name', 'rei'), ('probe_item', 'rainha'), ('item_condition', 'old'), ('corr_ans', 's')])
+462.3923 	EXP 	fixation_cross: autoDraw = False
+462.3923 	EXP 	general_instruction: autoDraw = False
+462.3923 	EXP 	test_trial_word: autoDraw = False
+462.3923 	EXP 	test_trial_word: text = 'rainha'
+462.8621 	EXP 	fixation_cross: autoDraw = True
+463.8662 	EXP 	fixation_cross: autoDraw = False
+463.8662 	EXP 	general_instruction: autoDraw = True
+463.8662 	EXP 	test_trial_word: autoDraw = True
+464.2134 	EXP 	New trial (rep=0, index=5): OrderedDict([('list_name', 'pão'), ('probe_item', 'fome'), ('item_condition', 'new'), ('corr_ans', 'n')])
+464.2293 	DATA 	Keypress: n
+464.2503 	EXP 	fixation_cross: autoDraw = False
+464.2503 	EXP 	general_instruction: autoDraw = False
+464.2503 	EXP 	test_trial_word: autoDraw = False
+464.2503 	EXP 	test_trial_word: text = 'fome'
+464.7198 	EXP 	fixation_cross: autoDraw = True
+465.7246 	EXP 	fixation_cross: autoDraw = False
+465.7246 	EXP 	general_instruction: autoDraw = True
+465.7246 	EXP 	test_trial_word: autoDraw = True
+466.0709 	EXP 	New trial (rep=0, index=6): OrderedDict([('list_name', 'aranha'), ('probe_item', 'veneno'), ('item_condition', 'old'), ('corr_ans', 's')])
+466.0876 	DATA 	Keypress: s
+466.1093 	EXP 	fixation_cross: autoDraw = False
+466.1093 	EXP 	general_instruction: autoDraw = False
+466.1093 	EXP 	test_trial_word: autoDraw = False
+466.1093 	EXP 	test_trial_word: text = 'veneno'
+466.5781 	EXP 	fixation_cross: autoDraw = True
+467.5820 	EXP 	fixation_cross: autoDraw = False
+467.5820 	EXP 	general_instruction: autoDraw = True
+467.5820 	EXP 	test_trial_word: autoDraw = True
+467.8964 	EXP 	New trial (rep=0, index=7): OrderedDict([('list_name', 'alegria'), ('probe_item', 'sorriso'), ('item_condition', 'old'), ('corr_ans', 's')])
+467.9162 	DATA 	Keypress: n
+467.9507 	EXP 	fixation_cross: autoDraw = False
+467.9507 	EXP 	general_instruction: autoDraw = False
+467.9507 	EXP 	test_trial_word: autoDraw = False
+467.9507 	EXP 	test_trial_word: text = 'sorriso'
+468.4189 	EXP 	fixation_cross: autoDraw = True
+469.4235 	EXP 	fixation_cross: autoDraw = False
+469.4235 	EXP 	general_instruction: autoDraw = True
+469.4235 	EXP 	test_trial_word: autoDraw = True
+469.7004 	DATA 	Keypress: s
+469.7370 	EXP 	New trial (rep=0, index=8): OrderedDict([('list_name', 'montanha'), ('probe_item', 'beleza'), ('item_condition', 'old'), ('corr_ans', 's')])
+469.7738 	EXP 	fixation_cross: autoDraw = False
+469.7738 	EXP 	general_instruction: autoDraw = False
+469.7738 	EXP 	test_trial_word: autoDraw = False
+469.7738 	EXP 	test_trial_word: text = 'beleza'
+470.2432 	EXP 	fixation_cross: autoDraw = True
+471.2479 	EXP 	fixation_cross: autoDraw = False
+471.2479 	EXP 	general_instruction: autoDraw = True
+471.2479 	EXP 	test_trial_word: autoDraw = True
+471.4907 	DATA 	Keypress: n
+471.5276 	EXP 	New trial (rep=0, index=9): OrderedDict([('list_name', 'montanha'), ('probe_item', 'montanha'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+471.5814 	EXP 	fixation_cross: autoDraw = False
+471.5814 	EXP 	general_instruction: autoDraw = False
+471.5814 	EXP 	test_trial_word: autoDraw = False
+471.5814 	EXP 	test_trial_word: text = 'montanha'
+472.0513 	EXP 	fixation_cross: autoDraw = True
+473.0553 	EXP 	fixation_cross: autoDraw = False
+473.0553 	EXP 	general_instruction: autoDraw = True
+473.0553 	EXP 	test_trial_word: autoDraw = True
+473.3349 	EXP 	New trial (rep=0, index=10): OrderedDict([('list_name', 'dor'), ('probe_item', 'machucado'), ('item_condition', 'new'), ('corr_ans', 'n')])
+473.3547 	DATA 	Keypress: s
+473.3901 	EXP 	fixation_cross: autoDraw = False
+473.3901 	EXP 	general_instruction: autoDraw = False
+473.3901 	EXP 	test_trial_word: autoDraw = False
+473.3901 	EXP 	test_trial_word: text = 'machucado'
+473.8588 	EXP 	fixation_cross: autoDraw = True
+474.8630 	EXP 	fixation_cross: autoDraw = False
+474.8630 	EXP 	general_instruction: autoDraw = True
+474.8630 	EXP 	test_trial_word: autoDraw = True
+475.1768 	EXP 	New trial (rep=0, index=11): OrderedDict([('list_name', 'aranha'), ('probe_item', 'inseto'), ('item_condition', 'old'), ('corr_ans', 's')])
+475.1878 	DATA 	Keypress: s
+475.2135 	EXP 	fixation_cross: autoDraw = False
+475.2135 	EXP 	general_instruction: autoDraw = False
+475.2135 	EXP 	test_trial_word: autoDraw = False
+475.2135 	EXP 	test_trial_word: text = 'inseto'
+475.6834 	EXP 	fixation_cross: autoDraw = True
+476.6874 	EXP 	fixation_cross: autoDraw = False
+476.6874 	EXP 	general_instruction: autoDraw = True
+476.6874 	EXP 	test_trial_word: autoDraw = True
+476.9000 	EXP 	New trial (rep=0, index=12): OrderedDict([('list_name', 'borracha'), ('probe_item', 'apagar'), ('item_condition', 'new'), ('corr_ans', 'n')])
+476.9207 	DATA 	Keypress: n
+476.9552 	EXP 	fixation_cross: autoDraw = False
+476.9552 	EXP 	general_instruction: autoDraw = False
+476.9552 	EXP 	test_trial_word: autoDraw = False
+476.9552 	EXP 	test_trial_word: text = 'apagar'
+477.4239 	EXP 	fixation_cross: autoDraw = True
+478.4285 	EXP 	fixation_cross: autoDraw = False
+478.4285 	EXP 	general_instruction: autoDraw = True
+478.4285 	EXP 	test_trial_word: autoDraw = True
+478.4733 	EXP 	New trial (rep=0, index=13): OrderedDict([('list_name', 'cheirar'), ('probe_item', 'perfume'), ('item_condition', 'new'), ('corr_ans', 'n')])
+478.4921 	DATA 	Keypress: s
+478.5286 	EXP 	fixation_cross: autoDraw = False
+478.5286 	EXP 	general_instruction: autoDraw = False
+478.5286 	EXP 	test_trial_word: autoDraw = False
+478.5286 	EXP 	test_trial_word: text = 'perfume'
+478.9974 	EXP 	fixation_cross: autoDraw = True
+480.0016 	EXP 	fixation_cross: autoDraw = False
+480.0016 	EXP 	general_instruction: autoDraw = True
+480.0016 	EXP 	test_trial_word: autoDraw = True
+480.3148 	EXP 	New trial (rep=0, index=14): OrderedDict([('list_name', 'pão'), ('probe_item', 'alimento'), ('item_condition', 'new'), ('corr_ans', 'n')])
+480.3347 	DATA 	Keypress: n
+480.3688 	EXP 	fixation_cross: autoDraw = False
+480.3688 	EXP 	general_instruction: autoDraw = False
+480.3688 	EXP 	test_trial_word: autoDraw = False
+480.3688 	EXP 	test_trial_word: text = 'alimento'
+480.8386 	EXP 	fixation_cross: autoDraw = True
+481.8431 	EXP 	fixation_cross: autoDraw = False
+481.8431 	EXP 	general_instruction: autoDraw = True
+481.8431 	EXP 	test_trial_word: autoDraw = True
+481.8539 	DATA 	Keypress: n
+482.3542 	DATA 	Keypress: n
+482.3900 	EXP 	New trial (rep=0, index=15): OrderedDict([('list_name', 'cadeira'), ('probe_item', 'mesa'), ('item_condition', 'old'), ('corr_ans', 's')])
+482.4276 	EXP 	fixation_cross: autoDraw = False
+482.4276 	EXP 	general_instruction: autoDraw = False
+482.4276 	EXP 	test_trial_word: autoDraw = False
+482.4276 	EXP 	test_trial_word: text = 'mesa'
+482.8970 	EXP 	fixation_cross: autoDraw = True
+483.9017 	EXP 	fixation_cross: autoDraw = False
+483.9017 	EXP 	general_instruction: autoDraw = True
+483.9017 	EXP 	test_trial_word: autoDraw = True
+484.1811 	EXP 	New trial (rep=0, index=16): OrderedDict([('list_name', 'doce'), ('probe_item', 'açúcar'), ('item_condition', 'old'), ('corr_ans', 's')])
+484.2029 	DATA 	Keypress: s
+484.2352 	EXP 	fixation_cross: autoDraw = False
+484.2352 	EXP 	general_instruction: autoDraw = False
+484.2352 	EXP 	test_trial_word: autoDraw = False
+484.2352 	EXP 	test_trial_word: text = 'açúcar'
+484.7051 	EXP 	fixation_cross: autoDraw = True
+485.1785 	DATA 	Keypress: s
+485.7093 	EXP 	fixation_cross: autoDraw = False
+485.7093 	EXP 	general_instruction: autoDraw = True
+485.7093 	EXP 	test_trial_word: autoDraw = True
+486.2237 	EXP 	New trial (rep=0, index=17): OrderedDict([('list_name', 'carro'), ('probe_item', 'transporte'), ('item_condition', 'old'), ('corr_ans', 's')])
+486.2462 	DATA 	Keypress: s
+486.2784 	EXP 	fixation_cross: autoDraw = False
+486.2784 	EXP 	general_instruction: autoDraw = False
+486.2784 	EXP 	test_trial_word: autoDraw = False
+486.2784 	EXP 	test_trial_word: text = 'transporte'
+486.7464 	EXP 	fixation_cross: autoDraw = True
+487.7496 	EXP 	fixation_cross: autoDraw = False
+487.7496 	EXP 	general_instruction: autoDraw = True
+487.7496 	EXP 	test_trial_word: autoDraw = True
+494.3366 	DATA 	Keypress: s
+494.3709 	EXP 	New trial (rep=0, index=18): OrderedDict([('list_name', 'aranha'), ('probe_item', 'aranha'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+494.4127 	EXP 	fixation_cross: autoDraw = False
+494.4127 	EXP 	general_instruction: autoDraw = False
+494.4127 	EXP 	test_trial_word: autoDraw = False
+494.4127 	EXP 	test_trial_word: text = 'aranha'
+494.8803 	EXP 	fixation_cross: autoDraw = True
+495.4877 	DATA 	Keypress: n
+495.8858 	EXP 	fixation_cross: autoDraw = False
+495.8858 	EXP 	general_instruction: autoDraw = True
+495.8858 	EXP 	test_trial_word: autoDraw = True
+500.1283 	DATA 	Keypress: s
+500.1634 	EXP 	New trial (rep=0, index=19): OrderedDict([('list_name', 'camisa'), ('probe_item', 'roupa'), ('item_condition', 'new'), ('corr_ans', 'n')])
+500.2034 	EXP 	fixation_cross: autoDraw = False
+500.2034 	EXP 	general_instruction: autoDraw = False
+500.2034 	EXP 	test_trial_word: autoDraw = False
+500.2034 	EXP 	test_trial_word: text = 'roupa'
+500.6726 	EXP 	fixation_cross: autoDraw = True
+501.6773 	EXP 	fixation_cross: autoDraw = False
+501.6773 	EXP 	general_instruction: autoDraw = True
+501.6773 	EXP 	test_trial_word: autoDraw = True
+502.6605 	EXP 	New trial (rep=0, index=20): OrderedDict([('list_name', 'cadeira'), ('probe_item', 'madeira'), ('item_condition', 'old'), ('corr_ans', 's')])
+502.6815 	DATA 	Keypress: n
+502.7142 	EXP 	fixation_cross: autoDraw = False
+502.7142 	EXP 	general_instruction: autoDraw = False
+502.7142 	EXP 	test_trial_word: autoDraw = False
+502.7142 	EXP 	test_trial_word: text = 'madeira'
+503.1842 	EXP 	fixation_cross: autoDraw = True
+504.1879 	EXP 	fixation_cross: autoDraw = False
+504.1879 	EXP 	general_instruction: autoDraw = True
+504.1879 	EXP 	test_trial_word: autoDraw = True
+504.7316 	EXP 	New trial (rep=0, index=21): OrderedDict([('list_name', 'montanha'), ('probe_item', 'natureza'), ('item_condition', 'old'), ('corr_ans', 's')])
+504.7438 	DATA 	Keypress: n
+504.7739 	EXP 	fixation_cross: autoDraw = False
+504.7739 	EXP 	general_instruction: autoDraw = False
+504.7739 	EXP 	test_trial_word: autoDraw = False
+504.7739 	EXP 	test_trial_word: text = 'natureza'
+505.2415 	EXP 	fixation_cross: autoDraw = True
+506.2287 	EXP 	general_instruction: autoDraw = True
+506.2287 	EXP 	test_trial_word: autoDraw = True
+506.2622 	EXP 	fixation_cross: autoDraw = False
+506.8731 	EXP 	New trial (rep=0, index=22): OrderedDict([('list_name', 'doce'), ('probe_item', 'chocolate'), ('item_condition', 'old'), ('corr_ans', 's')])
+506.8849 	DATA 	Keypress: n
+506.9149 	EXP 	fixation_cross: autoDraw = False
+506.9149 	EXP 	general_instruction: autoDraw = False
+506.9149 	EXP 	test_trial_word: autoDraw = False
+506.9149 	EXP 	test_trial_word: text = 'chocolate'
+507.3835 	EXP 	fixation_cross: autoDraw = True
+508.3879 	EXP 	fixation_cross: autoDraw = False
+508.3879 	EXP 	general_instruction: autoDraw = True
+508.3879 	EXP 	test_trial_word: autoDraw = True
+509.1994 	EXP 	New trial (rep=0, index=23): OrderedDict([('list_name', 'rei'), ('probe_item', 'rei'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+509.2082 	DATA 	Keypress: n
+509.2414 	EXP 	fixation_cross: autoDraw = False
+509.2414 	EXP 	general_instruction: autoDraw = False
+509.2414 	EXP 	test_trial_word: autoDraw = False
+509.2414 	EXP 	test_trial_word: text = 'rei'
+509.7115 	EXP 	fixation_cross: autoDraw = True
+510.7160 	EXP 	fixation_cross: autoDraw = False
+510.7160 	EXP 	general_instruction: autoDraw = True
+510.7160 	EXP 	test_trial_word: autoDraw = True
+511.6983 	EXP 	New trial (rep=0, index=24): OrderedDict([('list_name', 'bandeira'), ('probe_item', 'pátria'), ('item_condition', 'new'), ('corr_ans', 'n')])
+511.7159 	DATA 	Keypress: s
+511.7531 	EXP 	fixation_cross: autoDraw = False
+511.7531 	EXP 	general_instruction: autoDraw = False
+511.7531 	EXP 	test_trial_word: autoDraw = False
+511.7531 	EXP 	test_trial_word: text = 'pátria'
+512.2215 	EXP 	fixation_cross: autoDraw = True
+513.2253 	EXP 	fixation_cross: autoDraw = False
+513.2253 	EXP 	general_instruction: autoDraw = True
+513.2253 	EXP 	test_trial_word: autoDraw = True
+513.8032 	EXP 	New trial (rep=0, index=25): OrderedDict([('list_name', 'fumar'), ('probe_item', 'vício'), ('item_condition', 'new'), ('corr_ans', 'n')])
+513.8149 	DATA 	Keypress: n
+513.8444 	EXP 	fixation_cross: autoDraw = False
+513.8444 	EXP 	general_instruction: autoDraw = False
+513.8444 	EXP 	test_trial_word: autoDraw = False
+513.8444 	EXP 	test_trial_word: text = 'vício'
+514.3131 	EXP 	fixation_cross: autoDraw = True
+515.3183 	EXP 	fixation_cross: autoDraw = False
+515.3183 	EXP 	general_instruction: autoDraw = True
+515.3183 	EXP 	test_trial_word: autoDraw = True
+516.0001 	EXP 	New trial (rep=0, index=26): OrderedDict([('list_name', 'cidade'), ('probe_item', 'pessoas'), ('item_condition', 'new'), ('corr_ans', 'n')])
+516.0161 	DATA 	Keypress: n
+516.0371 	EXP 	fixation_cross: autoDraw = False
+516.0371 	EXP 	general_instruction: autoDraw = False
+516.0371 	EXP 	test_trial_word: autoDraw = False
+516.0371 	EXP 	test_trial_word: text = 'pessoas'
+516.5059 	EXP 	fixation_cross: autoDraw = True
+517.5112 	EXP 	fixation_cross: autoDraw = False
+517.5112 	EXP 	general_instruction: autoDraw = True
+517.5112 	EXP 	test_trial_word: autoDraw = True
+518.9300 	EXP 	New trial (rep=0, index=27): OrderedDict([('list_name', 'bandeira'), ('probe_item', 'símbolo'), ('item_condition', 'new'), ('corr_ans', 'n')])
+518.9501 	DATA 	Keypress: n
+518.9842 	EXP 	fixation_cross: autoDraw = False
+518.9842 	EXP 	general_instruction: autoDraw = False
+518.9842 	EXP 	test_trial_word: autoDraw = False
+518.9842 	EXP 	test_trial_word: text = 'símbolo'
+519.4528 	EXP 	fixation_cross: autoDraw = True
+520.4561 	EXP 	fixation_cross: autoDraw = False
+520.4561 	EXP 	general_instruction: autoDraw = True
+520.4561 	EXP 	test_trial_word: autoDraw = True
+520.9659 	EXP 	New trial (rep=0, index=28): OrderedDict([('list_name', 'cadeira'), ('probe_item', 'cadeira'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+520.9758 	DATA 	Keypress: n
+521.0083 	EXP 	fixation_cross: autoDraw = False
+521.0083 	EXP 	general_instruction: autoDraw = False
+521.0083 	EXP 	test_trial_word: autoDraw = False
+521.0083 	EXP 	test_trial_word: text = 'cadeira'
+521.4777 	EXP 	fixation_cross: autoDraw = True
+522.4812 	EXP 	fixation_cross: autoDraw = False
+522.4812 	EXP 	general_instruction: autoDraw = True
+522.4812 	EXP 	test_trial_word: autoDraw = True
+524.3635 	EXP 	New trial (rep=0, index=29): OrderedDict([('list_name', 'devagar'), ('probe_item', 'parar'), ('item_condition', 'old'), ('corr_ans', 's')])
+524.3733 	DATA 	Keypress: n
+524.4060 	EXP 	fixation_cross: autoDraw = False
+524.4060 	EXP 	general_instruction: autoDraw = False
+524.4060 	EXP 	test_trial_word: autoDraw = False
+524.4060 	EXP 	test_trial_word: text = 'parar'
+524.8747 	EXP 	fixation_cross: autoDraw = True
+525.8807 	EXP 	fixation_cross: autoDraw = False
+525.8807 	EXP 	general_instruction: autoDraw = True
+525.8807 	EXP 	test_trial_word: autoDraw = True
+526.6238 	EXP 	New trial (rep=0, index=30): OrderedDict([('list_name', 'cheirar'), ('probe_item', 'nariz'), ('item_condition', 'new'), ('corr_ans', 'n')])
+526.6334 	DATA 	Keypress: n
+526.6658 	EXP 	fixation_cross: autoDraw = False
+526.6658 	EXP 	general_instruction: autoDraw = False
+526.6658 	EXP 	test_trial_word: autoDraw = False
+526.6658 	EXP 	test_trial_word: text = 'nariz'
+527.1345 	EXP 	fixation_cross: autoDraw = True
+528.1386 	EXP 	fixation_cross: autoDraw = False
+528.1386 	EXP 	general_instruction: autoDraw = True
+528.1386 	EXP 	test_trial_word: autoDraw = True
+529.0893 	EXP 	New trial (rep=0, index=31): OrderedDict([('list_name', 'fruta'), ('probe_item', 'maçã'), ('item_condition', 'new'), ('corr_ans', 'n')])
+529.0999 	DATA 	Keypress: n
+529.1266 	EXP 	fixation_cross: autoDraw = False
+529.1266 	EXP 	general_instruction: autoDraw = False
+529.1266 	EXP 	test_trial_word: autoDraw = False
+529.1266 	EXP 	test_trial_word: text = 'maçã'
+529.5950 	EXP 	fixation_cross: autoDraw = True
+530.5993 	EXP 	fixation_cross: autoDraw = False
+530.5993 	EXP 	general_instruction: autoDraw = True
+530.5993 	EXP 	test_trial_word: autoDraw = True
+531.4763 	DATA 	Keypress: n
+531.5118 	EXP 	New trial (rep=0, index=32): OrderedDict([('list_name', 'alegria'), ('probe_item', 'festa'), ('item_condition', 'old'), ('corr_ans', 's')])
+531.5547 	EXP 	fixation_cross: autoDraw = False
+531.5547 	EXP 	general_instruction: autoDraw = False
+531.5547 	EXP 	test_trial_word: autoDraw = False
+531.5547 	EXP 	test_trial_word: text = 'festa'
+532.0227 	EXP 	fixation_cross: autoDraw = True
+533.0273 	EXP 	fixation_cross: autoDraw = False
+533.0273 	EXP 	general_instruction: autoDraw = True
+533.0273 	EXP 	test_trial_word: autoDraw = True
+534.3774 	EXP 	New trial (rep=0, index=33): OrderedDict([('list_name', 'exército'), ('probe_item', 'armas'), ('item_condition', 'old'), ('corr_ans', 's')])
+534.3953 	DATA 	Keypress: s
+534.4155 	EXP 	fixation_cross: autoDraw = False
+534.4155 	EXP 	general_instruction: autoDraw = False
+534.4155 	EXP 	test_trial_word: autoDraw = False
+534.4155 	EXP 	test_trial_word: text = 'armas'
+534.8840 	EXP 	fixation_cross: autoDraw = True
+535.8895 	EXP 	fixation_cross: autoDraw = False
+535.8895 	EXP 	general_instruction: autoDraw = True
+535.8895 	EXP 	test_trial_word: autoDraw = True
+536.3826 	EXP 	New trial (rep=0, index=34): OrderedDict([('list_name', 'aranha'), ('probe_item', 'teia'), ('item_condition', 'old'), ('corr_ans', 's')])
+536.3928 	DATA 	Keypress: n
+536.4249 	EXP 	fixation_cross: autoDraw = False
+536.4249 	EXP 	general_instruction: autoDraw = False
+536.4249 	EXP 	test_trial_word: autoDraw = False
+536.4249 	EXP 	test_trial_word: text = 'teia'
+536.8936 	EXP 	fixation_cross: autoDraw = True
+537.8979 	EXP 	fixation_cross: autoDraw = False
+537.8979 	EXP 	general_instruction: autoDraw = True
+537.8979 	EXP 	test_trial_word: autoDraw = True
+538.4079 	EXP 	New trial (rep=0, index=35): OrderedDict([('list_name', 'cadeira'), ('probe_item', 'sentar'), ('item_condition', 'old'), ('corr_ans', 's')])
+538.4190 	DATA 	Keypress: n
+538.4505 	EXP 	fixation_cross: autoDraw = False
+538.4505 	EXP 	general_instruction: autoDraw = False
+538.4505 	EXP 	test_trial_word: autoDraw = False
+538.4505 	EXP 	test_trial_word: text = 'sentar'
+538.9179 	EXP 	fixation_cross: autoDraw = True
+539.9223 	EXP 	fixation_cross: autoDraw = False
+539.9223 	EXP 	general_instruction: autoDraw = True
+539.9223 	EXP 	test_trial_word: autoDraw = True
+541.3375 	EXP 	New trial (rep=0, index=36): OrderedDict([('list_name', 'borracha'), ('probe_item', 'erro'), ('item_condition', 'new'), ('corr_ans', 'n')])
+541.3503 	DATA 	Keypress: s
+541.3783 	EXP 	fixation_cross: autoDraw = False
+541.3783 	EXP 	general_instruction: autoDraw = False
+541.3783 	EXP 	test_trial_word: autoDraw = False
+541.3783 	EXP 	test_trial_word: text = 'erro'
+541.8469 	EXP 	fixation_cross: autoDraw = True
+542.8512 	EXP 	fixation_cross: autoDraw = False
+542.8512 	EXP 	general_instruction: autoDraw = True
+542.8512 	EXP 	test_trial_word: autoDraw = True
+543.5287 	EXP 	New trial (rep=0, index=37): OrderedDict([('list_name', 'camisa'), ('probe_item', 'botão'), ('item_condition', 'new'), ('corr_ans', 'n')])
+543.5401 	DATA 	Keypress: s
+543.5709 	EXP 	fixation_cross: autoDraw = False
+543.5709 	EXP 	general_instruction: autoDraw = False
+543.5709 	EXP 	test_trial_word: autoDraw = False
+543.5709 	EXP 	test_trial_word: text = 'botão'
+544.0407 	EXP 	fixation_cross: autoDraw = True
+545.0439 	EXP 	fixation_cross: autoDraw = False
+545.0439 	EXP 	general_instruction: autoDraw = True
+545.0439 	EXP 	test_trial_word: autoDraw = True
+545.7556 	EXP 	New trial (rep=0, index=38): OrderedDict([('list_name', 'dor'), ('probe_item', 'sofrimento'), ('item_condition', 'new'), ('corr_ans', 'n')])
+545.7700 	DATA 	Keypress: n
+545.7969 	EXP 	fixation_cross: autoDraw = False
+545.7969 	EXP 	general_instruction: autoDraw = False
+545.7969 	EXP 	test_trial_word: autoDraw = False
+545.7969 	EXP 	test_trial_word: text = 'sofrimento'
+546.2669 	EXP 	fixation_cross: autoDraw = True
+547.2702 	EXP 	fixation_cross: autoDraw = False
+547.2702 	EXP 	general_instruction: autoDraw = True
+547.2702 	EXP 	test_trial_word: autoDraw = True
+548.0820 	EXP 	New trial (rep=0, index=39): OrderedDict([('list_name', 'alegria'), ('probe_item', 'alegria'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+548.0966 	DATA 	Keypress: n
+548.1239 	EXP 	fixation_cross: autoDraw = False
+548.1239 	EXP 	general_instruction: autoDraw = False
+548.1239 	EXP 	test_trial_word: autoDraw = False
+548.1239 	EXP 	test_trial_word: text = 'alegria'
+548.5924 	EXP 	fixation_cross: autoDraw = True
+549.5966 	EXP 	fixation_cross: autoDraw = False
+549.5966 	EXP 	general_instruction: autoDraw = True
+549.5966 	EXP 	test_trial_word: autoDraw = True
+550.2414 	EXP 	New trial (rep=0, index=40): OrderedDict([('list_name', 'exército'), ('probe_item', 'exército'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+550.2551 	DATA 	Keypress: s
+550.2830 	EXP 	fixation_cross: autoDraw = False
+550.2830 	EXP 	general_instruction: autoDraw = False
+550.2830 	EXP 	test_trial_word: autoDraw = False
+550.2830 	EXP 	test_trial_word: text = 'exército'
+550.7514 	EXP 	fixation_cross: autoDraw = True
+551.7565 	EXP 	fixation_cross: autoDraw = False
+551.7565 	EXP 	general_instruction: autoDraw = True
+551.7565 	EXP 	test_trial_word: autoDraw = True
+552.9699 	EXP 	New trial (rep=0, index=41): OrderedDict([('list_name', 'devagar'), ('probe_item', 'devagar'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+552.9829 	DATA 	Keypress: s
+553.0111 	EXP 	fixation_cross: autoDraw = False
+553.0111 	EXP 	general_instruction: autoDraw = False
+553.0111 	EXP 	test_trial_word: autoDraw = False
+553.0111 	EXP 	test_trial_word: text = 'devagar'
+553.4799 	EXP 	fixation_cross: autoDraw = True
+554.4851 	EXP 	fixation_cross: autoDraw = False
+554.4851 	EXP 	general_instruction: autoDraw = True
+554.4851 	EXP 	test_trial_word: autoDraw = True
+555.1003 	EXP 	New trial (rep=0, index=42): OrderedDict([('list_name', 'agulha'), ('probe_item', 'agulha'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+555.1182 	DATA 	Keypress: n
+555.1549 	EXP 	fixation_cross: autoDraw = False
+555.1549 	EXP 	general_instruction: autoDraw = False
+555.1549 	EXP 	test_trial_word: autoDraw = False
+555.1549 	EXP 	test_trial_word: text = 'agulha'
+555.6222 	EXP 	fixation_cross: autoDraw = True
+556.6264 	EXP 	fixation_cross: autoDraw = False
+556.6264 	EXP 	general_instruction: autoDraw = True
+556.6264 	EXP 	test_trial_word: autoDraw = True
+557.3761 	EXP 	New trial (rep=0, index=43): OrderedDict([('list_name', 'devagar'), ('probe_item', 'lento'), ('item_condition', 'old'), ('corr_ans', 's')])
+557.3931 	DATA 	Keypress: s
+557.4142 	EXP 	fixation_cross: autoDraw = False
+557.4142 	EXP 	general_instruction: autoDraw = False
+557.4142 	EXP 	test_trial_word: autoDraw = False
+557.4142 	EXP 	test_trial_word: text = 'lento'
+557.8831 	EXP 	fixation_cross: autoDraw = True
+558.8874 	EXP 	fixation_cross: autoDraw = False
+558.8874 	EXP 	general_instruction: autoDraw = True
+558.8874 	EXP 	test_trial_word: autoDraw = True
+560.2674 	EXP 	New trial (rep=0, index=44): OrderedDict([('list_name', 'cidade'), ('probe_item', 'casa'), ('item_condition', 'new'), ('corr_ans', 'n')])
+560.2758 	DATA 	Keypress: s
+560.3087 	EXP 	fixation_cross: autoDraw = False
+560.3087 	EXP 	general_instruction: autoDraw = False
+560.3087 	EXP 	test_trial_word: autoDraw = False
+560.3087 	EXP 	test_trial_word: text = 'casa'
+560.7794 	EXP 	fixation_cross: autoDraw = True
+561.7828 	EXP 	fixation_cross: autoDraw = False
+561.7828 	EXP 	general_instruction: autoDraw = True
+561.7828 	EXP 	test_trial_word: autoDraw = True
+563.2343 	EXP 	New trial (rep=0, index=45): OrderedDict([('list_name', 'fumar'), ('probe_item', 'cigarro'), ('item_condition', 'new'), ('corr_ans', 'n')])
+563.2541 	DATA 	Keypress: n
+563.2882 	EXP 	fixation_cross: autoDraw = False
+563.2882 	EXP 	general_instruction: autoDraw = False
+563.2882 	EXP 	test_trial_word: autoDraw = False
+563.2882 	EXP 	test_trial_word: text = 'cigarro'
+563.7568 	EXP 	fixation_cross: autoDraw = True
+564.7609 	EXP 	fixation_cross: autoDraw = False
+564.7609 	EXP 	general_instruction: autoDraw = True
+564.7609 	EXP 	test_trial_word: autoDraw = True
+565.5057 	EXP 	New trial (rep=0, index=46): OrderedDict([('list_name', 'ladrão'), ('probe_item', 'prisão'), ('item_condition', 'new'), ('corr_ans', 'n')])
+565.5168 	DATA 	Keypress: n
+565.5476 	EXP 	fixation_cross: autoDraw = False
+565.5476 	EXP 	general_instruction: autoDraw = False
+565.5476 	EXP 	test_trial_word: autoDraw = False
+565.5476 	EXP 	test_trial_word: text = 'prisão'
+566.0162 	EXP 	fixation_cross: autoDraw = True
+567.0233 	EXP 	fixation_cross: autoDraw = False
+567.0233 	EXP 	general_instruction: autoDraw = True
+567.0233 	EXP 	test_trial_word: autoDraw = True
+568.4342 	DATA 	Keypress: n
+568.4685 	EXP 	New trial (rep=0, index=47): OrderedDict([('list_name', 'exército'), ('probe_item', 'guerra'), ('item_condition', 'old'), ('corr_ans', 's')])
+568.5103 	EXP 	fixation_cross: autoDraw = False
+568.5103 	EXP 	general_instruction: autoDraw = False
+568.5103 	EXP 	test_trial_word: autoDraw = False
+568.5103 	EXP 	test_trial_word: text = 'guerra'
+568.9801 	EXP 	fixation_cross: autoDraw = True
+569.9838 	EXP 	fixation_cross: autoDraw = False
+569.9838 	EXP 	general_instruction: autoDraw = True
+569.9838 	EXP 	test_trial_word: autoDraw = True
+570.9288 	EXP 	New trial (rep=0, index=48): OrderedDict([('list_name', 'carro'), ('probe_item', 'carro'), ('item_condition', 'critical'), ('corr_ans', 'n')])
+570.9394 	DATA 	Keypress: s
+570.9709 	EXP 	fixation_cross: autoDraw = False
+570.9709 	EXP 	general_instruction: autoDraw = False
+570.9709 	EXP 	test_trial_word: autoDraw = False
+570.9709 	EXP 	test_trial_word: text = 'carro'
+571.4415 	EXP 	fixation_cross: autoDraw = True
+572.4444 	EXP 	fixation_cross: autoDraw = False
+572.4444 	EXP 	general_instruction: autoDraw = True
+572.4444 	EXP 	test_trial_word: autoDraw = True
+573.6242 	EXP 	New trial (rep=0, index=49): OrderedDict([('list_name', 'doce'), ('probe_item', 'gostoso'), ('item_condition', 'old'), ('corr_ans', 's')])
+573.6376 	DATA 	Keypress: s
+573.6655 	EXP 	fixation_cross: autoDraw = False
+573.6655 	EXP 	general_instruction: autoDraw = False
+573.6655 	EXP 	test_trial_word: autoDraw = False
+573.6655 	EXP 	test_trial_word: text = 'gostoso'
+574.1343 	EXP 	fixation_cross: autoDraw = True
+575.1384 	EXP 	fixation_cross: autoDraw = False
+575.1384 	EXP 	general_instruction: autoDraw = True
+575.1384 	EXP 	test_trial_word: autoDraw = True
+575.8505 	EXP 	New trial (rep=0, index=50): OrderedDict([('list_name', 'montanha'), ('probe_item', 'escalada'), ('item_condition', 'old'), ('corr_ans', 's')])
+575.8635 	DATA 	Keypress: s
+575.8916 	EXP 	fixation_cross: autoDraw = False
+575.8916 	EXP 	general_instruction: autoDraw = False
+575.8916 	EXP 	test_trial_word: autoDraw = False
+575.8916 	EXP 	test_trial_word: text = 'escalada'
+576.3604 	EXP 	fixation_cross: autoDraw = True
+577.3660 	EXP 	fixation_cross: autoDraw = False
+577.3660 	EXP 	general_instruction: autoDraw = True
+577.3660 	EXP 	test_trial_word: autoDraw = True
+578.8132 	EXP 	New trial (rep=0, index=51): OrderedDict([('list_name', 'exército'), ('probe_item', 'soldado'), ('item_condition', 'old'), ('corr_ans', 's')])
+578.8246 	DATA 	Keypress: n
+578.8543 	EXP 	fixation_cross: autoDraw = False
+578.8543 	EXP 	general_instruction: autoDraw = False
+578.8543 	EXP 	test_trial_word: autoDraw = False
+578.8543 	EXP 	test_trial_word: text = 'soldado'
+579.3249 	EXP 	fixation_cross: autoDraw = True
+580.3284 	EXP 	fixation_cross: autoDraw = False
+580.3284 	EXP 	general_instruction: autoDraw = True
+580.3284 	EXP 	test_trial_word: autoDraw = True
+581.0437 	EXP 	New trial (rep=0, index=52): OrderedDict([('list_name', 'carro'), ('probe_item', 'velocidade'), ('item_condition', 'old'), ('corr_ans', 's')])
+581.0584 	DATA 	Keypress: s
+581.0804 	EXP 	fixation_cross: autoDraw = False
+581.0804 	EXP 	general_instruction: autoDraw = False
+581.0804 	EXP 	test_trial_word: autoDraw = False
+581.0804 	EXP 	test_trial_word: text = 'velocidade'
+581.5491 	EXP 	fixation_cross: autoDraw = True
+582.5533 	EXP 	fixation_cross: autoDraw = False
+582.5533 	EXP 	general_instruction: autoDraw = True
+582.5533 	EXP 	test_trial_word: autoDraw = True
+583.6028 	EXP 	New trial (rep=0, index=53): OrderedDict([('list_name', 'agulha'), ('probe_item', 'linha'), ('item_condition', 'old'), ('corr_ans', 's')])
+583.6128 	DATA 	Keypress: n
+583.6413 	EXP 	fixation_cross: autoDraw = False
+583.6413 	EXP 	general_instruction: autoDraw = False
+583.6413 	EXP 	test_trial_word: autoDraw = False
+583.6413 	EXP 	test_trial_word: text = 'linha'
+584.1113 	EXP 	fixation_cross: autoDraw = True
+585.1150 	EXP 	fixation_cross: autoDraw = False
+585.1150 	EXP 	general_instruction: autoDraw = True
+585.1150 	EXP 	test_trial_word: autoDraw = True
+585.9258 	EXP 	New trial (rep=0, index=54): OrderedDict([('list_name', 'rei'), ('probe_item', 'poder'), ('item_condition', 'old'), ('corr_ans', 's')])
+585.9361 	DATA 	Keypress: n
+585.9678 	EXP 	fixation_cross: autoDraw = False
+585.9678 	EXP 	general_instruction: autoDraw = False
+585.9678 	EXP 	test_trial_word: autoDraw = False
+585.9678 	EXP 	test_trial_word: text = 'poder'
+586.4366 	EXP 	fixation_cross: autoDraw = True
+587.4408 	EXP 	fixation_cross: autoDraw = False
+587.4408 	EXP 	general_instruction: autoDraw = True
+587.4408 	EXP 	test_trial_word: autoDraw = True
+587.8182 	EXP 	New trial (rep=0, index=55): OrderedDict([('list_name', 'alegria'), ('probe_item', 'felicidade'), ('item_condition', 'old'), ('corr_ans', 's')])
+587.8304 	DATA 	Keypress: s
+587.8603 	EXP 	fixation_cross: autoDraw = False
+587.8603 	EXP 	general_instruction: autoDraw = False
+587.8603 	EXP 	test_trial_word: autoDraw = False
+587.8603 	EXP 	test_trial_word: text = 'felicidade'
+588.3280 	EXP 	fixation_cross: autoDraw = True
+589.3324 	EXP 	fixation_cross: autoDraw = False
+589.3324 	EXP 	general_instruction: autoDraw = True
+589.3324 	EXP 	test_trial_word: autoDraw = True
+590.1113 	EXP 	New trial (rep=0, index=56): OrderedDict([('list_name', 'rei'), ('probe_item', 'coroa'), ('item_condition', 'old'), ('corr_ans', 's')])
+590.1227 	DATA 	Keypress: s
+590.1525 	EXP 	fixation_cross: autoDraw = False
+590.1525 	EXP 	general_instruction: autoDraw = False
+590.1525 	EXP 	test_trial_word: autoDraw = False
+590.1525 	EXP 	test_trial_word: text = 'coroa'
+590.6211 	EXP 	fixation_cross: autoDraw = True
+591.6253 	EXP 	fixation_cross: autoDraw = False
+591.6253 	EXP 	general_instruction: autoDraw = True
+591.6253 	EXP 	test_trial_word: autoDraw = True
+592.4377 	EXP 	New trial (rep=0, index=57): OrderedDict([('list_name', 'devagar'), ('probe_item', 'calma'), ('item_condition', 'old'), ('corr_ans', 's')])
+592.4499 	DATA 	Keypress: s
+592.4789 	EXP 	fixation_cross: autoDraw = False
+592.4789 	EXP 	general_instruction: autoDraw = False
+592.4789 	EXP 	test_trial_word: autoDraw = False
+592.4789 	EXP 	test_trial_word: text = 'calma'
+592.9474 	EXP 	fixation_cross: autoDraw = True
+593.9523 	EXP 	fixation_cross: autoDraw = False
+593.9523 	EXP 	general_instruction: autoDraw = True
+593.9523 	EXP 	test_trial_word: autoDraw = True
+596.0354 	EXP 	New trial (rep=0, index=58): OrderedDict([('list_name', 'carro'), ('probe_item', 'motor'), ('item_condition', 'old'), ('corr_ans', 's')])
+596.0453 	DATA 	Keypress: s
+596.0780 	EXP 	fixation_cross: autoDraw = False
+596.0780 	EXP 	general_instruction: autoDraw = False
+596.0780 	EXP 	test_trial_word: autoDraw = False
+596.0780 	EXP 	test_trial_word: text = 'motor'
+596.5472 	EXP 	fixation_cross: autoDraw = True
+597.5508 	EXP 	fixation_cross: autoDraw = False
+597.5508 	EXP 	general_instruction: autoDraw = True
+597.5508 	EXP 	test_trial_word: autoDraw = True
+597.9614 	EXP 	New trial (rep=0, index=59): OrderedDict([('list_name', 'agulha'), ('probe_item', 'costura'), ('item_condition', 'old'), ('corr_ans', 's')])
+597.9737 	DATA 	Keypress: s
+598.0024 	EXP 	fixation_cross: autoDraw = False
+598.0024 	EXP 	general_instruction: autoDraw = False
+598.0024 	EXP 	test_trial_word: autoDraw = False
+598.0024 	EXP 	test_trial_word: text = 'costura'
+598.4710 	EXP 	fixation_cross: autoDraw = True
+599.4752 	EXP 	fixation_cross: autoDraw = False
+599.4752 	EXP 	general_instruction: autoDraw = True
+599.4752 	EXP 	test_trial_word: autoDraw = True
+600.0252 	DATA 	Keypress: s
+600.0612 	EXP 	fixation_cross: autoDraw = False
+600.0612 	EXP 	general_instruction: autoDraw = False
+600.0612 	EXP 	test_trial_word: autoDraw = False
+600.0612 	EXP 	end: autoDraw = True
+605.0858 	EXP 	end: autoDraw = False
+605.3683 	EXP 	window1: mouseVisible = True

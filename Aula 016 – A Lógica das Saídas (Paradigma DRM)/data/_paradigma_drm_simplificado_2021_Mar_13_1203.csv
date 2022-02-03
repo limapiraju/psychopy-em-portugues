@@ -1,0 +1,213 @@
+condition	palavra	math	math_resp	list_name	probe_item	item_condition	corr_ans	initial_instructions.thisRepN	initial_instructions.thisTrialN	initial_instructions.thisN	initial_instructions.thisIndex	list_choice.thisRepN	list_choice.thisTrialN	list_choice.thisN	list_choice.thisIndex	study_phase.thisRepN	study_phase.thisTrialN	study_phase.thisN	study_phase.thisIndex	distractor_trial_instructions.thisRepN	distractor_trial_instructions.thisTrialN	distractor_trial_instructions.thisN	distractor_trial_instructions.thisIndex	distractor_phase.thisRepN	distractor_phase.thisTrialN	distractor_phase.thisN	distractor_phase.thisIndex	test_trial_instructions.thisRepN	test_trial_instructions.thisTrialN	test_trial_instructions.thisN	test_trial_instructions.thisIndex	test_phase.thisRepN	test_phase.thisTrialN	test_phase.thisN	test_phase.thisIndex	instructions_msg.started	instructions_msg.stopped	spacebar_msg.started	spacebar_msg.stopped	word.started	word.stopped	math_trial.started	math_trial.stopped	math_trial_resp.keys	math_trial_resp.corr	math_trial_resp.started	math_trial_resp.stopped	fixation_cross.started	fixation_cross.stopped	general_instruction.started	general_instruction.stopped	test_trial_word.started	test_trial_word.stopped	test_trial_resp.keys	test_trial_resp.corr	test_trial_resp.rt	test_trial_resp.started	test_trial_resp.stopped	end.started	end.stopped	participant	session	date	expName	psychopyVersion	frameRate
+montanha	escalada											0	0	0	8	0	0	0	0																	24.96562891	None	24.96562891	None	26.52307262	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	natureza											0	0	0	8	0	1	1	1																					27.99644553	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	beleza											0	0	0	8	0	2	2	2																					29.48554648	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	árvores											0	0	0	8	0	3	3	3																					30.99234116	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	liberdade											0	0	0	8	0	4	4	4																					32.48208708	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	alpinismo											0	0	0	8	0	5	5	5																					33.98827441	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	aventura											0	0	0	8	0	6	6	6																					35.47802238	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	subir											0	0	0	8	0	7	7	7																					36.9675125	None																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	rocha											0	0	0	8	0	8	8	8																					38.45732477	37.48539533																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	russa											0	0	0	8	0	9	9	9																					39.94709668	38.9751563																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	obstáculo											0	0	0	8	0	10	10	10																					41.43685901	40.46599859																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	serra											0	0	0	8	0	11	11	11																					42.92602289	41.95575408																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	terra											0	0	0	8	0	12	12	12																					44.41569563	43.44430104																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	pico											0	0	0	8	0	13	13	13																					45.90546002	44.93467072																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+montanha	morro											0	0	0	8	0	14	14	14																					47.39544327	46.42444605																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	lento											0	1	1	5	0	0	0	0																					48.91882161	47.94668973																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	calma											0	1	1	5	0	1	1	1																					50.40786238	49.43656834																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	parar											0	1	1	5	0	2	2	2																					51.89776151	50.92587516																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	tartaruga											0	1	1	5	0	3	3	3																					53.38749307	52.41560535																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	caminhar											0	1	1	5	0	4	4	4																					54.87725745	53.90523432																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	cuidado											0	1	1	5	0	5	5	5																					56.36697123	55.39625648																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	demora											0	1	1	5	0	6	6	6																					57.85615016	56.88462562																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	andar											0	1	1	5	0	7	7	7																					59.34585094	58.37564573																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	trânsito											0	1	1	5	0	8	8	8																					60.82033457	59.88071823																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	atenção											0	1	1	5	0	9	9	9																					62.30911134	61.33696988																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	lerdo											0	1	1	5	0	10	10	10																					63.7982335	62.82750234																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	paciência											0	1	1	5	0	11	11	11																					65.30491806	64.33403575																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	preguiça											0	1	1	5	0	12	12	12																					66.7944841	65.82255125																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	lesma											0	1	1	5	0	13	13	13																					68.28437023	67.31252424																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+devagar	atraso											0	1	1	5	0	14	14	14																					69.7735519	68.80344655																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	sentar											0	2	2	3	0	0	0	0																					71.29708755	70.32510066																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	mesa											0	2	2	3	0	1	1	1																					72.78684578	71.81613445																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	madeira											0	2	2	3	0	2	2	2																					74.27616697	73.30589337																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	objeto											0	2	2	3	0	3	3	3																					75.76592383	74.79398345																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	comodidade											0	2	2	3	0	4	4	4																					77.25552134	76.28407203																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	sala											0	2	2	3	0	5	5	5																					78.74528641	77.77443487																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	balanço											0	2	2	3	0	6	6	6																					80.23500087	79.26303313																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	móvel											0	2	2	3	0	7	7	7																					81.72494171	80.75395886																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	encosto											0	2	2	3	0	8	8	8																					83.21435797	82.24240938																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	aula											0	2	2	3	0	9	9	9																					84.70424889	83.7320616																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	estofado											0	2	2	3	0	10	10	10																					86.19368361	85.22185471																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	apoio											0	2	2	3	0	11	11	11																					87.68246995	86.71253559																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	poltrona											0	2	2	3	0	12	12	12																					89.17198265	88.20118651																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	banco											0	2	2	3	0	13	13	13																					90.64497528	89.67410117																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+cadeira	decoração											0	2	2	3	0	14	14	14																					92.11862655	91.14712116																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	sorriso											0	3	3	1	0	0	0	0																					93.64206645	92.6701719																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	felicidade											0	3	3	1	0	1	1	1																					95.13187324	94.1597824																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	festa											0	3	3	1	0	2	2	2																					96.621771	95.65085517																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	vida											0	3	3	1	0	3	3	3																					98.11089521	97.13937751																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	amigos											0	3	3	1	0	4	4	4																					99.60053991	98.62979233																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	família											0	3	3	1	0	5	5	5																					101.0903289	100.1185705																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	paz											0	3	3	1	0	6	6	6																					102.5800406	101.6092965																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	nascimento											0	3	3	1	0	7	7	7																					104.069935	103.0989911																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	filhos											0	3	3	1	0	8	8	8																					105.5594702	104.5887829																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	euforia											0	3	3	1	0	9	9	9																					107.0492811	106.0772354																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	pular											0	3	3	1	0	10	10	10																					108.5386906	107.5670402																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	diversão											0	3	3	1	0	11	11	11																					110.0281643	109.0564906																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	sucesso											0	3	3	1	0	12	12	12																					111.51785	110.547071																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	carnaval											0	3	3	1	0	13	13	13																					113.0065426	112.0378749																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+alegria	gol											0	3	3	1	0	14	14	14																					114.4973275	113.5259514																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	soldado											0	4	4	7	0	0	0	0																					116.0205725	115.0492004																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	armas											0	4	4	7	0	1	1	1																					117.5100838	116.5383404																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	guerra											0	4	4	7	0	2	2	2																					118.9997955	118.0280049																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	disciplina											0	4	4	7	0	3	3	3																					120.489802	119.5176599																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	farda											0	4	4	7	0	4	4	4																					121.9788879	121.0087497																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	ordem											0	4	4	7	0	5	5	5																					123.4691413	122.4979102																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	militar											0	4	4	7	0	6	6	6																					124.9583394	123.9865201																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	marcha											0	4	4	7	0	7	7	7																					126.4479814	125.4761935																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	defesa											0	4	4	7	0	8	8	8																					127.9209979	126.9491458																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	uniforme											0	4	4	7	0	9	9	9																					129.4106755	128.438876																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	proteção											0	4	4	7	0	10	10	10																					130.9003838	129.9285166																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	organização											0	4	4	7	0	11	11	11																					132.3902104	131.4182481																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	rigidez											0	4	4	7	0	12	12	12																					133.8799207	132.909076																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	batalha											0	4	4	7	0	13	13	13																					135.3697823	134.3975758																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+exercito	quartel											0	4	4	7	0	14	14	14																					136.8756454	135.9038336																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	açúcar											0	5	5	6	0	0	0	0																					138.39927	137.4272078																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	gostoso											0	5	5	6	0	1	1	1																					139.8885159	138.9168594																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	chocolate											0	5	5	6	0	2	2	2																					141.3782256	140.4074014																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	sabor											0	5	5	6	0	3	3	3																					142.8679749	141.8971227																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	mel											0	5	5	6	0	4	4	4																					144.3578761	143.3869165																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	sorvete											0	5	5	6	0	5	5	5																					145.8473327	144.8754019																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	delícia											0	5	5	6	0	6	6	6																					147.337186	146.3664795																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	bala											0	5	5	6	0	7	7	7																					148.8269442	147.8562623																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	salgado											0	5	5	6	0	8	8	8																					150.3162483	149.3446089																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	guloseima											0	5	5	6	0	9	9	9																					151.8059573	150.8356728																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	diabetes											0	5	5	6	0	10	10	10																					153.2955049	152.3246964																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	gordura											0	5	5	6	0	11	11	11																					154.785352	153.8144711																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	cárie											0	5	5	6	0	12	12	12																					156.2751007	155.3042102																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	torta											0	5	5	6	0	13	13	13																					157.7648589	156.7938665																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+doce	paladar											0	5	5	6	0	14	14	14																					159.2546753	158.2824853																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	teia											0	6	6	2	0	0	0	0																					160.7776638	159.805614																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	veneno											0	6	6	2	0	1	1	1																					162.267316	161.2966095																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	inseto											0	6	6	2	0	2	2	2																					163.7570565	162.7849936																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	peluda											0	6	6	2	0	3	3	3																					165.2461615	164.2746705																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	perigo											0	6	6	2	0	4	4	4																					166.7529466	165.7809625																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	nojo											0	6	6	2	0	5	5	5																					168.2426549	167.2717028																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	feia											0	6	6	2	0	6	6	6																					169.7318072	168.7615261																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	patas											0	6	6	2	0	7	7	7																					171.221761	170.2500354																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	pernas											0	6	6	2	0	8	8	8																					172.7113811	171.7404659																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	picada											0	6	6	2	0	9	9	9																					174.2010819	173.2291839																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	mosca											0	6	6	2	0	10	10	10																					175.69081	174.7189763																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	peçonha											0	6	6	2	0	11	11	11																					177.1805347	176.2096524																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	bicho											0	6	6	2	0	12	12	12																					178.6701849	177.6995857																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	mordida											0	6	6	2	0	13	13	13																					180.1600286	179.1881026																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+aranha	asquerosa											0	6	6	2	0	14	14	14																					181.6499154	180.6784408																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	costura											0	7	7	0	0	0	0	0																					183.1395157	182.2006913																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	linha											0	7	7	0	0	1	1	1																					184.6287548	183.6580072																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	fina											0	7	7	0	0	2	2	2																					186.1184392	185.1479515																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	ponta											0	7	7	0	0	3	3	3																					187.6083205	186.6375223																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	furar											0	7	7	0	0	4	4	4																					189.0980083	188.1259742																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	injeção											0	7	7	0	0	5	5	5																					190.5878103	189.6156873																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	seringa											0	7	7	0	0	6	6	6																					192.0768757	191.1053156																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	espetar											0	7	7	0	0	7	7	7																					193.5672796	192.5963425																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	tricô											0	7	7	0	0	8	8	8																					195.0732774	194.1014246																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	bordar											0	7	7	0	0	9	9	9																					196.5628996	195.5923209																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	palheiro											0	7	7	0	0	10	10	10																					198.0527809	197.082032																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	máquinas											0	7	7	0	0	11	11	11																					199.5424735	198.5717211																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	metal											0	7	7	0	0	12	12	12																					201.0321161	200.0614369																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	fio											0	7	7	0	0	13	13	13																					202.5221021	201.5497637																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+agulha	fincar											0	7	7	0	0	14	14	14																					204.0110888	203.0395937																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	coroa											0	8	8	9	0	0	0	0																					205.5341574	204.5625904																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	poder											0	8	8	9	0	1	1	1																					207.0243998	206.0531051																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	rainha											0	8	8	9	0	2	2	2																					208.5138988	207.5427812																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	riqueza											0	8	8	9	0	3	3	3																					210.0034156	209.0327727																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	castelo											0	8	8	9	0	4	4	4																					211.4931417	210.5223121																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	autoridade											0	8	8	9	0	5	5	5																					212.982993	212.0121031																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	trono											0	8	8	9	0	6	6	6																					214.472782	213.5018032																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	monarquia											0	8	8	9	0	7	7	7																					215.9617756	214.990186																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	majestade											0	8	8	9	0	8	8	8																					217.4516049	216.4799538																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	soberano											0	8	8	9	0	9	9	9																					218.9413727	217.9705362																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	império											0	8	8	9	0	10	10	10																					220.4309607	219.4594532																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	nobreza											0	8	8	9	0	11	11	11																					221.9207914	220.9489242																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	palácio											0	8	8	9	0	12	12	12																					223.4105154	222.4396071																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	dono											0	8	8	9	0	13	13	13																					224.9003557	223.9293394																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+rei	líder											0	8	8	9	0	14	14	14																					226.3887351	225.4181442																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	transporte											0	9	9	4	0	0	0	0																					227.9130183	226.9420786																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	velocidade											0	9	9	4	0	1	1	1																					229.402624	228.4320256																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	motor											0	9	9	4	0	2	2	2																					230.892595	229.9203256																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	locomoção											0	9	9	4	0	3	3	3																					232.3823505	231.4115236																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	rodas											0	9	9	4	0	4	4	4																					233.8716491	232.899892																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	viagem											0	9	9	4	0	5	5	5																					235.361053	234.3894355																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	pneu											0	9	9	4	0	6	6	6																					236.8508892	235.8801526																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	status											0	9	9	4	0	7	7	7																					238.3405688	237.368835																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	automóvel											0	9	9	4	0	8	8	8																					239.8302504	238.8594714																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	necessidade											0	9	9	4	0	9	9	9																					241.3201496	240.3481545																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	estrada											0	9	9	4	0	10	10	10																					242.80936	241.8391082																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	novo											0	9	9	4	0	11	11	11																					244.2996182	243.3281859																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	direção											0	9	9	4	0	12	12	12																					245.7887075	244.8179524																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	rápido											0	9	9	4	0	13	13	13																					247.2784534	246.3067538																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+carro	gasolina											0	9	9	4	0	14	14	14																					248.7686446	247.7974873																					1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+		12 × 18 = 216?	s																					0	0	0	71									369.4639953	None	369.4639953	None			370.2338135	None	None	0	370.2338135	None															1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				fruta	saudável	new	n																									0	0	0	42	448.8012736	None	448.8012736	None									450.2917145	451.2959946	451.262501	None	451.262501	None	n	1	3.617	451.262501	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				agulha	fina	old	s																									0	1	1	30													455.3972434	456.4010913	456.4010913	None	456.4010913	None	s	1	2.055	456.4010913	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				ladrão	roubo	new	n																									0	2	2	46													458.9958676	459.9998099	459.9998099	None	459.9998099	None	n	1	0.384	459.9998099	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				doce	doce	critical	n																									0	3	3	6													460.9204987	461.9246564	461.9246564	None	461.9246564	None	s	0	0.371	461.9246564	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				rei	rainha	old	s																									0	4	4	39													462.8620813	463.8662404	463.8662404	None	463.8662404	None	n	0	0.334	463.8662404	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				pão	fome	new	n																									0	5	5	49													464.7198367	465.7245881	465.7245881	None	465.7245881	None	s	0	0.311	465.7245881	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				aranha	veneno	old	s																									0	6	6	22													466.578129	467.5820323	467.5820323	None	467.5820323	None	n	0	0.298	467.5820323	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				alegria	sorriso	old	s																									0	7	7	11													468.4189362	469.4235049	469.4235049	None	469.4235049	None	s	1	0.272	469.4235049	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				montanha	beleza	old	s																									0	8	8	38													470.243239	471.2478899	471.2478899	None	471.2478899	None	n	0	0.240	471.2478899	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				montanha	montanha	critical	n																									0	9	9	8													472.0513412	473.0553375	473.0553375	None	473.0553375	None	s	0	0.264	473.0553375	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				dor	machucado	new	n																									0	10	10	45													473.8587731	474.8629582	474.8629582	None	474.8629582	None	s	0	0.281	474.8629582	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				aranha	inseto	old	s																									0	11	11	32													475.6833885	476.6874019	476.6874019	None	476.6874019	None	n	0	0.184	476.6874019	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				borracha	apagar	new	n																									0	12	12	56													477.4239297	478.428456	478.428456	None	478.428456	None	s	0	0.019	478.428456	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cheirar	perfume	new	n																									0	13	13	50													478.9973812	480.0015827	480.0015827	None	480.0015827	None	n	1	0.278	480.0015827	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				pão	alimento	new	n																									0	14	14	48													480.838609	481.8430827	481.8430827	None	481.8430827	None	n	1	0.509	481.8430827	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cadeira	mesa	old	s																									0	15	15	23													482.8969606	483.9016805	483.9016805	None	483.9016805	None	s	1	0.266	483.9016805	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				doce	açúcar	old	s																									0	16	16	16													484.7050662	485.7092738	485.7092738	None	485.7092738	None	s	1	0.482	485.7092738	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				carro	transporte	old	s																									0	17	17	14													486.7464286	487.7495946	487.7495946	None	487.7495946	None	s	1	6.586	487.7495946	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				aranha	aranha	critical	n																									0	18	18	2													494.880301	495.8857664	495.8857664	None	495.8857664	None	s	0	4.242	495.8857664	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				camisa	roupa	new	n																									0	19	19	54													500.6726067	501.6772624	501.6772624	None	501.6772624	None	n	1	0.955	501.6772624	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cadeira	madeira	old	s																									0	20	20	33													503.1842034	504.187948	504.187948	None	504.187948	None	n	0	0.532	504.187948	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				montanha	natureza	old	s																									0	21	21	28													505.2415209	506.262183	506.2286771	None	506.2286771	None	n	0	0.611	506.2286771	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				doce	chocolate	old	s																									0	22	22	36													507.3835084	508.3879383	508.3879383	None	508.3879383	None	n	0	0.788	508.3879383	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				rei	rei	critical	n																									0	23	23	9													509.7114673	510.7159553	510.7159553	None	510.7159553	None	s	0	0.972	510.7159553	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				bandeira	pátria	new	n																									0	24	24	58													512.2215333	513.2252526	513.2252526	None	513.2252526	None	n	1	0.558	513.2252526	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				fumar	vício	new	n																									0	25	25	41													514.3131316	515.3183296	515.3183296	None	515.3183296	None	n	1	0.650	515.3183296	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cidade	pessoas	new	n																									0	26	26	53													516.5058645	517.511241	517.511241	None	517.511241	None	n	1	1.384	517.511241	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				bandeira	símbolo	new	n																									0	27	27	59													519.4528299	520.4560656	520.4560656	None	520.4560656	None	n	1	0.487	520.4560656	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cadeira	cadeira	critical	n																									0	28	28	3													521.4777105	522.4812451	522.4812451	None	522.4812451	None	n	1	1.870	522.4812451	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				devagar	parar	old	s																									0	29	29	35													524.8746872	525.8807073	525.8807073	None	525.8807073	None	n	0	0.735	525.8807073	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cheirar	nariz	new	n																									0	30	30	51													527.1345058	528.1386382	528.1386382	None	528.1386382	None	n	1	0.917	528.1386382	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				fruta	maçã	new	n																									0	31	31	43													529.5949965	530.5993177	530.5993177	None	530.5993177	None	n	1	0.872	530.5993177	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				alegria	festa	old	s																									0	32	32	31													532.0226968	533.0273449	533.0273449	None	533.0273449	None	s	1	1.316	533.0273449	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				exército	armas	old	s																									0	33	33	27													534.8839882	535.8894919	535.8894919	None	535.8894919	None	n	0	0.486	535.8894919	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				aranha	teia	old	s																									0	34	34	12													536.8935826	537.897888	537.897888	None	537.897888	None	n	0	0.502	537.897888	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cadeira	sentar	old	s																									0	35	35	13													538.9178908	539.9222872	539.9222872	None	539.9222872	None	s	1	1.397	539.9222872	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				borracha	erro	new	n																									0	36	36	57													541.8469299	542.8512257	542.8512257	None	542.8512257	None	s	0	0.644	542.8512257	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				camisa	botão	new	n																									0	37	37	55													544.0406586	545.0439381	545.0439381	None	545.0439381	None	n	1	0.684	545.0439381	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				dor	sofrimento	new	n																									0	38	38	44													546.2668578	547.2701571	547.2701571	None	547.2701571	None	n	1	0.793	547.2701571	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				alegria	alegria	critical	n																									0	39	39	1													548.5923784	549.5965566	549.5965566	None	549.5965566	None	s	0	0.635	549.5965566	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				exército	exército	critical	n																									0	40	40	7													550.751446	551.7564744	551.7564744	None	551.7564744	None	s	0	1.203	551.7564744	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				devagar	devagar	critical	n																									0	41	41	5													553.4798567	554.485104	554.485104	None	554.485104	None	n	1	0.587	554.485104	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				agulha	agulha	critical	n																									0	42	42	0													555.6221916	556.6263945	556.6263945	None	556.6263945	None	s	0	0.733	556.6263945	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				devagar	lento	old	s																									0	43	43	15													557.8830525	558.8873874	558.8873874	None	558.8873874	None	s	1	1.344	558.8873874	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				cidade	casa	new	n																									0	44	44	52													560.7793709	561.7827954	561.7827954	None	561.7827954	None	n	1	1.433	561.7827954	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				fumar	cigarro	new	n																									0	45	45	40													563.7568089	564.7609488	564.7609488	None	564.7609488	None	n	1	0.711	564.7609488	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				ladrão	prisão	new	n																									0	46	46	47													566.0162205	567.0232631	567.0232631	None	567.0232631	None	n	1	1.408	567.0232631	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				exército	guerra	old	s																									0	47	47	37													568.9801464	569.9838082	569.9838082	None	569.9838082	None	s	1	0.912	569.9838082	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				carro	carro	critical	n																									0	48	48	4													571.4414996	572.4444371	572.4444371	None	572.4444371	None	s	0	1.163	572.4444371	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				doce	gostoso	old	s																									0	49	49	26													574.1342705	575.1384419	575.1384419	None	575.1384419	None	s	1	0.685	575.1384419	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				montanha	escalada	old	s																									0	50	50	18													576.3603657	577.3659515	577.3659515	None	577.3659515	None	n	0	1.434	577.3659515	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				exército	soldado	old	s																									0	51	51	17													579.3248982	580.3283727	580.3283727	None	580.3283727	None	s	1	0.703	580.3283727	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				carro	velocidade	old	s																									0	52	52	24													581.549129	582.5532525	582.5532525	None	582.5532525	None	n	0	1.030	582.5532525	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				agulha	linha	old	s																									0	53	53	20													584.1112816	585.1149585	585.1149585	None	585.1149585	None	n	0	0.789	585.1149585	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				rei	poder	old	s																									0	54	54	29													586.4366128	587.4407739	587.4407739	None	587.4407739	None	s	1	0.367	587.4407739	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				alegria	felicidade	old	s																									0	55	55	21													588.3280389	589.3324114	589.3324114	None	589.3324114	None	s	1	0.747	589.3324114	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				rei	coroa	old	s																									0	56	56	19													590.621059	591.6252947	591.6252947	None	591.6252947	None	s	1	0.782	591.6252947	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				devagar	calma	old	s																									0	57	57	25													592.9473573	593.9523131	593.9523131	None	593.9523131	None	s	1	2.071	593.9523131	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				carro	motor	old	s																									0	58	58	34													596.5471879	597.5507841	597.5507841	None	597.5507841	None	s	1	0.401	597.5507841	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+				agulha	costura	old	s																									0	59	59	10													598.4709887	599.4752339	599.4752339	None	599.4752339	None	s	1	0.516	599.4752339	None				1	2021_Mar_13_1203	paradigma_drm_simplificado	2020.2.2	29.91517118
+																																																											600.0611784	None						
