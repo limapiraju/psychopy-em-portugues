@@ -1,0 +1,3 @@
+﻿Programas implementam a fase de estudo do paradigma DRM. O arquivo paradigma_drm repete rotinas. O arquivo paradigma_drm_simplificado implementa a mesma fase de estudo que o outro arquivo, mas o faz de maneira mais eficiente, usando menos rotinas. Este último programa ensina como utilizar loops aninhados. O programa é baseado na aula que pode ser acessada no link a seguir (https://www.youtube.com/watch?v=8AnMIo8huiM). Os estímulos usados foram baseados em Stein et al. (2006). Um arquivo em PDF de mesmo nome, contendo o artigo citado, está disponível na pasta.
+
+Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.

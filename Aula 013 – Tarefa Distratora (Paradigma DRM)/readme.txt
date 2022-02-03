@@ -1,0 +1,3 @@
+﻿Programas implementa a tarefa distratora do paradigma DRM. Usando códigos simples, mostro como interromper um loop ou uma tentativa por critérios de tempo. O programa é baseado na aula que pode ser acessada no link a seguir (https://www.youtube.com/watch?v=CraOm0b_KUY). Os estímulos usados foram baseados em Stein et al. (2006). Um arquivo em PDF de mesmo nome, contendo o artigo citado, está disponível na pasta.
+
+Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.

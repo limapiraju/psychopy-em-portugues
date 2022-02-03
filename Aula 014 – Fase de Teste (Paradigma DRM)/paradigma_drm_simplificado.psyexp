@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.2.2">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="False" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="norm" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[900,600]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[1.000,1.000,1.000]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="paradigma_drm_simplificado" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="study_trial">
+      <TextComponent name="word">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.3" valType="code"/>
+        <Param name="name" updates="None" val="word" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$palavra" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="initial_screen">
+      <TextComponent name="initial_screen_msg">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="initial_screen_msg" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Pressione [BARRA DE ESPAÇO] para continuar." valType="extendedStr"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="initial_screen_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="initial_screen_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="test_trial">
+      <TextComponent name="fixation_cross">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.3" valType="code"/>
+        <Param name="name" updates="None" val="fixation_cross" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="general_instruction">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="general_instruction" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.6)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Você viu a palavra abaixo na fase de estudo?&amp;#10;S = Sim, eu vi&amp;#10;N = Não, eu não vi" valType="extendedStr"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
+      </TextComponent>
+      <TextComponent name="test_trial_word">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.3" valType="code"/>
+        <Param name="name" updates="None" val="test_trial_word" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$probe_item" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="test_trial_resp">
+        <Param name="allowedKeys" updates="constant" val="'s','n'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$corr_ans" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="test_trial_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="first key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="distractor_trial">
+      <TextComponent name="math_trial">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.2" valType="code"/>
+        <Param name="name" updates="None" val="math_trial" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$math + &quot;(S/N)&quot;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="math_trial_resp">
+        <Param name="allowedKeys" updates="constant" val="'s','n'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$math_resp" valType="str"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="math_trial_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="first key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="distractor_break">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="tempo_total = 0" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="tempo_total = 0;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="if (t + tempo_total) &gt;= 60: # em segundos&amp;#10;    continueRoutine = False&amp;#10;    distractor_phase.finished = True&amp;#10;&amp;#10;# o código abaixo pode ser útil para quem &amp;#10;# quiser interromper uma tentativa após um&amp;#10;# intervalo de tempo pré-determinado&amp;#10;# observação: encerra a TENTATIVA,&amp;#10;# não o loop!!!&amp;#10;&quot;&quot;&quot;&amp;#10;if t &gt;= 2:&amp;#10;    continueRoutine = False&amp;#10;&quot;&quot;&quot;" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="if (((t + tempo_total) &gt;= 60)) {&amp;#10;    continueRoutine = false;&amp;#10;    distractor_phase.finished = true;&amp;#10;}&amp;#10;/*&amp;#10;if t &gt;= 2:&amp;#10;continueRoutine = False*/&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="tempo_total += t;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="tempo_total += t" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="distractor_break" valType="code"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="initial_screen"/>
+    <LoopInitiator loopType="TrialHandler" name="list_choice">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('condition', 'agulha')]), OrderedDict([('condition', 'alegria')]), OrderedDict([('condition', 'aranha')]), OrderedDict([('condition', 'cadeira')]), OrderedDict([('condition', 'carro')]), OrderedDict([('condition', 'devagar')]), OrderedDict([('condition', 'doce')]), OrderedDict([('condition', 'exército')]), OrderedDict([('condition', 'montanha')]), OrderedDict([('condition', 'rei')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="list_choice" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="study_phase">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$condition + &quot;.xlsx&quot;" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="study_phase" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="study_trial"/>
+    <LoopTerminator name="study_phase"/>
+    <LoopTerminator name="list_choice"/>
+    <LoopInitiator loopType="TrialHandler" name="distractor_phase">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('math', '11 × 11 = 121?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 11 = 142?'), ('math_resp', 'n')]), OrderedDict([('math', '13 × 11 = 143?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 11 = 144?'), ('math_resp', 'n')]), OrderedDict([('math', '15 × 11 = 165?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 11 = 196?'), ('math_resp', 'n')]), OrderedDict([('math', '17 × 11 = 187?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 11 = 208?'), ('math_resp', 'n')]), OrderedDict([('math', '19 × 11 = 209?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 11 = 221?'), ('math_resp', 'n')]), OrderedDict([('math', '11 × 12 = 132?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 12 = 134?'), ('math_resp', 'n')]), OrderedDict([('math', '13 × 12 = 156?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 12 = 166?'), ('math_resp', 'n')]), OrderedDict([('math', '15 × 12 = 180?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 12 = 192?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 12 = 204?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 12 = 216?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 12 = 228?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 12 = 240?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 13 = 143?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 13 = 156?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 13 = 159?'), ('math_resp', 'n')]), OrderedDict([('math', '14 × 13 = 182?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 13 = 195?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 13 = 208?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 13 = 221?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 13 = 234?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 13 = 247?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 13 = 260?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 14 = 154?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 14 = 168?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 14 = 182?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 14 = 196?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 14 = 210?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 14 = 224?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 14 = 238?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 14 = 252?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 14 = 266?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 14 = 280?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 15 = 165?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 15 = 180?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 15 = 195?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 15 = 210?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 15 = 225?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 15 = 240?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 15 = 255?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 15 = 270?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 15 = 285?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 15 = 300?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 16 = 176?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 16 = 192?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 16 = 208?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 16 = 224?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 16 = 240?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 16 = 256?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 16 = 272?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 16 = 288?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 16 = 304?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 16 = 320?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 17 = 187?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 17 = 204?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 17 = 221?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 17 = 238?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 17 = 255?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 17 = 272?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 17 = 289?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 17 = 306?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 17 = 323?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 17 = 340?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 18 = 198?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 18 = 216?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 18 = 234?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 18 = 252?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 18 = 270?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 18 = 288?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 18 = 306?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 18 = 324?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 18 = 342?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 18 = 360?'), ('math_resp', 's')]), OrderedDict([('math', '11 × 19 = 209?'), ('math_resp', 's')]), OrderedDict([('math', '12 × 19 = 228?'), ('math_resp', 's')]), OrderedDict([('math', '13 × 19 = 247?'), ('math_resp', 's')]), OrderedDict([('math', '14 × 19 = 266?'), ('math_resp', 's')]), OrderedDict([('math', '15 × 19 = 285?'), ('math_resp', 's')]), OrderedDict([('math', '16 × 19 = 304?'), ('math_resp', 's')]), OrderedDict([('math', '17 × 19 = 323?'), ('math_resp', 's')]), OrderedDict([('math', '18 × 19 = 342?'), ('math_resp', 's')]), OrderedDict([('math', '19 × 19 = 361?'), ('math_resp', 's')]), OrderedDict([('math', '20 × 19 = 380?'), ('math_resp', 's')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="math_problems.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="distractor_phase" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="distractor_trial"/>
+    <LoopTerminator name="distractor_phase"/>
+    <LoopInitiator loopType="TrialHandler" name="test_phase">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('list_name', 'agulha'), ('probe_item', 'agulha'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'alegria'), ('probe_item', 'alegria'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'aranha'), ('probe_item', 'aranha'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'cadeira'), ('probe_item', 'cadeira'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'carro'), ('probe_item', 'carro'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'devagar'), ('probe_item', 'devagar'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'doce'), ('probe_item', 'doce'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'exército'), ('probe_item', 'exército'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'montanha'), ('probe_item', 'montanha'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'rei'), ('probe_item', 'rei'), ('item_condition', 'critical'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'agulha'), ('probe_item', 'costura'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'alegria'), ('probe_item', 'sorriso'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'aranha'), ('probe_item', 'teia'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'cadeira'), ('probe_item', 'sentar'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'carro'), ('probe_item', 'transporte'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'devagar'), ('probe_item', 'lento'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'doce'), ('probe_item', 'açúcar'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'exército'), ('probe_item', 'soldado'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'montanha'), ('probe_item', 'escalada'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'rei'), ('probe_item', 'coroa'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'agulha'), ('probe_item', 'linha'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'alegria'), ('probe_item', 'felicidade'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'aranha'), ('probe_item', 'veneno'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'cadeira'), ('probe_item', 'mesa'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'carro'), ('probe_item', 'velocidade'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'devagar'), ('probe_item', 'calma'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'doce'), ('probe_item', 'gostoso'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'exército'), ('probe_item', 'armas'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'montanha'), ('probe_item', 'natureza'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'rei'), ('probe_item', 'poder'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'agulha'), ('probe_item', 'fina'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'alegria'), ('probe_item', 'festa'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'aranha'), ('probe_item', 'inseto'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'cadeira'), ('probe_item', 'madeira'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'carro'), ('probe_item', 'motor'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'devagar'), ('probe_item', 'parar'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'doce'), ('probe_item', 'chocolate'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'exército'), ('probe_item', 'guerra'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'montanha'), ('probe_item', 'beleza'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'rei'), ('probe_item', 'rainha'), ('item_condition', 'old'), ('corr_ans', 's')]), OrderedDict([('list_name', 'fumar'), ('probe_item', 'cigarro'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'fumar'), ('probe_item', 'vício'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'fruta'), ('probe_item', 'saudável'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'fruta'), ('probe_item', 'maçã'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'dor'), ('probe_item', 'sofrimento'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'dor'), ('probe_item', 'machucado'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'ladrão'), ('probe_item', 'roubo'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'ladrão'), ('probe_item', 'prisão'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'pão'), ('probe_item', 'alimento'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'pão'), ('probe_item', 'fome'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'cheirar'), ('probe_item', 'perfume'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'cheirar'), ('probe_item', 'nariz'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'cidade'), ('probe_item', 'casa'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'cidade'), ('probe_item', 'pessoas'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'camisa'), ('probe_item', 'roupa'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'camisa'), ('probe_item', 'botão'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'borracha'), ('probe_item', 'apagar'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'borracha'), ('probe_item', 'erro'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'bandeira'), ('probe_item', 'pátria'), ('item_condition', 'new'), ('corr_ans', 'n')]), OrderedDict([('list_name', 'bandeira'), ('probe_item', 'símbolo'), ('item_condition', 'new'), ('corr_ans', 'n')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="test_items.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="test_phase" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="test_trial"/>
+    <LoopTerminator name="test_phase"/>
+  </Flow>
+</PsychoPy2experiment>

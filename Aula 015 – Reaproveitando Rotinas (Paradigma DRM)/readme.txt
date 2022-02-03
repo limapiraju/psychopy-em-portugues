@@ -1,0 +1,3 @@
+﻿Programa implementa a rotina de instruções do paradigma DRM. Uso a rotina em diferentes pontos do fluxo da tarefa. Cada uma dessas cópias da rotina de instruções é alimentada por diferentes planilhas do Excel, o que permite flexibilidade nos conteúdos das instruções que são dadas em cada etapa da sessão experimental. O programa é baseado na aula que pode ser acessada no link a seguir (https://www.youtube.com/watch?v=kv1hOKCmfp4). Os estímulos usados foram baseados em Stein et al. (2006). Um arquivo em PDF de mesmo nome, contendo o artigo citado, está disponível na pasta.
+
+Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.
