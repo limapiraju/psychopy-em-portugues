@@ -1,0 +1,5 @@
+﻿Programa propõe solução para o desafio de programação lançado no vídeo da Aula 004 (https://www.youtube.com/watch?v=r7hQ_N6jJso).
+ Consiste na programação da Eriksen Flanker Task (https://en.wikipedia.org/wiki/Eriksen_flanker_task)
+, onde o participante deve responder se o estímulo central aponta para a esquerda ou para a direita, independentemente da congruência, incongruência ou neutralidade dos estímulos flanqueadores (os estímulos ao redor do estímulo central). Programa é composto por instruções, um loop de tentativas que se repete 60 vezes (3 tentativas por repetição, totalizando 180 tentativas). Após as 180 tentativas iniciais, uma tela de pausa para descanso é apresentada ao participante. A seguir, mais 180 tentativas são realizadas. Por fim, a tarefa é encerrada, após a realização de 720 tentativas. 
+
+Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.

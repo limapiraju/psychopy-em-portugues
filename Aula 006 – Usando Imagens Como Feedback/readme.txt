@@ -1,0 +1,3 @@
+﻿Programa simples em que participante deve com as setas esquerda ou direita do teclado quando os números são pares ou ímpares, respectivamente. Programa é usado para ilustrar como usar imagens como feedbacks. Se participante acerta, um rosto verde sorrindo aparece na tela. Se o participante erra, um rosto vermelho triste aparece na tela. Implementação do programa pode ser vista no link a seguir (https://www.youtube.com/watch?v=0SWTs_rcKNA). 
+
+Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.

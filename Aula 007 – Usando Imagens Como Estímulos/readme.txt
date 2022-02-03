@@ -1,0 +1,3 @@
+﻿Programa simples usando os fribbles, estímulos visuais de difícil nomeação e que se parecem com animais em suas formas (Barry et al., 2014; ver arquivo em PDF de mesmo nome na pasta). Tarefa envolve a comparação de dois fribbles apresentados sequencialmente. Participante deve julgar se fribbles são iguais ou diferentes. Fribbles podem ser apresentados de forma rotacionada ao longo das tentativas. A tarefa demonstra como o controle da apresentação e da orientação de estímulos visuais pode ser facilmente controlada via planilha do Excel. A implementação do programa pode ser vista no link a seguir (https://www.youtube.com/watch?v=yuwGdoYzpo). 
+
+Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.
