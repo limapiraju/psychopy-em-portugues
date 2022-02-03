@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.2.2">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="False" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="norm" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[900, 600]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[-1.000,-1.000,-1.000]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="item_randomization" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="study">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="# Gera lista com vinte 0s e vinte 1s (0 = Arial, 1 = Sans Forgetica)&amp;#10;font_control = [0, 1] * 20&amp;#10;&amp;#10;# Cria um dicionário que mapeia chaves (os pares) e as condições a que eles foram designados&amp;#10;pairs = dict()&amp;#10;&amp;#10;# Nome da fonte&amp;#10;font_name = ''" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="pair = `${swahili}–${portuguese}`;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# Cria string que será apresentada na tela&amp;#10;pair = f&quot;{swahili}–{portuguese}&quot;&amp;#10;&amp;#10;&quot;mbwa–cachorro&quot;&amp;#10;# Embaralha a lista font_control e faz o pareamento de uma dada condição com um dado par&amp;#10;shuffle(font_control)&amp;#10;pairs[pair] = font_control.pop()&amp;#10;&amp;#10;# Testa se o valor do par é 0 (Arial) ou 1 (Sans Forgetica)&amp;#10;if pairs[pair] == 0:&amp;#10;    font_name = 'Arial'&amp;#10;elif pairs[pair] == 1:&amp;#10;    font_name = 'Sans Forgetica'&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="# Salva as variáveis importantes no arquivo de saídas&amp;#10;thisExp.addData(&quot;word_pair&quot;, pair)&amp;#10;thisExp.addData(&quot;font_name&quot;, font_name)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="word_pair">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="set every repeat" val="$font_name" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.25" valType="code"/>
+        <Param name="name" updates="None" val="word_pair" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$pair" valType="extendedStr"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instruction">
+      <TextComponent name="instr_msg">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Times New Roman" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="instr_msg" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Pressione [BARRA DE ESPAÇO] para continuar." valType="extendedStr"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="instr_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="instr_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="thansk_msg">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Times New Roman" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="thansk_msg" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Tarefa encerrada!&amp;#10;&amp;#10;Obrigado por sua participação!" valType="extendedStr"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="study_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('pair_id', 1), ('swahili', 'ladha'), ('portuguese', 'sabor')]), OrderedDict([('pair_id', 2), ('swahili', 'hadithi'), ('portuguese', 'história')]), OrderedDict([('pair_id', 3), ('swahili', 'utenzi'), ('portuguese', 'poema')]), OrderedDict([('pair_id', 4), ('swahili', 'jeraha'), ('portuguese', 'ferida')]), OrderedDict([('pair_id', 5), ('swahili', 'handaki'), ('portuguese', 'trincheira')]), OrderedDict([('pair_id', 6), ('swahili', 'ankra'), ('portuguese', 'fatura')]), OrderedDict([('pair_id', 7), ('swahili', 'samadi'), ('portuguese', 'estrume')]), OrderedDict([('pair_id', 8), ('swahili', 'ambo'), ('portuguese', 'cola')]), OrderedDict([('pair_id', 9), ('swahili', 'bahasha'), ('portuguese', 'envelope')]), OrderedDict([('pair_id', 10), ('swahili', 'lango'), ('portuguese', 'portão')]), OrderedDict([('pair_id', 11), ('swahili', 'roho'), ('portuguese', 'alma')]), OrderedDict([('pair_id', 12), ('swahili', 'chama'), ('portuguese', 'sociedade')]), OrderedDict([('pair_id', 13), ('swahili', 'wasaa'), ('portuguese', 'lazer')]), OrderedDict([('pair_id', 14), ('swahili', 'dafina'), ('portuguese', 'tesouro')]), OrderedDict([('pair_id', 15), ('swahili', 'malkia'), ('portuguese', 'rainha')]), OrderedDict([('pair_id', 16), ('swahili', 'buu'), ('portuguese', 'larva')]), OrderedDict([('pair_id', 17), ('swahili', 'chura'), ('portuguese', 'sapo')]), OrderedDict([('pair_id', 18), ('swahili', 'nafaka'), ('portuguese', 'milho')]), OrderedDict([('pair_id', 19), ('swahili', 'godoro'), ('portuguese', 'colchão')]), OrderedDict([('pair_id', 20), ('swahili', 'nyanya'), ('portuguese', 'tomate')]), OrderedDict([('pair_id', 21), ('swahili', 'inda'), ('portuguese', 'malícia')]), OrderedDict([('pair_id', 22), ('swahili', 'iktisadi'), ('portuguese', 'economia')]), OrderedDict([('pair_id', 23), ('swahili', 'yamini'), ('portuguese', 'juramento')]), OrderedDict([('pair_id', 24), ('swahili', 'hamira'), ('portuguese', 'levedura')]), OrderedDict([('pair_id', 25), ('swahili', 'ruba'), ('portuguese', 'sanguessuga')]), OrderedDict([('pair_id', 26), ('swahili', 'hariri'), ('portuguese', 'seda')]), OrderedDict([('pair_id', 27), ('swahili', 'lozi'), ('portuguese', 'amêndoa')]), OrderedDict([('pair_id', 28), ('swahili', 'ziwa'), ('portuguese', 'lago')]), OrderedDict([('pair_id', 29), ('swahili', 'bustani'), ('portuguese', 'jardim')]), OrderedDict([('pair_id', 30), ('swahili', 'nanga'), ('portuguese', 'âncora')]), OrderedDict([('pair_id', 31), ('swahili', 'elimu'), ('portuguese', 'ciência')]), OrderedDict([('pair_id', 32), ('swahili', 'nabii'), ('portuguese', 'profeta')]), OrderedDict([('pair_id', 33), ('swahili', 'punda'), ('portuguese', 'burro')]), OrderedDict([('pair_id', 34), ('swahili', 'usingizi'), ('portuguese', 'sono')]), OrderedDict([('pair_id', 35), ('swahili', 'wingu'), ('portuguese', 'nuvem')]), OrderedDict([('pair_id', 36), ('swahili', 'lulu'), ('portuguese', 'pérola')]), OrderedDict([('pair_id', 37), ('swahili', 'pipa'), ('portuguese', 'barril')]), OrderedDict([('pair_id', 38), ('swahili', 'goti'), ('portuguese', 'joelho')]), OrderedDict([('pair_id', 39), ('swahili', 'mbwa'), ('portuguese', 'cachorro')]), OrderedDict([('pair_id', 40), ('swahili', 'pombe'), ('portuguese', 'cerveja')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="word_pairs.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="study_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="study"/>
+    <LoopTerminator name="study_trials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>

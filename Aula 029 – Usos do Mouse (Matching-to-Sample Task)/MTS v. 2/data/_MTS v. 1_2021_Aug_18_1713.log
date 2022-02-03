@@ -1,0 +1,184 @@
+3.8767 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+24.0821 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000EE20783DA0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000EE2034EC50>, multiSample=False, name='window1', numSamples=2, pos=[233.0, 84.0], screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+24.0826 	EXP 	window1: mouseVisible = True
+24.0828 	EXP 	window1: recordFrameIntervals = False
+24.4153 	EXP 	window1: recordFrameIntervals = True
+24.7842 	EXP 	window1: recordFrameIntervals = False
+25.2372 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Pressione [BARRA DE ESPAÇO] para continuar', units='norm', win=Window(...), wrapWidth=1.8)
+25.2890 	EXP 	Created sample = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='sample', opacity=1.0, ori=0, pos=array([0.  , 0.25]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1.8)
+25.2980 	EXP 	Created comparison1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='comparison1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+25.3053 	EXP 	Created comparison2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='comparison2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+25.3123 	EXP 	Created comparison3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='comparison3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+25.3125 	EXP 	window1: mouseVisible = True
+25.3230 	EXP 	Created sample_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='sample_2', opacity=1.0, ori=0, pos=array([0.  , 0.25]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1.8)
+25.3312 	EXP 	Created comparison1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='comparison1_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+25.3398 	EXP 	Created comparison2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='comparison2_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+25.3478 	EXP 	Created comparison3_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='comparison3_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+25.3536 	EXP 	Created feedback_stim = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-5.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=7, name='feedback_stim', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+25.4096 	EXP 	Created feedback_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+25.4606 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+25.5209 	EXP 	instr_msg: autoDraw = True
+31.0206 	EXP 	Imported stim.xlsx as conditions, 12 conditions, 3 params
+31.0219 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+31.0229 	EXP 	New trial (rep=0, index=0): OrderedDict([('sample_stim', 'scissors'), ('correct_response', '197. scissors.jpg'), ('incorrect_responses', ['8. arrow.jpg', '30. book.jpg', '60. clock.jpg', '83. ear.jpg', '91. flower.jpg', '121. horse.jpg', '146. moon.jpg', '166. pear.jpg', '187. ring.jpg', '241. tree.jpg', '255. whistle.jpg'])])
+31.0504 	DATA 	Keypress: space
+31.0830 	EXP 	instr_msg: autoDraw = False
+31.0830 	EXP 	sample: text = 'scissors'
+31.0830 	EXP 	comparison1: pos = array([-0.6, -0.5])
+31.0830 	EXP 	comparison2: pos = array([ 0.6, -0.5])
+31.0830 	EXP 	comparison3: pos = array([ 0. , -0.5])
+31.5519 	EXP 	sample: autoDraw = True
+33.5803 	EXP 	comparison1: autoDraw = True
+33.5803 	EXP 	comparison2: autoDraw = True
+33.5803 	EXP 	comparison3: autoDraw = True
+162.6230 	DATA 	Mouse: Left button down, pos=(204,184)
+163.0030 	DATA 	Mouse:  Left button up, pos=(204,184)
+163.0342 	EXP 	sample: autoDraw = False
+163.0342 	EXP 	comparison1: autoDraw = False
+163.0342 	EXP 	comparison2: autoDraw = False
+163.0342 	EXP 	comparison3: autoDraw = False
+163.0342 	EXP 	sample_2: text = 'scissors'
+163.0342 	EXP 	comparison1_2: pos = array([-0.6, -0.5])
+163.0342 	EXP 	comparison1_2: image = '197. scissors.jpg'
+163.0342 	EXP 	comparison2_2: pos = array([ 0.6, -0.5])
+163.0342 	EXP 	comparison2_2: image = '241. tree.jpg'
+163.0342 	EXP 	comparison3_2: pos = array([ 0. , -0.5])
+163.0342 	EXP 	comparison3_2: image = '121. horse.jpg'
+163.0342 	EXP 	feedback_stim: pos = array([-0.6, -0.5])
+163.0342 	EXP 	feedback_stim: lineColor = 'green (named)'
+163.0342 	EXP 	feedback_msg: color = 'green (named)'
+163.0342 	EXP 	feedback_msg: text = 'Correto!'
+163.0342 	EXP 	sample_2: autoDraw = True
+163.0342 	EXP 	comparison1_2: autoDraw = True
+163.0342 	EXP 	comparison2_2: autoDraw = True
+163.0342 	EXP 	comparison3_2: autoDraw = True
+163.0342 	EXP 	feedback_stim: autoDraw = True
+163.0342 	EXP 	feedback_msg: autoDraw = True
+165.6562 	EXP 	New trial (rep=0, index=1): OrderedDict([('sample_stim', 'book'), ('correct_response', '30. book.jpg'), ('incorrect_responses', ['8. arrow.jpg', '60. clock.jpg', '83. ear.jpg', '91. flower.jpg', '121. horse.jpg', '146. moon.jpg', '166. pear.jpg', '187. ring.jpg', '197. scissors.jpg', '241. tree.jpg', '255. whistle.jpg'])])
+165.7134 	EXP 	sample_2: autoDraw = False
+165.7134 	EXP 	comparison1_2: autoDraw = False
+165.7134 	EXP 	comparison2_2: autoDraw = False
+165.7134 	EXP 	comparison3_2: autoDraw = False
+165.7134 	EXP 	feedback_stim: autoDraw = False
+165.7134 	EXP 	feedback_msg: autoDraw = False
+165.7134 	EXP 	sample: text = 'book'
+165.7134 	EXP 	comparison1: pos = array([ 0.6, -0.5])
+165.7134 	EXP 	comparison2: pos = array([ 0. , -0.5])
+165.7134 	EXP 	comparison3: pos = array([-0.6, -0.5])
+166.1819 	EXP 	sample: autoDraw = True
+168.2281 	EXP 	comparison1: autoDraw = True
+168.2281 	EXP 	comparison2: autoDraw = True
+168.2281 	EXP 	comparison3: autoDraw = True
+200.2843 	DATA 	Mouse: Left button down, pos=(207,160)
+200.4540 	DATA 	Mouse:  Left button up, pos=(207,160)
+200.4767 	EXP 	sample: autoDraw = False
+200.4767 	EXP 	comparison1: autoDraw = False
+200.4767 	EXP 	comparison2: autoDraw = False
+200.4767 	EXP 	comparison3: autoDraw = False
+200.4767 	EXP 	sample_2: text = 'book'
+200.4767 	EXP 	comparison1_2: pos = array([ 0.6, -0.5])
+200.4767 	EXP 	comparison1_2: image = '30. book.jpg'
+200.4767 	EXP 	comparison2_2: pos = array([ 0. , -0.5])
+200.4767 	EXP 	comparison2_2: image = '91. flower.jpg'
+200.4767 	EXP 	comparison3_2: pos = array([-0.6, -0.5])
+200.4767 	EXP 	comparison3_2: image = '83. ear.jpg'
+200.4767 	EXP 	feedback_stim: pos = array([ 0.6, -0.5])
+200.4767 	EXP 	feedback_stim: lineColor = 'red (named)'
+200.4767 	EXP 	feedback_msg: color = 'red (named)'
+200.4767 	EXP 	feedback_msg: text = 'Incorreto!'
+200.4767 	EXP 	sample_2: autoDraw = True
+200.4767 	EXP 	comparison1_2: autoDraw = True
+200.4767 	EXP 	comparison2_2: autoDraw = True
+200.4767 	EXP 	comparison3_2: autoDraw = True
+200.4767 	EXP 	feedback_stim: autoDraw = True
+200.4767 	EXP 	feedback_msg: autoDraw = True
+203.3289 	EXP 	New trial (rep=0, index=2): OrderedDict([('sample_stim', 'ear'), ('correct_response', '83. ear.jpg'), ('incorrect_responses', ['8. arrow.jpg', '30. book.jpg', '60. clock.jpg', '91. flower.jpg', '121. horse.jpg', '146. moon.jpg', '166. pear.jpg', '187. ring.jpg', '197. scissors.jpg', '241. tree.jpg', '255. whistle.jpg'])])
+203.3743 	EXP 	sample_2: autoDraw = False
+203.3743 	EXP 	comparison1_2: autoDraw = False
+203.3743 	EXP 	comparison2_2: autoDraw = False
+203.3743 	EXP 	comparison3_2: autoDraw = False
+203.3743 	EXP 	feedback_stim: autoDraw = False
+203.3743 	EXP 	feedback_msg: autoDraw = False
+203.3743 	EXP 	sample: text = 'ear'
+203.3743 	EXP 	comparison1: pos = array([-0.6, -0.5])
+203.3743 	EXP 	comparison2: pos = array([ 0. , -0.5])
+203.3743 	EXP 	comparison3: pos = array([ 0.6, -0.5])
+203.8434 	EXP 	sample: autoDraw = True
+205.8718 	EXP 	comparison1: autoDraw = True
+205.8718 	EXP 	comparison2: autoDraw = True
+205.8718 	EXP 	comparison3: autoDraw = True
+208.8113 	DATA 	Mouse: Left button down, pos=(162,146)
+208.9594 	DATA 	Mouse:  Left button up, pos=(162,146)
+208.9867 	EXP 	sample: autoDraw = False
+208.9867 	EXP 	comparison1: autoDraw = False
+208.9867 	EXP 	comparison2: autoDraw = False
+208.9867 	EXP 	comparison3: autoDraw = False
+208.9867 	EXP 	sample_2: text = 'ear'
+208.9867 	EXP 	comparison1_2: pos = array([-0.6, -0.5])
+208.9867 	EXP 	comparison1_2: image = '83. ear.jpg'
+208.9867 	EXP 	comparison2_2: pos = array([ 0. , -0.5])
+208.9867 	EXP 	comparison2_2: image = '241. tree.jpg'
+208.9867 	EXP 	comparison3_2: pos = array([ 0.6, -0.5])
+208.9867 	EXP 	comparison3_2: image = '166. pear.jpg'
+208.9867 	EXP 	feedback_stim: pos = array([-0.6, -0.5])
+208.9867 	EXP 	feedback_stim: lineColor = 'green (named)'
+208.9867 	EXP 	feedback_msg: color = 'green (named)'
+208.9867 	EXP 	feedback_msg: text = 'Correto!'
+208.9867 	EXP 	sample_2: autoDraw = True
+208.9867 	EXP 	comparison1_2: autoDraw = True
+208.9867 	EXP 	comparison2_2: autoDraw = True
+208.9867 	EXP 	comparison3_2: autoDraw = True
+208.9867 	EXP 	feedback_stim: autoDraw = True
+208.9867 	EXP 	feedback_msg: autoDraw = True
+211.8405 	EXP 	New trial (rep=0, index=3): OrderedDict([('sample_stim', 'ring'), ('correct_response', '187. ring.jpg'), ('incorrect_responses', ['8. arrow.jpg', '30. book.jpg', '60. clock.jpg', '83. ear.jpg', '91. flower.jpg', '121. horse.jpg', '146. moon.jpg', '166. pear.jpg', '197. scissors.jpg', '241. tree.jpg', '255. whistle.jpg'])])
+211.8851 	EXP 	sample_2: autoDraw = False
+211.8851 	EXP 	comparison1_2: autoDraw = False
+211.8851 	EXP 	comparison2_2: autoDraw = False
+211.8851 	EXP 	comparison3_2: autoDraw = False
+211.8851 	EXP 	feedback_stim: autoDraw = False
+211.8851 	EXP 	feedback_msg: autoDraw = False
+211.8851 	EXP 	sample: text = 'ring'
+211.8851 	EXP 	comparison1: pos = array([ 0.6, -0.5])
+211.8851 	EXP 	comparison2: pos = array([-0.6, -0.5])
+211.8851 	EXP 	comparison3: pos = array([ 0. , -0.5])
+212.3542 	EXP 	sample: autoDraw = True
+214.3999 	EXP 	comparison1: autoDraw = True
+214.3999 	EXP 	comparison2: autoDraw = True
+214.3999 	EXP 	comparison3: autoDraw = True
+217.3558 	DATA 	Mouse: Left button down, pos=(217,175)
+217.4775 	DATA 	Mouse:  Left button up, pos=(217,175)
+217.5143 	EXP 	sample: autoDraw = False
+217.5143 	EXP 	comparison1: autoDraw = False
+217.5143 	EXP 	comparison2: autoDraw = False
+217.5143 	EXP 	comparison3: autoDraw = False
+217.5143 	EXP 	sample_2: text = 'ring'
+217.5143 	EXP 	comparison1_2: pos = array([ 0.6, -0.5])
+217.5143 	EXP 	comparison1_2: image = '187. ring.jpg'
+217.5143 	EXP 	comparison2_2: pos = array([-0.6, -0.5])
+217.5143 	EXP 	comparison2_2: image = '8. arrow.jpg'
+217.5143 	EXP 	comparison3_2: pos = array([ 0. , -0.5])
+217.5143 	EXP 	comparison3_2: image = '166. pear.jpg'
+217.5143 	EXP 	feedback_stim: pos = array([ 0.6, -0.5])
+217.5143 	EXP 	feedback_stim: lineColor = 'red (named)'
+217.5143 	EXP 	feedback_msg: color = 'red (named)'
+217.5143 	EXP 	feedback_msg: text = 'Incorreto!'
+217.5143 	EXP 	sample_2: autoDraw = True
+217.5143 	EXP 	comparison1_2: autoDraw = True
+217.5143 	EXP 	comparison2_2: autoDraw = True
+217.5143 	EXP 	comparison3_2: autoDraw = True
+217.5143 	EXP 	feedback_stim: autoDraw = True
+217.5143 	EXP 	feedback_msg: autoDraw = True
+220.4014 	EXP 	New trial (rep=0, index=4): OrderedDict([('sample_stim', 'tree'), ('correct_response', '241. tree.jpg'), ('incorrect_responses', ['8. arrow.jpg', '30. book.jpg', '60. clock.jpg', '83. ear.jpg', '91. flower.jpg', '121. horse.jpg', '146. moon.jpg', '166. pear.jpg', '187. ring.jpg', '197. scissors.jpg', '255. whistle.jpg'])])
+220.4462 	EXP 	sample_2: autoDraw = False
+220.4462 	EXP 	comparison1_2: autoDraw = False
+220.4462 	EXP 	comparison2_2: autoDraw = False
+220.4462 	EXP 	comparison3_2: autoDraw = False
+220.4462 	EXP 	feedback_stim: autoDraw = False
+220.4462 	EXP 	feedback_msg: autoDraw = False
+220.4462 	EXP 	sample: text = 'tree'
+220.4462 	EXP 	comparison1: pos = array([ 0. , -0.5])
+220.4462 	EXP 	comparison2: pos = array([ 0.6, -0.5])
+220.4462 	EXP 	comparison3: pos = array([-0.6, -0.5])
+220.9151 	EXP 	sample: autoDraw = True
+221.9947 	DATA 	Keypress: escape
+222.2314 	EXP 	window1: mouseVisible = True
