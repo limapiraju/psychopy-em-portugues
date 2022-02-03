@@ -8,4 +8,6 @@ Este repositório contém, portanto, programas de tarefas experimentais a serem 
 
 **Meu site:** https://sites.google.com/view/marcoslima
 
+**Página de *download* gratuito do PsychoPy:** https://www.psychopy.org/download.html
+
 **Peirce et al. (2019):** https://link.springer.com/content/pdf/10.3758/s13428-018-01193-y.pdf
