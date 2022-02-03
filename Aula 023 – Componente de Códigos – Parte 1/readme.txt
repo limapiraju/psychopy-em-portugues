@@ -1,0 +1,1 @@
+﻿Programa implementa problemas matemáticos usando apenas componente de códigos do PsychoPy. A explicação dos detalhes de implementação do programa pode ser vista na Aula 023, no YouTube (https://www.youtube.com/watch?v=1TxPysx4bD). Em caso de dúvidas, entre em contato comigo: lima.piraju@gmail.com.
