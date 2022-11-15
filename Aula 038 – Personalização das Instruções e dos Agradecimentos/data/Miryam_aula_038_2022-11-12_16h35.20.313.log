@@ -1,0 +1,166 @@
+2.9940 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+22.5660 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020F6D541550>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020F16F670D0>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+22.5661 	EXP 	window1: mouseVisible = True
+22.5662 	EXP 	window1: mouseVisible = True
+22.5662 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+22.5662 	EXP 	window1: recordFrameIntervals = False
+22.7317 	EXP 	window1: recordFrameIntervals = True
+22.9157 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+22.9158 	EXP 	window1: recordFrameIntervals = False
+23.1751 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+23.2094 	EXP 	Created instr_button = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='instr_button', opacity=1.0, ori=0.0, pos=array([ 0. , -0.7]), size=array([0.4, 0.4]), texRes=128.0, units='norm', win=Window(...))
+23.2121 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='word', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+23.2159 	EXP 	Created thansk_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thansk_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+23.2173 	EXP 	Created sequence: sequential, trialTypes=1, nReps=999, seed=None
+23.2235 	EXP 	New trial (rep=0, index=0): None
+23.4141 	EXP 	instr_msg: height = 0.1
+23.4141 	EXP 	instr_msg: height = 0.1
+23.4141 	EXP 	instr_msg: height = 0.1
+23.4141 	EXP 	instr_msg: text = 'Olá, Miryam! Começaremos agora a primeira sessão desta pesquisa.'
+23.4141 	EXP 	instr_button: image = 'buttons1.jpg'
+23.4141 	EXP 	instr_msg: autoDraw = True
+23.4141 	EXP 	instr_button: autoDraw = True
+27.1360 	EXP 	New trial (rep=1, index=0): None
+27.2227 	DATA 	Keypress: right
+27.2311 	EXP 	instr_msg: autoDraw = False
+27.2311 	EXP 	instr_button: autoDraw = False
+27.2311 	EXP 	instr_msg: height = 0.1
+27.2311 	EXP 	instr_msg: height = 0.1
+27.2311 	EXP 	instr_msg: height = 0.1
+27.2311 	EXP 	instr_msg: text = 'Segunda tela de instruções'
+27.2311 	EXP 	instr_button: image = 'buttons2.jpg'
+27.2311 	EXP 	instr_msg: autoDraw = True
+27.2311 	EXP 	instr_button: autoDraw = True
+27.5671 	DATA 	Keypress: left
+27.5848 	EXP 	New trial (rep=2, index=0): None
+27.6145 	EXP 	instr_msg: autoDraw = False
+27.6145 	EXP 	instr_button: autoDraw = False
+27.6145 	EXP 	instr_msg: height = 0.1
+27.6145 	EXP 	instr_msg: height = 0.1
+27.6145 	EXP 	instr_msg: height = 0.1
+27.6145 	EXP 	instr_msg: text = 'Olá, Miryam! Começaremos agora a primeira sessão desta pesquisa.'
+27.6145 	EXP 	instr_button: image = 'buttons1.jpg'
+27.6145 	EXP 	instr_msg: autoDraw = True
+27.6145 	EXP 	instr_button: autoDraw = True
+27.7697 	EXP 	New trial (rep=3, index=0): None
+27.7732 	DATA 	Keypress: left
+27.7818 	EXP 	instr_msg: autoDraw = False
+27.7818 	EXP 	instr_button: autoDraw = False
+27.7818 	EXP 	instr_msg: text = 'Olá, Miryam! Começaremos agora a primeira sessão desta pesquisa.'
+27.7818 	EXP 	instr_button: image = 'buttons1.jpg'
+27.7818 	EXP 	instr_msg: autoDraw = True
+27.7818 	EXP 	instr_button: autoDraw = True
+28.1015 	EXP 	New trial (rep=4, index=0): None
+28.1089 	DATA 	Keypress: right
+28.1306 	EXP 	instr_msg: autoDraw = False
+28.1306 	EXP 	instr_button: autoDraw = False
+28.1306 	EXP 	instr_msg: height = 0.1
+28.1306 	EXP 	instr_msg: height = 0.1
+28.1306 	EXP 	instr_msg: height = 0.1
+28.1306 	EXP 	instr_msg: text = 'Segunda tela de instruções'
+28.1306 	EXP 	instr_button: image = 'buttons2.jpg'
+28.1306 	EXP 	instr_msg: autoDraw = True
+28.1306 	EXP 	instr_button: autoDraw = True
+28.3829 	DATA 	Keypress: left
+28.4011 	EXP 	New trial (rep=5, index=0): None
+28.4146 	EXP 	instr_msg: autoDraw = False
+28.4146 	EXP 	instr_button: autoDraw = False
+28.4146 	EXP 	instr_msg: height = 0.1
+28.4146 	EXP 	instr_msg: height = 0.1
+28.4146 	EXP 	instr_msg: height = 0.1
+28.4146 	EXP 	instr_msg: text = 'Olá, Miryam! Começaremos agora a primeira sessão desta pesquisa.'
+28.4146 	EXP 	instr_button: image = 'buttons1.jpg'
+28.4146 	EXP 	instr_msg: autoDraw = True
+28.4146 	EXP 	instr_button: autoDraw = True
+28.9345 	EXP 	New trial (rep=6, index=0): None
+28.9436 	DATA 	Keypress: right
+28.9640 	EXP 	instr_msg: autoDraw = False
+28.9640 	EXP 	instr_button: autoDraw = False
+28.9640 	EXP 	instr_msg: height = 0.1
+28.9640 	EXP 	instr_msg: height = 0.1
+28.9640 	EXP 	instr_msg: height = 0.1
+28.9640 	EXP 	instr_msg: text = 'Segunda tela de instruções'
+28.9640 	EXP 	instr_button: image = 'buttons2.jpg'
+28.9640 	EXP 	instr_msg: autoDraw = True
+28.9640 	EXP 	instr_button: autoDraw = True
+29.3210 	EXP 	New trial (rep=7, index=0): None
+29.3371 	DATA 	Keypress: right
+29.3478 	EXP 	instr_msg: autoDraw = False
+29.3478 	EXP 	instr_button: autoDraw = False
+29.3478 	EXP 	instr_msg: height = 0.1
+29.3478 	EXP 	instr_msg: height = 0.1
+29.3478 	EXP 	instr_msg: height = 0.1
+29.3478 	EXP 	instr_msg: text = 'Terceira tela de instruções'
+29.3478 	EXP 	instr_button: image = 'buttons2.jpg'
+29.3478 	EXP 	instr_msg: autoDraw = True
+29.3478 	EXP 	instr_button: autoDraw = True
+29.5040 	EXP 	New trial (rep=8, index=0): None
+29.5155 	DATA 	Keypress: right
+29.5309 	EXP 	instr_msg: autoDraw = False
+29.5309 	EXP 	instr_button: autoDraw = False
+29.5309 	EXP 	instr_msg: height = 0.1
+29.5309 	EXP 	instr_msg: height = 0.1
+29.5309 	EXP 	instr_msg: height = 0.1
+29.5309 	EXP 	instr_msg: text = 'Quarta tela de instruções'
+29.5309 	EXP 	instr_button: image = 'buttons2.jpg'
+29.5309 	EXP 	instr_msg: autoDraw = True
+29.5309 	EXP 	instr_button: autoDraw = True
+29.6687 	EXP 	New trial (rep=9, index=0): None
+29.6752 	DATA 	Keypress: right
+29.6974 	EXP 	instr_msg: autoDraw = False
+29.6974 	EXP 	instr_button: autoDraw = False
+29.6974 	EXP 	instr_msg: height = 0.1
+29.6974 	EXP 	instr_msg: height = 0.1
+29.6974 	EXP 	instr_msg: height = 0.1
+29.6974 	EXP 	instr_msg: text = 'Quinta tela de instruções'
+29.6974 	EXP 	instr_button: image = 'buttons2.jpg'
+29.6974 	EXP 	instr_msg: autoDraw = True
+29.6974 	EXP 	instr_button: autoDraw = True
+29.8658 	EXP 	Imported words.xlsx as conditions, 5 conditions, 1 params
+29.8674 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+29.8679 	EXP 	New trial (rep=0, index=0): {'portuguese': 'palavra3'}
+29.8854 	DATA 	Keypress: right
+29.9082 	EXP 	instr_msg: autoDraw = False
+29.9082 	EXP 	instr_button: autoDraw = False
+29.9082 	EXP 	word: height = 0.25
+29.9082 	EXP 	word: height = 0.25
+29.9082 	EXP 	word: height = 0.25
+29.9082 	EXP 	word: text = 'palavra3'
+29.9082 	EXP 	word: autoDraw = True
+30.0337 	DATA 	Keypress: right
+31.8649 	EXP 	New trial (rep=0, index=1): {'portuguese': 'palavra1'}
+31.8815 	EXP 	word: autoDraw = False
+31.8815 	EXP 	word: height = 0.25
+31.8815 	EXP 	word: height = 0.25
+31.8815 	EXP 	word: height = 0.25
+31.8815 	EXP 	word: text = 'palavra1'
+31.8815 	EXP 	word: autoDraw = True
+33.8658 	EXP 	New trial (rep=0, index=2): {'portuguese': 'palavra5'}
+33.8812 	EXP 	word: autoDraw = False
+33.8812 	EXP 	word: height = 0.25
+33.8812 	EXP 	word: height = 0.25
+33.8812 	EXP 	word: height = 0.25
+33.8812 	EXP 	word: text = 'palavra5'
+33.8812 	EXP 	word: autoDraw = True
+35.8655 	EXP 	New trial (rep=0, index=3): {'portuguese': 'palavra4'}
+35.8809 	EXP 	word: autoDraw = False
+35.8809 	EXP 	word: height = 0.25
+35.8809 	EXP 	word: height = 0.25
+35.8809 	EXP 	word: height = 0.25
+35.8809 	EXP 	word: text = 'palavra4'
+35.8809 	EXP 	word: autoDraw = True
+37.8654 	EXP 	New trial (rep=0, index=4): {'portuguese': 'palavra2'}
+37.8808 	EXP 	word: autoDraw = False
+37.8808 	EXP 	word: height = 0.25
+37.8808 	EXP 	word: height = 0.25
+37.8808 	EXP 	word: height = 0.25
+37.8808 	EXP 	word: text = 'palavra2'
+37.8808 	EXP 	word: autoDraw = True
+39.8975 	EXP 	word: autoDraw = False
+39.8975 	EXP 	thansk_msg: height = 0.1
+39.8975 	EXP 	thansk_msg: height = 0.1
+39.8975 	EXP 	thansk_msg: height = 0.1
+39.8975 	EXP 	thansk_msg: text = 'Miryam, as tarefas de  hoje terminaram!\n\nObrigado por sua participação!'
+39.8975 	EXP 	thansk_msg: autoDraw = True
+44.8814 	EXP 	thansk_msg: autoDraw = False
+45.0422 	EXP 	window1: mouseVisible = True

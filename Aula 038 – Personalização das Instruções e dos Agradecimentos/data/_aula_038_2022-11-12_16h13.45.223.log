@@ -1,0 +1,32 @@
+3.5050 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.4508 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002D1F7060580>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002D1A1B03FA0>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.4509 	EXP 	window1: mouseVisible = True
+14.4509 	EXP 	window1: mouseVisible = True
+14.4509 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.4510 	EXP 	window1: recordFrameIntervals = False
+14.6132 	EXP 	window1: recordFrameIntervals = True
+14.7954 	EXP 	Screen (0) actual frame rate measured at 61.31Hz
+14.7955 	EXP 	window1: recordFrameIntervals = False
+15.2118 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+15.2136 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='word', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+15.2969 	EXP 	Created thansk_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thansk_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+15.3314 	EXP 	instr_msg: autoDraw = True
+75.6126 	EXP 	Imported words.xlsx as conditions, 5 conditions, 1 params
+75.6154 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+75.6157 	EXP 	New trial (rep=0, index=0): {'portuguese': 'palavra2'}
+75.6367 	DATA 	Keypress: space
+75.6602 	EXP 	instr_msg: autoDraw = False
+75.6602 	EXP 	word: height = 0.25
+75.6602 	EXP 	word: height = 0.25
+75.6602 	EXP 	word: height = 0.25
+75.6602 	EXP 	word: text = 'palavra2'
+75.6602 	EXP 	word: autoDraw = True
+80.6110 	EXP 	New trial (rep=0, index=1): {'portuguese': 'palavra5'}
+80.6224 	EXP 	word: autoDraw = False
+80.6224 	EXP 	word: height = 0.25
+80.6224 	EXP 	word: height = 0.25
+80.6224 	EXP 	word: height = 0.25
+80.6224 	EXP 	word: text = 'palavra5'
+80.6224 	EXP 	word: autoDraw = True
+82.6314 	DATA 	Keypress: escape
+83.6752 	EXP 	window1: mouseVisible = True

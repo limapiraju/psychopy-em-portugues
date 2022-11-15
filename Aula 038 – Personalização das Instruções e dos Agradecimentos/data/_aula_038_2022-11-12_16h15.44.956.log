@@ -1,0 +1,67 @@
+3.0291 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+36.8706 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+36.8712 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001871FE415E0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000187467B7070>, multiSample=False, name='window1', numSamples=2, pos=(356, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+36.8713 	EXP 	window1: mouseVisible = True
+36.8714 	EXP 	window1: mouseVisible = True
+36.8714 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+36.8714 	EXP 	window1: recordFrameIntervals = False
+37.0361 	EXP 	window1: recordFrameIntervals = True
+37.1038 	WARNING 	t of last frame was 21.48ms (=1/46)
+37.1708 	WARNING 	t of last frame was 21.65ms (=1/46)
+37.2362 	WARNING 	t of last frame was 21.71ms (=1/46)
+37.3037 	WARNING 	t of last frame was 22.16ms (=1/45)
+37.3709 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+38.7028 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+39.1075 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+39.1108 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='word', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+39.2150 	EXP 	Created thansk_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thansk_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+39.2439 	EXP 	instr_msg: autoDraw = True
+70.3623 	EXP 	Imported words.xlsx as conditions, 5 conditions, 1 params
+70.3631 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+70.3635 	EXP 	New trial (rep=0, index=0): {'portuguese': 'palavra4'}
+70.3798 	DATA 	Keypress: space
+70.3984 	EXP 	instr_msg: autoDraw = False
+70.3984 	EXP 	word: height = 0.25
+70.3984 	EXP 	word: height = 0.25
+70.3984 	EXP 	word: height = 0.25
+70.3984 	EXP 	word: text = 'palavra4'
+70.3984 	EXP 	word: autoDraw = True
+72.3662 	EXP 	New trial (rep=0, index=1): {'portuguese': 'palavra2'}
+72.3824 	EXP 	word: autoDraw = False
+72.3824 	EXP 	word: height = 0.25
+72.3824 	EXP 	word: height = 0.25
+72.3824 	EXP 	word: height = 0.25
+72.3824 	EXP 	word: text = 'palavra2'
+72.3824 	EXP 	word: autoDraw = True
+74.3660 	EXP 	New trial (rep=0, index=2): {'portuguese': 'palavra5'}
+74.3816 	EXP 	word: autoDraw = False
+74.3816 	EXP 	word: height = 0.25
+74.3816 	EXP 	word: height = 0.25
+74.3816 	EXP 	word: height = 0.25
+74.3816 	EXP 	word: text = 'palavra5'
+74.3816 	EXP 	word: autoDraw = True
+76.3662 	EXP 	New trial (rep=0, index=3): {'portuguese': 'palavra3'}
+76.3820 	EXP 	word: autoDraw = False
+76.3820 	EXP 	word: height = 0.25
+76.3820 	EXP 	word: height = 0.25
+76.3820 	EXP 	word: height = 0.25
+76.3820 	EXP 	word: text = 'palavra3'
+76.3820 	EXP 	word: autoDraw = True
+78.3658 	EXP 	New trial (rep=0, index=4): {'portuguese': 'palavra1'}
+78.3818 	EXP 	word: autoDraw = False
+78.3818 	EXP 	word: height = 0.25
+78.3818 	EXP 	word: height = 0.25
+78.3818 	EXP 	word: height = 0.25
+78.3818 	EXP 	word: text = 'palavra1'
+78.3818 	EXP 	word: autoDraw = True
+80.3661 	EXP 	word: autoDraw = False
+80.3661 	EXP 	thansk_msg: autoDraw = True
+85.3662 	EXP 	thansk_msg: autoDraw = False
+85.3662 	EXP 	thansk_msg: autoDraw = False
+85.5664 	EXP 	window1: mouseVisible = True

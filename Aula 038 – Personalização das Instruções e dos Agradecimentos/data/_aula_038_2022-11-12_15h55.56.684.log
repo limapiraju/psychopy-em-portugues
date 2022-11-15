@@ -1,0 +1,23 @@
+21.6055 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+74.1923 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022CCC381550>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022CF579A7C0>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+74.1924 	EXP 	window1: mouseVisible = True
+74.1924 	EXP 	window1: mouseVisible = True
+74.1924 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+74.1924 	EXP 	window1: recordFrameIntervals = False
+74.3532 	EXP 	window1: recordFrameIntervals = True
+74.3881 	WARNING 	t of last frame was 20.68ms (=1/48)
+74.4544 	WARNING 	t of last frame was 20.39ms (=1/49)
+74.6550 	WARNING 	t of last frame was 20.63ms (=1/48)
+74.7548 	WARNING 	t of last frame was 20.60ms (=1/48)
+74.8387 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+75.0569 	EXP 	Screen (0) actual frame rate measured at 58.85Hz
+75.0569 	EXP 	window1: recordFrameIntervals = False
+75.2819 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+79.1252 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+79.1274 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='word', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.1395 	EXP 	Created thansk_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thansk_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+79.1587 	EXP 	instr_msg: autoDraw = True
+115.9184 	EXP 	Imported words.xlsx as conditions, 5 conditions, 1 params
+115.9205 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+115.9211 	EXP 	New trial (rep=0, index=0): {'portuguese': 'palavra5'}
+116.0540 	EXP 	window1: mouseVisible = True
