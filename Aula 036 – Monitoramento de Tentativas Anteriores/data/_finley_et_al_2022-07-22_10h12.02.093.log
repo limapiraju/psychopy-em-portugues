@@ -1,0 +1,615 @@
+4.0978 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+18.1947 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C73C8513D0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C766805130>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.1949 	EXP 	window1: mouseVisible = True
+18.1950 	EXP 	window1: mouseVisible = True
+18.1950 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.1950 	EXP 	window1: recordFrameIntervals = False
+18.3598 	EXP 	window1: recordFrameIntervals = True
+18.5437 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+18.5437 	EXP 	window1: recordFrameIntervals = False
+18.7000 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+22.3397 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+22.3425 	EXP 	Created cue_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_practice', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+22.3452 	EXP 	Created target_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_practice', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+22.3481 	EXP 	Created condition_name = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='condition_name', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+22.3508 	EXP 	Created cue_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_final', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+22.3633 	EXP 	Created target_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_final', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='_ _ _ _ _', units='norm', win=Window(...), wrapWidth=1.8)
+22.3978 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+22.4185 	EXP 	instr_msg: autoDraw = True
+161.5758 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+161.5763 	EXP 	New trial (rep=0, index=0): None
+161.6130 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+161.6144 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=805809
+161.6150 	EXP 	New trial (rep=0, index=0): {'English': 'heaven', 'Portuguese': 'paraíso', 'Inupiaq': 'qixak'}
+161.6165 	EXP 	New trial (rep=0, index=1): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+161.6176 	EXP 	New trial (rep=0, index=2): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+161.6189 	EXP 	New trial (rep=0, index=3): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+161.6212 	EXP 	New trial (rep=0, index=4): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+161.6228 	EXP 	New trial (rep=0, index=5): {'English': 'tea', 'Portuguese': 'chá', 'Inupiaq': 'saiyu'}
+161.6246 	EXP 	New trial (rep=0, index=6): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+161.6263 	EXP 	New trial (rep=0, index=7): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+161.6279 	EXP 	New trial (rep=0, index=8): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+161.6289 	EXP 	New trial (rep=0, index=9): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+161.6298 	EXP 	New trial (rep=0, index=10): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+161.6310 	EXP 	New trial (rep=0, index=11): {'English': 'cliff', 'Portuguese': 'penhasco', 'Inupiaq': 'ikpik'}
+161.6324 	EXP 	New trial (rep=1, index=0): None
+161.6467 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+161.6476 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=805809
+161.6480 	EXP 	New trial (rep=0, index=0): {'English': 'heaven', 'Portuguese': 'paraíso', 'Inupiaq': 'qixak'}
+161.6489 	EXP 	New trial (rep=0, index=1): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+161.6499 	EXP 	New trial (rep=0, index=2): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+161.6509 	EXP 	New trial (rep=0, index=3): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+161.6523 	EXP 	New trial (rep=0, index=4): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+161.6537 	EXP 	New trial (rep=0, index=5): {'English': 'tea', 'Portuguese': 'chá', 'Inupiaq': 'saiyu'}
+161.6548 	EXP 	New trial (rep=0, index=6): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+161.6556 	EXP 	New trial (rep=0, index=7): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+161.6563 	EXP 	New trial (rep=0, index=8): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+161.6572 	EXP 	New trial (rep=0, index=9): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+161.6580 	EXP 	New trial (rep=0, index=10): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+161.6590 	EXP 	New trial (rep=0, index=11): {'English': 'cliff', 'Portuguese': 'penhasco', 'Inupiaq': 'ikpik'}
+161.6606 	EXP 	New trial (rep=2, index=0): None
+161.6721 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+161.6727 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=805809
+161.6730 	EXP 	New trial (rep=0, index=0): {'English': 'heaven', 'Portuguese': 'paraíso', 'Inupiaq': 'qixak'}
+161.6737 	EXP 	New trial (rep=0, index=1): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+161.6742 	EXP 	New trial (rep=0, index=2): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+161.6747 	EXP 	New trial (rep=0, index=3): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+161.6752 	EXP 	New trial (rep=0, index=4): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+161.6760 	EXP 	New trial (rep=0, index=5): {'English': 'tea', 'Portuguese': 'chá', 'Inupiaq': 'saiyu'}
+161.6770 	EXP 	New trial (rep=0, index=6): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+161.6778 	EXP 	New trial (rep=0, index=7): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+161.6786 	EXP 	New trial (rep=0, index=8): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+161.6793 	EXP 	New trial (rep=0, index=9): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+161.6801 	EXP 	New trial (rep=0, index=10): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+161.6809 	EXP 	New trial (rep=0, index=11): {'English': 'cliff', 'Portuguese': 'penhasco', 'Inupiaq': 'ikpik'}
+161.6830 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+161.6833 	EXP 	New trial (rep=0, index=0): None
+161.6836 	EXP 	Created sequence: random, trialTypes=1, nReps=6, seed=None
+161.6838 	EXP 	New trial (rep=0, index=0): None
+161.6962 	EXP 	Imported word_pairs.xlsx as conditions, 6 conditions, 3 params
+161.6969 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=805809
+161.6973 	EXP 	New trial (rep=0, index=0): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+161.7184 	DATA 	Keypress: space
+161.7332 	EXP 	instr_msg: autoDraw = False
+161.7332 	EXP 	cue_practice: height = 0.2
+161.7332 	EXP 	cue_practice: height = 0.2
+161.7332 	EXP 	cue_practice: height = 0.2
+161.7332 	EXP 	cue_practice: text = 'marca'
+161.7332 	EXP 	target_practice: height = 0.2
+161.7332 	EXP 	target_practice: height = 0.2
+161.7332 	EXP 	target_practice: height = 0.2
+161.7332 	EXP 	target_practice: text = '_ _ _ _ _'
+161.7332 	EXP 	condition_name: height = 0.2
+161.7332 	EXP 	condition_name: height = 0.2
+161.7332 	EXP 	condition_name: height = 0.2
+161.7332 	EXP 	condition_name: text = 'acumulação'
+161.7332 	EXP 	cue_practice: autoDraw = True
+161.7332 	EXP 	target_practice: autoDraw = True
+161.7332 	EXP 	condition_name: autoDraw = True
+164.0267 	EXP 	New trial (rep=0, index=1): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+164.0619 	DATA 	Keypress: space
+164.0660 	EXP 	cue_practice: autoDraw = False
+164.0660 	EXP 	target_practice: autoDraw = False
+164.0660 	EXP 	condition_name: autoDraw = False
+164.0660 	EXP 	cue_practice: height = 0.2
+164.0660 	EXP 	cue_practice: height = 0.2
+164.0660 	EXP 	cue_practice: height = 0.2
+164.0660 	EXP 	cue_practice: text = 'lesma'
+164.0660 	EXP 	target_practice: height = 0.2
+164.0660 	EXP 	target_practice: height = 0.2
+164.0660 	EXP 	target_practice: height = 0.2
+164.0660 	EXP 	target_practice: text = 'u v i x u'
+164.0660 	EXP 	condition_name: height = 0.2
+164.0660 	EXP 	condition_name: height = 0.2
+164.0660 	EXP 	condition_name: height = 0.2
+164.0660 	EXP 	condition_name: text = 'somente estudo'
+164.0660 	EXP 	cue_practice: autoDraw = True
+164.0660 	EXP 	target_practice: autoDraw = True
+164.0660 	EXP 	condition_name: autoDraw = True
+165.6900 	EXP 	New trial (rep=0, index=2): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+165.7124 	DATA 	Keypress: space
+165.7161 	EXP 	cue_practice: autoDraw = False
+165.7161 	EXP 	target_practice: autoDraw = False
+165.7161 	EXP 	condition_name: autoDraw = False
+165.7161 	EXP 	cue_practice: height = 0.2
+165.7161 	EXP 	cue_practice: height = 0.2
+165.7161 	EXP 	cue_practice: height = 0.2
+165.7161 	EXP 	cue_practice: text = 'trenó'
+165.7161 	EXP 	target_practice: height = 0.2
+165.7161 	EXP 	target_practice: height = 0.2
+165.7161 	EXP 	target_practice: height = 0.2
+165.7161 	EXP 	target_practice: text = 'u n i a t'
+165.7161 	EXP 	condition_name: text = 'somente estudo'
+165.7161 	EXP 	cue_practice: autoDraw = True
+165.7161 	EXP 	target_practice: autoDraw = True
+165.7161 	EXP 	condition_name: autoDraw = True
+166.4865 	EXP 	New trial (rep=0, index=3): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+166.5242 	DATA 	Keypress: space
+166.5337 	EXP 	cue_practice: autoDraw = False
+166.5337 	EXP 	target_practice: autoDraw = False
+166.5337 	EXP 	condition_name: autoDraw = False
+166.5337 	EXP 	cue_practice: height = 0.2
+166.5337 	EXP 	cue_practice: height = 0.2
+166.5337 	EXP 	cue_practice: height = 0.2
+166.5337 	EXP 	cue_practice: text = 'pó'
+166.5337 	EXP 	target_practice: height = 0.2
+166.5337 	EXP 	target_practice: height = 0.2
+166.5337 	EXP 	target_practice: height = 0.2
+166.5337 	EXP 	target_practice: text = '_ _ _ _ _'
+166.5337 	EXP 	condition_name: height = 0.2
+166.5337 	EXP 	condition_name: height = 0.2
+166.5337 	EXP 	condition_name: height = 0.2
+166.5337 	EXP 	condition_name: text = 'acumulação'
+166.5337 	EXP 	cue_practice: autoDraw = True
+166.5337 	EXP 	target_practice: autoDraw = True
+166.5337 	EXP 	condition_name: autoDraw = True
+169.5710 	EXP 	New trial (rep=0, index=4): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+169.6032 	DATA 	Keypress: space
+169.6158 	EXP 	cue_practice: autoDraw = False
+169.6158 	EXP 	target_practice: autoDraw = False
+169.6158 	EXP 	condition_name: autoDraw = False
+169.6158 	EXP 	cue_practice: height = 0.2
+169.6158 	EXP 	cue_practice: height = 0.2
+169.6158 	EXP 	cue_practice: height = 0.2
+169.6158 	EXP 	cue_practice: text = 'arco-íris'
+169.6158 	EXP 	target_practice: height = 0.2
+169.6158 	EXP 	target_practice: height = 0.2
+169.6158 	EXP 	target_practice: height = 0.2
+169.6158 	EXP 	target_practice: text = 'n i g a q'
+169.6158 	EXP 	condition_name: height = 0.2
+169.6158 	EXP 	condition_name: height = 0.2
+169.6158 	EXP 	condition_name: height = 0.2
+169.6158 	EXP 	condition_name: text = 'diminuição'
+169.6158 	EXP 	cue_practice: autoDraw = True
+169.6158 	EXP 	target_practice: autoDraw = True
+169.6158 	EXP 	condition_name: autoDraw = True
+170.9126 	DATA 	Keypress: space
+170.9225 	EXP 	New trial (rep=0, index=5): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+170.9493 	EXP 	cue_practice: autoDraw = False
+170.9493 	EXP 	target_practice: autoDraw = False
+170.9493 	EXP 	condition_name: autoDraw = False
+170.9493 	EXP 	cue_practice: height = 0.2
+170.9493 	EXP 	cue_practice: height = 0.2
+170.9493 	EXP 	cue_practice: height = 0.2
+170.9493 	EXP 	cue_practice: text = 'bota'
+170.9493 	EXP 	target_practice: height = 0.2
+170.9493 	EXP 	target_practice: height = 0.2
+170.9493 	EXP 	target_practice: height = 0.2
+170.9493 	EXP 	target_practice: text = 'k a m i k'
+170.9493 	EXP 	condition_name: text = 'diminuição'
+170.9493 	EXP 	cue_practice: autoDraw = True
+170.9493 	EXP 	target_practice: autoDraw = True
+170.9493 	EXP 	condition_name: autoDraw = True
+171.2999 	DATA 	Keypress: space
+171.3197 	EXP 	New trial (rep=1, index=0): None
+171.3434 	EXP 	Imported word_pairs.xlsx as conditions, 6 conditions, 3 params
+171.3445 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=805809
+171.3451 	EXP 	New trial (rep=0, index=0): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+171.3824 	EXP 	cue_practice: autoDraw = False
+171.3824 	EXP 	target_practice: autoDraw = False
+171.3824 	EXP 	condition_name: autoDraw = False
+171.3824 	EXP 	cue_practice: height = 0.2
+171.3824 	EXP 	cue_practice: height = 0.2
+171.3824 	EXP 	cue_practice: height = 0.2
+171.3824 	EXP 	cue_practice: text = 'marca'
+171.3824 	EXP 	target_practice: height = 0.2
+171.3824 	EXP 	target_practice: height = 0.2
+171.3824 	EXP 	target_practice: height = 0.2
+171.3824 	EXP 	target_practice: text = '_ _ l _ _'
+171.3824 	EXP 	condition_name: height = 0.2
+171.3824 	EXP 	condition_name: height = 0.2
+171.3824 	EXP 	condition_name: height = 0.2
+171.3824 	EXP 	condition_name: text = 'acumulação'
+171.3824 	EXP 	cue_practice: autoDraw = True
+171.3824 	EXP 	target_practice: autoDraw = True
+171.3824 	EXP 	condition_name: autoDraw = True
+172.2568 	EXP 	New trial (rep=0, index=1): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+172.2887 	DATA 	Keypress: space
+172.2990 	EXP 	cue_practice: autoDraw = False
+172.2990 	EXP 	target_practice: autoDraw = False
+172.2990 	EXP 	condition_name: autoDraw = False
+172.2990 	EXP 	cue_practice: height = 0.2
+172.2990 	EXP 	cue_practice: height = 0.2
+172.2990 	EXP 	cue_practice: height = 0.2
+172.2990 	EXP 	cue_practice: text = 'lesma'
+172.2990 	EXP 	target_practice: height = 0.2
+172.2990 	EXP 	target_practice: height = 0.2
+172.2990 	EXP 	target_practice: height = 0.2
+172.2990 	EXP 	target_practice: text = 'u v i x u'
+172.2990 	EXP 	condition_name: height = 0.2
+172.2990 	EXP 	condition_name: height = 0.2
+172.2990 	EXP 	condition_name: height = 0.2
+172.2990 	EXP 	condition_name: text = 'somente estudo'
+172.2990 	EXP 	cue_practice: autoDraw = True
+172.2990 	EXP 	target_practice: autoDraw = True
+172.2990 	EXP 	condition_name: autoDraw = True
+172.7066 	EXP 	New trial (rep=0, index=2): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+172.7338 	DATA 	Keypress: space
+172.7498 	EXP 	cue_practice: autoDraw = False
+172.7498 	EXP 	target_practice: autoDraw = False
+172.7498 	EXP 	condition_name: autoDraw = False
+172.7498 	EXP 	cue_practice: height = 0.2
+172.7498 	EXP 	cue_practice: height = 0.2
+172.7498 	EXP 	cue_practice: height = 0.2
+172.7498 	EXP 	cue_practice: text = 'trenó'
+172.7498 	EXP 	target_practice: height = 0.2
+172.7498 	EXP 	target_practice: height = 0.2
+172.7498 	EXP 	target_practice: height = 0.2
+172.7498 	EXP 	target_practice: text = 'u n i a t'
+172.7498 	EXP 	condition_name: text = 'somente estudo'
+172.7498 	EXP 	cue_practice: autoDraw = True
+172.7498 	EXP 	target_practice: autoDraw = True
+172.7498 	EXP 	condition_name: autoDraw = True
+173.1575 	EXP 	New trial (rep=0, index=3): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+173.1818 	DATA 	Keypress: space
+173.1992 	EXP 	cue_practice: autoDraw = False
+173.1992 	EXP 	target_practice: autoDraw = False
+173.1992 	EXP 	condition_name: autoDraw = False
+173.1992 	EXP 	cue_practice: height = 0.2
+173.1992 	EXP 	cue_practice: height = 0.2
+173.1992 	EXP 	cue_practice: height = 0.2
+173.1992 	EXP 	cue_practice: text = 'pó'
+173.1992 	EXP 	target_practice: height = 0.2
+173.1992 	EXP 	target_practice: height = 0.2
+173.1992 	EXP 	target_practice: height = 0.2
+173.1992 	EXP 	target_practice: text = '_ _ _ _ q'
+173.1992 	EXP 	condition_name: height = 0.2
+173.1992 	EXP 	condition_name: height = 0.2
+173.1992 	EXP 	condition_name: height = 0.2
+173.1992 	EXP 	condition_name: text = 'acumulação'
+173.1992 	EXP 	cue_practice: autoDraw = True
+173.1992 	EXP 	target_practice: autoDraw = True
+173.1992 	EXP 	condition_name: autoDraw = True
+185.8036 	EXP 	New trial (rep=0, index=4): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+185.8314 	DATA 	Keypress: space
+185.8484 	EXP 	cue_practice: autoDraw = False
+185.8484 	EXP 	target_practice: autoDraw = False
+185.8484 	EXP 	condition_name: autoDraw = False
+185.8484 	EXP 	cue_practice: height = 0.2
+185.8484 	EXP 	cue_practice: height = 0.2
+185.8484 	EXP 	cue_practice: height = 0.2
+185.8484 	EXP 	cue_practice: text = 'arco-íris'
+185.8484 	EXP 	target_practice: height = 0.2
+185.8484 	EXP 	target_practice: height = 0.2
+185.8484 	EXP 	target_practice: height = 0.2
+185.8484 	EXP 	target_practice: text = 'n _ g a q'
+185.8484 	EXP 	condition_name: height = 0.2
+185.8484 	EXP 	condition_name: height = 0.2
+185.8484 	EXP 	condition_name: height = 0.2
+185.8484 	EXP 	condition_name: text = 'diminuição'
+185.8484 	EXP 	cue_practice: autoDraw = True
+185.8484 	EXP 	target_practice: autoDraw = True
+185.8484 	EXP 	condition_name: autoDraw = True
+186.2904 	EXP 	New trial (rep=0, index=5): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+186.3153 	DATA 	Keypress: space
+186.3315 	EXP 	cue_practice: autoDraw = False
+186.3315 	EXP 	target_practice: autoDraw = False
+186.3315 	EXP 	condition_name: autoDraw = False
+186.3315 	EXP 	cue_practice: height = 0.2
+186.3315 	EXP 	cue_practice: height = 0.2
+186.3315 	EXP 	cue_practice: height = 0.2
+186.3315 	EXP 	cue_practice: text = 'bota'
+186.3315 	EXP 	target_practice: height = 0.2
+186.3315 	EXP 	target_practice: height = 0.2
+186.3315 	EXP 	target_practice: height = 0.2
+186.3315 	EXP 	target_practice: text = 'k _ m i k'
+186.3315 	EXP 	condition_name: text = 'diminuição'
+186.3315 	EXP 	cue_practice: autoDraw = True
+186.3315 	EXP 	target_practice: autoDraw = True
+186.3315 	EXP 	condition_name: autoDraw = True
+186.8263 	DATA 	Keypress: space
+186.8372 	EXP 	New trial (rep=2, index=0): None
+186.8569 	EXP 	Imported word_pairs.xlsx as conditions, 6 conditions, 3 params
+186.8579 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=805809
+186.8583 	EXP 	New trial (rep=0, index=0): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+186.8983 	EXP 	cue_practice: autoDraw = False
+186.8983 	EXP 	target_practice: autoDraw = False
+186.8983 	EXP 	condition_name: autoDraw = False
+186.8983 	EXP 	cue_practice: height = 0.2
+186.8983 	EXP 	cue_practice: height = 0.2
+186.8983 	EXP 	cue_practice: height = 0.2
+186.8983 	EXP 	cue_practice: text = 'marca'
+186.8983 	EXP 	target_practice: height = 0.2
+186.8983 	EXP 	target_practice: height = 0.2
+186.8983 	EXP 	target_practice: height = 0.2
+186.8983 	EXP 	target_practice: text = '_ g _ a _'
+186.8983 	EXP 	condition_name: height = 0.2
+186.8983 	EXP 	condition_name: height = 0.2
+186.8983 	EXP 	condition_name: height = 0.2
+186.8983 	EXP 	condition_name: text = 'acumulação'
+186.8983 	EXP 	cue_practice: autoDraw = True
+186.8983 	EXP 	target_practice: autoDraw = True
+186.8983 	EXP 	condition_name: autoDraw = True
+187.4626 	DATA 	Keypress: space
+187.4844 	EXP 	New trial (rep=0, index=1): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+187.5320 	EXP 	cue_practice: autoDraw = False
+187.5320 	EXP 	target_practice: autoDraw = False
+187.5320 	EXP 	condition_name: autoDraw = False
+187.5320 	EXP 	cue_practice: height = 0.2
+187.5320 	EXP 	cue_practice: height = 0.2
+187.5320 	EXP 	cue_practice: height = 0.2
+187.5320 	EXP 	cue_practice: text = 'lesma'
+187.5320 	EXP 	target_practice: height = 0.2
+187.5320 	EXP 	target_practice: height = 0.2
+187.5320 	EXP 	target_practice: height = 0.2
+187.5320 	EXP 	target_practice: text = 'u v i x u'
+187.5320 	EXP 	condition_name: height = 0.2
+187.5320 	EXP 	condition_name: height = 0.2
+187.5320 	EXP 	condition_name: height = 0.2
+187.5320 	EXP 	condition_name: text = 'somente estudo'
+187.5320 	EXP 	cue_practice: autoDraw = True
+187.5320 	EXP 	target_practice: autoDraw = True
+187.5320 	EXP 	condition_name: autoDraw = True
+188.2017 	EXP 	New trial (rep=0, index=2): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+188.2306 	DATA 	Keypress: space
+188.2485 	EXP 	cue_practice: autoDraw = False
+188.2485 	EXP 	target_practice: autoDraw = False
+188.2485 	EXP 	condition_name: autoDraw = False
+188.2485 	EXP 	cue_practice: height = 0.2
+188.2485 	EXP 	cue_practice: height = 0.2
+188.2485 	EXP 	cue_practice: height = 0.2
+188.2485 	EXP 	cue_practice: text = 'trenó'
+188.2485 	EXP 	target_practice: height = 0.2
+188.2485 	EXP 	target_practice: height = 0.2
+188.2485 	EXP 	target_practice: height = 0.2
+188.2485 	EXP 	target_practice: text = 'u n i a t'
+188.2485 	EXP 	condition_name: text = 'somente estudo'
+188.2485 	EXP 	cue_practice: autoDraw = True
+188.2485 	EXP 	target_practice: autoDraw = True
+188.2485 	EXP 	condition_name: autoDraw = True
+188.7096 	DATA 	Keypress: space
+188.7223 	EXP 	New trial (rep=0, index=3): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+188.7649 	EXP 	cue_practice: autoDraw = False
+188.7649 	EXP 	target_practice: autoDraw = False
+188.7649 	EXP 	condition_name: autoDraw = False
+188.7649 	EXP 	cue_practice: height = 0.2
+188.7649 	EXP 	cue_practice: height = 0.2
+188.7649 	EXP 	cue_practice: height = 0.2
+188.7649 	EXP 	cue_practice: text = 'pó'
+188.7649 	EXP 	target_practice: height = 0.2
+188.7649 	EXP 	target_practice: height = 0.2
+188.7649 	EXP 	target_practice: height = 0.2
+188.7649 	EXP 	target_practice: text = '_ _ y _ q'
+188.7649 	EXP 	condition_name: height = 0.2
+188.7649 	EXP 	condition_name: height = 0.2
+188.7649 	EXP 	condition_name: height = 0.2
+188.7649 	EXP 	condition_name: text = 'acumulação'
+188.7649 	EXP 	cue_practice: autoDraw = True
+188.7649 	EXP 	target_practice: autoDraw = True
+188.7649 	EXP 	condition_name: autoDraw = True
+198.1168 	EXP 	New trial (rep=0, index=4): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+198.1436 	DATA 	Keypress: space
+198.1481 	EXP 	cue_practice: autoDraw = False
+198.1481 	EXP 	target_practice: autoDraw = False
+198.1481 	EXP 	condition_name: autoDraw = False
+198.1481 	EXP 	cue_practice: height = 0.2
+198.1481 	EXP 	cue_practice: height = 0.2
+198.1481 	EXP 	cue_practice: height = 0.2
+198.1481 	EXP 	cue_practice: text = 'arco-íris'
+198.1481 	EXP 	target_practice: height = 0.2
+198.1481 	EXP 	target_practice: height = 0.2
+198.1481 	EXP 	target_practice: height = 0.2
+198.1481 	EXP 	target_practice: text = '_ i g a _'
+198.1481 	EXP 	condition_name: height = 0.2
+198.1481 	EXP 	condition_name: height = 0.2
+198.1481 	EXP 	condition_name: height = 0.2
+198.1481 	EXP 	condition_name: text = 'diminuição'
+198.1481 	EXP 	cue_practice: autoDraw = True
+198.1481 	EXP 	target_practice: autoDraw = True
+198.1481 	EXP 	condition_name: autoDraw = True
+198.5627 	EXP 	New trial (rep=0, index=5): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+198.5874 	DATA 	Keypress: space
+198.5979 	EXP 	cue_practice: autoDraw = False
+198.5979 	EXP 	target_practice: autoDraw = False
+198.5979 	EXP 	condition_name: autoDraw = False
+198.5979 	EXP 	cue_practice: height = 0.2
+198.5979 	EXP 	cue_practice: height = 0.2
+198.5979 	EXP 	cue_practice: height = 0.2
+198.5979 	EXP 	cue_practice: text = 'bota'
+198.5979 	EXP 	target_practice: height = 0.2
+198.5979 	EXP 	target_practice: height = 0.2
+198.5979 	EXP 	target_practice: height = 0.2
+198.5979 	EXP 	target_practice: text = 'k a _ _ k'
+198.5979 	EXP 	condition_name: text = 'diminuição'
+198.5979 	EXP 	cue_practice: autoDraw = True
+198.5979 	EXP 	target_practice: autoDraw = True
+198.5979 	EXP 	condition_name: autoDraw = True
+198.9893 	EXP 	New trial (rep=3, index=0): None
+199.0110 	EXP 	Imported word_pairs.xlsx as conditions, 6 conditions, 3 params
+199.0121 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=805809
+199.0130 	EXP 	New trial (rep=0, index=0): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+199.0499 	DATA 	Keypress: space
+199.0651 	EXP 	cue_practice: autoDraw = False
+199.0651 	EXP 	target_practice: autoDraw = False
+199.0651 	EXP 	condition_name: autoDraw = False
+199.0651 	EXP 	cue_practice: height = 0.2
+199.0651 	EXP 	cue_practice: height = 0.2
+199.0651 	EXP 	cue_practice: height = 0.2
+199.0651 	EXP 	cue_practice: text = 'marca'
+199.0651 	EXP 	target_practice: height = 0.2
+199.0651 	EXP 	target_practice: height = 0.2
+199.0651 	EXP 	target_practice: height = 0.2
+199.0651 	EXP 	target_practice: text = 'a _ l a _'
+199.0651 	EXP 	condition_name: height = 0.2
+199.0651 	EXP 	condition_name: height = 0.2
+199.0651 	EXP 	condition_name: height = 0.2
+199.0651 	EXP 	condition_name: text = 'acumulação'
+199.0651 	EXP 	cue_practice: autoDraw = True
+199.0651 	EXP 	target_practice: autoDraw = True
+199.0651 	EXP 	condition_name: autoDraw = True
+199.8030 	EXP 	New trial (rep=0, index=1): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+199.8362 	DATA 	Keypress: space
+199.8479 	EXP 	cue_practice: autoDraw = False
+199.8479 	EXP 	target_practice: autoDraw = False
+199.8479 	EXP 	condition_name: autoDraw = False
+199.8479 	EXP 	cue_practice: height = 0.2
+199.8479 	EXP 	cue_practice: height = 0.2
+199.8479 	EXP 	cue_practice: height = 0.2
+199.8479 	EXP 	cue_practice: text = 'lesma'
+199.8479 	EXP 	target_practice: height = 0.2
+199.8479 	EXP 	target_practice: height = 0.2
+199.8479 	EXP 	target_practice: height = 0.2
+199.8479 	EXP 	target_practice: text = 'u v i x u'
+199.8479 	EXP 	condition_name: height = 0.2
+199.8479 	EXP 	condition_name: height = 0.2
+199.8479 	EXP 	condition_name: height = 0.2
+199.8479 	EXP 	condition_name: text = 'somente estudo'
+199.8479 	EXP 	cue_practice: autoDraw = True
+199.8479 	EXP 	target_practice: autoDraw = True
+199.8479 	EXP 	condition_name: autoDraw = True
+200.1943 	DATA 	Keypress: space
+200.2046 	EXP 	New trial (rep=0, index=2): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+200.2485 	EXP 	cue_practice: autoDraw = False
+200.2485 	EXP 	target_practice: autoDraw = False
+200.2485 	EXP 	condition_name: autoDraw = False
+200.2485 	EXP 	cue_practice: height = 0.2
+200.2485 	EXP 	cue_practice: height = 0.2
+200.2485 	EXP 	cue_practice: height = 0.2
+200.2485 	EXP 	cue_practice: text = 'trenó'
+200.2485 	EXP 	target_practice: height = 0.2
+200.2485 	EXP 	target_practice: height = 0.2
+200.2485 	EXP 	target_practice: height = 0.2
+200.2485 	EXP 	target_practice: text = 'u n i a t'
+200.2485 	EXP 	condition_name: text = 'somente estudo'
+200.2485 	EXP 	cue_practice: autoDraw = True
+200.2485 	EXP 	target_practice: autoDraw = True
+200.2485 	EXP 	condition_name: autoDraw = True
+200.5897 	EXP 	New trial (rep=0, index=3): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+200.6242 	DATA 	Keypress: space
+200.6319 	EXP 	cue_practice: autoDraw = False
+200.6319 	EXP 	target_practice: autoDraw = False
+200.6319 	EXP 	condition_name: autoDraw = False
+200.6319 	EXP 	cue_practice: height = 0.2
+200.6319 	EXP 	cue_practice: height = 0.2
+200.6319 	EXP 	cue_practice: height = 0.2
+200.6319 	EXP 	cue_practice: text = 'pó'
+200.6319 	EXP 	target_practice: height = 0.2
+200.6319 	EXP 	target_practice: height = 0.2
+200.6319 	EXP 	target_practice: height = 0.2
+200.6319 	EXP 	target_practice: text = 'a _ y u _'
+200.6319 	EXP 	condition_name: height = 0.2
+200.6319 	EXP 	condition_name: height = 0.2
+200.6319 	EXP 	condition_name: height = 0.2
+200.6319 	EXP 	condition_name: text = 'acumulação'
+200.6319 	EXP 	cue_practice: autoDraw = True
+200.6319 	EXP 	target_practice: autoDraw = True
+200.6319 	EXP 	condition_name: autoDraw = True
+212.9641 	DATA 	Keypress: space
+212.9829 	EXP 	New trial (rep=0, index=4): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+213.0307 	EXP 	cue_practice: autoDraw = False
+213.0307 	EXP 	target_practice: autoDraw = False
+213.0307 	EXP 	condition_name: autoDraw = False
+213.0307 	EXP 	cue_practice: height = 0.2
+213.0307 	EXP 	cue_practice: height = 0.2
+213.0307 	EXP 	cue_practice: height = 0.2
+213.0307 	EXP 	cue_practice: text = 'arco-íris'
+213.0307 	EXP 	target_practice: height = 0.2
+213.0307 	EXP 	target_practice: height = 0.2
+213.0307 	EXP 	target_practice: height = 0.2
+213.0307 	EXP 	target_practice: text = '_ _ _ a q'
+213.0307 	EXP 	condition_name: height = 0.2
+213.0307 	EXP 	condition_name: height = 0.2
+213.0307 	EXP 	condition_name: height = 0.2
+213.0307 	EXP 	condition_name: text = 'diminuição'
+213.0307 	EXP 	cue_practice: autoDraw = True
+213.0307 	EXP 	target_practice: autoDraw = True
+213.0307 	EXP 	condition_name: autoDraw = True
+213.3453 	DATA 	Keypress: space
+213.3668 	EXP 	New trial (rep=0, index=5): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+213.3973 	EXP 	cue_practice: autoDraw = False
+213.3973 	EXP 	target_practice: autoDraw = False
+213.3973 	EXP 	condition_name: autoDraw = False
+213.3973 	EXP 	cue_practice: height = 0.2
+213.3973 	EXP 	cue_practice: height = 0.2
+213.3973 	EXP 	cue_practice: height = 0.2
+213.3973 	EXP 	cue_practice: text = 'bota'
+213.3973 	EXP 	target_practice: height = 0.2
+213.3973 	EXP 	target_practice: height = 0.2
+213.3973 	EXP 	target_practice: height = 0.2
+213.3973 	EXP 	target_practice: text = 'k a _ _ _'
+213.3973 	EXP 	condition_name: text = 'diminuição'
+213.3973 	EXP 	cue_practice: autoDraw = True
+213.3973 	EXP 	target_practice: autoDraw = True
+213.3973 	EXP 	condition_name: autoDraw = True
+213.6215 	EXP 	New trial (rep=4, index=0): None
+213.6420 	EXP 	Imported word_pairs.xlsx as conditions, 6 conditions, 3 params
+213.6430 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=805809
+213.6436 	EXP 	New trial (rep=0, index=0): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+213.6672 	DATA 	Keypress: space
+213.6803 	EXP 	cue_practice: autoDraw = False
+213.6803 	EXP 	target_practice: autoDraw = False
+213.6803 	EXP 	condition_name: autoDraw = False
+213.6803 	EXP 	cue_practice: height = 0.2
+213.6803 	EXP 	cue_practice: height = 0.2
+213.6803 	EXP 	cue_practice: height = 0.2
+213.6803 	EXP 	cue_practice: text = 'marca'
+213.6803 	EXP 	target_practice: height = 0.2
+213.6803 	EXP 	target_practice: height = 0.2
+213.6803 	EXP 	target_practice: height = 0.2
+213.6803 	EXP 	target_practice: text = 'a g l _ k'
+213.6803 	EXP 	condition_name: height = 0.2
+213.6803 	EXP 	condition_name: height = 0.2
+213.6803 	EXP 	condition_name: height = 0.2
+213.6803 	EXP 	condition_name: text = 'acumulação'
+213.6803 	EXP 	cue_practice: autoDraw = True
+213.6803 	EXP 	target_practice: autoDraw = True
+213.6803 	EXP 	condition_name: autoDraw = True
+214.0035 	EXP 	New trial (rep=0, index=1): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+214.0326 	DATA 	Keypress: space
+214.0476 	EXP 	cue_practice: autoDraw = False
+214.0476 	EXP 	target_practice: autoDraw = False
+214.0476 	EXP 	condition_name: autoDraw = False
+214.0476 	EXP 	cue_practice: height = 0.2
+214.0476 	EXP 	cue_practice: height = 0.2
+214.0476 	EXP 	cue_practice: height = 0.2
+214.0476 	EXP 	cue_practice: text = 'lesma'
+214.0476 	EXP 	target_practice: height = 0.2
+214.0476 	EXP 	target_practice: height = 0.2
+214.0476 	EXP 	target_practice: height = 0.2
+214.0476 	EXP 	target_practice: text = 'u v i x u'
+214.0476 	EXP 	condition_name: height = 0.2
+214.0476 	EXP 	condition_name: height = 0.2
+214.0476 	EXP 	condition_name: height = 0.2
+214.0476 	EXP 	condition_name: text = 'somente estudo'
+214.0476 	EXP 	cue_practice: autoDraw = True
+214.0476 	EXP 	target_practice: autoDraw = True
+214.0476 	EXP 	condition_name: autoDraw = True
+214.5785 	DATA 	Keypress: space
+214.6001 	EXP 	New trial (rep=0, index=2): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+214.6304 	EXP 	cue_practice: autoDraw = False
+214.6304 	EXP 	target_practice: autoDraw = False
+214.6304 	EXP 	condition_name: autoDraw = False
+214.6304 	EXP 	cue_practice: height = 0.2
+214.6304 	EXP 	cue_practice: height = 0.2
+214.6304 	EXP 	cue_practice: height = 0.2
+214.6304 	EXP 	cue_practice: text = 'trenó'
+214.6304 	EXP 	target_practice: height = 0.2
+214.6304 	EXP 	target_practice: height = 0.2
+214.6304 	EXP 	target_practice: height = 0.2
+214.6304 	EXP 	target_practice: text = 'u n i a t'
+214.6304 	EXP 	condition_name: text = 'somente estudo'
+214.6304 	EXP 	cue_practice: autoDraw = True
+214.6304 	EXP 	target_practice: autoDraw = True
+214.6304 	EXP 	condition_name: autoDraw = True
+214.9624 	DATA 	Keypress: space
+214.9841 	EXP 	New trial (rep=0, index=3): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+215.0308 	EXP 	cue_practice: autoDraw = False
+215.0308 	EXP 	target_practice: autoDraw = False
+215.0308 	EXP 	condition_name: autoDraw = False
+215.0308 	EXP 	cue_practice: height = 0.2
+215.0308 	EXP 	cue_practice: height = 0.2
+215.0308 	EXP 	cue_practice: height = 0.2
+215.0308 	EXP 	cue_practice: text = 'pó'
+215.0308 	EXP 	target_practice: height = 0.2
+215.0308 	EXP 	target_practice: height = 0.2
+215.0308 	EXP 	target_practice: height = 0.2
+215.0308 	EXP 	target_practice: text = 'a p y u _'
+215.0308 	EXP 	condition_name: height = 0.2
+215.0308 	EXP 	condition_name: height = 0.2
+215.0308 	EXP 	condition_name: height = 0.2
+215.0308 	EXP 	condition_name: text = 'acumulação'
+215.0308 	EXP 	cue_practice: autoDraw = True
+215.0308 	EXP 	target_practice: autoDraw = True
+215.0308 	EXP 	condition_name: autoDraw = True
+225.2250 	DATA 	Keypress: escape
+226.2228 	EXP 	window1: mouseVisible = True
