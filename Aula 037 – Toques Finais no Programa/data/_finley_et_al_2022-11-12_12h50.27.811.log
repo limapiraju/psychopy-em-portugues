@@ -1,0 +1,97 @@
+20.6386 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+114.5368 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+114.5376 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AF8C4F6670>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AFB2A6A0D0>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+114.5378 	EXP 	window1: mouseVisible = True
+114.5378 	EXP 	window1: mouseVisible = True
+114.5379 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+114.5379 	EXP 	window1: recordFrameIntervals = False
+114.7063 	EXP 	window1: recordFrameIntervals = True
+114.7731 	WARNING 	t of last frame was 21.69ms (=1/46)
+114.8908 	WARNING 	t of last frame was 22.48ms (=1/44)
+114.9583 	WARNING 	t of last frame was 22.85ms (=1/43)
+115.0771 	WARNING 	t of last frame was 25.70ms (=1/38)
+115.2358 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+116.4521 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+123.8319 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+123.8417 	EXP 	Created cue_study = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_study', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+123.8443 	EXP 	Created target_study = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_study', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+123.8491 	EXP 	Created distractor_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='distractor_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.1434 	EXP 	Created instr_msg_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+124.1560 	EXP 	Created cue_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_practice', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.1653 	EXP 	Created target_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_practice', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.1711 	EXP 	Created resp_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.7333,  0.0902, -0.7333]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='resp_practice', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.2421 	EXP 	Created distractor_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='distractor_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.4144 	EXP 	Created instr_msg_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+124.4196 	EXP 	Created cue_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_final', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.4969 	EXP 	Created resp_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 0.7098, -0.1216,  0.6784]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='resp_final', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+124.5165 	EXP 	Created target_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_final', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='_ _ _ _ _', units='norm', win=Window(...), wrapWidth=1.8)
+124.9428 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+125.1077 	EXP 	instr_msg: autoDraw = True
+232.8585 	DATA 	Mouse: Left button down, pos=(758,14)
+232.9509 	DATA 	Mouse:  Left button up, pos=(758,14)
+234.8511 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+234.8515 	EXP 	New trial (rep=0, index=0): None
+234.9184 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+234.9196 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=579720
+234.9201 	EXP 	New trial (rep=0, index=0): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+234.9496 	DATA 	Keypress: space
+234.9629 	EXP 	instr_msg: autoDraw = False
+234.9629 	EXP 	cue_study: height = 0.2
+234.9629 	EXP 	cue_study: height = 0.2
+234.9629 	EXP 	cue_study: height = 0.2
+234.9629 	EXP 	cue_study: text = 'rim'
+234.9629 	EXP 	target_study: height = 0.2
+234.9629 	EXP 	target_study: height = 0.2
+234.9629 	EXP 	target_study: height = 0.2
+234.9629 	EXP 	target_study: text = 'taqtu'
+234.9629 	EXP 	cue_study: autoDraw = True
+234.9629 	EXP 	target_study: autoDraw = True
+238.5891 	DATA 	Keypress: right
+238.8626 	EXP 	New trial (rep=0, index=1): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+238.8997 	EXP 	cue_study: autoDraw = False
+238.8997 	EXP 	target_study: autoDraw = False
+238.8997 	EXP 	cue_study: height = 0.2
+238.8997 	EXP 	cue_study: height = 0.2
+238.8997 	EXP 	cue_study: height = 0.2
+238.8997 	EXP 	cue_study: text = 'bota'
+238.8997 	EXP 	target_study: height = 0.2
+238.8997 	EXP 	target_study: height = 0.2
+238.8997 	EXP 	target_study: height = 0.2
+238.8997 	EXP 	target_study: text = 'kamik'
+238.8997 	EXP 	cue_study: autoDraw = True
+238.8997 	EXP 	target_study: autoDraw = True
+239.3991 	DATA 	Keypress: right
+242.8651 	EXP 	New trial (rep=0, index=2): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+242.8992 	EXP 	cue_study: autoDraw = False
+242.8992 	EXP 	target_study: autoDraw = False
+242.8992 	EXP 	cue_study: height = 0.2
+242.8992 	EXP 	cue_study: height = 0.2
+242.8992 	EXP 	cue_study: height = 0.2
+242.8992 	EXP 	cue_study: text = 'pato'
+242.8992 	EXP 	target_study: height = 0.2
+242.8992 	EXP 	target_study: height = 0.2
+242.8992 	EXP 	target_study: height = 0.2
+242.8992 	EXP 	target_study: text = 'mitiq'
+242.8992 	EXP 	cue_study: autoDraw = True
+242.8992 	EXP 	target_study: autoDraw = True
+246.8648 	EXP 	New trial (rep=0, index=3): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+246.8951 	EXP 	cue_study: autoDraw = False
+246.8951 	EXP 	target_study: autoDraw = False
+246.8951 	EXP 	cue_study: height = 0.2
+246.8951 	EXP 	cue_study: height = 0.2
+246.8951 	EXP 	cue_study: height = 0.2
+246.8951 	EXP 	cue_study: text = 'arco-íris'
+246.8951 	EXP 	target_study: height = 0.2
+246.8951 	EXP 	target_study: height = 0.2
+246.8951 	EXP 	target_study: height = 0.2
+246.8951 	EXP 	target_study: text = 'nigaq'
+246.8951 	EXP 	cue_study: autoDraw = True
+246.8951 	EXP 	target_study: autoDraw = True
+248.7039 	DATA 	Keypress: escape
+250.3107 	EXP 	window1: mouseVisible = True

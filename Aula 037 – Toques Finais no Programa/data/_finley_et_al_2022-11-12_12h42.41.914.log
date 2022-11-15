@@ -1,0 +1,22 @@
+11.3943 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+99.5151 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+99.5166 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CC503B9610>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001CC76F37E50>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+99.5168 	EXP 	window1: mouseVisible = True
+99.5168 	EXP 	window1: mouseVisible = True
+99.5169 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+99.5169 	EXP 	window1: recordFrameIntervals = False
+99.6798 	EXP 	window1: recordFrameIntervals = True
+99.9141 	WARNING 	t of last frame was 22.41ms (=1/44)
+99.9815 	WARNING 	t of last frame was 21.09ms (=1/47)
+100.0480 	WARNING 	t of last frame was 21.67ms (=1/46)
+100.1645 	WARNING 	t of last frame was 21.91ms (=1/45)
+100.2637 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+101.4083 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+105.3724 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+152.5404 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,70 @@
+2.7349 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.2579 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025728B91400>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002574FA24C10>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.2581 	EXP 	window1: mouseVisible = True
+11.2581 	EXP 	window1: mouseVisible = True
+11.2581 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.2582 	EXP 	window1: recordFrameIntervals = False
+11.4235 	EXP 	window1: recordFrameIntervals = True
+11.6079 	EXP 	Screen (0) actual frame rate measured at 60.04Hz
+11.6079 	EXP 	window1: recordFrameIntervals = False
+11.6996 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+15.1401 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+15.1426 	EXP 	Created cue_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_final', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+15.1467 	EXP 	Created resp_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 0.7098, -0.1216,  0.6784]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='resp_final', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+15.1605 	EXP 	Created target_final = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_final', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='_ _ _ _ _', units='norm', win=Window(...), wrapWidth=1.8)
+15.1965 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+15.2386 	EXP 	instr_msg: autoDraw = True
+21.5236 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+21.5238 	EXP 	New trial (rep=0, index=0): None
+21.5360 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+21.5368 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=910742
+21.5372 	EXP 	New trial (rep=0, index=0): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+21.5380 	EXP 	New trial (rep=0, index=1): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+21.5386 	EXP 	New trial (rep=0, index=2): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+21.5390 	EXP 	New trial (rep=0, index=3): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+21.5394 	EXP 	New trial (rep=0, index=4): {'English': 'tea', 'Portuguese': 'chá', 'Inupiaq': 'saiyu'}
+21.5398 	EXP 	New trial (rep=0, index=5): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+21.5401 	EXP 	New trial (rep=0, index=6): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+21.5405 	EXP 	New trial (rep=0, index=7): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+21.5410 	EXP 	New trial (rep=0, index=8): {'English': 'cliff', 'Portuguese': 'penhasco', 'Inupiaq': 'ikpik'}
+21.5414 	EXP 	New trial (rep=0, index=9): {'English': 'heaven', 'Portuguese': 'paraíso', 'Inupiaq': 'qixak'}
+21.5418 	EXP 	New trial (rep=0, index=10): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+21.5422 	EXP 	New trial (rep=0, index=11): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+21.5427 	EXP 	New trial (rep=1, index=0): None
+21.5561 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+21.5569 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=910742
+21.5573 	EXP 	New trial (rep=0, index=0): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+21.5584 	EXP 	New trial (rep=0, index=1): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+21.5589 	EXP 	New trial (rep=0, index=2): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+21.5594 	EXP 	New trial (rep=0, index=3): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+21.5598 	EXP 	New trial (rep=0, index=4): {'English': 'tea', 'Portuguese': 'chá', 'Inupiaq': 'saiyu'}
+21.5602 	EXP 	New trial (rep=0, index=5): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+21.5608 	EXP 	New trial (rep=0, index=6): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+21.5617 	EXP 	New trial (rep=0, index=7): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+21.5624 	EXP 	New trial (rep=0, index=8): {'English': 'cliff', 'Portuguese': 'penhasco', 'Inupiaq': 'ikpik'}
+21.5631 	EXP 	New trial (rep=0, index=9): {'English': 'heaven', 'Portuguese': 'paraíso', 'Inupiaq': 'qixak'}
+21.5639 	EXP 	New trial (rep=0, index=10): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+21.5647 	EXP 	New trial (rep=0, index=11): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+21.5655 	EXP 	New trial (rep=2, index=0): None
+21.5754 	EXP 	Imported word_pairs.xlsx as conditions, 12 conditions, 3 params
+21.5763 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=910742
+21.5771 	EXP 	New trial (rep=0, index=0): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+21.5794 	EXP 	New trial (rep=0, index=1): {'English': 'rainbow', 'Portuguese': 'arco-íris', 'Inupiaq': 'nigaq'}
+21.5803 	EXP 	New trial (rep=0, index=2): {'English': 'mark', 'Portuguese': 'marca', 'Inupiaq': 'aglak'}
+21.5823 	EXP 	New trial (rep=0, index=3): {'English': 'kidney', 'Portuguese': 'rim', 'Inupiaq': 'taqtu'}
+21.5836 	EXP 	New trial (rep=0, index=4): {'English': 'tea', 'Portuguese': 'chá', 'Inupiaq': 'saiyu'}
+21.5846 	EXP 	New trial (rep=0, index=5): {'English': 'snail', 'Portuguese': 'lesma', 'Inupiaq': 'uvixu'}
+21.5863 	EXP 	New trial (rep=0, index=6): {'English': 'dust', 'Portuguese': 'pó', 'Inupiaq': 'apyuq'}
+21.5874 	EXP 	New trial (rep=0, index=7): {'English': 'duck', 'Portuguese': 'pato', 'Inupiaq': 'mitiq'}
+21.5880 	EXP 	New trial (rep=0, index=8): {'English': 'cliff', 'Portuguese': 'penhasco', 'Inupiaq': 'ikpik'}
+21.5884 	EXP 	New trial (rep=0, index=9): {'English': 'heaven', 'Portuguese': 'paraíso', 'Inupiaq': 'qixak'}
+21.5888 	EXP 	New trial (rep=0, index=10): {'English': 'boot', 'Portuguese': 'bota', 'Inupiaq': 'kamik'}
+21.5891 	EXP 	New trial (rep=0, index=11): {'English': 'sled', 'Portuguese': 'trenó', 'Inupiaq': 'uniat'}
+21.5901 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+21.5903 	EXP 	New trial (rep=0, index=0): None
+21.5906 	EXP 	Created sequence: random, trialTypes=1, nReps=6, seed=None
+21.5910 	EXP 	New trial (rep=0, index=0): None
+21.6024 	EXP 	Imported word_pairs.xlsx as conditions, 6 conditions, 3 params
+21.6031 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=910742
+21.6034 	EXP 	New trial (rep=0, index=0): {'English': 'thread', 'Portuguese': 'fio', 'Inupiaq': 'ivalu'}
+21.6436 	EXP 	window1: mouseVisible = True
