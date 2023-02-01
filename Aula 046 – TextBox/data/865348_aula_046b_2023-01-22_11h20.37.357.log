@@ -1,0 +1,66 @@
+2.4376 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.1543 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B29266F4F0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001B2BBAD3D90>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.1544 	EXP 	window1: mouseVisible = True
+10.1545 	EXP 	window1: mouseVisible = True
+10.1545 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.1545 	EXP 	window1: recordFrameIntervals = False
+10.3199 	EXP 	window1: recordFrameIntervals = True
+10.5028 	EXP 	Screen (0) actual frame rate measured at 60.28Hz
+10.5028 	EXP 	window1: recordFrameIntervals = False
+10.5704 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+13.3259 	EXP 	textbox: autoLog = True
+13.3259 	EXP 	textbox: autoDraw = True
+14.6563 	DATA 	Keypress: backspace
+17.0727 	DATA 	Keypress: o
+17.2718 	DATA 	Keypress: l
+17.3895 	DATA 	Keypress: a
+17.5382 	DATA 	Keypress: comma
+17.8891 	DATA 	Keypress: space
+18.0386 	DATA 	Keypress: t
+18.1228 	DATA 	Keypress: u
+18.2394 	DATA 	Keypress: d
+18.2896 	DATA 	Keypress: o
+18.3896 	DATA 	Keypress: space
+18.4564 	DATA 	Keypress: b
+18.6055 	DATA 	Keypress: e
+18.6894 	DATA 	Keypress: m
+18.7715 	DATA 	Keypress: space
+18.8559 	DATA 	Keypress: c
+18.9561 	DATA 	Keypress: o
+19.0053 	DATA 	Keypress: m
+19.0895 	DATA 	Keypress: space
+19.1558 	DATA 	Keypress: v
+19.2235 	DATA 	Keypress: c
+19.3050 	DATA 	Keypress: space
+19.5385 	DATA 	Keypress: e
+19.8553 	DATA 	Keypress: backspace
+20.0223 	DATA 	Keypress: backspace
+20.4228 	DATA 	Keypress: lctrl
+20.4229 	DATA 	Keypress: ralt
+20.4888 	DATA 	Keypress: w
+20.6384 	DATA 	Keypress: space
+20.7228 	DATA 	Keypress: e
+20.8379 	DATA 	Keypress: u
+20.8890 	DATA 	Keypress: space
+20.9566 	DATA 	Keypress: e
+21.0380 	DATA 	Keypress: s
+21.0902 	DATA 	Keypress: t
+21.1563 	DATA 	Keypress: o
+21.2380 	DATA 	Keypress: u
+21.2728 	DATA 	Keypress: space
+21.4558 	DATA 	Keypress: b
+21.6047 	DATA 	Keypress: e
+21.6560 	DATA 	Keypress: m
+21.7224 	DATA 	Keypress: space
+21.9045 	DATA 	Keypress: p
+21.9557 	DATA 	Keypress: o
+22.0389 	DATA 	Keypress: r
+22.1224 	DATA 	Keypress: space
+22.1893 	DATA 	Keypress: a
+22.3381 	DATA 	Keypress: q
+22.3889 	DATA 	Keypress: u
+22.4222 	DATA 	Keypress: i
+36.9549 	DATA 	Keypress: backspace
+46.1204 	DATA 	Keypress: return
+46.1342 	EXP 	textbox: autoDraw = False
+46.1815 	EXP 	window1: mouseVisible = True

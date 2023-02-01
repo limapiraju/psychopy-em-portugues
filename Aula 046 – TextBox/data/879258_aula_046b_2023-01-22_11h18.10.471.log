@@ -1,0 +1,60 @@
+2.3445 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.8183 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.8186 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DCCD73D520>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DCF79C7D90>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.8188 	EXP 	window1: mouseVisible = True
+11.8188 	EXP 	window1: mouseVisible = True
+11.8189 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.8189 	EXP 	window1: recordFrameIntervals = False
+11.9855 	EXP 	window1: recordFrameIntervals = True
+12.0182 	WARNING 	t of last frame was 20.36ms (=1/49)
+12.0851 	WARNING 	t of last frame was 20.42ms (=1/48)
+12.1515 	WARNING 	t of last frame was 20.06ms (=1/49)
+12.2180 	WARNING 	t of last frame was 20.13ms (=1/49)
+12.2851 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.6513 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.7171 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+16.3569 	EXP 	textbox: autoLog = True
+16.3569 	EXP 	textbox: autoDraw = True
+19.5532 	DATA 	Keypress: f
+19.7190 	DATA 	Keypress: f
+19.9004 	DATA 	Keypress: f
+20.1006 	DATA 	Keypress: s
+20.1370 	DATA 	Keypress: d
+20.1856 	DATA 	Keypress: f
+20.3020 	DATA 	Keypress: s
+20.3867 	DATA 	Keypress: f
+20.5012 	DATA 	Keypress: s
+20.6197 	DATA 	Keypress: f
+20.6869 	DATA 	Keypress: s
+20.8030 	DATA 	Keypress: f
+20.9374 	DATA 	Keypress: d
+20.9375 	DATA 	Keypress: g
+21.0871 	DATA 	Keypress: s
+21.1001 	DATA 	Keypress: d
+21.3003 	DATA 	Keypress: d
+21.4346 	DATA 	Keypress: g
+21.5526 	DATA 	Keypress: d
+21.6699 	DATA 	Keypress: f
+21.8531 	DATA 	Keypress: f
+22.0531 	DATA 	Keypress: d
+22.0533 	DATA 	Keypress: f
+22.2527 	DATA 	Keypress: d
+22.2529 	DATA 	Keypress: f
+22.3855 	DATA 	Keypress: g
+22.4863 	DATA 	Keypress: d
+22.5189 	DATA 	Keypress: f
+22.5859 	DATA 	Keypress: g
+22.7013 	DATA 	Keypress: d
+22.7364 	DATA 	Keypress: g
+22.9011 	DATA 	Keypress: g
+23.0036 	DATA 	Keypress: d
+23.0199 	DATA 	Keypress: s
+25.6033 	DATA 	Keypress: space
+25.6300 	EXP 	textbox: autoDraw = False
+25.6767 	EXP 	window1: mouseVisible = True

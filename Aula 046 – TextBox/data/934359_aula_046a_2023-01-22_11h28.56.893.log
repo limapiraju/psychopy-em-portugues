@@ -1,0 +1,435 @@
+2.4535 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.6614 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.6617 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024EF91144C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024EA2A31C10>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.6618 	EXP 	window1: mouseVisible = True
+10.6618 	EXP 	window1: mouseVisible = True
+10.6618 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.6619 	EXP 	window1: recordFrameIntervals = False
+10.8289 	EXP 	window1: recordFrameIntervals = True
+10.9630 	WARNING 	t of last frame was 20.41ms (=1/48)
+11.0974 	WARNING 	t of last frame was 21.56ms (=1/46)
+11.1296 	WARNING 	t of last frame was 20.07ms (=1/49)
+11.2965 	WARNING 	t of last frame was 20.57ms (=1/48)
+11.4626 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.4948 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.5601 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+15.2280 	EXP 	Created instruction_text = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='instruction_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), size=array([2. , 1.4]), texRes=128, units='norm', win=Window(...))
+15.2327 	EXP 	Created instruction_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='instruction_image', opacity=1.0, ori=0.0, pos=array([-0.35, -0.6 ]), size=array([0.75, 0.65]), texRes=128, units='norm', win=Window(...))
+15.2915 	EXP 	window1: mouseVisible = True
+15.3348 	EXP 	window1: mouseVisible = True
+15.3664 	EXP 	Created cue_study = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_study', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+15.3676 	EXP 	Created target_study = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_study', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+15.3688 	EXP 	Created math_problem = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='math_problem', opacity=1.0, ori=0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+15.3700 	EXP 	Created math_resp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='math_resp', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+15.3721 	EXP 	Created math_line = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='math_line', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.25]), size=array([0.3 , 0.01]), units='norm', vertices=ndarray(...), win=Window(...))
+15.3750 	EXP 	Created debug1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='debug1', opacity=1.0, ori=0.0, pos=array([ 0. , -0.8]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+15.4488 	EXP 	Created math_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1.        ,  0.29411765, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='math_prompt', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=UNKNOWN, text='Digite sua resposta e tecle [ENTER].', units='norm', win=Window(...), wrapWidth=1.8)
+15.4810 	EXP 	Created prompt_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='prompt_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+15.4822 	EXP 	Created cue_test = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_test', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+15.5271 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+15.5275 	EXP 	Created sequence: sequential, trialTypes=1, nReps=999, seed=None
+15.5307 	EXP 	New trial (rep=0, index=0): None
+15.6090 	EXP 	target_test: autoLog = True
+15.6090 	EXP 	instruction_text: image = 'instrucao_11.jpg'
+15.6090 	EXP 	instruction_image: texRes = 128
+15.6090 	EXP 	instruction_image: image = 'imagem_11.jpg'
+15.6090 	EXP 	instruction_text: autoDraw = True
+15.6090 	EXP 	instruction_image: autoDraw = True
+17.4625 	DATA 	Mouse: Left button down, pos=(773,51)
+17.4815 	EXP 	New trial (rep=1, index=0): None
+17.5292 	EXP 	instruction_text: autoDraw = False
+17.5292 	EXP 	instruction_image: autoDraw = False
+17.5292 	EXP 	instruction_text: image = 'instrucao_12.jpg'
+17.5292 	EXP 	instruction_image: texRes = 128
+17.5292 	EXP 	instruction_image: image = 'imagem_12.jpg'
+17.5292 	EXP 	instruction_text: autoDraw = True
+17.5292 	EXP 	instruction_image: autoDraw = True
+17.5301 	DATA 	Mouse:  Left button up, pos=(773,51)
+17.5970 	DATA 	Mouse: Left button down, pos=(773,51)
+17.6185 	EXP 	New trial (rep=2, index=0): None
+17.6575 	EXP 	instruction_text: autoDraw = False
+17.6575 	EXP 	instruction_image: autoDraw = False
+17.6575 	EXP 	instruction_text: image = 'instrucao_13.jpg'
+17.6575 	EXP 	instruction_image: texRes = 128
+17.6575 	EXP 	instruction_image: image = 'imagem_13.jpg'
+17.6575 	EXP 	instruction_text: autoDraw = True
+17.6575 	EXP 	instruction_image: autoDraw = True
+17.6766 	DATA 	Mouse:  Left button up, pos=(773,51)
+17.7633 	DATA 	Mouse: Left button down, pos=(773,51)
+17.7860 	EXP 	New trial (rep=3, index=0): None
+17.8295 	EXP 	instruction_text: autoDraw = False
+17.8295 	EXP 	instruction_image: autoDraw = False
+17.8295 	EXP 	instruction_text: image = 'instrucao_14.jpg'
+17.8295 	EXP 	instruction_image: texRes = 128
+17.8295 	EXP 	instruction_image: image = 'imagem_14.jpg'
+17.8295 	EXP 	instruction_text: autoDraw = True
+17.8295 	EXP 	instruction_image: autoDraw = True
+17.8300 	DATA 	Mouse:  Left button up, pos=(773,51)
+17.9302 	DATA 	Mouse: Left button down, pos=(773,51)
+17.9522 	EXP 	New trial (rep=4, index=0): None
+17.9732 	DATA 	Mouse:  Left button up, pos=(773,51)
+17.9976 	EXP 	instruction_text: autoDraw = False
+17.9976 	EXP 	instruction_image: autoDraw = False
+17.9976 	EXP 	instruction_text: image = 'instrucao_15.jpg'
+17.9976 	EXP 	instruction_image: texRes = 128
+17.9976 	EXP 	instruction_image: image = 'imagem_15.jpg'
+17.9976 	EXP 	instruction_text: autoDraw = True
+17.9976 	EXP 	instruction_image: autoDraw = True
+18.0438 	DATA 	Mouse: Left button down, pos=(773,51)
+18.0552 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+18.0556 	EXP 	New trial (rep=0, index=0): None
+18.0644 	EXP 	Imported cycle_1.csv as conditions, 10 conditions, 2 params
+18.0651 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+18.0655 	EXP 	New trial (rep=0, index=0): OrderedDict([('English', 'poison'), ('Portuguese', 'veneno')])
+18.1201 	EXP 	instruction_text: autoDraw = False
+18.1201 	EXP 	instruction_image: autoDraw = False
+18.1201 	EXP 	cue_study: height = 0.2
+18.1201 	EXP 	cue_study: height = 0.2
+18.1201 	EXP 	cue_study: height = 0.2
+18.1201 	EXP 	cue_study: text = 'poison'
+18.1201 	EXP 	target_study: height = 0.2
+18.1201 	EXP 	target_study: height = 0.2
+18.1201 	EXP 	target_study: height = 0.2
+18.1201 	EXP 	target_study: text = 'veneno'
+18.1201 	EXP 	cue_study: autoDraw = True
+18.1201 	EXP 	target_study: autoDraw = True
+18.1458 	DATA 	Mouse:  Left button up, pos=(773,51)
+18.2137 	DATA 	Mouse: Left button down, pos=(773,51)
+18.2624 	EXP 	New trial (rep=0, index=1): OrderedDict([('English', 'bucket'), ('Portuguese', 'balde')])
+18.2830 	DATA 	Mouse:  Left button up, pos=(773,51)
+18.2948 	EXP 	cue_study: autoDraw = False
+18.2948 	EXP 	target_study: autoDraw = False
+18.2948 	EXP 	cue_study: height = 0.2
+18.2948 	EXP 	cue_study: height = 0.2
+18.2948 	EXP 	cue_study: height = 0.2
+18.2948 	EXP 	cue_study: text = 'bucket'
+18.2948 	EXP 	target_study: height = 0.2
+18.2948 	EXP 	target_study: height = 0.2
+18.2948 	EXP 	target_study: height = 0.2
+18.2948 	EXP 	target_study: text = 'balde'
+18.2948 	EXP 	cue_study: autoDraw = True
+18.2948 	EXP 	target_study: autoDraw = True
+18.4623 	EXP 	New trial (rep=0, index=2): OrderedDict([('English', 'broom'), ('Portuguese', 'vassoura')])
+18.4954 	EXP 	cue_study: autoDraw = False
+18.4954 	EXP 	target_study: autoDraw = False
+18.4954 	EXP 	cue_study: height = 0.2
+18.4954 	EXP 	cue_study: height = 0.2
+18.4954 	EXP 	cue_study: height = 0.2
+18.4954 	EXP 	cue_study: text = 'broom'
+18.4954 	EXP 	target_study: height = 0.2
+18.4954 	EXP 	target_study: height = 0.2
+18.4954 	EXP 	target_study: height = 0.2
+18.4954 	EXP 	target_study: text = 'vassoura'
+18.4954 	EXP 	cue_study: autoDraw = True
+18.4954 	EXP 	target_study: autoDraw = True
+18.6624 	EXP 	New trial (rep=0, index=3): OrderedDict([('English', 'dog'), ('Portuguese', 'cachorro')])
+18.6886 	EXP 	cue_study: autoDraw = False
+18.6886 	EXP 	target_study: autoDraw = False
+18.6886 	EXP 	cue_study: height = 0.2
+18.6886 	EXP 	cue_study: height = 0.2
+18.6886 	EXP 	cue_study: height = 0.2
+18.6886 	EXP 	cue_study: text = 'dog'
+18.6886 	EXP 	target_study: height = 0.2
+18.6886 	EXP 	target_study: height = 0.2
+18.6886 	EXP 	target_study: height = 0.2
+18.6886 	EXP 	target_study: text = 'cachorro'
+18.6886 	EXP 	cue_study: autoDraw = True
+18.6886 	EXP 	target_study: autoDraw = True
+18.8625 	EXP 	New trial (rep=0, index=4): OrderedDict([('English', 'cloud'), ('Portuguese', 'nuvem')])
+18.8901 	EXP 	cue_study: autoDraw = False
+18.8901 	EXP 	target_study: autoDraw = False
+18.8901 	EXP 	cue_study: height = 0.2
+18.8901 	EXP 	cue_study: height = 0.2
+18.8901 	EXP 	cue_study: height = 0.2
+18.8901 	EXP 	cue_study: text = 'cloud'
+18.8901 	EXP 	target_study: height = 0.2
+18.8901 	EXP 	target_study: height = 0.2
+18.8901 	EXP 	target_study: height = 0.2
+18.8901 	EXP 	target_study: text = 'nuvem'
+18.8901 	EXP 	cue_study: autoDraw = True
+18.8901 	EXP 	target_study: autoDraw = True
+19.0629 	EXP 	New trial (rep=0, index=5): OrderedDict([('English', 'knee'), ('Portuguese', 'joelho')])
+19.0957 	EXP 	cue_study: autoDraw = False
+19.0957 	EXP 	target_study: autoDraw = False
+19.0957 	EXP 	cue_study: height = 0.2
+19.0957 	EXP 	cue_study: height = 0.2
+19.0957 	EXP 	cue_study: height = 0.2
+19.0957 	EXP 	cue_study: text = 'knee'
+19.0957 	EXP 	target_study: height = 0.2
+19.0957 	EXP 	target_study: height = 0.2
+19.0957 	EXP 	target_study: height = 0.2
+19.0957 	EXP 	target_study: text = 'joelho'
+19.0957 	EXP 	cue_study: autoDraw = True
+19.0957 	EXP 	target_study: autoDraw = True
+19.2636 	EXP 	New trial (rep=0, index=6): OrderedDict([('English', 'food'), ('Portuguese', 'comida')])
+19.2952 	EXP 	cue_study: autoDraw = False
+19.2952 	EXP 	target_study: autoDraw = False
+19.2952 	EXP 	cue_study: height = 0.2
+19.2952 	EXP 	cue_study: height = 0.2
+19.2952 	EXP 	cue_study: height = 0.2
+19.2952 	EXP 	cue_study: text = 'food'
+19.2952 	EXP 	target_study: height = 0.2
+19.2952 	EXP 	target_study: height = 0.2
+19.2952 	EXP 	target_study: height = 0.2
+19.2952 	EXP 	target_study: text = 'comida'
+19.2952 	EXP 	cue_study: autoDraw = True
+19.2952 	EXP 	target_study: autoDraw = True
+19.4574 	EXP 	New trial (rep=0, index=7): OrderedDict([('English', 'egg'), ('Portuguese', 'ovo')])
+19.4763 	EXP 	cue_study: autoDraw = False
+19.4763 	EXP 	target_study: autoDraw = False
+19.4763 	EXP 	cue_study: height = 0.2
+19.4763 	EXP 	cue_study: height = 0.2
+19.4763 	EXP 	cue_study: height = 0.2
+19.4763 	EXP 	cue_study: text = 'egg'
+19.4763 	EXP 	target_study: height = 0.2
+19.4763 	EXP 	target_study: height = 0.2
+19.4763 	EXP 	target_study: height = 0.2
+19.4763 	EXP 	target_study: text = 'ovo'
+19.4763 	EXP 	cue_study: autoDraw = True
+19.4763 	EXP 	target_study: autoDraw = True
+19.6623 	EXP 	New trial (rep=0, index=8): OrderedDict([('English', 'soul'), ('Portuguese', 'alma')])
+19.6886 	EXP 	cue_study: autoDraw = False
+19.6886 	EXP 	target_study: autoDraw = False
+19.6886 	EXP 	cue_study: height = 0.2
+19.6886 	EXP 	cue_study: height = 0.2
+19.6886 	EXP 	cue_study: height = 0.2
+19.6886 	EXP 	cue_study: text = 'soul'
+19.6886 	EXP 	target_study: height = 0.2
+19.6886 	EXP 	target_study: height = 0.2
+19.6886 	EXP 	target_study: height = 0.2
+19.6886 	EXP 	target_study: text = 'alma'
+19.6886 	EXP 	cue_study: autoDraw = True
+19.6886 	EXP 	target_study: autoDraw = True
+19.8614 	EXP 	New trial (rep=0, index=9): OrderedDict([('English', 'beer'), ('Portuguese', 'cerveja')])
+19.8759 	EXP 	cue_study: autoDraw = False
+19.8759 	EXP 	target_study: autoDraw = False
+19.8759 	EXP 	cue_study: height = 0.2
+19.8759 	EXP 	cue_study: height = 0.2
+19.8759 	EXP 	cue_study: height = 0.2
+19.8759 	EXP 	cue_study: text = 'beer'
+19.8759 	EXP 	target_study: height = 0.2
+19.8759 	EXP 	target_study: height = 0.2
+19.8759 	EXP 	target_study: height = 0.2
+19.8759 	EXP 	target_study: text = 'cerveja'
+19.8759 	EXP 	cue_study: autoDraw = True
+19.8759 	EXP 	target_study: autoDraw = True
+20.0671 	EXP 	Created sequence: random, trialTypes=1, nReps=999, seed=None
+20.0699 	EXP 	New trial (rep=0, index=0): None
+20.1077 	EXP 	cue_study: autoDraw = False
+20.1077 	EXP 	target_study: autoDraw = False
+20.1077 	EXP 	math_problem: height = 0.2
+20.1077 	EXP 	math_problem: height = 0.2
+20.1077 	EXP 	math_problem: height = 0.2
+20.1077 	EXP 	math_problem: text = 'Quanto é 2 × 20?'
+20.1077 	EXP 	debug1: autoDraw = True
+20.1077 	EXP 	math_prompt: autoDraw = True
+20.5626 	EXP 	math_problem: autoDraw = True
+20.5626 	EXP 	math_resp: autoDraw = True
+20.5626 	EXP 	math_line: autoDraw = True
+20.5626 	EXP 	math_resp: height = 0.2
+20.5626 	EXP 	math_resp: height = 0.2
+20.5626 	EXP 	math_resp: height = 0.2
+20.5626 	EXP 	math_resp: text = ''
+25.0942 	EXP 	math_problem: autoDraw = False
+25.0942 	EXP 	math_resp: autoDraw = False
+25.0942 	EXP 	math_line: autoDraw = False
+25.0942 	EXP 	debug1: autoDraw = False
+25.0942 	EXP 	math_prompt: autoDraw = False
+25.0942 	EXP 	prompt_msg: autoDraw = True
+26.3958 	EXP 	Imported cycle_1.csv as conditions, 10 conditions, 2 params
+26.3962 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+26.3965 	EXP 	New trial (rep=0, index=0): OrderedDict([('English', 'cloud'), ('Portuguese', 'nuvem')])
+26.4119 	DATA 	Keypress: space
+26.4416 	EXP 	prompt_msg: autoDraw = False
+26.4416 	EXP 	cue_test: height = 0.2
+26.4416 	EXP 	cue_test: height = 0.2
+26.4416 	EXP 	cue_test: height = 0.2
+26.4416 	EXP 	cue_test: text = 'cloud'
+26.4416 	EXP 	cue_test: autoDraw = True
+26.4416 	EXP 	target_test: autoDraw = True
+28.8773 	DATA 	Keypress: n
+28.9252 	DATA 	Keypress: u
+29.3109 	DATA 	Keypress: v
+29.4297 	DATA 	Keypress: e
+29.5442 	DATA 	Keypress: m
+29.8102 	DATA 	Keypress: return
+30.7111 	DATA 	Keypress: backspace
+30.9258 	DATA 	Keypress: backspace
+31.7632 	DATA 	Keypress: m
+31.9927 	DATA 	Keypress: return
+32.2978 	DATA 	Keypress: return
+32.4781 	DATA 	Keypress: return
+32.7929 	DATA 	Keypress: return
+32.9771 	DATA 	Keypress: return
+33.4087 	EXP 	New trial (rep=0, index=1): OrderedDict([('English', 'broom'), ('Portuguese', 'vassoura')])
+33.4269 	EXP 	cue_test: autoDraw = False
+33.4269 	EXP 	target_test: autoDraw = False
+33.4269 	EXP 	cue_test: height = 0.2
+33.4269 	EXP 	cue_test: height = 0.2
+33.4269 	EXP 	cue_test: height = 0.2
+33.4269 	EXP 	cue_test: text = 'broom'
+33.4269 	EXP 	cue_test: autoDraw = True
+33.4269 	EXP 	target_test: autoDraw = True
+34.4105 	DATA 	Keypress: v
+34.5262 	DATA 	Keypress: a
+34.6111 	DATA 	Keypress: s
+34.7637 	DATA 	Keypress: s
+34.8438 	DATA 	Keypress: o
+34.8966 	DATA 	Keypress: u
+34.9623 	DATA 	Keypress: r
+35.0296 	DATA 	Keypress: a
+35.2439 	DATA 	Keypress: return
+35.7100 	DATA 	Keypress: return
+36.0589 	DATA 	Keypress: return
+36.2114 	DATA 	Keypress: return
+36.7638 	DATA 	Keypress: return
+37.1442 	DATA 	Keypress: return
+37.3105 	DATA 	Keypress: return
+37.4972 	DATA 	Keypress: return
+37.6955 	DATA 	Keypress: return
+37.8595 	DATA 	Keypress: return
+38.2441 	DATA 	Keypress: return
+38.4294 	DATA 	Keypress: return
+38.6309 	DATA 	Keypress: return
+40.4081 	EXP 	New trial (rep=0, index=2): OrderedDict([('English', 'soul'), ('Portuguese', 'alma')])
+40.4266 	EXP 	cue_test: autoDraw = False
+40.4266 	EXP 	target_test: autoDraw = False
+40.4266 	EXP 	cue_test: height = 0.2
+40.4266 	EXP 	cue_test: height = 0.2
+40.4266 	EXP 	cue_test: height = 0.2
+40.4266 	EXP 	cue_test: text = 'soul'
+40.4266 	EXP 	cue_test: autoDraw = True
+40.4266 	EXP 	target_test: autoDraw = True
+41.2294 	DATA 	Keypress: a
+41.3109 	DATA 	Keypress: l
+41.3775 	DATA 	Keypress: m
+41.4769 	DATA 	Keypress: a
+41.8770 	DATA 	Keypress: return
+42.0440 	DATA 	Keypress: return
+42.1933 	DATA 	Keypress: return
+42.9245 	DATA 	Keypress: backspace
+43.2107 	DATA 	Keypress: backspace
+47.4076 	EXP 	New trial (rep=0, index=3): OrderedDict([('English', 'food'), ('Portuguese', 'comida')])
+47.4252 	EXP 	cue_test: autoDraw = False
+47.4252 	EXP 	target_test: autoDraw = False
+47.4252 	EXP 	cue_test: height = 0.2
+47.4252 	EXP 	cue_test: height = 0.2
+47.4252 	EXP 	cue_test: height = 0.2
+47.4252 	EXP 	cue_test: text = 'food'
+47.4252 	EXP 	cue_test: autoDraw = True
+47.4252 	EXP 	target_test: autoDraw = True
+48.4441 	DATA 	Keypress: c
+48.4770 	DATA 	Keypress: o
+48.5632 	DATA 	Keypress: m
+48.6105 	DATA 	Keypress: i
+48.7096 	DATA 	Keypress: d
+48.8100 	DATA 	Keypress: a
+48.9107 	DATA 	Keypress: space
+49.0580 	DATA 	Keypress: c
+49.1261 	DATA 	Keypress: o
+49.2291 	DATA 	Keypress: m
+49.2769 	DATA 	Keypress: i
+49.3629 	DATA 	Keypress: d
+49.4436 	DATA 	Keypress: a
+49.4958 	DATA 	Keypress: o
+49.5769 	DATA 	Keypress: space
+49.7244 	DATA 	Keypress: c
+49.8282 	DATA 	Keypress: o
+49.9428 	DATA 	Keypress: m
+50.0099 	DATA 	Keypress: i
+50.0583 	DATA 	Keypress: d
+50.1430 	DATA 	Keypress: a
+50.2435 	DATA 	Keypress: space
+50.3768 	DATA 	Keypress: c
+50.5432 	DATA 	Keypress: o
+50.6433 	DATA 	Keypress: m
+50.7622 	DATA 	Keypress: i
+50.8438 	DATA 	Keypress: d
+50.9429 	DATA 	Keypress: a
+50.9924 	DATA 	Keypress: space
+51.2287 	DATA 	Keypress: c
+51.4098 	DATA 	Keypress: o
+51.4955 	DATA 	Keypress: m
+51.5631 	DATA 	Keypress: d
+51.5642 	DATA 	Keypress: i
+51.6438 	DATA 	Keypress: a
+51.8775 	DATA 	Keypress: comma
+51.9621 	DATA 	Keypress: space
+53.3770 	DATA 	Keypress: semicolon
+53.8440 	DATA 	Keypress: lctrl
+53.8442 	DATA 	Keypress: ralt
+53.9242 	DATA 	Keypress: w
+54.4074 	EXP 	New trial (rep=0, index=4): OrderedDict([('English', 'dog'), ('Portuguese', 'cachorro')])
+54.4259 	EXP 	cue_test: autoDraw = False
+54.4259 	EXP 	target_test: autoDraw = False
+54.4259 	EXP 	cue_test: height = 0.2
+54.4259 	EXP 	cue_test: height = 0.2
+54.4259 	EXP 	cue_test: height = 0.2
+54.4259 	EXP 	cue_test: text = 'dog'
+54.4259 	EXP 	cue_test: autoDraw = True
+54.4259 	EXP 	target_test: autoDraw = True
+54.6761 	DATA 	Keypress: slash
+55.3967 	DATA 	Keypress: w
+55.5589 	DATA 	Keypress: w
+56.1962 	DATA 	Keypress: 1
+56.3770 	DATA 	Keypress: 1
+56.4437 	DATA 	Keypress: 2
+56.6916 	DATA 	Keypress: 3
+57.4095 	DATA 	Keypress: num_1
+57.4920 	DATA 	Keypress: num_2
+57.6427 	DATA 	Keypress: num_3
+59.1099 	DATA 	Keypress: num_4
+59.1968 	DATA 	Keypress: num_5
+59.2764 	DATA 	Keypress: num_6
+59.7092 	DATA 	Keypress: num_7
+59.7144 	DATA 	Keypress: num_4
+59.7966 	DATA 	Keypress: num_8
+60.0101 	DATA 	Keypress: num_8
+61.3936 	EXP 	New trial (rep=0, index=5): OrderedDict([('English', 'poison'), ('Portuguese', 'veneno')])
+61.4192 	EXP 	cue_test: autoDraw = False
+61.4192 	EXP 	target_test: autoDraw = False
+61.4192 	EXP 	cue_test: height = 0.2
+61.4192 	EXP 	cue_test: height = 0.2
+61.4192 	EXP 	cue_test: height = 0.2
+61.4192 	EXP 	cue_test: text = 'poison'
+61.4192 	EXP 	cue_test: autoDraw = True
+61.4192 	EXP 	target_test: autoDraw = True
+62.3943 	DATA 	Keypress: n
+62.4436 	DATA 	Keypress: u
+62.6421 	DATA 	Keypress: m
+62.9578 	DATA 	Keypress: lshift
+63.0430 	DATA 	Keypress: minus
+64.1766 	DATA 	Keypress: num_1
+66.0424 	DATA 	Keypress: comma
+66.1426 	DATA 	Keypress: space
+66.3282 	DATA 	Keypress: n
+66.3954 	DATA 	Keypress: u
+66.5953 	DATA 	Keypress: m
+67.0629 	DATA 	Keypress: lshift
+67.1092 	DATA 	Keypress: minus
+67.4424 	DATA 	Keypress: 2
+68.4069 	EXP 	New trial (rep=0, index=6): OrderedDict([('English', 'egg'), ('Portuguese', 'ovo')])
+68.4198 	EXP 	cue_test: autoDraw = False
+68.4198 	EXP 	target_test: autoDraw = False
+68.4198 	EXP 	cue_test: height = 0.2
+68.4198 	EXP 	cue_test: height = 0.2
+68.4198 	EXP 	cue_test: height = 0.2
+68.4198 	EXP 	cue_test: text = 'egg'
+68.4198 	EXP 	cue_test: autoDraw = True
+68.4198 	EXP 	target_test: autoDraw = True
+72.1760 	DATA 	Keypress: o
+72.2758 	DATA 	Keypress: v
+72.3757 	DATA 	Keypress: o
+72.7757 	DATA 	Keypress: return
+72.9425 	DATA 	Keypress: return
+73.0910 	DATA 	Keypress: return
+73.2610 	DATA 	Keypress: return
+73.3943 	DATA 	Keypress: return
+74.1278 	DATA 	Keypress: escape
+74.7776 	EXP 	window1: mouseVisible = True

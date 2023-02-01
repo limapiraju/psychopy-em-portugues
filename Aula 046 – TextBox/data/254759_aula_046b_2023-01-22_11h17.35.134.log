@@ -1,0 +1,22 @@
+2.9826 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+16.8523 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+20.1474 	DATA 	Keypress: escape
+20.1644 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.1648 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D0C226F520>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D0ED8B2D30>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.1649 	EXP 	window1: mouseVisible = True
+20.1651 	EXP 	window1: mouseVisible = False
+20.1651 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.1651 	EXP 	window1: recordFrameIntervals = False
+20.3312 	EXP 	window1: recordFrameIntervals = True
+20.4995 	WARNING 	t of last frame was 20.37ms (=1/49)
+20.8132 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+20.8133 	EXP 	window1: recordFrameIntervals = True
+23.9834 	WARNING 	t of last frame was 3170.44ms (=1/0)
+23.9834 	EXP 	textbox: autoLog = True
+23.9834 	EXP 	textbox: autoDraw = True
+24.9485 	WARNING 	t of last frame was 20.61ms (=1/48)
+25.9654 	DATA 	Keypress: escape
+26.4327 	EXP 	window1: mouseVisible = True
