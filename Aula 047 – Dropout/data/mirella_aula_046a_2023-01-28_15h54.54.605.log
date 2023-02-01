@@ -1,0 +1,103 @@
+10.5809 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+42.6822 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+42.6829 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AD2A7D64F0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AD535EDBE0>, multiSample=False, name='window1', numSamples=2, pos=(233, 84), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+42.6832 	EXP 	window1: mouseVisible = True
+42.6834 	EXP 	window1: mouseVisible = True
+42.6834 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+42.6835 	EXP 	window1: recordFrameIntervals = False
+42.8492 	EXP 	window1: recordFrameIntervals = True
+43.1498 	WARNING 	t of last frame was 20.97ms (=1/47)
+43.1727 	WARNING 	t of last frame was 22.92ms (=1/43)
+43.2162 	WARNING 	t of last frame was 20.79ms (=1/48)
+43.4487 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+43.4487 	EXP 	window1: recordFrameIntervals = True
+43.7333 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+48.7801 	EXP 	Created instruction_text = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='instruction_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), size=array([2. , 1.4]), texRes=128, units='norm', win=Window(...))
+48.7895 	EXP 	Created instruction_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='instruction_image', opacity=1.0, ori=0.0, pos=array([-0.35, -0.6 ]), size=array([0.75, 0.65]), texRes=128, units='norm', win=Window(...))
+48.9153 	EXP 	window1: mouseVisible = True
+49.0010 	EXP 	window1: mouseVisible = True
+49.1571 	EXP 	Created cue_study = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_study', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+49.1596 	EXP 	Created target_study = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='target_study', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+49.1651 	EXP 	Created math_problem = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='math_problem', opacity=1.0, ori=0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+49.1689 	EXP 	Created math_resp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='math_resp', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+49.1743 	EXP 	Created math_line = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='math_line', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.25]), size=array([0.3 , 0.01]), units='norm', vertices=ndarray(...), win=Window(...))
+49.1774 	EXP 	Created debug1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='debug1', opacity=1.0, ori=0.0, pos=array([ 0. , -0.8]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+49.3875 	EXP 	Created math_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1.        ,  0.29411765, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='math_prompt', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=UNKNOWN, text='Digite sua resposta e tecle [ENTER].', units='norm', win=Window(...), wrapWidth=1.8)
+49.4548 	EXP 	Created prompt_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='prompt_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+49.4619 	EXP 	Created cue_test = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='cue_test', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+49.5601 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+49.5620 	EXP 	Created sequence: sequential, trialTypes=1, nReps=999, seed=None
+49.5721 	EXP 	New trial (rep=0, index=0): None
+49.7514 	WARNING 	t of last frame was 6302.93ms (=1/0)
+49.7514 	EXP 	target_test: autoLog = True
+49.7514 	EXP 	instruction_text: image = 'instrucao_11.jpg'
+49.7514 	EXP 	instruction_image: texRes = 128
+49.7514 	EXP 	instruction_image: image = 'imagem_11.jpg'
+49.7514 	EXP 	instruction_text: autoDraw = True
+49.7514 	EXP 	instruction_image: autoDraw = True
+49.7948 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+67.9044 	DATA 	Mouse: Left button down, pos=(755,63)
+67.9441 	EXP 	New trial (rep=1, index=0): None
+67.9830 	EXP 	instruction_text: autoDraw = False
+67.9830 	EXP 	instruction_image: autoDraw = False
+67.9830 	EXP 	instruction_text: image = 'instrucao_12.jpg'
+67.9830 	EXP 	instruction_image: texRes = 128
+67.9830 	EXP 	instruction_image: image = 'imagem_12.jpg'
+67.9830 	EXP 	instruction_text: autoDraw = True
+67.9830 	EXP 	instruction_image: autoDraw = True
+68.0010 	DATA 	Mouse:  Left button up, pos=(755,63)
+68.3712 	DATA 	Mouse: Left button down, pos=(755,63)
+68.4057 	EXP 	New trial (rep=2, index=0): None
+68.4480 	EXP 	instruction_text: autoDraw = False
+68.4480 	EXP 	instruction_image: autoDraw = False
+68.4480 	EXP 	instruction_text: image = 'instrucao_13.jpg'
+68.4480 	EXP 	instruction_image: texRes = 128
+68.4480 	EXP 	instruction_image: image = 'imagem_13.jpg'
+68.4480 	EXP 	instruction_text: autoDraw = True
+68.4480 	EXP 	instruction_image: autoDraw = True
+68.4664 	DATA 	Mouse:  Left button up, pos=(755,63)
+68.8534 	DATA 	Mouse: Left button down, pos=(755,63)
+68.8858 	EXP 	New trial (rep=3, index=0): None
+68.9313 	EXP 	instruction_text: autoDraw = False
+68.9313 	EXP 	instruction_image: autoDraw = False
+68.9313 	EXP 	instruction_text: image = 'instrucao_14.jpg'
+68.9313 	EXP 	instruction_image: texRes = 128
+68.9313 	EXP 	instruction_image: image = 'imagem_14.jpg'
+68.9313 	EXP 	instruction_text: autoDraw = True
+68.9313 	EXP 	instruction_image: autoDraw = True
+68.9391 	DATA 	Mouse:  Left button up, pos=(755,63)
+71.0005 	DATA 	Mouse: Left button down, pos=(607,50)
+71.0238 	EXP 	New trial (rep=4, index=0): None
+71.0614 	EXP 	instruction_text: autoDraw = False
+71.0614 	EXP 	instruction_image: autoDraw = False
+71.0614 	EXP 	instruction_text: image = 'instrucao_13.jpg'
+71.0614 	EXP 	instruction_image: texRes = 128
+71.0614 	EXP 	instruction_image: image = 'imagem_13.jpg'
+71.0614 	EXP 	instruction_text: autoDraw = True
+71.0614 	EXP 	instruction_image: autoDraw = True
+71.0630 	DATA 	Mouse:  Left button up, pos=(608,50)
+71.5331 	DATA 	Mouse: Left button down, pos=(750,52)
+71.5568 	EXP 	New trial (rep=5, index=0): None
+71.5990 	EXP 	instruction_text: autoDraw = False
+71.5990 	EXP 	instruction_image: autoDraw = False
+71.5990 	EXP 	instruction_text: image = 'instrucao_14.jpg'
+71.5990 	EXP 	instruction_image: texRes = 128
+71.5990 	EXP 	instruction_image: image = 'imagem_14.jpg'
+71.5990 	EXP 	instruction_text: autoDraw = True
+71.5990 	EXP 	instruction_image: autoDraw = True
+71.6324 	DATA 	Mouse:  Left button up, pos=(750,52)
+75.3174 	DATA 	Mouse: Left button down, pos=(750,52)
+75.3420 	EXP 	New trial (rep=6, index=0): None
+75.3827 	EXP 	instruction_text: autoDraw = False
+75.3827 	EXP 	instruction_image: autoDraw = False
+75.3827 	EXP 	instruction_text: image = 'instrucao_15.jpg'
+75.3827 	EXP 	instruction_image: texRes = 128
+75.3827 	EXP 	instruction_image: image = 'imagem_15.jpg'
+75.3827 	EXP 	instruction_text: autoDraw = True
+75.3827 	EXP 	instruction_image: autoDraw = True
+75.4009 	DATA 	Mouse:  Left button up, pos=(750,52)
+80.5191 	DATA 	Mouse: Left button down, pos=(751,61)
+80.6526 	EXP 	window1: mouseVisible = True
