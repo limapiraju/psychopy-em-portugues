@@ -1,0 +1,3403 @@
+2.5417 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.8604 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000194016A6670>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001942D644E80>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.8606 	EXP 	window1: mouseVisible = True
+13.8607 	EXP 	window1: mouseVisible = False
+13.8607 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.8608 	EXP 	window1: recordFrameIntervals = False
+14.0262 	EXP 	window1: recordFrameIntervals = True
+14.2103 	EXP 	Screen (0) actual frame rate measured at 59.83Hz
+14.2104 	EXP 	window1: recordFrameIntervals = False
+17.3608 	EXP 	Created instr_txt_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instr_txt_1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.8)
+17.3873 	EXP 	Created image_L_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask='raisedCos', maskParams=None, name='image_L_3', opacity=1.0, ori=1.0, pos=array([-0.25,  0.2 ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+17.4069 	EXP 	Created image_R_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask='raisedCos', maskParams=None, name='image_R_3', opacity=1.0, ori=1.0, pos=array([0.25, 0.2 ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+17.4542 	EXP 	Created instr_txt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='instr_txt_2', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.2)
+17.4610 	EXP 	Created mini_pause_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='mini_pause_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=' +', units='height', win=Window(...), wrapWidth=1)
+17.4834 	EXP 	Created image_L = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask='raisedCos', maskParams=None, name='image_L', opacity=1.0, ori=1.0, pos=array([-0.25,  0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+17.5015 	EXP 	Created image_R = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask='raisedCos', maskParams=None, name='image_R', opacity=1.0, ori=1.0, pos=array([0.25, 0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+17.5324 	EXP 	Created main_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='main_instr', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.5337 	EXP 	Created trial_count = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='trial_count', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.5413 	EXP 	Created mini_pause = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.10000000000000002, italic=False, languageStyle='LTR', name='mini_pause', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=' ', units='height', win=Window(...), wrapWidth=1)
+17.5583 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='end_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='The end. \n \nPress space to see your data.', units='height', win=Window(...), wrapWidth=1)
+17.5752 	EXP 	instr_txt_1: autoDraw = True
+18.4143 	DATA 	Keypress: m
+18.5189 	EXP 	instr_txt_1: autoDraw = False
+18.5189 	EXP 	image_L_3: ori = 0.0
+18.5189 	EXP 	image_L_3: image = 'FR.png'
+18.5189 	EXP 	image_R_3: ori = -90.0
+18.5189 	EXP 	image_R_3: image = 'F.png'
+18.5189 	EXP 	image_L_3: autoDraw = True
+18.5189 	EXP 	image_R_3: autoDraw = True
+18.5189 	EXP 	instr_txt_2: autoDraw = True
+19.2644 	DATA 	Keypress: n
+19.2923 	EXP 	image_L_3: autoDraw = False
+19.2923 	EXP 	image_R_3: autoDraw = False
+19.2923 	EXP 	instr_txt_2: autoDraw = False
+19.2923 	EXP 	mini_pause_2: autoDraw = True
+20.7920 	EXP 	Imported MentalRot.csv as conditions, 16 conditions, 5 params
+20.7939 	EXP 	Created sequence: random, trialTypes=16, nReps=10, seed=None
+20.7949 	EXP 	New trial (rep=0, index=0): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+20.8346 	EXP 	mini_pause_2: autoDraw = False
+20.8346 	EXP 	mini_pause_2: autoDraw = False
+20.8346 	EXP 	image_L: ori = 0.0
+20.8346 	EXP 	image_L: image = 'FR.png'
+20.8346 	EXP 	image_R: ori = 225.0
+20.8346 	EXP 	image_R: image = 'FR.png'
+20.8346 	EXP 	trial_count: height = 0.03
+20.8346 	EXP 	trial_count: height = 0.03
+20.8346 	EXP 	trial_count: height = 0.03
+20.8346 	EXP 	trial_count: text = 0
+20.8346 	EXP 	image_L: autoDraw = True
+20.8346 	EXP 	image_R: autoDraw = True
+20.8346 	EXP 	main_instr: autoDraw = True
+20.8346 	EXP 	trial_count: autoDraw = True
+21.7510 	DATA 	Keypress: m
+21.7752 	EXP 	image_L: autoDraw = False
+21.7752 	EXP 	image_R: autoDraw = False
+21.7752 	EXP 	main_instr: autoDraw = False
+21.7752 	EXP 	trial_count: autoDraw = False
+21.7752 	EXP 	mini_pause: autoDraw = True
+22.2608 	EXP 	New trial (rep=0, index=1): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+22.2801 	EXP 	mini_pause: autoDraw = False
+22.2801 	EXP 	mini_pause: autoDraw = False
+22.2801 	EXP 	image_L: ori = 0.0
+22.2801 	EXP 	image_L: image = 'F.png'
+22.2801 	EXP 	image_R: ori = 45.0
+22.2801 	EXP 	image_R: image = 'F.png'
+22.2801 	EXP 	trial_count: height = 0.03
+22.2801 	EXP 	trial_count: height = 0.03
+22.2801 	EXP 	trial_count: height = 0.03
+22.2801 	EXP 	trial_count: text = 1
+22.2801 	EXP 	image_L: autoDraw = True
+22.2801 	EXP 	image_R: autoDraw = True
+22.2801 	EXP 	main_instr: autoDraw = True
+22.2801 	EXP 	trial_count: autoDraw = True
+23.0646 	DATA 	Keypress: m
+23.0752 	EXP 	image_L: autoDraw = False
+23.0752 	EXP 	image_R: autoDraw = False
+23.0752 	EXP 	main_instr: autoDraw = False
+23.0752 	EXP 	trial_count: autoDraw = False
+23.0752 	EXP 	mini_pause: autoDraw = True
+23.5596 	EXP 	New trial (rep=0, index=2): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+23.5802 	EXP 	mini_pause: autoDraw = False
+23.5802 	EXP 	mini_pause: autoDraw = False
+23.5802 	EXP 	image_L: ori = 0.0
+23.5802 	EXP 	image_L: image = 'F.png'
+23.5802 	EXP 	image_R: ori = 45.0
+23.5802 	EXP 	image_R: image = 'FR.png'
+23.5802 	EXP 	trial_count: height = 0.03
+23.5802 	EXP 	trial_count: height = 0.03
+23.5802 	EXP 	trial_count: height = 0.03
+23.5802 	EXP 	trial_count: text = 2
+23.5802 	EXP 	image_L: autoDraw = True
+23.5802 	EXP 	image_R: autoDraw = True
+23.5802 	EXP 	main_instr: autoDraw = True
+23.5802 	EXP 	trial_count: autoDraw = True
+24.1668 	DATA 	Keypress: n
+24.1917 	EXP 	image_L: autoDraw = False
+24.1917 	EXP 	image_R: autoDraw = False
+24.1917 	EXP 	main_instr: autoDraw = False
+24.1917 	EXP 	trial_count: autoDraw = False
+24.1917 	EXP 	mini_pause: autoDraw = True
+24.6764 	EXP 	New trial (rep=0, index=3): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+24.6927 	EXP 	mini_pause: autoDraw = False
+24.6927 	EXP 	mini_pause: autoDraw = False
+24.6927 	EXP 	image_L: ori = 0.0
+24.6927 	EXP 	image_L: image = 'F.png'
+24.6927 	EXP 	image_R: ori = 270.0
+24.6927 	EXP 	image_R: image = 'FR.png'
+24.6927 	EXP 	trial_count: height = 0.03
+24.6927 	EXP 	trial_count: height = 0.03
+24.6927 	EXP 	trial_count: height = 0.03
+24.6927 	EXP 	trial_count: text = 3
+24.6927 	EXP 	image_L: autoDraw = True
+24.6927 	EXP 	image_R: autoDraw = True
+24.6927 	EXP 	main_instr: autoDraw = True
+24.6927 	EXP 	trial_count: autoDraw = True
+25.3648 	DATA 	Keypress: n
+25.3753 	EXP 	image_L: autoDraw = False
+25.3753 	EXP 	image_R: autoDraw = False
+25.3753 	EXP 	main_instr: autoDraw = False
+25.3753 	EXP 	trial_count: autoDraw = False
+25.3753 	EXP 	mini_pause: autoDraw = True
+25.8603 	EXP 	New trial (rep=0, index=4): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+25.8821 	EXP 	mini_pause: autoDraw = False
+25.8821 	EXP 	mini_pause: autoDraw = False
+25.8821 	EXP 	image_L: ori = 0.0
+25.8821 	EXP 	image_L: image = 'F.png'
+25.8821 	EXP 	image_R: ori = 90.0
+25.8821 	EXP 	image_R: image = 'F.png'
+25.8821 	EXP 	trial_count: height = 0.03
+25.8821 	EXP 	trial_count: height = 0.03
+25.8821 	EXP 	trial_count: height = 0.03
+25.8821 	EXP 	trial_count: text = 4
+25.8821 	EXP 	image_L: autoDraw = True
+25.8821 	EXP 	image_R: autoDraw = True
+25.8821 	EXP 	main_instr: autoDraw = True
+25.8821 	EXP 	trial_count: autoDraw = True
+26.5154 	DATA 	Keypress: m
+26.5250 	EXP 	image_L: autoDraw = False
+26.5250 	EXP 	image_R: autoDraw = False
+26.5250 	EXP 	main_instr: autoDraw = False
+26.5250 	EXP 	trial_count: autoDraw = False
+26.5250 	EXP 	mini_pause: autoDraw = True
+27.0107 	EXP 	New trial (rep=0, index=5): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+27.0311 	EXP 	mini_pause: autoDraw = False
+27.0311 	EXP 	mini_pause: autoDraw = False
+27.0311 	EXP 	image_L: ori = 0.0
+27.0311 	EXP 	image_L: image = 'FR.png'
+27.0311 	EXP 	image_R: ori = 90.0
+27.0311 	EXP 	image_R: image = 'F.png'
+27.0311 	EXP 	trial_count: height = 0.03
+27.0311 	EXP 	trial_count: height = 0.03
+27.0311 	EXP 	trial_count: height = 0.03
+27.0311 	EXP 	trial_count: text = 5
+27.0311 	EXP 	image_L: autoDraw = True
+27.0311 	EXP 	image_R: autoDraw = True
+27.0311 	EXP 	main_instr: autoDraw = True
+27.0311 	EXP 	trial_count: autoDraw = True
+27.7297 	DATA 	Keypress: n
+27.7418 	EXP 	image_L: autoDraw = False
+27.7418 	EXP 	image_R: autoDraw = False
+27.7418 	EXP 	main_instr: autoDraw = False
+27.7418 	EXP 	trial_count: autoDraw = False
+27.7418 	EXP 	mini_pause: autoDraw = True
+28.2270 	EXP 	New trial (rep=0, index=6): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+28.2491 	EXP 	mini_pause: autoDraw = False
+28.2491 	EXP 	mini_pause: autoDraw = False
+28.2491 	EXP 	image_L: ori = 0.0
+28.2491 	EXP 	image_L: image = 'F.png'
+28.2491 	EXP 	image_R: ori = 0.0
+28.2491 	EXP 	image_R: image = 'F.png'
+28.2491 	EXP 	trial_count: height = 0.03
+28.2491 	EXP 	trial_count: height = 0.03
+28.2491 	EXP 	trial_count: height = 0.03
+28.2491 	EXP 	trial_count: text = 6
+28.2491 	EXP 	image_L: autoDraw = True
+28.2491 	EXP 	image_R: autoDraw = True
+28.2491 	EXP 	main_instr: autoDraw = True
+28.2491 	EXP 	trial_count: autoDraw = True
+28.7811 	DATA 	Keypress: m
+28.7919 	EXP 	image_L: autoDraw = False
+28.7919 	EXP 	image_R: autoDraw = False
+28.7919 	EXP 	main_instr: autoDraw = False
+28.7919 	EXP 	trial_count: autoDraw = False
+28.7919 	EXP 	mini_pause: autoDraw = True
+29.2769 	EXP 	New trial (rep=0, index=7): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+29.2998 	EXP 	mini_pause: autoDraw = False
+29.2998 	EXP 	mini_pause: autoDraw = False
+29.2998 	EXP 	image_L: ori = 0.0
+29.2998 	EXP 	image_L: image = 'FR.png'
+29.2998 	EXP 	image_R: ori = 270.0
+29.2998 	EXP 	image_R: image = 'FR.png'
+29.2998 	EXP 	trial_count: height = 0.03
+29.2998 	EXP 	trial_count: height = 0.03
+29.2998 	EXP 	trial_count: height = 0.03
+29.2998 	EXP 	trial_count: text = 7
+29.2998 	EXP 	image_L: autoDraw = True
+29.2998 	EXP 	image_R: autoDraw = True
+29.2998 	EXP 	main_instr: autoDraw = True
+29.2998 	EXP 	trial_count: autoDraw = True
+29.8634 	DATA 	Keypress: m
+29.8751 	EXP 	image_L: autoDraw = False
+29.8751 	EXP 	image_R: autoDraw = False
+29.8751 	EXP 	main_instr: autoDraw = False
+29.8751 	EXP 	trial_count: autoDraw = False
+29.8751 	EXP 	mini_pause: autoDraw = True
+30.3605 	EXP 	New trial (rep=0, index=8): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+30.3830 	EXP 	mini_pause: autoDraw = False
+30.3830 	EXP 	mini_pause: autoDraw = False
+30.3830 	EXP 	image_L: ori = 0.0
+30.3830 	EXP 	image_L: image = 'F.png'
+30.3830 	EXP 	image_R: ori = 135.0
+30.3830 	EXP 	image_R: image = 'FR.png'
+30.3830 	EXP 	trial_count: height = 0.03
+30.3830 	EXP 	trial_count: height = 0.03
+30.3830 	EXP 	trial_count: height = 0.03
+30.3830 	EXP 	trial_count: text = 8
+30.3830 	EXP 	image_L: autoDraw = True
+30.3830 	EXP 	image_R: autoDraw = True
+30.3830 	EXP 	main_instr: autoDraw = True
+30.3830 	EXP 	trial_count: autoDraw = True
+31.0853 	DATA 	Keypress: n
+31.1081 	EXP 	image_L: autoDraw = False
+31.1081 	EXP 	image_R: autoDraw = False
+31.1081 	EXP 	main_instr: autoDraw = False
+31.1081 	EXP 	trial_count: autoDraw = False
+31.1081 	EXP 	mini_pause: autoDraw = True
+31.5933 	EXP 	New trial (rep=0, index=9): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+31.6087 	EXP 	mini_pause: autoDraw = False
+31.6087 	EXP 	mini_pause: autoDraw = False
+31.6087 	EXP 	image_L: ori = 0.0
+31.6087 	EXP 	image_L: image = 'FR.png'
+31.6087 	EXP 	image_R: ori = 315.0
+31.6087 	EXP 	image_R: image = 'FR.png'
+31.6087 	EXP 	trial_count: height = 0.03
+31.6087 	EXP 	trial_count: height = 0.03
+31.6087 	EXP 	trial_count: height = 0.03
+31.6087 	EXP 	trial_count: text = 9
+31.6087 	EXP 	image_L: autoDraw = True
+31.6087 	EXP 	image_R: autoDraw = True
+31.6087 	EXP 	main_instr: autoDraw = True
+31.6087 	EXP 	trial_count: autoDraw = True
+32.0828 	DATA 	Keypress: m
+32.1081 	EXP 	image_L: autoDraw = False
+32.1081 	EXP 	image_R: autoDraw = False
+32.1081 	EXP 	main_instr: autoDraw = False
+32.1081 	EXP 	trial_count: autoDraw = False
+32.1081 	EXP 	mini_pause: autoDraw = True
+32.5931 	EXP 	New trial (rep=0, index=10): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+32.6139 	EXP 	mini_pause: autoDraw = False
+32.6139 	EXP 	mini_pause: autoDraw = False
+32.6139 	EXP 	image_L: ori = 0.0
+32.6139 	EXP 	image_L: image = 'FR.png'
+32.6139 	EXP 	image_R: ori = 315.0
+32.6139 	EXP 	image_R: image = 'F.png'
+32.6139 	EXP 	trial_count: height = 0.03
+32.6139 	EXP 	trial_count: height = 0.03
+32.6139 	EXP 	trial_count: height = 0.03
+32.6139 	EXP 	trial_count: text = 10
+32.6139 	EXP 	image_L: autoDraw = True
+32.6139 	EXP 	image_R: autoDraw = True
+32.6139 	EXP 	main_instr: autoDraw = True
+32.6139 	EXP 	trial_count: autoDraw = True
+33.2312 	DATA 	Keypress: n
+33.2417 	EXP 	image_L: autoDraw = False
+33.2417 	EXP 	image_R: autoDraw = False
+33.2417 	EXP 	main_instr: autoDraw = False
+33.2417 	EXP 	trial_count: autoDraw = False
+33.2417 	EXP 	mini_pause: autoDraw = True
+33.7275 	EXP 	New trial (rep=0, index=11): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+33.7488 	EXP 	mini_pause: autoDraw = False
+33.7488 	EXP 	mini_pause: autoDraw = False
+33.7488 	EXP 	image_L: ori = 0.0
+33.7488 	EXP 	image_L: image = 'F.png'
+33.7488 	EXP 	image_R: ori = 180.0
+33.7488 	EXP 	image_R: image = 'FR.png'
+33.7488 	EXP 	trial_count: height = 0.03
+33.7488 	EXP 	trial_count: height = 0.03
+33.7488 	EXP 	trial_count: height = 0.03
+33.7488 	EXP 	trial_count: text = 11
+33.7488 	EXP 	image_L: autoDraw = True
+33.7488 	EXP 	image_R: autoDraw = True
+33.7488 	EXP 	main_instr: autoDraw = True
+33.7488 	EXP 	trial_count: autoDraw = True
+34.4656 	DATA 	Keypress: n
+34.4913 	EXP 	image_L: autoDraw = False
+34.4913 	EXP 	image_R: autoDraw = False
+34.4913 	EXP 	main_instr: autoDraw = False
+34.4913 	EXP 	trial_count: autoDraw = False
+34.4913 	EXP 	mini_pause: autoDraw = True
+34.9766 	EXP 	New trial (rep=0, index=12): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+34.9979 	EXP 	mini_pause: autoDraw = False
+34.9979 	EXP 	mini_pause: autoDraw = False
+34.9979 	EXP 	image_L: ori = 0.0
+34.9979 	EXP 	image_L: image = 'F.png'
+34.9979 	EXP 	image_R: ori = 0.0
+34.9979 	EXP 	image_R: image = 'FR.png'
+34.9979 	EXP 	trial_count: height = 0.03
+34.9979 	EXP 	trial_count: height = 0.03
+34.9979 	EXP 	trial_count: height = 0.03
+34.9979 	EXP 	trial_count: text = 12
+34.9979 	EXP 	image_L: autoDraw = True
+34.9979 	EXP 	image_R: autoDraw = True
+34.9979 	EXP 	main_instr: autoDraw = True
+34.9979 	EXP 	trial_count: autoDraw = True
+35.5822 	DATA 	Keypress: n
+35.6081 	EXP 	image_L: autoDraw = False
+35.6081 	EXP 	image_R: autoDraw = False
+35.6081 	EXP 	main_instr: autoDraw = False
+35.6081 	EXP 	trial_count: autoDraw = False
+35.6081 	EXP 	mini_pause: autoDraw = True
+36.0932 	EXP 	New trial (rep=0, index=13): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+36.1144 	EXP 	mini_pause: autoDraw = False
+36.1144 	EXP 	mini_pause: autoDraw = False
+36.1144 	EXP 	image_L: ori = 0.0
+36.1144 	EXP 	image_L: image = 'F.png'
+36.1144 	EXP 	image_R: ori = 225.0
+36.1144 	EXP 	image_R: image = 'FR.png'
+36.1144 	EXP 	trial_count: height = 0.03
+36.1144 	EXP 	trial_count: height = 0.03
+36.1144 	EXP 	trial_count: height = 0.03
+36.1144 	EXP 	trial_count: text = 13
+36.1144 	EXP 	image_L: autoDraw = True
+36.1144 	EXP 	image_R: autoDraw = True
+36.1144 	EXP 	main_instr: autoDraw = True
+36.1144 	EXP 	trial_count: autoDraw = True
+36.7804 	DATA 	Keypress: n
+36.7917 	EXP 	image_L: autoDraw = False
+36.7917 	EXP 	image_R: autoDraw = False
+36.7917 	EXP 	main_instr: autoDraw = False
+36.7917 	EXP 	trial_count: autoDraw = False
+36.7917 	EXP 	mini_pause: autoDraw = True
+37.2767 	EXP 	New trial (rep=0, index=14): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+37.2976 	EXP 	mini_pause: autoDraw = False
+37.2976 	EXP 	mini_pause: autoDraw = False
+37.2976 	EXP 	image_L: ori = 0.0
+37.2976 	EXP 	image_L: image = 'FR.png'
+37.2976 	EXP 	image_R: ori = 135.0
+37.2976 	EXP 	image_R: image = 'FR.png'
+37.2976 	EXP 	trial_count: height = 0.03
+37.2976 	EXP 	trial_count: height = 0.03
+37.2976 	EXP 	trial_count: height = 0.03
+37.2976 	EXP 	trial_count: text = 14
+37.2976 	EXP 	image_L: autoDraw = True
+37.2976 	EXP 	image_R: autoDraw = True
+37.2976 	EXP 	main_instr: autoDraw = True
+37.2976 	EXP 	trial_count: autoDraw = True
+37.8821 	DATA 	Keypress: m
+37.9082 	EXP 	image_L: autoDraw = False
+37.9082 	EXP 	image_R: autoDraw = False
+37.9082 	EXP 	main_instr: autoDraw = False
+37.9082 	EXP 	trial_count: autoDraw = False
+37.9082 	EXP 	mini_pause: autoDraw = True
+38.3934 	EXP 	New trial (rep=0, index=15): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+38.4151 	EXP 	mini_pause: autoDraw = False
+38.4151 	EXP 	mini_pause: autoDraw = False
+38.4151 	EXP 	image_L: ori = 0.0
+38.4151 	EXP 	image_L: image = 'FR.png'
+38.4151 	EXP 	image_R: ori = 180.0
+38.4151 	EXP 	image_R: image = 'FR.png'
+38.4151 	EXP 	trial_count: height = 0.03
+38.4151 	EXP 	trial_count: height = 0.03
+38.4151 	EXP 	trial_count: height = 0.03
+38.4151 	EXP 	trial_count: text = 15
+38.4151 	EXP 	image_L: autoDraw = True
+38.4151 	EXP 	image_R: autoDraw = True
+38.4151 	EXP 	main_instr: autoDraw = True
+38.4151 	EXP 	trial_count: autoDraw = True
+39.1141 	DATA 	Keypress: m
+39.1246 	EXP 	image_L: autoDraw = False
+39.1246 	EXP 	image_R: autoDraw = False
+39.1246 	EXP 	main_instr: autoDraw = False
+39.1246 	EXP 	trial_count: autoDraw = False
+39.1246 	EXP 	mini_pause: autoDraw = True
+39.6096 	EXP 	New trial (rep=1, index=0): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+39.6303 	EXP 	mini_pause: autoDraw = False
+39.6303 	EXP 	mini_pause: autoDraw = False
+39.6303 	EXP 	image_L: ori = 0.0
+39.6303 	EXP 	image_L: image = 'FR.png'
+39.6303 	EXP 	image_R: ori = 90.0
+39.6303 	EXP 	image_R: image = 'FR.png'
+39.6303 	EXP 	trial_count: height = 0.03
+39.6303 	EXP 	trial_count: height = 0.03
+39.6303 	EXP 	trial_count: height = 0.03
+39.6303 	EXP 	trial_count: text = 16
+39.6303 	EXP 	image_L: autoDraw = True
+39.6303 	EXP 	image_R: autoDraw = True
+39.6303 	EXP 	main_instr: autoDraw = True
+39.6303 	EXP 	trial_count: autoDraw = True
+40.1974 	DATA 	Keypress: m
+40.2079 	EXP 	image_L: autoDraw = False
+40.2079 	EXP 	image_R: autoDraw = False
+40.2079 	EXP 	main_instr: autoDraw = False
+40.2079 	EXP 	trial_count: autoDraw = False
+40.2079 	EXP 	mini_pause: autoDraw = True
+40.6932 	EXP 	New trial (rep=1, index=1): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+40.7135 	EXP 	mini_pause: autoDraw = False
+40.7135 	EXP 	mini_pause: autoDraw = False
+40.7135 	EXP 	image_L: ori = 0.0
+40.7135 	EXP 	image_L: image = 'FR.png'
+40.7135 	EXP 	image_R: ori = 270.0
+40.7135 	EXP 	image_R: image = 'FR.png'
+40.7135 	EXP 	trial_count: height = 0.03
+40.7135 	EXP 	trial_count: height = 0.03
+40.7135 	EXP 	trial_count: height = 0.03
+40.7135 	EXP 	trial_count: text = 17
+40.7135 	EXP 	image_L: autoDraw = True
+40.7135 	EXP 	image_R: autoDraw = True
+40.7135 	EXP 	main_instr: autoDraw = True
+40.7135 	EXP 	trial_count: autoDraw = True
+41.4467 	DATA 	Keypress: m
+41.4577 	EXP 	image_L: autoDraw = False
+41.4577 	EXP 	image_R: autoDraw = False
+41.4577 	EXP 	main_instr: autoDraw = False
+41.4577 	EXP 	trial_count: autoDraw = False
+41.4577 	EXP 	mini_pause: autoDraw = True
+41.9432 	EXP 	New trial (rep=1, index=2): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+41.9642 	EXP 	mini_pause: autoDraw = False
+41.9642 	EXP 	mini_pause: autoDraw = False
+41.9642 	EXP 	image_L: ori = 0.0
+41.9642 	EXP 	image_L: image = 'F.png'
+41.9642 	EXP 	image_R: ori = 180.0
+41.9642 	EXP 	image_R: image = 'FR.png'
+41.9642 	EXP 	trial_count: height = 0.03
+41.9642 	EXP 	trial_count: height = 0.03
+41.9642 	EXP 	trial_count: height = 0.03
+41.9642 	EXP 	trial_count: text = 18
+41.9642 	EXP 	image_L: autoDraw = True
+41.9642 	EXP 	image_R: autoDraw = True
+41.9642 	EXP 	main_instr: autoDraw = True
+41.9642 	EXP 	trial_count: autoDraw = True
+42.6473 	DATA 	Keypress: n
+42.6744 	EXP 	image_L: autoDraw = False
+42.6744 	EXP 	image_R: autoDraw = False
+42.6744 	EXP 	main_instr: autoDraw = False
+42.6744 	EXP 	trial_count: autoDraw = False
+42.6744 	EXP 	mini_pause: autoDraw = True
+43.1597 	EXP 	New trial (rep=1, index=3): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+43.1814 	EXP 	mini_pause: autoDraw = False
+43.1814 	EXP 	mini_pause: autoDraw = False
+43.1814 	EXP 	image_L: ori = 0.0
+43.1814 	EXP 	image_L: image = 'F.png'
+43.1814 	EXP 	image_R: ori = 45.0
+43.1814 	EXP 	image_R: image = 'F.png'
+43.1814 	EXP 	trial_count: height = 0.03
+43.1814 	EXP 	trial_count: height = 0.03
+43.1814 	EXP 	trial_count: height = 0.03
+43.1814 	EXP 	trial_count: text = 19
+43.1814 	EXP 	image_L: autoDraw = True
+43.1814 	EXP 	image_R: autoDraw = True
+43.1814 	EXP 	main_instr: autoDraw = True
+43.1814 	EXP 	trial_count: autoDraw = True
+43.6818 	DATA 	Keypress: m
+43.7079 	EXP 	image_L: autoDraw = False
+43.7079 	EXP 	image_R: autoDraw = False
+43.7079 	EXP 	main_instr: autoDraw = False
+43.7079 	EXP 	trial_count: autoDraw = False
+43.7079 	EXP 	mini_pause: autoDraw = True
+44.1930 	EXP 	New trial (rep=1, index=4): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+44.2144 	EXP 	mini_pause: autoDraw = False
+44.2144 	EXP 	mini_pause: autoDraw = False
+44.2144 	EXP 	image_L: ori = 0.0
+44.2144 	EXP 	image_L: image = 'F.png'
+44.2144 	EXP 	image_R: ori = 270.0
+44.2144 	EXP 	image_R: image = 'FR.png'
+44.2144 	EXP 	trial_count: height = 0.03
+44.2144 	EXP 	trial_count: height = 0.03
+44.2144 	EXP 	trial_count: height = 0.03
+44.2144 	EXP 	trial_count: text = 20
+44.2144 	EXP 	image_L: autoDraw = True
+44.2144 	EXP 	image_R: autoDraw = True
+44.2144 	EXP 	main_instr: autoDraw = True
+44.2144 	EXP 	trial_count: autoDraw = True
+44.8975 	DATA 	Keypress: n
+44.9075 	EXP 	image_L: autoDraw = False
+44.9075 	EXP 	image_R: autoDraw = False
+44.9075 	EXP 	main_instr: autoDraw = False
+44.9075 	EXP 	trial_count: autoDraw = False
+44.9075 	EXP 	mini_pause: autoDraw = True
+45.3935 	EXP 	New trial (rep=1, index=5): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+45.4144 	EXP 	mini_pause: autoDraw = False
+45.4144 	EXP 	mini_pause: autoDraw = False
+45.4144 	EXP 	image_L: ori = 0.0
+45.4144 	EXP 	image_L: image = 'F.png'
+45.4144 	EXP 	image_R: ori = 90.0
+45.4144 	EXP 	image_R: image = 'FR.png'
+45.4144 	EXP 	trial_count: height = 0.03
+45.4144 	EXP 	trial_count: height = 0.03
+45.4144 	EXP 	trial_count: height = 0.03
+45.4144 	EXP 	trial_count: text = 21
+45.4144 	EXP 	image_L: autoDraw = True
+45.4144 	EXP 	image_R: autoDraw = True
+45.4144 	EXP 	main_instr: autoDraw = True
+45.4144 	EXP 	trial_count: autoDraw = True
+46.0136 	DATA 	Keypress: n
+46.0244 	EXP 	image_L: autoDraw = False
+46.0244 	EXP 	image_R: autoDraw = False
+46.0244 	EXP 	main_instr: autoDraw = False
+46.0244 	EXP 	trial_count: autoDraw = False
+46.0244 	EXP 	mini_pause: autoDraw = True
+46.5100 	EXP 	New trial (rep=1, index=6): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+46.5307 	EXP 	mini_pause: autoDraw = False
+46.5307 	EXP 	mini_pause: autoDraw = False
+46.5307 	EXP 	image_L: ori = 0.0
+46.5307 	EXP 	image_L: image = 'F.png'
+46.5307 	EXP 	image_R: ori = 180.0
+46.5307 	EXP 	image_R: image = 'F.png'
+46.5307 	EXP 	trial_count: height = 0.03
+46.5307 	EXP 	trial_count: height = 0.03
+46.5307 	EXP 	trial_count: height = 0.03
+46.5307 	EXP 	trial_count: text = 22
+46.5307 	EXP 	image_L: autoDraw = True
+46.5307 	EXP 	image_R: autoDraw = True
+46.5307 	EXP 	main_instr: autoDraw = True
+46.5307 	EXP 	trial_count: autoDraw = True
+47.1958 	DATA 	Keypress: m
+47.2074 	EXP 	image_L: autoDraw = False
+47.2074 	EXP 	image_R: autoDraw = False
+47.2074 	EXP 	main_instr: autoDraw = False
+47.2074 	EXP 	trial_count: autoDraw = False
+47.2074 	EXP 	mini_pause: autoDraw = True
+47.6921 	EXP 	New trial (rep=1, index=7): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+47.7154 	EXP 	mini_pause: autoDraw = False
+47.7154 	EXP 	mini_pause: autoDraw = False
+47.7154 	EXP 	image_L: ori = 0.0
+47.7154 	EXP 	image_L: image = 'F.png'
+47.7154 	EXP 	image_R: ori = 225.0
+47.7154 	EXP 	image_R: image = 'F.png'
+47.7154 	EXP 	trial_count: height = 0.03
+47.7154 	EXP 	trial_count: height = 0.03
+47.7154 	EXP 	trial_count: height = 0.03
+47.7154 	EXP 	trial_count: text = 23
+47.7154 	EXP 	image_L: autoDraw = True
+47.7154 	EXP 	image_R: autoDraw = True
+47.7154 	EXP 	main_instr: autoDraw = True
+47.7154 	EXP 	trial_count: autoDraw = True
+48.4311 	DATA 	Keypress: n
+48.4411 	EXP 	image_L: autoDraw = False
+48.4411 	EXP 	image_R: autoDraw = False
+48.4411 	EXP 	main_instr: autoDraw = False
+48.4411 	EXP 	trial_count: autoDraw = False
+48.4411 	EXP 	mini_pause: autoDraw = True
+48.9254 	EXP 	New trial (rep=1, index=8): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+48.9465 	EXP 	mini_pause: autoDraw = False
+48.9465 	EXP 	mini_pause: autoDraw = False
+48.9465 	EXP 	image_L: ori = 0.0
+48.9465 	EXP 	image_L: image = 'F.png'
+48.9465 	EXP 	image_R: ori = 0.0
+48.9465 	EXP 	image_R: image = 'F.png'
+48.9465 	EXP 	trial_count: height = 0.03
+48.9465 	EXP 	trial_count: height = 0.03
+48.9465 	EXP 	trial_count: height = 0.03
+48.9465 	EXP 	trial_count: text = 24
+48.9465 	EXP 	image_L: autoDraw = True
+48.9465 	EXP 	image_R: autoDraw = True
+48.9465 	EXP 	main_instr: autoDraw = True
+48.9465 	EXP 	trial_count: autoDraw = True
+49.5958 	DATA 	Keypress: m
+49.6071 	EXP 	image_L: autoDraw = False
+49.6071 	EXP 	image_R: autoDraw = False
+49.6071 	EXP 	main_instr: autoDraw = False
+49.6071 	EXP 	trial_count: autoDraw = False
+49.6071 	EXP 	mini_pause: autoDraw = True
+50.0924 	EXP 	New trial (rep=1, index=9): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+50.1093 	EXP 	mini_pause: autoDraw = False
+50.1093 	EXP 	mini_pause: autoDraw = False
+50.1093 	EXP 	image_L: ori = 0.0
+50.1093 	EXP 	image_L: image = 'FR.png'
+50.1093 	EXP 	image_R: ori = 135.0
+50.1093 	EXP 	image_R: image = 'F.png'
+50.1093 	EXP 	trial_count: height = 0.03
+50.1093 	EXP 	trial_count: height = 0.03
+50.1093 	EXP 	trial_count: height = 0.03
+50.1093 	EXP 	trial_count: text = 25
+50.1093 	EXP 	image_L: autoDraw = True
+50.1093 	EXP 	image_R: autoDraw = True
+50.1093 	EXP 	main_instr: autoDraw = True
+50.1093 	EXP 	trial_count: autoDraw = True
+51.2297 	DATA 	Keypress: n
+51.2409 	EXP 	image_L: autoDraw = False
+51.2409 	EXP 	image_R: autoDraw = False
+51.2409 	EXP 	main_instr: autoDraw = False
+51.2409 	EXP 	trial_count: autoDraw = False
+51.2409 	EXP 	mini_pause: autoDraw = True
+51.7262 	EXP 	New trial (rep=1, index=10): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+51.7479 	EXP 	mini_pause: autoDraw = False
+51.7479 	EXP 	mini_pause: autoDraw = False
+51.7479 	EXP 	image_L: ori = 0.0
+51.7479 	EXP 	image_L: image = 'F.png'
+51.7479 	EXP 	image_R: ori = 45.0
+51.7479 	EXP 	image_R: image = 'FR.png'
+51.7479 	EXP 	trial_count: height = 0.03
+51.7479 	EXP 	trial_count: height = 0.03
+51.7479 	EXP 	trial_count: height = 0.03
+51.7479 	EXP 	trial_count: text = 26
+51.7479 	EXP 	image_L: autoDraw = True
+51.7479 	EXP 	image_R: autoDraw = True
+51.7479 	EXP 	main_instr: autoDraw = True
+51.7479 	EXP 	trial_count: autoDraw = True
+52.2963 	DATA 	Keypress: m
+52.3072 	EXP 	image_L: autoDraw = False
+52.3072 	EXP 	image_R: autoDraw = False
+52.3072 	EXP 	main_instr: autoDraw = False
+52.3072 	EXP 	trial_count: autoDraw = False
+52.3072 	EXP 	mini_pause: autoDraw = True
+52.7926 	EXP 	New trial (rep=1, index=11): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+52.8121 	EXP 	mini_pause: autoDraw = False
+52.8121 	EXP 	mini_pause: autoDraw = False
+52.8121 	EXP 	image_L: ori = 0.0
+52.8121 	EXP 	image_L: image = 'FR.png'
+52.8121 	EXP 	image_R: ori = 315.0
+52.8121 	EXP 	image_R: image = 'FR.png'
+52.8121 	EXP 	trial_count: height = 0.03
+52.8121 	EXP 	trial_count: height = 0.03
+52.8121 	EXP 	trial_count: height = 0.03
+52.8121 	EXP 	trial_count: text = 27
+52.8121 	EXP 	image_L: autoDraw = True
+52.8121 	EXP 	image_R: autoDraw = True
+52.8121 	EXP 	main_instr: autoDraw = True
+52.8121 	EXP 	trial_count: autoDraw = True
+53.3467 	DATA 	Keypress: m
+53.3572 	EXP 	image_L: autoDraw = False
+53.3572 	EXP 	image_R: autoDraw = False
+53.3572 	EXP 	main_instr: autoDraw = False
+53.3572 	EXP 	trial_count: autoDraw = False
+53.3572 	EXP 	mini_pause: autoDraw = True
+53.8426 	EXP 	New trial (rep=1, index=12): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+53.8629 	EXP 	mini_pause: autoDraw = False
+53.8629 	EXP 	mini_pause: autoDraw = False
+53.8629 	EXP 	image_L: ori = 0.0
+53.8629 	EXP 	image_L: image = 'F.png'
+53.8629 	EXP 	image_R: ori = 135.0
+53.8629 	EXP 	image_R: image = 'F.png'
+53.8629 	EXP 	trial_count: height = 0.03
+53.8629 	EXP 	trial_count: height = 0.03
+53.8629 	EXP 	trial_count: height = 0.03
+53.8629 	EXP 	trial_count: text = 28
+53.8629 	EXP 	image_L: autoDraw = True
+53.8629 	EXP 	image_R: autoDraw = True
+53.8629 	EXP 	main_instr: autoDraw = True
+53.8629 	EXP 	trial_count: autoDraw = True
+54.5803 	DATA 	Keypress: m
+54.5905 	EXP 	image_L: autoDraw = False
+54.5905 	EXP 	image_R: autoDraw = False
+54.5905 	EXP 	main_instr: autoDraw = False
+54.5905 	EXP 	trial_count: autoDraw = False
+54.5905 	EXP 	mini_pause: autoDraw = True
+55.0752 	EXP 	New trial (rep=1, index=13): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+55.0940 	EXP 	mini_pause: autoDraw = False
+55.0940 	EXP 	mini_pause: autoDraw = False
+55.0940 	EXP 	image_L: ori = 0.0
+55.0940 	EXP 	image_L: image = 'F.png'
+55.0940 	EXP 	image_R: ori = 0.0
+55.0940 	EXP 	image_R: image = 'FR.png'
+55.0940 	EXP 	trial_count: height = 0.03
+55.0940 	EXP 	trial_count: height = 0.03
+55.0940 	EXP 	trial_count: height = 0.03
+55.0940 	EXP 	trial_count: text = 29
+55.0940 	EXP 	image_L: autoDraw = True
+55.0940 	EXP 	image_R: autoDraw = True
+55.0940 	EXP 	main_instr: autoDraw = True
+55.0940 	EXP 	trial_count: autoDraw = True
+55.7295 	DATA 	Keypress: n
+55.7405 	EXP 	image_L: autoDraw = False
+55.7405 	EXP 	image_R: autoDraw = False
+55.7405 	EXP 	main_instr: autoDraw = False
+55.7405 	EXP 	trial_count: autoDraw = False
+55.7405 	EXP 	mini_pause: autoDraw = True
+56.2258 	EXP 	New trial (rep=1, index=14): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+56.2500 	EXP 	mini_pause: autoDraw = False
+56.2500 	EXP 	mini_pause: autoDraw = False
+56.2500 	EXP 	image_L: ori = 0.0
+56.2500 	EXP 	image_L: image = 'F.png'
+56.2500 	EXP 	image_R: ori = 225.0
+56.2500 	EXP 	image_R: image = 'FR.png'
+56.2500 	EXP 	trial_count: height = 0.03
+56.2500 	EXP 	trial_count: height = 0.03
+56.2500 	EXP 	trial_count: height = 0.03
+56.2500 	EXP 	trial_count: text = 30
+56.2500 	EXP 	image_L: autoDraw = True
+56.2500 	EXP 	image_R: autoDraw = True
+56.2500 	EXP 	main_instr: autoDraw = True
+56.2500 	EXP 	trial_count: autoDraw = True
+56.9794 	DATA 	Keypress: n
+56.9904 	EXP 	image_L: autoDraw = False
+56.9904 	EXP 	image_R: autoDraw = False
+56.9904 	EXP 	main_instr: autoDraw = False
+56.9904 	EXP 	trial_count: autoDraw = False
+56.9904 	EXP 	mini_pause: autoDraw = True
+57.4758 	EXP 	New trial (rep=1, index=15): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+57.4983 	EXP 	mini_pause: autoDraw = False
+57.4983 	EXP 	mini_pause: autoDraw = False
+57.4983 	EXP 	image_L: ori = 0.0
+57.4983 	EXP 	image_L: image = 'FR.png'
+57.4983 	EXP 	image_R: ori = 315.0
+57.4983 	EXP 	image_R: image = 'F.png'
+57.4983 	EXP 	trial_count: height = 0.03
+57.4983 	EXP 	trial_count: height = 0.03
+57.4983 	EXP 	trial_count: height = 0.03
+57.4983 	EXP 	trial_count: text = 31
+57.4983 	EXP 	image_L: autoDraw = True
+57.4983 	EXP 	image_R: autoDraw = True
+57.4983 	EXP 	main_instr: autoDraw = True
+57.4983 	EXP 	trial_count: autoDraw = True
+58.0803 	DATA 	Keypress: n
+58.1072 	EXP 	image_L: autoDraw = False
+58.1072 	EXP 	image_R: autoDraw = False
+58.1072 	EXP 	main_instr: autoDraw = False
+58.1072 	EXP 	trial_count: autoDraw = False
+58.1072 	EXP 	mini_pause: autoDraw = True
+58.5926 	EXP 	New trial (rep=2, index=0): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+58.6146 	EXP 	mini_pause: autoDraw = False
+58.6146 	EXP 	mini_pause: autoDraw = False
+58.6146 	EXP 	image_L: ori = 0.0
+58.6146 	EXP 	image_L: image = 'FR.png'
+58.6146 	EXP 	image_R: ori = 180.0
+58.6146 	EXP 	image_R: image = 'F.png'
+58.6146 	EXP 	trial_count: height = 0.03
+58.6146 	EXP 	trial_count: height = 0.03
+58.6146 	EXP 	trial_count: height = 0.03
+58.6146 	EXP 	trial_count: text = 32
+58.6146 	EXP 	image_L: autoDraw = True
+58.6146 	EXP 	image_R: autoDraw = True
+58.6146 	EXP 	main_instr: autoDraw = True
+58.6146 	EXP 	trial_count: autoDraw = True
+59.3817 	DATA 	Keypress: n
+59.4072 	EXP 	image_L: autoDraw = False
+59.4072 	EXP 	image_R: autoDraw = False
+59.4072 	EXP 	main_instr: autoDraw = False
+59.4072 	EXP 	trial_count: autoDraw = False
+59.4072 	EXP 	mini_pause: autoDraw = True
+59.8924 	EXP 	New trial (rep=2, index=1): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+59.9129 	EXP 	mini_pause: autoDraw = False
+59.9129 	EXP 	mini_pause: autoDraw = False
+59.9129 	EXP 	image_L: ori = 0.0
+59.9129 	EXP 	image_L: image = 'FR.png'
+59.9129 	EXP 	image_R: ori = 270.0
+59.9129 	EXP 	image_R: image = 'FR.png'
+59.9129 	EXP 	trial_count: height = 0.03
+59.9129 	EXP 	trial_count: height = 0.03
+59.9129 	EXP 	trial_count: height = 0.03
+59.9129 	EXP 	trial_count: text = 33
+59.9129 	EXP 	image_L: autoDraw = True
+59.9129 	EXP 	image_R: autoDraw = True
+59.9129 	EXP 	main_instr: autoDraw = True
+59.9129 	EXP 	trial_count: autoDraw = True
+60.4657 	DATA 	Keypress: m
+60.4901 	EXP 	image_L: autoDraw = False
+60.4901 	EXP 	image_R: autoDraw = False
+60.4901 	EXP 	main_instr: autoDraw = False
+60.4901 	EXP 	trial_count: autoDraw = False
+60.4901 	EXP 	mini_pause: autoDraw = True
+60.9749 	EXP 	New trial (rep=2, index=2): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+60.9947 	EXP 	mini_pause: autoDraw = False
+60.9947 	EXP 	mini_pause: autoDraw = False
+60.9947 	EXP 	image_L: ori = 0.0
+60.9947 	EXP 	image_L: image = 'FR.png'
+60.9947 	EXP 	image_R: ori = 135.0
+60.9947 	EXP 	image_R: image = 'FR.png'
+60.9947 	EXP 	trial_count: height = 0.03
+60.9947 	EXP 	trial_count: height = 0.03
+60.9947 	EXP 	trial_count: height = 0.03
+60.9947 	EXP 	trial_count: text = 34
+60.9947 	EXP 	image_L: autoDraw = True
+60.9947 	EXP 	image_R: autoDraw = True
+60.9947 	EXP 	main_instr: autoDraw = True
+60.9947 	EXP 	trial_count: autoDraw = True
+61.5629 	DATA 	Keypress: m
+61.5734 	EXP 	image_L: autoDraw = False
+61.5734 	EXP 	image_R: autoDraw = False
+61.5734 	EXP 	main_instr: autoDraw = False
+61.5734 	EXP 	trial_count: autoDraw = False
+61.5734 	EXP 	mini_pause: autoDraw = True
+62.0582 	EXP 	New trial (rep=2, index=3): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+62.0767 	EXP 	mini_pause: autoDraw = False
+62.0767 	EXP 	mini_pause: autoDraw = False
+62.0767 	EXP 	image_L: ori = 0.0
+62.0767 	EXP 	image_L: image = 'F.png'
+62.0767 	EXP 	image_R: ori = 45.0
+62.0767 	EXP 	image_R: image = 'FR.png'
+62.0767 	EXP 	trial_count: height = 0.03
+62.0767 	EXP 	trial_count: height = 0.03
+62.0767 	EXP 	trial_count: height = 0.03
+62.0767 	EXP 	trial_count: text = 35
+62.0767 	EXP 	image_L: autoDraw = True
+62.0767 	EXP 	image_R: autoDraw = True
+62.0767 	EXP 	main_instr: autoDraw = True
+62.0767 	EXP 	trial_count: autoDraw = True
+62.6610 	DATA 	Keypress: n
+62.6731 	EXP 	image_L: autoDraw = False
+62.6731 	EXP 	image_R: autoDraw = False
+62.6731 	EXP 	main_instr: autoDraw = False
+62.6731 	EXP 	trial_count: autoDraw = False
+62.6731 	EXP 	mini_pause: autoDraw = True
+63.1577 	EXP 	New trial (rep=2, index=4): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+63.1750 	EXP 	mini_pause: autoDraw = False
+63.1750 	EXP 	mini_pause: autoDraw = False
+63.1750 	EXP 	image_L: ori = 0.0
+63.1750 	EXP 	image_L: image = 'F.png'
+63.1750 	EXP 	image_R: ori = 225.0
+63.1750 	EXP 	image_R: image = 'F.png'
+63.1750 	EXP 	trial_count: height = 0.03
+63.1750 	EXP 	trial_count: height = 0.03
+63.1750 	EXP 	trial_count: height = 0.03
+63.1750 	EXP 	trial_count: text = 36
+63.1750 	EXP 	image_L: autoDraw = True
+63.1750 	EXP 	image_R: autoDraw = True
+63.1750 	EXP 	main_instr: autoDraw = True
+63.1750 	EXP 	trial_count: autoDraw = True
+63.7460 	DATA 	Keypress: m
+63.7568 	EXP 	image_L: autoDraw = False
+63.7568 	EXP 	image_R: autoDraw = False
+63.7568 	EXP 	main_instr: autoDraw = False
+63.7568 	EXP 	trial_count: autoDraw = False
+63.7568 	EXP 	mini_pause: autoDraw = True
+64.2418 	EXP 	New trial (rep=2, index=5): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+64.2637 	EXP 	mini_pause: autoDraw = False
+64.2637 	EXP 	mini_pause: autoDraw = False
+64.2637 	EXP 	image_L: ori = 0.0
+64.2637 	EXP 	image_L: image = 'F.png'
+64.2637 	EXP 	image_R: ori = 315.0
+64.2637 	EXP 	image_R: image = 'FR.png'
+64.2637 	EXP 	trial_count: height = 0.03
+64.2637 	EXP 	trial_count: height = 0.03
+64.2637 	EXP 	trial_count: height = 0.03
+64.2637 	EXP 	trial_count: text = 37
+64.2637 	EXP 	image_L: autoDraw = True
+64.2637 	EXP 	image_R: autoDraw = True
+64.2637 	EXP 	main_instr: autoDraw = True
+64.2637 	EXP 	trial_count: autoDraw = True
+64.8815 	DATA 	Keypress: n
+64.8898 	EXP 	image_L: autoDraw = False
+64.8898 	EXP 	image_R: autoDraw = False
+64.8898 	EXP 	main_instr: autoDraw = False
+64.8898 	EXP 	trial_count: autoDraw = False
+64.8898 	EXP 	mini_pause: autoDraw = True
+65.3747 	EXP 	New trial (rep=2, index=6): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+65.3902 	EXP 	mini_pause: autoDraw = False
+65.3902 	EXP 	mini_pause: autoDraw = False
+65.3902 	EXP 	image_L: ori = 0.0
+65.3902 	EXP 	image_L: image = 'FR.png'
+65.3902 	EXP 	image_R: ori = 225.0
+65.3902 	EXP 	image_R: image = 'F.png'
+65.3902 	EXP 	trial_count: height = 0.03
+65.3902 	EXP 	trial_count: height = 0.03
+65.3902 	EXP 	trial_count: height = 0.03
+65.3902 	EXP 	trial_count: text = 38
+65.3902 	EXP 	image_L: autoDraw = True
+65.3902 	EXP 	image_R: autoDraw = True
+65.3902 	EXP 	main_instr: autoDraw = True
+65.3902 	EXP 	trial_count: autoDraw = True
+66.1787 	DATA 	Keypress: n
+66.1900 	EXP 	image_L: autoDraw = False
+66.1900 	EXP 	image_R: autoDraw = False
+66.1900 	EXP 	main_instr: autoDraw = False
+66.1900 	EXP 	trial_count: autoDraw = False
+66.1900 	EXP 	mini_pause: autoDraw = True
+66.6754 	EXP 	New trial (rep=2, index=7): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+66.6963 	EXP 	mini_pause: autoDraw = False
+66.6963 	EXP 	mini_pause: autoDraw = False
+66.6963 	EXP 	image_L: ori = 0.0
+66.6963 	EXP 	image_L: image = 'FR.png'
+66.6963 	EXP 	image_R: ori = 180.0
+66.6963 	EXP 	image_R: image = 'FR.png'
+66.6963 	EXP 	trial_count: height = 0.03
+66.6963 	EXP 	trial_count: height = 0.03
+66.6963 	EXP 	trial_count: height = 0.03
+66.6963 	EXP 	trial_count: text = 39
+66.6963 	EXP 	image_L: autoDraw = True
+66.6963 	EXP 	image_R: autoDraw = True
+66.6963 	EXP 	main_instr: autoDraw = True
+66.6963 	EXP 	trial_count: autoDraw = True
+67.4128 	DATA 	Keypress: m
+67.4233 	EXP 	image_L: autoDraw = False
+67.4233 	EXP 	image_R: autoDraw = False
+67.4233 	EXP 	main_instr: autoDraw = False
+67.4233 	EXP 	trial_count: autoDraw = False
+67.4233 	EXP 	mini_pause: autoDraw = True
+67.9081 	EXP 	New trial (rep=2, index=8): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+67.9282 	EXP 	mini_pause: autoDraw = False
+67.9282 	EXP 	mini_pause: autoDraw = False
+67.9282 	EXP 	image_L: ori = 0.0
+67.9282 	EXP 	image_L: image = 'F.png'
+67.9282 	EXP 	image_R: ori = 90.0
+67.9282 	EXP 	image_R: image = 'FR.png'
+67.9282 	EXP 	trial_count: height = 0.03
+67.9282 	EXP 	trial_count: height = 0.03
+67.9282 	EXP 	trial_count: height = 0.03
+67.9282 	EXP 	trial_count: text = 40
+67.9282 	EXP 	image_L: autoDraw = True
+67.9282 	EXP 	image_R: autoDraw = True
+67.9282 	EXP 	main_instr: autoDraw = True
+67.9282 	EXP 	trial_count: autoDraw = True
+69.2477 	DATA 	Keypress: n
+69.2732 	EXP 	image_L: autoDraw = False
+69.2732 	EXP 	image_R: autoDraw = False
+69.2732 	EXP 	main_instr: autoDraw = False
+69.2732 	EXP 	trial_count: autoDraw = False
+69.2732 	EXP 	mini_pause: autoDraw = True
+69.7585 	EXP 	New trial (rep=2, index=9): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+69.7796 	EXP 	mini_pause: autoDraw = False
+69.7796 	EXP 	mini_pause: autoDraw = False
+69.7796 	EXP 	image_L: ori = 0.0
+69.7796 	EXP 	image_L: image = 'F.png'
+69.7796 	EXP 	image_R: ori = 135.0
+69.7796 	EXP 	image_R: image = 'FR.png'
+69.7796 	EXP 	trial_count: height = 0.03
+69.7796 	EXP 	trial_count: height = 0.03
+69.7796 	EXP 	trial_count: height = 0.03
+69.7796 	EXP 	trial_count: text = 41
+69.7796 	EXP 	image_L: autoDraw = True
+69.7796 	EXP 	image_R: autoDraw = True
+69.7796 	EXP 	main_instr: autoDraw = True
+69.7796 	EXP 	trial_count: autoDraw = True
+70.4782 	DATA 	Keypress: n
+70.4899 	EXP 	image_L: autoDraw = False
+70.4899 	EXP 	image_R: autoDraw = False
+70.4899 	EXP 	main_instr: autoDraw = False
+70.4899 	EXP 	trial_count: autoDraw = False
+70.4899 	EXP 	mini_pause: autoDraw = True
+70.9746 	EXP 	New trial (rep=2, index=10): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+70.9949 	EXP 	mini_pause: autoDraw = False
+70.9949 	EXP 	mini_pause: autoDraw = False
+70.9949 	EXP 	image_L: ori = 0.0
+70.9949 	EXP 	image_L: image = 'FR.png'
+70.9949 	EXP 	image_R: ori = 45.0
+70.9949 	EXP 	image_R: image = 'FR.png'
+70.9949 	EXP 	trial_count: height = 0.03
+70.9949 	EXP 	trial_count: height = 0.03
+70.9949 	EXP 	trial_count: height = 0.03
+70.9949 	EXP 	trial_count: text = 42
+70.9949 	EXP 	image_L: autoDraw = True
+70.9949 	EXP 	image_R: autoDraw = True
+70.9949 	EXP 	main_instr: autoDraw = True
+70.9949 	EXP 	trial_count: autoDraw = True
+71.5128 	DATA 	Keypress: m
+71.5231 	EXP 	image_L: autoDraw = False
+71.5231 	EXP 	image_R: autoDraw = False
+71.5231 	EXP 	main_instr: autoDraw = False
+71.5231 	EXP 	trial_count: autoDraw = False
+71.5231 	EXP 	mini_pause: autoDraw = True
+72.0084 	EXP 	New trial (rep=2, index=11): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+72.0356 	EXP 	mini_pause: autoDraw = False
+72.0356 	EXP 	mini_pause: autoDraw = False
+72.0356 	EXP 	image_L: ori = 0.0
+72.0356 	EXP 	image_L: image = 'FR.png'
+72.0356 	EXP 	image_R: ori = 90.0
+72.0356 	EXP 	image_R: image = 'FR.png'
+72.0356 	EXP 	trial_count: height = 0.03
+72.0356 	EXP 	trial_count: height = 0.03
+72.0356 	EXP 	trial_count: height = 0.03
+72.0356 	EXP 	trial_count: text = 43
+72.0356 	EXP 	image_L: autoDraw = True
+72.0356 	EXP 	image_R: autoDraw = True
+72.0356 	EXP 	main_instr: autoDraw = True
+72.0356 	EXP 	trial_count: autoDraw = True
+72.5634 	DATA 	Keypress: m
+72.5732 	EXP 	image_L: autoDraw = False
+72.5732 	EXP 	image_R: autoDraw = False
+72.5732 	EXP 	main_instr: autoDraw = False
+72.5732 	EXP 	trial_count: autoDraw = False
+72.5732 	EXP 	mini_pause: autoDraw = True
+73.0581 	EXP 	New trial (rep=2, index=12): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+73.0783 	EXP 	mini_pause: autoDraw = False
+73.0783 	EXP 	mini_pause: autoDraw = False
+73.0783 	EXP 	image_L: ori = 0.0
+73.0783 	EXP 	image_L: image = 'F.png'
+73.0783 	EXP 	image_R: ori = 0.0
+73.0783 	EXP 	image_R: image = 'F.png'
+73.0783 	EXP 	trial_count: height = 0.03
+73.0783 	EXP 	trial_count: height = 0.03
+73.0783 	EXP 	trial_count: height = 0.03
+73.0783 	EXP 	trial_count: text = 44
+73.0783 	EXP 	image_L: autoDraw = True
+73.0783 	EXP 	image_R: autoDraw = True
+73.0783 	EXP 	main_instr: autoDraw = True
+73.0783 	EXP 	trial_count: autoDraw = True
+73.6648 	DATA 	Keypress: m
+73.6901 	EXP 	image_L: autoDraw = False
+73.6901 	EXP 	image_R: autoDraw = False
+73.6901 	EXP 	main_instr: autoDraw = False
+73.6901 	EXP 	trial_count: autoDraw = False
+73.6901 	EXP 	mini_pause: autoDraw = True
+74.1747 	EXP 	New trial (rep=2, index=13): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+74.1964 	EXP 	mini_pause: autoDraw = False
+74.1964 	EXP 	mini_pause: autoDraw = False
+74.1964 	EXP 	image_L: ori = 0.0
+74.1964 	EXP 	image_L: image = 'FR.png'
+74.1964 	EXP 	image_R: ori = 315.0
+74.1964 	EXP 	image_R: image = 'FR.png'
+74.1964 	EXP 	trial_count: height = 0.03
+74.1964 	EXP 	trial_count: height = 0.03
+74.1964 	EXP 	trial_count: height = 0.03
+74.1964 	EXP 	trial_count: text = 45
+74.1964 	EXP 	image_L: autoDraw = True
+74.1964 	EXP 	image_R: autoDraw = True
+74.1964 	EXP 	main_instr: autoDraw = True
+74.1964 	EXP 	trial_count: autoDraw = True
+74.7458 	DATA 	Keypress: m
+74.7561 	EXP 	image_L: autoDraw = False
+74.7561 	EXP 	image_R: autoDraw = False
+74.7561 	EXP 	main_instr: autoDraw = False
+74.7561 	EXP 	trial_count: autoDraw = False
+74.7561 	EXP 	mini_pause: autoDraw = True
+75.2413 	EXP 	New trial (rep=2, index=14): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+75.2571 	EXP 	mini_pause: autoDraw = False
+75.2571 	EXP 	mini_pause: autoDraw = False
+75.2571 	EXP 	image_L: ori = 0.0
+75.2571 	EXP 	image_L: image = 'FR.png'
+75.2571 	EXP 	image_R: ori = 270.0
+75.2571 	EXP 	image_R: image = 'F.png'
+75.2571 	EXP 	trial_count: height = 0.03
+75.2571 	EXP 	trial_count: height = 0.03
+75.2571 	EXP 	trial_count: height = 0.03
+75.2571 	EXP 	trial_count: text = 46
+75.2571 	EXP 	image_L: autoDraw = True
+75.2571 	EXP 	image_R: autoDraw = True
+75.2571 	EXP 	main_instr: autoDraw = True
+75.2571 	EXP 	trial_count: autoDraw = True
+75.9939 	DATA 	Keypress: n
+76.0062 	EXP 	image_L: autoDraw = False
+76.0062 	EXP 	image_R: autoDraw = False
+76.0062 	EXP 	main_instr: autoDraw = False
+76.0062 	EXP 	trial_count: autoDraw = False
+76.0062 	EXP 	mini_pause: autoDraw = True
+76.4914 	EXP 	New trial (rep=2, index=15): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+76.5154 	EXP 	mini_pause: autoDraw = False
+76.5154 	EXP 	mini_pause: autoDraw = False
+76.5154 	EXP 	image_L: ori = 0.0
+76.5154 	EXP 	image_L: image = 'FR.png'
+76.5154 	EXP 	image_R: ori = 0.0
+76.5154 	EXP 	image_R: image = 'F.png'
+76.5154 	EXP 	trial_count: height = 0.03
+76.5154 	EXP 	trial_count: height = 0.03
+76.5154 	EXP 	trial_count: height = 0.03
+76.5154 	EXP 	trial_count: text = 47
+76.5154 	EXP 	image_L: autoDraw = True
+76.5154 	EXP 	image_R: autoDraw = True
+76.5154 	EXP 	main_instr: autoDraw = True
+76.5154 	EXP 	trial_count: autoDraw = True
+77.0796 	DATA 	Keypress: n
+77.0899 	EXP 	image_L: autoDraw = False
+77.0899 	EXP 	image_R: autoDraw = False
+77.0899 	EXP 	main_instr: autoDraw = False
+77.0899 	EXP 	trial_count: autoDraw = False
+77.0899 	EXP 	mini_pause: autoDraw = True
+77.5739 	EXP 	New trial (rep=3, index=0): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+77.5911 	EXP 	mini_pause: autoDraw = False
+77.5911 	EXP 	mini_pause: autoDraw = False
+77.5911 	EXP 	image_L: ori = 0.0
+77.5911 	EXP 	image_L: image = 'FR.png'
+77.5911 	EXP 	image_R: ori = 315.0
+77.5911 	EXP 	image_R: image = 'F.png'
+77.5911 	EXP 	trial_count: height = 0.03
+77.5911 	EXP 	trial_count: height = 0.03
+77.5911 	EXP 	trial_count: height = 0.03
+77.5911 	EXP 	trial_count: text = 48
+77.5911 	EXP 	image_L: autoDraw = True
+77.5911 	EXP 	image_R: autoDraw = True
+77.5911 	EXP 	main_instr: autoDraw = True
+77.5911 	EXP 	trial_count: autoDraw = True
+78.1645 	DATA 	Keypress: n
+78.1892 	EXP 	image_L: autoDraw = False
+78.1892 	EXP 	image_R: autoDraw = False
+78.1892 	EXP 	main_instr: autoDraw = False
+78.1892 	EXP 	trial_count: autoDraw = False
+78.1892 	EXP 	mini_pause: autoDraw = True
+78.6746 	EXP 	New trial (rep=3, index=1): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+78.6976 	EXP 	mini_pause: autoDraw = False
+78.6976 	EXP 	mini_pause: autoDraw = False
+78.6976 	EXP 	image_L: ori = 0.0
+78.6976 	EXP 	image_L: image = 'FR.png'
+78.6976 	EXP 	image_R: ori = 225.0
+78.6976 	EXP 	image_R: image = 'F.png'
+78.6976 	EXP 	trial_count: height = 0.03
+78.6976 	EXP 	trial_count: height = 0.03
+78.6976 	EXP 	trial_count: height = 0.03
+78.6976 	EXP 	trial_count: text = 49
+78.6976 	EXP 	image_L: autoDraw = True
+78.6976 	EXP 	image_R: autoDraw = True
+78.6976 	EXP 	main_instr: autoDraw = True
+78.6976 	EXP 	trial_count: autoDraw = True
+79.3786 	DATA 	Keypress: n
+79.3894 	EXP 	image_L: autoDraw = False
+79.3894 	EXP 	image_R: autoDraw = False
+79.3894 	EXP 	main_instr: autoDraw = False
+79.3894 	EXP 	trial_count: autoDraw = False
+79.3894 	EXP 	mini_pause: autoDraw = True
+79.8739 	EXP 	New trial (rep=3, index=2): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+79.8930 	EXP 	mini_pause: autoDraw = False
+79.8930 	EXP 	mini_pause: autoDraw = False
+79.8930 	EXP 	image_L: ori = 0.0
+79.8930 	EXP 	image_L: image = 'FR.png'
+79.8930 	EXP 	image_R: ori = 0.0
+79.8930 	EXP 	image_R: image = 'F.png'
+79.8930 	EXP 	trial_count: height = 0.03
+79.8930 	EXP 	trial_count: height = 0.03
+79.8930 	EXP 	trial_count: height = 0.03
+79.8930 	EXP 	trial_count: text = 50
+79.8930 	EXP 	image_L: autoDraw = True
+79.8930 	EXP 	image_R: autoDraw = True
+79.8930 	EXP 	main_instr: autoDraw = True
+79.8930 	EXP 	trial_count: autoDraw = True
+80.5315 	DATA 	Keypress: n
+80.5561 	EXP 	image_L: autoDraw = False
+80.5561 	EXP 	image_R: autoDraw = False
+80.5561 	EXP 	main_instr: autoDraw = False
+80.5561 	EXP 	trial_count: autoDraw = False
+80.5561 	EXP 	mini_pause: autoDraw = True
+81.0417 	EXP 	New trial (rep=3, index=3): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+81.0653 	EXP 	mini_pause: autoDraw = False
+81.0653 	EXP 	mini_pause: autoDraw = False
+81.0653 	EXP 	image_L: ori = 0.0
+81.0653 	EXP 	image_L: image = 'F.png'
+81.0653 	EXP 	image_R: ori = 270.0
+81.0653 	EXP 	image_R: image = 'F.png'
+81.0653 	EXP 	trial_count: height = 0.03
+81.0653 	EXP 	trial_count: height = 0.03
+81.0653 	EXP 	trial_count: height = 0.03
+81.0653 	EXP 	trial_count: text = 51
+81.0653 	EXP 	image_L: autoDraw = True
+81.0653 	EXP 	image_R: autoDraw = True
+81.0653 	EXP 	main_instr: autoDraw = True
+81.0653 	EXP 	trial_count: autoDraw = True
+81.7622 	DATA 	Keypress: m
+81.7727 	EXP 	image_L: autoDraw = False
+81.7727 	EXP 	image_R: autoDraw = False
+81.7727 	EXP 	main_instr: autoDraw = False
+81.7727 	EXP 	trial_count: autoDraw = False
+81.7727 	EXP 	mini_pause: autoDraw = True
+82.2578 	EXP 	New trial (rep=3, index=4): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+82.2781 	EXP 	mini_pause: autoDraw = False
+82.2781 	EXP 	mini_pause: autoDraw = False
+82.2781 	EXP 	image_L: ori = 0.0
+82.2781 	EXP 	image_L: image = 'FR.png'
+82.2781 	EXP 	image_R: ori = 45.0
+82.2781 	EXP 	image_R: image = 'FR.png'
+82.2781 	EXP 	trial_count: height = 0.03
+82.2781 	EXP 	trial_count: height = 0.03
+82.2781 	EXP 	trial_count: height = 0.03
+82.2781 	EXP 	trial_count: text = 52
+82.2781 	EXP 	image_L: autoDraw = True
+82.2781 	EXP 	image_R: autoDraw = True
+82.2781 	EXP 	main_instr: autoDraw = True
+82.2781 	EXP 	trial_count: autoDraw = True
+82.8130 	DATA 	Keypress: m
+82.8225 	EXP 	image_L: autoDraw = False
+82.8225 	EXP 	image_R: autoDraw = False
+82.8225 	EXP 	main_instr: autoDraw = False
+82.8225 	EXP 	trial_count: autoDraw = False
+82.8225 	EXP 	mini_pause: autoDraw = True
+83.3078 	EXP 	New trial (rep=3, index=5): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+83.3292 	EXP 	mini_pause: autoDraw = False
+83.3292 	EXP 	mini_pause: autoDraw = False
+83.3292 	EXP 	image_L: ori = 0.0
+83.3292 	EXP 	image_L: image = 'FR.png'
+83.3292 	EXP 	image_R: ori = 135.0
+83.3292 	EXP 	image_R: image = 'F.png'
+83.3292 	EXP 	trial_count: height = 0.03
+83.3292 	EXP 	trial_count: height = 0.03
+83.3292 	EXP 	trial_count: height = 0.03
+83.3292 	EXP 	trial_count: text = 53
+83.3292 	EXP 	image_L: autoDraw = True
+83.3292 	EXP 	image_R: autoDraw = True
+83.3292 	EXP 	main_instr: autoDraw = True
+83.3292 	EXP 	trial_count: autoDraw = True
+83.9953 	DATA 	Keypress: n
+84.0062 	EXP 	image_L: autoDraw = False
+84.0062 	EXP 	image_R: autoDraw = False
+84.0062 	EXP 	main_instr: autoDraw = False
+84.0062 	EXP 	trial_count: autoDraw = False
+84.0062 	EXP 	mini_pause: autoDraw = True
+84.4905 	EXP 	New trial (rep=3, index=6): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+84.5081 	EXP 	mini_pause: autoDraw = False
+84.5081 	EXP 	mini_pause: autoDraw = False
+84.5081 	EXP 	image_L: ori = 0.0
+84.5081 	EXP 	image_L: image = 'FR.png'
+84.5081 	EXP 	image_R: ori = 270.0
+84.5081 	EXP 	image_R: image = 'F.png'
+84.5081 	EXP 	trial_count: height = 0.03
+84.5081 	EXP 	trial_count: height = 0.03
+84.5081 	EXP 	trial_count: height = 0.03
+84.5081 	EXP 	trial_count: text = 54
+84.5081 	EXP 	image_L: autoDraw = True
+84.5081 	EXP 	image_R: autoDraw = True
+84.5081 	EXP 	main_instr: autoDraw = True
+84.5081 	EXP 	trial_count: autoDraw = True
+85.1453 	DATA 	Keypress: n
+85.1559 	EXP 	image_L: autoDraw = False
+85.1559 	EXP 	image_R: autoDraw = False
+85.1559 	EXP 	main_instr: autoDraw = False
+85.1559 	EXP 	trial_count: autoDraw = False
+85.1559 	EXP 	mini_pause: autoDraw = True
+85.6415 	EXP 	New trial (rep=3, index=7): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+85.6650 	EXP 	mini_pause: autoDraw = False
+85.6650 	EXP 	mini_pause: autoDraw = False
+85.6650 	EXP 	image_L: ori = 0.0
+85.6650 	EXP 	image_L: image = 'F.png'
+85.6650 	EXP 	image_R: ori = 315.0
+85.6650 	EXP 	image_R: image = 'F.png'
+85.6650 	EXP 	trial_count: height = 0.03
+85.6650 	EXP 	trial_count: height = 0.03
+85.6650 	EXP 	trial_count: height = 0.03
+85.6650 	EXP 	trial_count: text = 55
+85.6650 	EXP 	image_L: autoDraw = True
+85.6650 	EXP 	image_R: autoDraw = True
+85.6650 	EXP 	main_instr: autoDraw = True
+85.6650 	EXP 	trial_count: autoDraw = True
+86.2116 	DATA 	Keypress: m
+86.2222 	EXP 	image_L: autoDraw = False
+86.2222 	EXP 	image_R: autoDraw = False
+86.2222 	EXP 	main_instr: autoDraw = False
+86.2222 	EXP 	trial_count: autoDraw = False
+86.2222 	EXP 	mini_pause: autoDraw = True
+86.7081 	EXP 	New trial (rep=3, index=8): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+86.7285 	EXP 	mini_pause: autoDraw = False
+86.7285 	EXP 	mini_pause: autoDraw = False
+86.7285 	EXP 	image_L: ori = 0.0
+86.7285 	EXP 	image_L: image = 'FR.png'
+86.7285 	EXP 	image_R: ori = 180.0
+86.7285 	EXP 	image_R: image = 'F.png'
+86.7285 	EXP 	trial_count: height = 0.03
+86.7285 	EXP 	trial_count: height = 0.03
+86.7285 	EXP 	trial_count: height = 0.03
+86.7285 	EXP 	trial_count: text = 56
+86.7285 	EXP 	image_L: autoDraw = True
+86.7285 	EXP 	image_R: autoDraw = True
+86.7285 	EXP 	main_instr: autoDraw = True
+86.7285 	EXP 	trial_count: autoDraw = True
+87.4458 	DATA 	Keypress: n
+87.4557 	EXP 	image_L: autoDraw = False
+87.4557 	EXP 	image_R: autoDraw = False
+87.4557 	EXP 	main_instr: autoDraw = False
+87.4557 	EXP 	trial_count: autoDraw = False
+87.4557 	EXP 	mini_pause: autoDraw = True
+87.9413 	EXP 	New trial (rep=3, index=9): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+87.9623 	EXP 	mini_pause: autoDraw = False
+87.9623 	EXP 	mini_pause: autoDraw = False
+87.9623 	EXP 	image_L: ori = 0.0
+87.9623 	EXP 	image_L: image = 'FR.png'
+87.9623 	EXP 	image_R: ori = 90.0
+87.9623 	EXP 	image_R: image = 'FR.png'
+87.9623 	EXP 	trial_count: height = 0.03
+87.9623 	EXP 	trial_count: height = 0.03
+87.9623 	EXP 	trial_count: height = 0.03
+87.9623 	EXP 	trial_count: text = 57
+87.9623 	EXP 	image_L: autoDraw = True
+87.9623 	EXP 	image_R: autoDraw = True
+87.9623 	EXP 	main_instr: autoDraw = True
+87.9623 	EXP 	trial_count: autoDraw = True
+88.5449 	DATA 	Keypress: m
+88.5557 	EXP 	image_L: autoDraw = False
+88.5557 	EXP 	image_R: autoDraw = False
+88.5557 	EXP 	main_instr: autoDraw = False
+88.5557 	EXP 	trial_count: autoDraw = False
+88.5557 	EXP 	mini_pause: autoDraw = True
+89.0414 	EXP 	New trial (rep=3, index=10): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+89.0663 	EXP 	mini_pause: autoDraw = False
+89.0663 	EXP 	mini_pause: autoDraw = False
+89.0663 	EXP 	image_L: ori = 0.0
+89.0663 	EXP 	image_L: image = 'F.png'
+89.0663 	EXP 	image_R: ori = 90.0
+89.0663 	EXP 	image_R: image = 'FR.png'
+89.0663 	EXP 	trial_count: height = 0.03
+89.0663 	EXP 	trial_count: height = 0.03
+89.0663 	EXP 	trial_count: height = 0.03
+89.0663 	EXP 	trial_count: text = 58
+89.0663 	EXP 	image_L: autoDraw = True
+89.0663 	EXP 	image_R: autoDraw = True
+89.0663 	EXP 	main_instr: autoDraw = True
+89.0663 	EXP 	trial_count: autoDraw = True
+89.9133 	DATA 	Keypress: n
+89.9391 	EXP 	image_L: autoDraw = False
+89.9391 	EXP 	image_R: autoDraw = False
+89.9391 	EXP 	main_instr: autoDraw = False
+89.9391 	EXP 	trial_count: autoDraw = False
+89.9391 	EXP 	mini_pause: autoDraw = True
+90.4248 	EXP 	New trial (rep=3, index=11): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+90.4456 	EXP 	mini_pause: autoDraw = False
+90.4456 	EXP 	mini_pause: autoDraw = False
+90.4456 	EXP 	image_L: ori = 0.0
+90.4456 	EXP 	image_L: image = 'F.png'
+90.4456 	EXP 	image_R: ori = 0.0
+90.4456 	EXP 	image_R: image = 'F.png'
+90.4456 	EXP 	trial_count: height = 0.03
+90.4456 	EXP 	trial_count: height = 0.03
+90.4456 	EXP 	trial_count: height = 0.03
+90.4456 	EXP 	trial_count: text = 59
+90.4456 	EXP 	image_L: autoDraw = True
+90.4456 	EXP 	image_R: autoDraw = True
+90.4456 	EXP 	main_instr: autoDraw = True
+90.4456 	EXP 	trial_count: autoDraw = True
+90.9488 	DATA 	Keypress: m
+90.9720 	EXP 	image_L: autoDraw = False
+90.9720 	EXP 	image_R: autoDraw = False
+90.9720 	EXP 	main_instr: autoDraw = False
+90.9720 	EXP 	trial_count: autoDraw = False
+90.9720 	EXP 	mini_pause: autoDraw = True
+91.4574 	EXP 	New trial (rep=3, index=12): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+91.4727 	EXP 	mini_pause: autoDraw = False
+91.4727 	EXP 	mini_pause: autoDraw = False
+91.4727 	EXP 	image_L: ori = 0.0
+91.4727 	EXP 	image_L: image = 'F.png'
+91.4727 	EXP 	image_R: ori = 225.0
+91.4727 	EXP 	image_R: image = 'F.png'
+91.4727 	EXP 	trial_count: height = 0.03
+91.4727 	EXP 	trial_count: height = 0.03
+91.4727 	EXP 	trial_count: height = 0.03
+91.4727 	EXP 	trial_count: text = 60
+91.4727 	EXP 	image_L: autoDraw = True
+91.4727 	EXP 	image_R: autoDraw = True
+91.4727 	EXP 	main_instr: autoDraw = True
+91.4727 	EXP 	trial_count: autoDraw = True
+92.0947 	DATA 	Keypress: m
+92.1053 	EXP 	image_L: autoDraw = False
+92.1053 	EXP 	image_R: autoDraw = False
+92.1053 	EXP 	main_instr: autoDraw = False
+92.1053 	EXP 	trial_count: autoDraw = False
+92.1053 	EXP 	mini_pause: autoDraw = True
+92.5897 	EXP 	New trial (rep=3, index=13): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+92.6117 	EXP 	mini_pause: autoDraw = False
+92.6117 	EXP 	mini_pause: autoDraw = False
+92.6117 	EXP 	image_L: ori = 0.0
+92.6117 	EXP 	image_L: image = 'FR.png'
+92.6117 	EXP 	image_R: ori = 45.0
+92.6117 	EXP 	image_R: image = 'F.png'
+92.6117 	EXP 	trial_count: height = 0.03
+92.6117 	EXP 	trial_count: height = 0.03
+92.6117 	EXP 	trial_count: height = 0.03
+92.6117 	EXP 	trial_count: text = 61
+92.6117 	EXP 	image_L: autoDraw = True
+92.6117 	EXP 	image_R: autoDraw = True
+92.6117 	EXP 	main_instr: autoDraw = True
+92.6117 	EXP 	trial_count: autoDraw = True
+93.1590 	DATA 	Keypress: n
+93.1728 	EXP 	image_L: autoDraw = False
+93.1728 	EXP 	image_R: autoDraw = False
+93.1728 	EXP 	main_instr: autoDraw = False
+93.1728 	EXP 	trial_count: autoDraw = False
+93.1728 	EXP 	mini_pause: autoDraw = True
+93.6569 	EXP 	New trial (rep=3, index=14): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+93.6728 	EXP 	mini_pause: autoDraw = False
+93.6728 	EXP 	mini_pause: autoDraw = False
+93.6728 	EXP 	image_L: ori = 0.0
+93.6728 	EXP 	image_L: image = 'FR.png'
+93.6728 	EXP 	image_R: ori = 135.0
+93.6728 	EXP 	image_R: image = 'FR.png'
+93.6728 	EXP 	trial_count: height = 0.03
+93.6728 	EXP 	trial_count: height = 0.03
+93.6728 	EXP 	trial_count: height = 0.03
+93.6728 	EXP 	trial_count: text = 62
+93.6728 	EXP 	image_L: autoDraw = True
+93.6728 	EXP 	image_R: autoDraw = True
+93.6728 	EXP 	main_instr: autoDraw = True
+93.6728 	EXP 	trial_count: autoDraw = True
+94.2478 	DATA 	Keypress: m
+94.2723 	EXP 	image_L: autoDraw = False
+94.2723 	EXP 	image_R: autoDraw = False
+94.2723 	EXP 	main_instr: autoDraw = False
+94.2723 	EXP 	trial_count: autoDraw = False
+94.2723 	EXP 	mini_pause: autoDraw = True
+94.7568 	EXP 	New trial (rep=3, index=15): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+94.7749 	EXP 	mini_pause: autoDraw = False
+94.7749 	EXP 	mini_pause: autoDraw = False
+94.7749 	EXP 	image_L: ori = 0.0
+94.7749 	EXP 	image_L: image = 'FR.png'
+94.7749 	EXP 	image_R: ori = 180.0
+94.7749 	EXP 	image_R: image = 'FR.png'
+94.7749 	EXP 	trial_count: height = 0.03
+94.7749 	EXP 	trial_count: height = 0.03
+94.7749 	EXP 	trial_count: height = 0.03
+94.7749 	EXP 	trial_count: text = 63
+94.7749 	EXP 	image_L: autoDraw = True
+94.7749 	EXP 	image_R: autoDraw = True
+94.7749 	EXP 	main_instr: autoDraw = True
+94.7749 	EXP 	trial_count: autoDraw = True
+95.4120 	DATA 	Keypress: m
+95.4224 	EXP 	image_L: autoDraw = False
+95.4224 	EXP 	image_R: autoDraw = False
+95.4224 	EXP 	main_instr: autoDraw = False
+95.4224 	EXP 	trial_count: autoDraw = False
+95.4224 	EXP 	mini_pause: autoDraw = True
+95.9072 	EXP 	New trial (rep=4, index=0): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+95.9283 	EXP 	mini_pause: autoDraw = False
+95.9283 	EXP 	mini_pause: autoDraw = False
+95.9283 	EXP 	image_L: ori = 0.0
+95.9283 	EXP 	image_L: image = 'FR.png'
+95.9283 	EXP 	image_R: ori = 225.0
+95.9283 	EXP 	image_R: image = 'FR.png'
+95.9283 	EXP 	trial_count: height = 0.03
+95.9283 	EXP 	trial_count: height = 0.03
+95.9283 	EXP 	trial_count: height = 0.03
+95.9283 	EXP 	trial_count: text = 64
+95.9283 	EXP 	image_L: autoDraw = True
+95.9283 	EXP 	image_R: autoDraw = True
+95.9283 	EXP 	main_instr: autoDraw = True
+95.9283 	EXP 	trial_count: autoDraw = True
+96.7124 	DATA 	Keypress: m
+96.7387 	EXP 	image_L: autoDraw = False
+96.7387 	EXP 	image_R: autoDraw = False
+96.7387 	EXP 	main_instr: autoDraw = False
+96.7387 	EXP 	trial_count: autoDraw = False
+96.7387 	EXP 	mini_pause: autoDraw = True
+97.2243 	EXP 	New trial (rep=4, index=1): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+97.2477 	EXP 	mini_pause: autoDraw = False
+97.2477 	EXP 	mini_pause: autoDraw = False
+97.2477 	EXP 	image_L: ori = 0.0
+97.2477 	EXP 	image_L: image = 'FR.png'
+97.2477 	EXP 	image_R: ori = 90.0
+97.2477 	EXP 	image_R: image = 'F.png'
+97.2477 	EXP 	trial_count: height = 0.03
+97.2477 	EXP 	trial_count: height = 0.03
+97.2477 	EXP 	trial_count: height = 0.03
+97.2477 	EXP 	trial_count: text = 65
+97.2477 	EXP 	image_L: autoDraw = True
+97.2477 	EXP 	image_R: autoDraw = True
+97.2477 	EXP 	main_instr: autoDraw = True
+97.2477 	EXP 	trial_count: autoDraw = True
+97.8795 	DATA 	Keypress: n
+97.9054 	EXP 	image_L: autoDraw = False
+97.9054 	EXP 	image_R: autoDraw = False
+97.9054 	EXP 	main_instr: autoDraw = False
+97.9054 	EXP 	trial_count: autoDraw = False
+97.9054 	EXP 	mini_pause: autoDraw = True
+98.3905 	EXP 	New trial (rep=4, index=2): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+98.4120 	EXP 	mini_pause: autoDraw = False
+98.4120 	EXP 	mini_pause: autoDraw = False
+98.4120 	EXP 	image_L: ori = 0.0
+98.4120 	EXP 	image_L: image = 'F.png'
+98.4120 	EXP 	image_R: ori = 270.0
+98.4120 	EXP 	image_R: image = 'F.png'
+98.4120 	EXP 	trial_count: height = 0.03
+98.4120 	EXP 	trial_count: height = 0.03
+98.4120 	EXP 	trial_count: height = 0.03
+98.4120 	EXP 	trial_count: text = 66
+98.4120 	EXP 	image_L: autoDraw = True
+98.4120 	EXP 	image_R: autoDraw = True
+98.4120 	EXP 	main_instr: autoDraw = True
+98.4120 	EXP 	trial_count: autoDraw = True
+98.9785 	DATA 	Keypress: m
+98.9883 	EXP 	image_L: autoDraw = False
+98.9883 	EXP 	image_R: autoDraw = False
+98.9883 	EXP 	main_instr: autoDraw = False
+98.9883 	EXP 	trial_count: autoDraw = False
+98.9883 	EXP 	mini_pause: autoDraw = True
+99.4740 	EXP 	New trial (rep=4, index=3): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+99.4952 	EXP 	mini_pause: autoDraw = False
+99.4952 	EXP 	mini_pause: autoDraw = False
+99.4952 	EXP 	image_L: ori = 0.0
+99.4952 	EXP 	image_L: image = 'FR.png'
+99.4952 	EXP 	image_R: ori = 45.0
+99.4952 	EXP 	image_R: image = 'F.png'
+99.4952 	EXP 	trial_count: height = 0.03
+99.4952 	EXP 	trial_count: height = 0.03
+99.4952 	EXP 	trial_count: height = 0.03
+99.4952 	EXP 	trial_count: text = 67
+99.4952 	EXP 	image_L: autoDraw = True
+99.4952 	EXP 	image_R: autoDraw = True
+99.4952 	EXP 	main_instr: autoDraw = True
+99.4952 	EXP 	trial_count: autoDraw = True
+100.0140 	DATA 	Keypress: n
+100.0386 	EXP 	image_L: autoDraw = False
+100.0386 	EXP 	image_R: autoDraw = False
+100.0386 	EXP 	main_instr: autoDraw = False
+100.0386 	EXP 	trial_count: autoDraw = False
+100.0386 	EXP 	mini_pause: autoDraw = True
+100.5232 	EXP 	New trial (rep=4, index=4): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+100.5414 	EXP 	mini_pause: autoDraw = False
+100.5414 	EXP 	mini_pause: autoDraw = False
+100.5414 	EXP 	image_L: ori = 0.0
+100.5414 	EXP 	image_L: image = 'F.png'
+100.5414 	EXP 	image_R: ori = 225.0
+100.5414 	EXP 	image_R: image = 'FR.png'
+100.5414 	EXP 	trial_count: height = 0.03
+100.5414 	EXP 	trial_count: height = 0.03
+100.5414 	EXP 	trial_count: height = 0.03
+100.5414 	EXP 	trial_count: text = 68
+100.5414 	EXP 	image_L: autoDraw = True
+100.5414 	EXP 	image_R: autoDraw = True
+100.5414 	EXP 	main_instr: autoDraw = True
+100.5414 	EXP 	trial_count: autoDraw = True
+101.1599 	DATA 	Keypress: n
+101.1719 	EXP 	image_L: autoDraw = False
+101.1719 	EXP 	image_R: autoDraw = False
+101.1719 	EXP 	main_instr: autoDraw = False
+101.1719 	EXP 	trial_count: autoDraw = False
+101.1719 	EXP 	mini_pause: autoDraw = True
+101.6570 	EXP 	New trial (rep=4, index=5): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+101.6772 	EXP 	mini_pause: autoDraw = False
+101.6772 	EXP 	mini_pause: autoDraw = False
+101.6772 	EXP 	image_L: ori = 0.0
+101.6772 	EXP 	image_L: image = 'FR.png'
+101.6772 	EXP 	image_R: ori = 180.0
+101.6772 	EXP 	image_R: image = 'FR.png'
+101.6772 	EXP 	trial_count: height = 0.03
+101.6772 	EXP 	trial_count: height = 0.03
+101.6772 	EXP 	trial_count: height = 0.03
+101.6772 	EXP 	trial_count: text = 69
+101.6772 	EXP 	image_L: autoDraw = True
+101.6772 	EXP 	image_R: autoDraw = True
+101.6772 	EXP 	main_instr: autoDraw = True
+101.6772 	EXP 	trial_count: autoDraw = True
+102.2609 	DATA 	Keypress: m
+102.2715 	EXP 	image_L: autoDraw = False
+102.2715 	EXP 	image_R: autoDraw = False
+102.2715 	EXP 	main_instr: autoDraw = False
+102.2715 	EXP 	trial_count: autoDraw = False
+102.2715 	EXP 	mini_pause: autoDraw = True
+102.7570 	EXP 	New trial (rep=4, index=6): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+102.7788 	EXP 	mini_pause: autoDraw = False
+102.7788 	EXP 	mini_pause: autoDraw = False
+102.7788 	EXP 	image_L: ori = 0.0
+102.7788 	EXP 	image_L: image = 'F.png'
+102.7788 	EXP 	image_R: ori = 315.0
+102.7788 	EXP 	image_R: image = 'FR.png'
+102.7788 	EXP 	trial_count: height = 0.03
+102.7788 	EXP 	trial_count: height = 0.03
+102.7788 	EXP 	trial_count: height = 0.03
+102.7788 	EXP 	trial_count: text = 70
+102.7788 	EXP 	image_L: autoDraw = True
+102.7788 	EXP 	image_R: autoDraw = True
+102.7788 	EXP 	main_instr: autoDraw = True
+102.7788 	EXP 	trial_count: autoDraw = True
+103.3488 	DATA 	Keypress: n
+103.3726 	EXP 	image_L: autoDraw = False
+103.3726 	EXP 	image_R: autoDraw = False
+103.3726 	EXP 	main_instr: autoDraw = False
+103.3726 	EXP 	trial_count: autoDraw = False
+103.3726 	EXP 	mini_pause: autoDraw = True
+103.8568 	EXP 	New trial (rep=4, index=7): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+103.8780 	EXP 	mini_pause: autoDraw = False
+103.8780 	EXP 	mini_pause: autoDraw = False
+103.8780 	EXP 	image_L: ori = 0.0
+103.8780 	EXP 	image_L: image = 'FR.png'
+103.8780 	EXP 	image_R: ori = 180.0
+103.8780 	EXP 	image_R: image = 'F.png'
+103.8780 	EXP 	trial_count: height = 0.03
+103.8780 	EXP 	trial_count: height = 0.03
+103.8780 	EXP 	trial_count: height = 0.03
+103.8780 	EXP 	trial_count: text = 71
+103.8780 	EXP 	image_L: autoDraw = True
+103.8780 	EXP 	image_R: autoDraw = True
+103.8780 	EXP 	main_instr: autoDraw = True
+103.8780 	EXP 	trial_count: autoDraw = True
+104.5288 	DATA 	Keypress: n
+104.5547 	EXP 	image_L: autoDraw = False
+104.5547 	EXP 	image_R: autoDraw = False
+104.5547 	EXP 	main_instr: autoDraw = False
+104.5547 	EXP 	trial_count: autoDraw = False
+104.5547 	EXP 	mini_pause: autoDraw = True
+105.0400 	EXP 	New trial (rep=4, index=8): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+105.0598 	EXP 	mini_pause: autoDraw = False
+105.0598 	EXP 	mini_pause: autoDraw = False
+105.0598 	EXP 	image_L: ori = 0.0
+105.0598 	EXP 	image_L: image = 'FR.png'
+105.0598 	EXP 	image_R: ori = 315.0
+105.0598 	EXP 	image_R: image = 'FR.png'
+105.0598 	EXP 	trial_count: height = 0.03
+105.0598 	EXP 	trial_count: height = 0.03
+105.0598 	EXP 	trial_count: height = 0.03
+105.0598 	EXP 	trial_count: text = 72
+105.0598 	EXP 	image_L: autoDraw = True
+105.0598 	EXP 	image_R: autoDraw = True
+105.0598 	EXP 	main_instr: autoDraw = True
+105.0598 	EXP 	trial_count: autoDraw = True
+105.6277 	DATA 	Keypress: n
+105.6381 	EXP 	image_L: autoDraw = False
+105.6381 	EXP 	image_R: autoDraw = False
+105.6381 	EXP 	main_instr: autoDraw = False
+105.6381 	EXP 	trial_count: autoDraw = False
+105.6381 	EXP 	mini_pause: autoDraw = True
+106.1233 	EXP 	New trial (rep=4, index=9): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+106.1459 	EXP 	mini_pause: autoDraw = False
+106.1459 	EXP 	mini_pause: autoDraw = False
+106.1459 	EXP 	image_L: ori = 0.0
+106.1459 	EXP 	image_L: image = 'F.png'
+106.1459 	EXP 	image_R: ori = 135.0
+106.1459 	EXP 	image_R: image = 'F.png'
+106.1459 	EXP 	trial_count: height = 0.03
+106.1459 	EXP 	trial_count: height = 0.03
+106.1459 	EXP 	trial_count: height = 0.03
+106.1459 	EXP 	trial_count: text = 73
+106.1459 	EXP 	image_L: autoDraw = True
+106.1459 	EXP 	image_R: autoDraw = True
+106.1459 	EXP 	main_instr: autoDraw = True
+106.1459 	EXP 	trial_count: autoDraw = True
+106.8121 	DATA 	Keypress: m
+106.8216 	EXP 	image_L: autoDraw = False
+106.8216 	EXP 	image_R: autoDraw = False
+106.8216 	EXP 	main_instr: autoDraw = False
+106.8216 	EXP 	trial_count: autoDraw = False
+106.8216 	EXP 	mini_pause: autoDraw = True
+107.3068 	EXP 	New trial (rep=4, index=10): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+107.3292 	EXP 	mini_pause: autoDraw = False
+107.3292 	EXP 	mini_pause: autoDraw = False
+107.3292 	EXP 	image_L: ori = 0.0
+107.3292 	EXP 	image_L: image = 'F.png'
+107.3292 	EXP 	image_R: ori = 135.0
+107.3292 	EXP 	image_R: image = 'FR.png'
+107.3292 	EXP 	trial_count: height = 0.03
+107.3292 	EXP 	trial_count: height = 0.03
+107.3292 	EXP 	trial_count: height = 0.03
+107.3292 	EXP 	trial_count: text = 74
+107.3292 	EXP 	image_L: autoDraw = True
+107.3292 	EXP 	image_R: autoDraw = True
+107.3292 	EXP 	main_instr: autoDraw = True
+107.3292 	EXP 	trial_count: autoDraw = True
+107.8943 	DATA 	Keypress: n
+107.9048 	EXP 	image_L: autoDraw = False
+107.9048 	EXP 	image_R: autoDraw = False
+107.9048 	EXP 	main_instr: autoDraw = False
+107.9048 	EXP 	trial_count: autoDraw = False
+107.9048 	EXP 	mini_pause: autoDraw = True
+108.3898 	EXP 	New trial (rep=4, index=11): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+108.4119 	EXP 	mini_pause: autoDraw = False
+108.4119 	EXP 	mini_pause: autoDraw = False
+108.4119 	EXP 	image_L: ori = 0.0
+108.4119 	EXP 	image_L: image = 'F.png'
+108.4119 	EXP 	image_R: ori = 0.0
+108.4119 	EXP 	image_R: image = 'F.png'
+108.4119 	EXP 	trial_count: height = 0.03
+108.4119 	EXP 	trial_count: height = 0.03
+108.4119 	EXP 	trial_count: height = 0.03
+108.4119 	EXP 	trial_count: text = 75
+108.4119 	EXP 	image_L: autoDraw = True
+108.4119 	EXP 	image_R: autoDraw = True
+108.4119 	EXP 	main_instr: autoDraw = True
+108.4119 	EXP 	trial_count: autoDraw = True
+108.9296 	DATA 	Keypress: m
+108.9381 	EXP 	image_L: autoDraw = False
+108.9381 	EXP 	image_R: autoDraw = False
+108.9381 	EXP 	main_instr: autoDraw = False
+108.9381 	EXP 	trial_count: autoDraw = False
+108.9381 	EXP 	mini_pause: autoDraw = True
+109.4234 	EXP 	New trial (rep=4, index=12): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+109.4472 	EXP 	mini_pause: autoDraw = False
+109.4472 	EXP 	mini_pause: autoDraw = False
+109.4472 	EXP 	image_L: ori = 0.0
+109.4472 	EXP 	image_L: image = 'FR.png'
+109.4472 	EXP 	image_R: ori = 270.0
+109.4472 	EXP 	image_R: image = 'F.png'
+109.4472 	EXP 	trial_count: height = 0.03
+109.4472 	EXP 	trial_count: height = 0.03
+109.4472 	EXP 	trial_count: height = 0.03
+109.4472 	EXP 	trial_count: text = 76
+109.4472 	EXP 	image_L: autoDraw = True
+109.4472 	EXP 	image_R: autoDraw = True
+109.4472 	EXP 	main_instr: autoDraw = True
+109.4472 	EXP 	trial_count: autoDraw = True
+110.1787 	DATA 	Keypress: n
+110.1882 	EXP 	image_L: autoDraw = False
+110.1882 	EXP 	image_R: autoDraw = False
+110.1882 	EXP 	main_instr: autoDraw = False
+110.1882 	EXP 	trial_count: autoDraw = False
+110.1882 	EXP 	mini_pause: autoDraw = True
+110.6733 	EXP 	New trial (rep=4, index=13): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+110.6965 	EXP 	mini_pause: autoDraw = False
+110.6965 	EXP 	mini_pause: autoDraw = False
+110.6965 	EXP 	image_L: ori = 0.0
+110.6965 	EXP 	image_L: image = 'F.png'
+110.6965 	EXP 	image_R: ori = 45.0
+110.6965 	EXP 	image_R: image = 'F.png'
+110.6965 	EXP 	trial_count: height = 0.03
+110.6965 	EXP 	trial_count: height = 0.03
+110.6965 	EXP 	trial_count: height = 0.03
+110.6965 	EXP 	trial_count: text = 77
+110.6965 	EXP 	image_L: autoDraw = True
+110.6965 	EXP 	image_R: autoDraw = True
+110.6965 	EXP 	main_instr: autoDraw = True
+110.6965 	EXP 	trial_count: autoDraw = True
+111.1940 	DATA 	Keypress: m
+111.2047 	EXP 	image_L: autoDraw = False
+111.2047 	EXP 	image_R: autoDraw = False
+111.2047 	EXP 	main_instr: autoDraw = False
+111.2047 	EXP 	trial_count: autoDraw = False
+111.2047 	EXP 	mini_pause: autoDraw = True
+111.6894 	EXP 	New trial (rep=4, index=14): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+111.7083 	EXP 	mini_pause: autoDraw = False
+111.7083 	EXP 	mini_pause: autoDraw = False
+111.7083 	EXP 	image_L: ori = 0.0
+111.7083 	EXP 	image_L: image = 'FR.png'
+111.7083 	EXP 	image_R: ori = 90.0
+111.7083 	EXP 	image_R: image = 'FR.png'
+111.7083 	EXP 	trial_count: height = 0.03
+111.7083 	EXP 	trial_count: height = 0.03
+111.7083 	EXP 	trial_count: height = 0.03
+111.7083 	EXP 	trial_count: text = 78
+111.7083 	EXP 	image_L: autoDraw = True
+111.7083 	EXP 	image_R: autoDraw = True
+111.7083 	EXP 	main_instr: autoDraw = True
+111.7083 	EXP 	trial_count: autoDraw = True
+112.4116 	DATA 	Keypress: m
+112.4215 	EXP 	image_L: autoDraw = False
+112.4215 	EXP 	image_R: autoDraw = False
+112.4215 	EXP 	main_instr: autoDraw = False
+112.4215 	EXP 	trial_count: autoDraw = False
+112.4215 	EXP 	mini_pause: autoDraw = True
+112.9064 	EXP 	New trial (rep=4, index=15): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+112.9281 	EXP 	mini_pause: autoDraw = False
+112.9281 	EXP 	mini_pause: autoDraw = False
+112.9281 	EXP 	image_L: ori = 0.0
+112.9281 	EXP 	image_L: image = 'F.png'
+112.9281 	EXP 	image_R: ori = 0.0
+112.9281 	EXP 	image_R: image = 'FR.png'
+112.9281 	EXP 	trial_count: height = 0.03
+112.9281 	EXP 	trial_count: height = 0.03
+112.9281 	EXP 	trial_count: height = 0.03
+112.9281 	EXP 	trial_count: text = 79
+112.9281 	EXP 	image_L: autoDraw = True
+112.9281 	EXP 	image_R: autoDraw = True
+112.9281 	EXP 	main_instr: autoDraw = True
+112.9281 	EXP 	trial_count: autoDraw = True
+113.4626 	DATA 	Keypress: n
+113.4877 	EXP 	image_L: autoDraw = False
+113.4877 	EXP 	image_R: autoDraw = False
+113.4877 	EXP 	main_instr: autoDraw = False
+113.4877 	EXP 	trial_count: autoDraw = False
+113.4877 	EXP 	mini_pause: autoDraw = True
+113.9727 	EXP 	New trial (rep=5, index=0): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+113.9913 	EXP 	mini_pause: autoDraw = False
+113.9913 	EXP 	mini_pause: autoDraw = False
+113.9913 	EXP 	image_L: ori = 0.0
+113.9913 	EXP 	image_L: image = 'FR.png'
+113.9913 	EXP 	image_R: ori = 0.0
+113.9913 	EXP 	image_R: image = 'FR.png'
+113.9913 	EXP 	trial_count: height = 0.03
+113.9913 	EXP 	trial_count: height = 0.03
+113.9913 	EXP 	trial_count: height = 0.03
+113.9913 	EXP 	trial_count: text = 80
+113.9913 	EXP 	image_L: autoDraw = True
+113.9913 	EXP 	image_R: autoDraw = True
+113.9913 	EXP 	main_instr: autoDraw = True
+113.9913 	EXP 	trial_count: autoDraw = True
+114.5439 	DATA 	Keypress: m
+114.5547 	EXP 	image_L: autoDraw = False
+114.5547 	EXP 	image_R: autoDraw = False
+114.5547 	EXP 	main_instr: autoDraw = False
+114.5547 	EXP 	trial_count: autoDraw = False
+114.5547 	EXP 	mini_pause: autoDraw = True
+115.0403 	EXP 	New trial (rep=5, index=1): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+115.0623 	EXP 	mini_pause: autoDraw = False
+115.0623 	EXP 	mini_pause: autoDraw = False
+115.0623 	EXP 	image_L: ori = 0.0
+115.0623 	EXP 	image_L: image = 'F.png'
+115.0623 	EXP 	image_R: ori = 135.0
+115.0623 	EXP 	image_R: image = 'FR.png'
+115.0623 	EXP 	trial_count: height = 0.03
+115.0623 	EXP 	trial_count: height = 0.03
+115.0623 	EXP 	trial_count: height = 0.03
+115.0623 	EXP 	trial_count: text = 81
+115.0623 	EXP 	image_L: autoDraw = True
+115.0623 	EXP 	image_R: autoDraw = True
+115.0623 	EXP 	main_instr: autoDraw = True
+115.0623 	EXP 	trial_count: autoDraw = True
+115.6438 	DATA 	Keypress: n
+115.6547 	EXP 	image_L: autoDraw = False
+115.6547 	EXP 	image_R: autoDraw = False
+115.6547 	EXP 	main_instr: autoDraw = False
+115.6547 	EXP 	trial_count: autoDraw = False
+115.6547 	EXP 	mini_pause: autoDraw = True
+116.1394 	EXP 	New trial (rep=5, index=2): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+116.1639 	EXP 	mini_pause: autoDraw = False
+116.1639 	EXP 	mini_pause: autoDraw = False
+116.1639 	EXP 	image_L: ori = 0.0
+116.1639 	EXP 	image_L: image = 'F.png'
+116.1639 	EXP 	image_R: ori = 90.0
+116.1639 	EXP 	image_R: image = 'FR.png'
+116.1639 	EXP 	trial_count: height = 0.03
+116.1639 	EXP 	trial_count: height = 0.03
+116.1639 	EXP 	trial_count: height = 0.03
+116.1639 	EXP 	trial_count: text = 82
+116.1639 	EXP 	image_L: autoDraw = True
+116.1639 	EXP 	image_R: autoDraw = True
+116.1639 	EXP 	main_instr: autoDraw = True
+116.1639 	EXP 	trial_count: autoDraw = True
+116.6958 	DATA 	Keypress: n
+116.7210 	EXP 	image_L: autoDraw = False
+116.7210 	EXP 	image_R: autoDraw = False
+116.7210 	EXP 	main_instr: autoDraw = False
+116.7210 	EXP 	trial_count: autoDraw = False
+116.7210 	EXP 	mini_pause: autoDraw = True
+117.2061 	EXP 	New trial (rep=5, index=3): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+117.2216 	EXP 	mini_pause: autoDraw = False
+117.2216 	EXP 	mini_pause: autoDraw = False
+117.2216 	EXP 	image_L: ori = 0.0
+117.2216 	EXP 	image_L: image = 'FR.png'
+117.2216 	EXP 	image_R: ori = 0.0
+117.2216 	EXP 	image_R: image = 'F.png'
+117.2216 	EXP 	trial_count: height = 0.03
+117.2216 	EXP 	trial_count: height = 0.03
+117.2216 	EXP 	trial_count: height = 0.03
+117.2216 	EXP 	trial_count: text = 83
+117.2216 	EXP 	image_L: autoDraw = True
+117.2216 	EXP 	image_R: autoDraw = True
+117.2216 	EXP 	main_instr: autoDraw = True
+117.2216 	EXP 	trial_count: autoDraw = True
+117.7600 	DATA 	Keypress: n
+117.7878 	EXP 	image_L: autoDraw = False
+117.7878 	EXP 	image_R: autoDraw = False
+117.7878 	EXP 	main_instr: autoDraw = False
+117.7878 	EXP 	trial_count: autoDraw = False
+117.7878 	EXP 	mini_pause: autoDraw = True
+118.2729 	EXP 	New trial (rep=5, index=4): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+118.2919 	EXP 	mini_pause: autoDraw = False
+118.2919 	EXP 	mini_pause: autoDraw = False
+118.2919 	EXP 	image_L: ori = 0.0
+118.2919 	EXP 	image_L: image = 'FR.png'
+118.2919 	EXP 	image_R: ori = 270.0
+118.2919 	EXP 	image_R: image = 'FR.png'
+118.2919 	EXP 	trial_count: height = 0.03
+118.2919 	EXP 	trial_count: height = 0.03
+118.2919 	EXP 	trial_count: height = 0.03
+118.2919 	EXP 	trial_count: text = 84
+118.2919 	EXP 	image_L: autoDraw = True
+118.2919 	EXP 	image_R: autoDraw = True
+118.2919 	EXP 	main_instr: autoDraw = True
+118.2919 	EXP 	trial_count: autoDraw = True
+118.8777 	DATA 	Keypress: n
+118.9042 	EXP 	image_L: autoDraw = False
+118.9042 	EXP 	image_R: autoDraw = False
+118.9042 	EXP 	main_instr: autoDraw = False
+118.9042 	EXP 	trial_count: autoDraw = False
+118.9042 	EXP 	mini_pause: autoDraw = True
+119.3890 	EXP 	New trial (rep=5, index=5): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+119.4094 	EXP 	mini_pause: autoDraw = False
+119.4094 	EXP 	mini_pause: autoDraw = False
+119.4094 	EXP 	image_L: ori = 0.0
+119.4094 	EXP 	image_L: image = 'F.png'
+119.4094 	EXP 	image_R: ori = 270.0
+119.4094 	EXP 	image_R: image = 'FR.png'
+119.4094 	EXP 	trial_count: height = 0.03
+119.4094 	EXP 	trial_count: height = 0.03
+119.4094 	EXP 	trial_count: height = 0.03
+119.4094 	EXP 	trial_count: text = 85
+119.4094 	EXP 	image_L: autoDraw = True
+119.4094 	EXP 	image_R: autoDraw = True
+119.4094 	EXP 	main_instr: autoDraw = True
+119.4094 	EXP 	trial_count: autoDraw = True
+120.1414 	DATA 	Keypress: n
+120.1541 	EXP 	image_L: autoDraw = False
+120.1541 	EXP 	image_R: autoDraw = False
+120.1541 	EXP 	main_instr: autoDraw = False
+120.1541 	EXP 	trial_count: autoDraw = False
+120.1541 	EXP 	mini_pause: autoDraw = True
+120.6395 	EXP 	New trial (rep=5, index=6): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+120.6617 	EXP 	mini_pause: autoDraw = False
+120.6617 	EXP 	mini_pause: autoDraw = False
+120.6617 	EXP 	image_L: ori = 0.0
+120.6617 	EXP 	image_L: image = 'FR.png'
+120.6617 	EXP 	image_R: ori = 315.0
+120.6617 	EXP 	image_R: image = 'FR.png'
+120.6617 	EXP 	trial_count: height = 0.03
+120.6617 	EXP 	trial_count: height = 0.03
+120.6617 	EXP 	trial_count: height = 0.03
+120.6617 	EXP 	trial_count: text = 86
+120.6617 	EXP 	image_L: autoDraw = True
+120.6617 	EXP 	image_R: autoDraw = True
+120.6617 	EXP 	main_instr: autoDraw = True
+120.6617 	EXP 	trial_count: autoDraw = True
+121.1441 	DATA 	Keypress: m
+121.1542 	EXP 	image_L: autoDraw = False
+121.1542 	EXP 	image_R: autoDraw = False
+121.1542 	EXP 	main_instr: autoDraw = False
+121.1542 	EXP 	trial_count: autoDraw = False
+121.1542 	EXP 	mini_pause: autoDraw = True
+121.6393 	EXP 	New trial (rep=5, index=7): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+121.6605 	EXP 	mini_pause: autoDraw = False
+121.6605 	EXP 	mini_pause: autoDraw = False
+121.6605 	EXP 	image_L: ori = 0.0
+121.6605 	EXP 	image_L: image = 'FR.png'
+121.6605 	EXP 	image_R: ori = 45.0
+121.6605 	EXP 	image_R: image = 'FR.png'
+121.6605 	EXP 	trial_count: height = 0.03
+121.6605 	EXP 	trial_count: height = 0.03
+121.6605 	EXP 	trial_count: height = 0.03
+121.6605 	EXP 	trial_count: text = 87
+121.6605 	EXP 	image_L: autoDraw = True
+121.6605 	EXP 	image_R: autoDraw = True
+121.6605 	EXP 	main_instr: autoDraw = True
+121.6605 	EXP 	trial_count: autoDraw = True
+122.2089 	DATA 	Keypress: m
+122.2208 	EXP 	image_L: autoDraw = False
+122.2208 	EXP 	image_R: autoDraw = False
+122.2208 	EXP 	main_instr: autoDraw = False
+122.2208 	EXP 	trial_count: autoDraw = False
+122.2208 	EXP 	mini_pause: autoDraw = True
+122.7054 	EXP 	New trial (rep=5, index=8): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+122.7228 	EXP 	mini_pause: autoDraw = False
+122.7228 	EXP 	mini_pause: autoDraw = False
+122.7228 	EXP 	image_L: ori = 0.0
+122.7228 	EXP 	image_L: image = 'F.png'
+122.7228 	EXP 	image_R: ori = 180.0
+122.7228 	EXP 	image_R: image = 'F.png'
+122.7228 	EXP 	trial_count: height = 0.03
+122.7228 	EXP 	trial_count: height = 0.03
+122.7228 	EXP 	trial_count: height = 0.03
+122.7228 	EXP 	trial_count: text = 88
+122.7228 	EXP 	image_L: autoDraw = True
+122.7228 	EXP 	image_R: autoDraw = True
+122.7228 	EXP 	main_instr: autoDraw = True
+122.7228 	EXP 	trial_count: autoDraw = True
+123.4266 	DATA 	Keypress: m
+123.4370 	EXP 	image_L: autoDraw = False
+123.4370 	EXP 	image_R: autoDraw = False
+123.4370 	EXP 	main_instr: autoDraw = False
+123.4370 	EXP 	trial_count: autoDraw = False
+123.4370 	EXP 	mini_pause: autoDraw = True
+123.9218 	EXP 	New trial (rep=5, index=9): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+123.9391 	EXP 	mini_pause: autoDraw = False
+123.9391 	EXP 	mini_pause: autoDraw = False
+123.9391 	EXP 	image_L: ori = 0.0
+123.9391 	EXP 	image_L: image = 'F.png'
+123.9391 	EXP 	image_R: ori = 315.0
+123.9391 	EXP 	image_R: image = 'FR.png'
+123.9391 	EXP 	trial_count: height = 0.03
+123.9391 	EXP 	trial_count: height = 0.03
+123.9391 	EXP 	trial_count: height = 0.03
+123.9391 	EXP 	trial_count: text = 89
+123.9391 	EXP 	image_L: autoDraw = True
+123.9391 	EXP 	image_R: autoDraw = True
+123.9391 	EXP 	main_instr: autoDraw = True
+123.9391 	EXP 	trial_count: autoDraw = True
+124.5266 	DATA 	Keypress: n
+124.5536 	EXP 	image_L: autoDraw = False
+124.5536 	EXP 	image_R: autoDraw = False
+124.5536 	EXP 	main_instr: autoDraw = False
+124.5536 	EXP 	trial_count: autoDraw = False
+124.5536 	EXP 	mini_pause: autoDraw = True
+125.0391 	EXP 	New trial (rep=5, index=10): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+125.0599 	EXP 	mini_pause: autoDraw = False
+125.0599 	EXP 	mini_pause: autoDraw = False
+125.0599 	EXP 	image_L: ori = 0.0
+125.0599 	EXP 	image_L: image = 'F.png'
+125.0599 	EXP 	image_R: ori = 225.0
+125.0599 	EXP 	image_R: image = 'FR.png'
+125.0599 	EXP 	trial_count: height = 0.03
+125.0599 	EXP 	trial_count: height = 0.03
+125.0599 	EXP 	trial_count: height = 0.03
+125.0599 	EXP 	trial_count: text = 90
+125.0599 	EXP 	image_L: autoDraw = True
+125.0599 	EXP 	image_R: autoDraw = True
+125.0599 	EXP 	main_instr: autoDraw = True
+125.0599 	EXP 	trial_count: autoDraw = True
+125.6619 	DATA 	Keypress: n
+125.6872 	EXP 	image_L: autoDraw = False
+125.6872 	EXP 	image_R: autoDraw = False
+125.6872 	EXP 	main_instr: autoDraw = False
+125.6872 	EXP 	trial_count: autoDraw = False
+125.6872 	EXP 	mini_pause: autoDraw = True
+126.1727 	EXP 	New trial (rep=5, index=11): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+126.1932 	EXP 	mini_pause: autoDraw = False
+126.1932 	EXP 	mini_pause: autoDraw = False
+126.1932 	EXP 	image_L: ori = 0.0
+126.1932 	EXP 	image_L: image = 'F.png'
+126.1932 	EXP 	image_R: ori = 180.0
+126.1932 	EXP 	image_R: image = 'FR.png'
+126.1932 	EXP 	trial_count: height = 0.03
+126.1932 	EXP 	trial_count: height = 0.03
+126.1932 	EXP 	trial_count: height = 0.03
+126.1932 	EXP 	trial_count: text = 91
+126.1932 	EXP 	image_L: autoDraw = True
+126.1932 	EXP 	image_R: autoDraw = True
+126.1932 	EXP 	main_instr: autoDraw = True
+126.1932 	EXP 	trial_count: autoDraw = True
+126.8449 	DATA 	Keypress: n
+126.8536 	EXP 	image_L: autoDraw = False
+126.8536 	EXP 	image_R: autoDraw = False
+126.8536 	EXP 	main_instr: autoDraw = False
+126.8536 	EXP 	trial_count: autoDraw = False
+126.8536 	EXP 	mini_pause: autoDraw = True
+127.3392 	EXP 	New trial (rep=5, index=12): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+127.3601 	EXP 	mini_pause: autoDraw = False
+127.3601 	EXP 	mini_pause: autoDraw = False
+127.3601 	EXP 	image_L: ori = 0.0
+127.3601 	EXP 	image_L: image = 'F.png'
+127.3601 	EXP 	image_R: ori = 45.0
+127.3601 	EXP 	image_R: image = 'FR.png'
+127.3601 	EXP 	trial_count: height = 0.03
+127.3601 	EXP 	trial_count: height = 0.03
+127.3601 	EXP 	trial_count: height = 0.03
+127.3601 	EXP 	trial_count: text = 92
+127.3601 	EXP 	image_L: autoDraw = True
+127.3601 	EXP 	image_R: autoDraw = True
+127.3601 	EXP 	main_instr: autoDraw = True
+127.3601 	EXP 	trial_count: autoDraw = True
+127.9436 	DATA 	Keypress: n
+127.9541 	EXP 	image_L: autoDraw = False
+127.9541 	EXP 	image_R: autoDraw = False
+127.9541 	EXP 	main_instr: autoDraw = False
+127.9541 	EXP 	trial_count: autoDraw = False
+127.9541 	EXP 	mini_pause: autoDraw = True
+128.4391 	EXP 	New trial (rep=5, index=13): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+128.4633 	EXP 	mini_pause: autoDraw = False
+128.4633 	EXP 	mini_pause: autoDraw = False
+128.4633 	EXP 	image_L: ori = 0.0
+128.4633 	EXP 	image_L: image = 'F.png'
+128.4633 	EXP 	image_R: ori = 135.0
+128.4633 	EXP 	image_R: image = 'F.png'
+128.4633 	EXP 	trial_count: height = 0.03
+128.4633 	EXP 	trial_count: height = 0.03
+128.4633 	EXP 	trial_count: height = 0.03
+128.4633 	EXP 	trial_count: text = 93
+128.4633 	EXP 	image_L: autoDraw = True
+128.4633 	EXP 	image_R: autoDraw = True
+128.4633 	EXP 	main_instr: autoDraw = True
+128.4633 	EXP 	trial_count: autoDraw = True
+129.2435 	DATA 	Keypress: m
+129.2538 	EXP 	image_L: autoDraw = False
+129.2538 	EXP 	image_R: autoDraw = False
+129.2538 	EXP 	main_instr: autoDraw = False
+129.2538 	EXP 	trial_count: autoDraw = False
+129.2538 	EXP 	mini_pause: autoDraw = True
+129.7389 	EXP 	New trial (rep=5, index=14): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+129.7609 	EXP 	mini_pause: autoDraw = False
+129.7609 	EXP 	mini_pause: autoDraw = False
+129.7609 	EXP 	image_L: ori = 0.0
+129.7609 	EXP 	image_L: image = 'FR.png'
+129.7609 	EXP 	image_R: ori = 90.0
+129.7609 	EXP 	image_R: image = 'FR.png'
+129.7609 	EXP 	trial_count: height = 0.03
+129.7609 	EXP 	trial_count: height = 0.03
+129.7609 	EXP 	trial_count: height = 0.03
+129.7609 	EXP 	trial_count: text = 94
+129.7609 	EXP 	image_L: autoDraw = True
+129.7609 	EXP 	image_R: autoDraw = True
+129.7609 	EXP 	main_instr: autoDraw = True
+129.7609 	EXP 	trial_count: autoDraw = True
+130.3769 	DATA 	Keypress: m
+130.3873 	EXP 	image_L: autoDraw = False
+130.3873 	EXP 	image_R: autoDraw = False
+130.3873 	EXP 	main_instr: autoDraw = False
+130.3873 	EXP 	trial_count: autoDraw = False
+130.3873 	EXP 	mini_pause: autoDraw = True
+130.8730 	EXP 	New trial (rep=5, index=15): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+130.8948 	EXP 	mini_pause: autoDraw = False
+130.8948 	EXP 	mini_pause: autoDraw = False
+130.8948 	EXP 	image_L: ori = 0.0
+130.8948 	EXP 	image_L: image = 'F.png'
+130.8948 	EXP 	image_R: ori = 225.0
+130.8948 	EXP 	image_R: image = 'F.png'
+130.8948 	EXP 	trial_count: height = 0.03
+130.8948 	EXP 	trial_count: height = 0.03
+130.8948 	EXP 	trial_count: height = 0.03
+130.8948 	EXP 	trial_count: text = 95
+130.8948 	EXP 	image_L: autoDraw = True
+130.8948 	EXP 	image_R: autoDraw = True
+130.8948 	EXP 	main_instr: autoDraw = True
+130.8948 	EXP 	trial_count: autoDraw = True
+131.6266 	DATA 	Keypress: m
+131.6370 	EXP 	image_L: autoDraw = False
+131.6370 	EXP 	image_R: autoDraw = False
+131.6370 	EXP 	main_instr: autoDraw = False
+131.6370 	EXP 	trial_count: autoDraw = False
+131.6370 	EXP 	mini_pause: autoDraw = True
+132.1223 	EXP 	New trial (rep=6, index=0): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+132.1374 	EXP 	mini_pause: autoDraw = False
+132.1374 	EXP 	mini_pause: autoDraw = False
+132.1374 	EXP 	image_L: ori = 0.0
+132.1374 	EXP 	image_L: image = 'F.png'
+132.1374 	EXP 	image_R: ori = 45.0
+132.1374 	EXP 	image_R: image = 'F.png'
+132.1374 	EXP 	trial_count: height = 0.03
+132.1374 	EXP 	trial_count: height = 0.03
+132.1374 	EXP 	trial_count: height = 0.03
+132.1374 	EXP 	trial_count: text = 96
+132.1374 	EXP 	image_L: autoDraw = True
+132.1374 	EXP 	image_R: autoDraw = True
+132.1374 	EXP 	main_instr: autoDraw = True
+132.1374 	EXP 	trial_count: autoDraw = True
+132.8769 	DATA 	Keypress: m
+132.8869 	EXP 	image_L: autoDraw = False
+132.8869 	EXP 	image_R: autoDraw = False
+132.8869 	EXP 	main_instr: autoDraw = False
+132.8869 	EXP 	trial_count: autoDraw = False
+132.8869 	EXP 	mini_pause: autoDraw = True
+133.3725 	EXP 	New trial (rep=6, index=1): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+133.3937 	EXP 	mini_pause: autoDraw = False
+133.3937 	EXP 	mini_pause: autoDraw = False
+133.3937 	EXP 	image_L: ori = 0.0
+133.3937 	EXP 	image_L: image = 'FR.png'
+133.3937 	EXP 	image_R: ori = 315.0
+133.3937 	EXP 	image_R: image = 'F.png'
+133.3937 	EXP 	trial_count: height = 0.03
+133.3937 	EXP 	trial_count: height = 0.03
+133.3937 	EXP 	trial_count: height = 0.03
+133.3937 	EXP 	trial_count: text = 97
+133.3937 	EXP 	image_L: autoDraw = True
+133.3937 	EXP 	image_R: autoDraw = True
+133.3937 	EXP 	main_instr: autoDraw = True
+133.3937 	EXP 	trial_count: autoDraw = True
+133.9952 	DATA 	Keypress: n
+134.0208 	EXP 	image_L: autoDraw = False
+134.0208 	EXP 	image_R: autoDraw = False
+134.0208 	EXP 	main_instr: autoDraw = False
+134.0208 	EXP 	trial_count: autoDraw = False
+134.0208 	EXP 	mini_pause: autoDraw = True
+134.5053 	EXP 	New trial (rep=6, index=2): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+134.5277 	EXP 	mini_pause: autoDraw = False
+134.5277 	EXP 	mini_pause: autoDraw = False
+134.5277 	EXP 	image_L: ori = 0.0
+134.5277 	EXP 	image_L: image = 'FR.png'
+134.5277 	EXP 	image_R: ori = 180.0
+134.5277 	EXP 	image_R: image = 'F.png'
+134.5277 	EXP 	trial_count: height = 0.03
+134.5277 	EXP 	trial_count: height = 0.03
+134.5277 	EXP 	trial_count: height = 0.03
+134.5277 	EXP 	trial_count: text = 98
+134.5277 	EXP 	image_L: autoDraw = True
+134.5277 	EXP 	image_R: autoDraw = True
+134.5277 	EXP 	main_instr: autoDraw = True
+134.5277 	EXP 	trial_count: autoDraw = True
+135.2764 	DATA 	Keypress: n
+135.2869 	EXP 	image_L: autoDraw = False
+135.2869 	EXP 	image_R: autoDraw = False
+135.2869 	EXP 	main_instr: autoDraw = False
+135.2869 	EXP 	trial_count: autoDraw = False
+135.2869 	EXP 	mini_pause: autoDraw = True
+135.7722 	EXP 	New trial (rep=6, index=3): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+135.7930 	EXP 	mini_pause: autoDraw = False
+135.7930 	EXP 	mini_pause: autoDraw = False
+135.7930 	EXP 	image_L: ori = 0.0
+135.7930 	EXP 	image_L: image = 'FR.png'
+135.7930 	EXP 	image_R: ori = 270.0
+135.7930 	EXP 	image_R: image = 'FR.png'
+135.7930 	EXP 	trial_count: height = 0.03
+135.7930 	EXP 	trial_count: height = 0.03
+135.7930 	EXP 	trial_count: height = 0.03
+135.7930 	EXP 	trial_count: text = 99
+135.7930 	EXP 	image_L: autoDraw = True
+135.7930 	EXP 	image_R: autoDraw = True
+135.7930 	EXP 	main_instr: autoDraw = True
+135.7930 	EXP 	trial_count: autoDraw = True
+136.3937 	DATA 	Keypress: m
+136.4035 	EXP 	image_L: autoDraw = False
+136.4035 	EXP 	image_R: autoDraw = False
+136.4035 	EXP 	main_instr: autoDraw = False
+136.4035 	EXP 	trial_count: autoDraw = False
+136.4035 	EXP 	mini_pause: autoDraw = True
+136.8883 	EXP 	New trial (rep=6, index=4): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+136.9113 	EXP 	mini_pause: autoDraw = False
+136.9113 	EXP 	mini_pause: autoDraw = False
+136.9113 	EXP 	image_L: ori = 0.0
+136.9113 	EXP 	image_L: image = 'FR.png'
+136.9113 	EXP 	image_R: ori = 90.0
+136.9113 	EXP 	image_R: image = 'F.png'
+136.9113 	EXP 	trial_count: height = 0.03
+136.9113 	EXP 	trial_count: height = 0.03
+136.9113 	EXP 	trial_count: height = 0.03
+136.9113 	EXP 	trial_count: text = 100
+136.9113 	EXP 	image_L: autoDraw = True
+136.9113 	EXP 	image_R: autoDraw = True
+136.9113 	EXP 	main_instr: autoDraw = True
+136.9113 	EXP 	trial_count: autoDraw = True
+137.6259 	DATA 	Keypress: n
+137.6369 	EXP 	image_L: autoDraw = False
+137.6369 	EXP 	image_R: autoDraw = False
+137.6369 	EXP 	main_instr: autoDraw = False
+137.6369 	EXP 	trial_count: autoDraw = False
+137.6369 	EXP 	mini_pause: autoDraw = True
+138.1224 	EXP 	New trial (rep=6, index=5): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+138.1428 	EXP 	mini_pause: autoDraw = False
+138.1428 	EXP 	mini_pause: autoDraw = False
+138.1428 	EXP 	image_L: ori = 0.0
+138.1428 	EXP 	image_L: image = 'FR.png'
+138.1428 	EXP 	image_R: ori = 315.0
+138.1428 	EXP 	image_R: image = 'FR.png'
+138.1428 	EXP 	trial_count: height = 0.03
+138.1428 	EXP 	trial_count: height = 0.03
+138.1428 	EXP 	trial_count: height = 0.03
+138.1428 	EXP 	trial_count: text = 101
+138.1428 	EXP 	image_L: autoDraw = True
+138.1428 	EXP 	image_R: autoDraw = True
+138.1428 	EXP 	main_instr: autoDraw = True
+138.1428 	EXP 	trial_count: autoDraw = True
+138.6431 	DATA 	Keypress: m
+138.6538 	EXP 	image_L: autoDraw = False
+138.6538 	EXP 	image_R: autoDraw = False
+138.6538 	EXP 	main_instr: autoDraw = False
+138.6538 	EXP 	trial_count: autoDraw = False
+138.6538 	EXP 	mini_pause: autoDraw = True
+139.1390 	EXP 	New trial (rep=6, index=6): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+139.1599 	EXP 	mini_pause: autoDraw = False
+139.1599 	EXP 	mini_pause: autoDraw = False
+139.1599 	EXP 	image_L: ori = 0.0
+139.1599 	EXP 	image_L: image = 'FR.png'
+139.1599 	EXP 	image_R: ori = 225.0
+139.1599 	EXP 	image_R: image = 'FR.png'
+139.1599 	EXP 	trial_count: height = 0.03
+139.1599 	EXP 	trial_count: height = 0.03
+139.1599 	EXP 	trial_count: height = 0.03
+139.1599 	EXP 	trial_count: text = 102
+139.1599 	EXP 	image_L: autoDraw = True
+139.1599 	EXP 	image_R: autoDraw = True
+139.1599 	EXP 	main_instr: autoDraw = True
+139.1599 	EXP 	trial_count: autoDraw = True
+139.8617 	DATA 	Keypress: m
+139.8701 	EXP 	image_L: autoDraw = False
+139.8701 	EXP 	image_R: autoDraw = False
+139.8701 	EXP 	main_instr: autoDraw = False
+139.8701 	EXP 	trial_count: autoDraw = False
+139.8701 	EXP 	mini_pause: autoDraw = True
+140.3553 	EXP 	New trial (rep=6, index=7): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+140.3774 	EXP 	mini_pause: autoDraw = False
+140.3774 	EXP 	mini_pause: autoDraw = False
+140.3774 	EXP 	image_L: ori = 0.0
+140.3774 	EXP 	image_L: image = 'F.png'
+140.3774 	EXP 	image_R: ori = 0.0
+140.3774 	EXP 	image_R: image = 'FR.png'
+140.3774 	EXP 	trial_count: height = 0.03
+140.3774 	EXP 	trial_count: height = 0.03
+140.3774 	EXP 	trial_count: height = 0.03
+140.3774 	EXP 	trial_count: text = 103
+140.3774 	EXP 	image_L: autoDraw = True
+140.3774 	EXP 	image_R: autoDraw = True
+140.3774 	EXP 	main_instr: autoDraw = True
+140.3774 	EXP 	trial_count: autoDraw = True
+140.9933 	DATA 	Keypress: n
+141.0031 	EXP 	image_L: autoDraw = False
+141.0031 	EXP 	image_R: autoDraw = False
+141.0031 	EXP 	main_instr: autoDraw = False
+141.0031 	EXP 	trial_count: autoDraw = False
+141.0031 	EXP 	mini_pause: autoDraw = True
+141.4884 	EXP 	New trial (rep=6, index=8): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+141.5095 	EXP 	mini_pause: autoDraw = False
+141.5095 	EXP 	mini_pause: autoDraw = False
+141.5095 	EXP 	image_L: ori = 0.0
+141.5095 	EXP 	image_L: image = 'FR.png'
+141.5095 	EXP 	image_R: ori = 90.0
+141.5095 	EXP 	image_R: image = 'FR.png'
+141.5095 	EXP 	trial_count: height = 0.03
+141.5095 	EXP 	trial_count: height = 0.03
+141.5095 	EXP 	trial_count: height = 0.03
+141.5095 	EXP 	trial_count: text = 104
+141.5095 	EXP 	image_L: autoDraw = True
+141.5095 	EXP 	image_R: autoDraw = True
+141.5095 	EXP 	main_instr: autoDraw = True
+141.5095 	EXP 	trial_count: autoDraw = True
+142.0950 	DATA 	Keypress: m
+142.1200 	EXP 	image_L: autoDraw = False
+142.1200 	EXP 	image_R: autoDraw = False
+142.1200 	EXP 	main_instr: autoDraw = False
+142.1200 	EXP 	trial_count: autoDraw = False
+142.1200 	EXP 	mini_pause: autoDraw = True
+142.6052 	EXP 	New trial (rep=6, index=9): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+142.6250 	EXP 	mini_pause: autoDraw = False
+142.6250 	EXP 	mini_pause: autoDraw = False
+142.6250 	EXP 	image_L: ori = 0.0
+142.6250 	EXP 	image_L: image = 'F.png'
+142.6250 	EXP 	image_R: ori = 270.0
+142.6250 	EXP 	image_R: image = 'FR.png'
+142.6250 	EXP 	trial_count: height = 0.03
+142.6250 	EXP 	trial_count: height = 0.03
+142.6250 	EXP 	trial_count: height = 0.03
+142.6250 	EXP 	trial_count: text = 105
+142.6250 	EXP 	image_L: autoDraw = True
+142.6250 	EXP 	image_R: autoDraw = True
+142.6250 	EXP 	main_instr: autoDraw = True
+142.6250 	EXP 	trial_count: autoDraw = True
+143.2930 	DATA 	Keypress: n
+143.3033 	EXP 	image_L: autoDraw = False
+143.3033 	EXP 	image_R: autoDraw = False
+143.3033 	EXP 	main_instr: autoDraw = False
+143.3033 	EXP 	trial_count: autoDraw = False
+143.3033 	EXP 	mini_pause: autoDraw = True
+143.7885 	EXP 	New trial (rep=6, index=10): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+143.8103 	EXP 	mini_pause: autoDraw = False
+143.8103 	EXP 	mini_pause: autoDraw = False
+143.8103 	EXP 	image_L: ori = 0.0
+143.8103 	EXP 	image_L: image = 'F.png'
+143.8103 	EXP 	image_R: ori = 180.0
+143.8103 	EXP 	image_R: image = 'F.png'
+143.8103 	EXP 	trial_count: height = 0.03
+143.8103 	EXP 	trial_count: height = 0.03
+143.8103 	EXP 	trial_count: height = 0.03
+143.8103 	EXP 	trial_count: text = 106
+143.8103 	EXP 	image_L: autoDraw = True
+143.8103 	EXP 	image_R: autoDraw = True
+143.8103 	EXP 	main_instr: autoDraw = True
+143.8103 	EXP 	trial_count: autoDraw = True
+144.5275 	DATA 	Keypress: m
+144.5529 	EXP 	image_L: autoDraw = False
+144.5529 	EXP 	image_R: autoDraw = False
+144.5529 	EXP 	main_instr: autoDraw = False
+144.5529 	EXP 	trial_count: autoDraw = False
+144.5529 	EXP 	mini_pause: autoDraw = True
+145.0383 	EXP 	New trial (rep=6, index=11): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+145.0595 	EXP 	mini_pause: autoDraw = False
+145.0595 	EXP 	mini_pause: autoDraw = False
+145.0595 	EXP 	image_L: ori = 0.0
+145.0595 	EXP 	image_L: image = 'FR.png'
+145.0595 	EXP 	image_R: ori = 135.0
+145.0595 	EXP 	image_R: image = 'F.png'
+145.0595 	EXP 	trial_count: height = 0.03
+145.0595 	EXP 	trial_count: height = 0.03
+145.0595 	EXP 	trial_count: height = 0.03
+145.0595 	EXP 	trial_count: text = 107
+145.0595 	EXP 	image_L: autoDraw = True
+145.0595 	EXP 	image_R: autoDraw = True
+145.0595 	EXP 	main_instr: autoDraw = True
+145.0595 	EXP 	trial_count: autoDraw = True
+145.8413 	DATA 	Keypress: n
+145.8531 	EXP 	image_L: autoDraw = False
+145.8531 	EXP 	image_R: autoDraw = False
+145.8531 	EXP 	main_instr: autoDraw = False
+145.8531 	EXP 	trial_count: autoDraw = False
+145.8531 	EXP 	mini_pause: autoDraw = True
+146.3390 	EXP 	New trial (rep=6, index=12): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+146.3598 	EXP 	mini_pause: autoDraw = False
+146.3598 	EXP 	mini_pause: autoDraw = False
+146.3598 	EXP 	image_L: ori = 0.0
+146.3598 	EXP 	image_L: image = 'F.png'
+146.3598 	EXP 	image_R: ori = 225.0
+146.3598 	EXP 	image_R: image = 'FR.png'
+146.3598 	EXP 	trial_count: height = 0.03
+146.3598 	EXP 	trial_count: height = 0.03
+146.3598 	EXP 	trial_count: height = 0.03
+146.3598 	EXP 	trial_count: text = 108
+146.3598 	EXP 	image_L: autoDraw = True
+146.3598 	EXP 	image_R: autoDraw = True
+146.3598 	EXP 	main_instr: autoDraw = True
+146.3598 	EXP 	trial_count: autoDraw = True
+147.0589 	DATA 	Keypress: n
+147.0696 	EXP 	image_L: autoDraw = False
+147.0696 	EXP 	image_R: autoDraw = False
+147.0696 	EXP 	main_instr: autoDraw = False
+147.0696 	EXP 	trial_count: autoDraw = False
+147.0696 	EXP 	mini_pause: autoDraw = True
+147.5547 	EXP 	New trial (rep=6, index=13): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+147.5739 	EXP 	mini_pause: autoDraw = False
+147.5739 	EXP 	mini_pause: autoDraw = False
+147.5739 	EXP 	image_L: ori = 0.0
+147.5739 	EXP 	image_L: image = 'FR.png'
+147.5739 	EXP 	image_R: ori = 45.0
+147.5739 	EXP 	image_R: image = 'F.png'
+147.5739 	EXP 	trial_count: height = 0.03
+147.5739 	EXP 	trial_count: height = 0.03
+147.5739 	EXP 	trial_count: height = 0.03
+147.5739 	EXP 	trial_count: text = 109
+147.5739 	EXP 	image_L: autoDraw = True
+147.5739 	EXP 	image_R: autoDraw = True
+147.5739 	EXP 	main_instr: autoDraw = True
+147.5739 	EXP 	trial_count: autoDraw = True
+148.3286 	DATA 	Keypress: n
+148.3529 	EXP 	image_L: autoDraw = False
+148.3529 	EXP 	image_R: autoDraw = False
+148.3529 	EXP 	main_instr: autoDraw = False
+148.3529 	EXP 	trial_count: autoDraw = False
+148.3529 	EXP 	mini_pause: autoDraw = True
+148.8381 	EXP 	New trial (rep=6, index=14): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+148.8605 	EXP 	mini_pause: autoDraw = False
+148.8605 	EXP 	mini_pause: autoDraw = False
+148.8605 	EXP 	image_L: ori = 0.0
+148.8605 	EXP 	image_L: image = 'FR.png'
+148.8605 	EXP 	image_R: ori = 135.0
+148.8605 	EXP 	image_R: image = 'FR.png'
+148.8605 	EXP 	trial_count: height = 0.03
+148.8605 	EXP 	trial_count: height = 0.03
+148.8605 	EXP 	trial_count: height = 0.03
+148.8605 	EXP 	trial_count: text = 110
+148.8605 	EXP 	image_L: autoDraw = True
+148.8605 	EXP 	image_R: autoDraw = True
+148.8605 	EXP 	main_instr: autoDraw = True
+148.8605 	EXP 	trial_count: autoDraw = True
+149.6589 	DATA 	Keypress: m
+149.6695 	EXP 	image_L: autoDraw = False
+149.6695 	EXP 	image_R: autoDraw = False
+149.6695 	EXP 	main_instr: autoDraw = False
+149.6695 	EXP 	trial_count: autoDraw = False
+149.6695 	EXP 	mini_pause: autoDraw = True
+150.1548 	EXP 	New trial (rep=6, index=15): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+150.1744 	EXP 	mini_pause: autoDraw = False
+150.1744 	EXP 	mini_pause: autoDraw = False
+150.1744 	EXP 	image_L: ori = 0.0
+150.1744 	EXP 	image_L: image = 'FR.png'
+150.1744 	EXP 	image_R: ori = 0.0
+150.1744 	EXP 	image_R: image = 'FR.png'
+150.1744 	EXP 	trial_count: height = 0.03
+150.1744 	EXP 	trial_count: height = 0.03
+150.1744 	EXP 	trial_count: height = 0.03
+150.1744 	EXP 	trial_count: text = 111
+150.1744 	EXP 	image_L: autoDraw = True
+150.1744 	EXP 	image_R: autoDraw = True
+150.1744 	EXP 	main_instr: autoDraw = True
+150.1744 	EXP 	trial_count: autoDraw = True
+150.8263 	DATA 	Keypress: m
+150.8360 	EXP 	image_L: autoDraw = False
+150.8360 	EXP 	image_R: autoDraw = False
+150.8360 	EXP 	main_instr: autoDraw = False
+150.8360 	EXP 	trial_count: autoDraw = False
+150.8360 	EXP 	mini_pause: autoDraw = True
+151.3217 	EXP 	New trial (rep=7, index=0): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+151.3424 	EXP 	mini_pause: autoDraw = False
+151.3424 	EXP 	mini_pause: autoDraw = False
+151.3424 	EXP 	image_L: ori = 0.0
+151.3424 	EXP 	image_L: image = 'FR.png'
+151.3424 	EXP 	image_R: ori = 90.0
+151.3424 	EXP 	image_R: image = 'FR.png'
+151.3424 	EXP 	trial_count: height = 0.03
+151.3424 	EXP 	trial_count: height = 0.03
+151.3424 	EXP 	trial_count: height = 0.03
+151.3424 	EXP 	trial_count: text = 112
+151.3424 	EXP 	image_L: autoDraw = True
+151.3424 	EXP 	image_R: autoDraw = True
+151.3424 	EXP 	main_instr: autoDraw = True
+151.3424 	EXP 	trial_count: autoDraw = True
+151.9426 	DATA 	Keypress: m
+151.9530 	EXP 	image_L: autoDraw = False
+151.9530 	EXP 	image_R: autoDraw = False
+151.9530 	EXP 	main_instr: autoDraw = False
+151.9530 	EXP 	trial_count: autoDraw = False
+151.9530 	EXP 	mini_pause: autoDraw = True
+152.4369 	EXP 	New trial (rep=7, index=1): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+152.4551 	EXP 	mini_pause: autoDraw = False
+152.4551 	EXP 	mini_pause: autoDraw = False
+152.4551 	EXP 	image_L: ori = 0.0
+152.4551 	EXP 	image_L: image = 'F.png'
+152.4551 	EXP 	image_R: ori = 135.0
+152.4551 	EXP 	image_R: image = 'F.png'
+152.4551 	EXP 	trial_count: height = 0.03
+152.4551 	EXP 	trial_count: height = 0.03
+152.4551 	EXP 	trial_count: height = 0.03
+152.4551 	EXP 	trial_count: text = 113
+152.4551 	EXP 	image_L: autoDraw = True
+152.4551 	EXP 	image_R: autoDraw = True
+152.4551 	EXP 	main_instr: autoDraw = True
+152.4551 	EXP 	trial_count: autoDraw = True
+153.1756 	DATA 	Keypress: m
+153.1858 	EXP 	image_L: autoDraw = False
+153.1858 	EXP 	image_R: autoDraw = False
+153.1858 	EXP 	main_instr: autoDraw = False
+153.1858 	EXP 	trial_count: autoDraw = False
+153.1858 	EXP 	mini_pause: autoDraw = True
+153.6717 	EXP 	New trial (rep=7, index=2): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+153.6931 	EXP 	mini_pause: autoDraw = False
+153.6931 	EXP 	mini_pause: autoDraw = False
+153.6931 	EXP 	image_L: ori = 0.0
+153.6931 	EXP 	image_L: image = 'F.png'
+153.6931 	EXP 	image_R: ori = 225.0
+153.6931 	EXP 	image_R: image = 'F.png'
+153.6931 	EXP 	trial_count: height = 0.03
+153.6931 	EXP 	trial_count: height = 0.03
+153.6931 	EXP 	trial_count: height = 0.03
+153.6931 	EXP 	trial_count: text = 114
+153.6931 	EXP 	image_L: autoDraw = True
+153.6931 	EXP 	image_R: autoDraw = True
+153.6931 	EXP 	main_instr: autoDraw = True
+153.6931 	EXP 	trial_count: autoDraw = True
+154.3571 	DATA 	Keypress: m
+154.3692 	EXP 	image_L: autoDraw = False
+154.3692 	EXP 	image_R: autoDraw = False
+154.3692 	EXP 	main_instr: autoDraw = False
+154.3692 	EXP 	trial_count: autoDraw = False
+154.3692 	EXP 	mini_pause: autoDraw = True
+154.8548 	EXP 	New trial (rep=7, index=3): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+154.8759 	EXP 	mini_pause: autoDraw = False
+154.8759 	EXP 	mini_pause: autoDraw = False
+154.8759 	EXP 	image_L: ori = 0.0
+154.8759 	EXP 	image_L: image = 'F.png'
+154.8759 	EXP 	image_R: ori = 90.0
+154.8759 	EXP 	image_R: image = 'FR.png'
+154.8759 	EXP 	trial_count: height = 0.03
+154.8759 	EXP 	trial_count: height = 0.03
+154.8759 	EXP 	trial_count: height = 0.03
+154.8759 	EXP 	trial_count: text = 115
+154.8759 	EXP 	image_L: autoDraw = True
+154.8759 	EXP 	image_R: autoDraw = True
+154.8759 	EXP 	main_instr: autoDraw = True
+154.8759 	EXP 	trial_count: autoDraw = True
+155.5936 	DATA 	Keypress: n
+155.6192 	EXP 	image_L: autoDraw = False
+155.6192 	EXP 	image_R: autoDraw = False
+155.6192 	EXP 	main_instr: autoDraw = False
+155.6192 	EXP 	trial_count: autoDraw = False
+155.6192 	EXP 	mini_pause: autoDraw = True
+156.1043 	EXP 	New trial (rep=7, index=4): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+156.1240 	EXP 	mini_pause: autoDraw = False
+156.1240 	EXP 	mini_pause: autoDraw = False
+156.1240 	EXP 	image_L: ori = 0.0
+156.1240 	EXP 	image_L: image = 'F.png'
+156.1240 	EXP 	image_R: ori = 45.0
+156.1240 	EXP 	image_R: image = 'FR.png'
+156.1240 	EXP 	trial_count: height = 0.03
+156.1240 	EXP 	trial_count: height = 0.03
+156.1240 	EXP 	trial_count: height = 0.03
+156.1240 	EXP 	trial_count: text = 116
+156.1240 	EXP 	image_L: autoDraw = True
+156.1240 	EXP 	image_R: autoDraw = True
+156.1240 	EXP 	main_instr: autoDraw = True
+156.1240 	EXP 	trial_count: autoDraw = True
+156.6919 	DATA 	Keypress: n
+156.7025 	EXP 	image_L: autoDraw = False
+156.7025 	EXP 	image_R: autoDraw = False
+156.7025 	EXP 	main_instr: autoDraw = False
+156.7025 	EXP 	trial_count: autoDraw = False
+156.7025 	EXP 	mini_pause: autoDraw = True
+157.1885 	EXP 	New trial (rep=7, index=5): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+157.2098 	EXP 	mini_pause: autoDraw = False
+157.2098 	EXP 	mini_pause: autoDraw = False
+157.2098 	EXP 	image_L: ori = 0.0
+157.2098 	EXP 	image_L: image = 'FR.png'
+157.2098 	EXP 	image_R: ori = 315.0
+157.2098 	EXP 	image_R: image = 'FR.png'
+157.2098 	EXP 	trial_count: height = 0.03
+157.2098 	EXP 	trial_count: height = 0.03
+157.2098 	EXP 	trial_count: height = 0.03
+157.2098 	EXP 	trial_count: text = 117
+157.2098 	EXP 	image_L: autoDraw = True
+157.2098 	EXP 	image_R: autoDraw = True
+157.2098 	EXP 	main_instr: autoDraw = True
+157.2098 	EXP 	trial_count: autoDraw = True
+157.8785 	DATA 	Keypress: m
+157.9023 	EXP 	image_L: autoDraw = False
+157.9023 	EXP 	image_R: autoDraw = False
+157.9023 	EXP 	main_instr: autoDraw = False
+157.9023 	EXP 	trial_count: autoDraw = False
+157.9023 	EXP 	mini_pause: autoDraw = True
+158.3876 	EXP 	New trial (rep=7, index=6): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+158.4085 	EXP 	mini_pause: autoDraw = False
+158.4085 	EXP 	mini_pause: autoDraw = False
+158.4085 	EXP 	image_L: ori = 0.0
+158.4085 	EXP 	image_L: image = 'F.png'
+158.4085 	EXP 	image_R: ori = 180.0
+158.4085 	EXP 	image_R: image = 'F.png'
+158.4085 	EXP 	trial_count: height = 0.03
+158.4085 	EXP 	trial_count: height = 0.03
+158.4085 	EXP 	trial_count: height = 0.03
+158.4085 	EXP 	trial_count: text = 118
+158.4085 	EXP 	image_L: autoDraw = True
+158.4085 	EXP 	image_R: autoDraw = True
+158.4085 	EXP 	main_instr: autoDraw = True
+158.4085 	EXP 	trial_count: autoDraw = True
+159.0754 	DATA 	Keypress: m
+159.0855 	EXP 	image_L: autoDraw = False
+159.0855 	EXP 	image_R: autoDraw = False
+159.0855 	EXP 	main_instr: autoDraw = False
+159.0855 	EXP 	trial_count: autoDraw = False
+159.0855 	EXP 	mini_pause: autoDraw = True
+159.5711 	EXP 	New trial (rep=7, index=7): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+159.5917 	EXP 	mini_pause: autoDraw = False
+159.5917 	EXP 	mini_pause: autoDraw = False
+159.5917 	EXP 	image_L: ori = 0.0
+159.5917 	EXP 	image_L: image = 'FR.png'
+159.5917 	EXP 	image_R: ori = 0.0
+159.5917 	EXP 	image_R: image = 'FR.png'
+159.5917 	EXP 	trial_count: height = 0.03
+159.5917 	EXP 	trial_count: height = 0.03
+159.5917 	EXP 	trial_count: height = 0.03
+159.5917 	EXP 	trial_count: text = 119
+159.5917 	EXP 	image_L: autoDraw = True
+159.5917 	EXP 	image_R: autoDraw = True
+159.5917 	EXP 	main_instr: autoDraw = True
+159.5917 	EXP 	trial_count: autoDraw = True
+160.0780 	DATA 	Keypress: m
+160.1023 	EXP 	image_L: autoDraw = False
+160.1023 	EXP 	image_R: autoDraw = False
+160.1023 	EXP 	main_instr: autoDraw = False
+160.1023 	EXP 	trial_count: autoDraw = False
+160.1023 	EXP 	mini_pause: autoDraw = True
+160.5866 	EXP 	New trial (rep=7, index=8): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+160.6054 	EXP 	mini_pause: autoDraw = False
+160.6054 	EXP 	mini_pause: autoDraw = False
+160.6054 	EXP 	image_L: ori = 0.0
+160.6054 	EXP 	image_L: image = 'F.png'
+160.6054 	EXP 	image_R: ori = 315.0
+160.6054 	EXP 	image_R: image = 'FR.png'
+160.6054 	EXP 	trial_count: height = 0.03
+160.6054 	EXP 	trial_count: height = 0.03
+160.6054 	EXP 	trial_count: height = 0.03
+160.6054 	EXP 	trial_count: text = 120
+160.6054 	EXP 	image_L: autoDraw = True
+160.6054 	EXP 	image_R: autoDraw = True
+160.6054 	EXP 	main_instr: autoDraw = True
+160.6054 	EXP 	trial_count: autoDraw = True
+161.2085 	DATA 	Keypress: n
+161.2188 	EXP 	image_L: autoDraw = False
+161.2188 	EXP 	image_R: autoDraw = False
+161.2188 	EXP 	main_instr: autoDraw = False
+161.2188 	EXP 	trial_count: autoDraw = False
+161.2188 	EXP 	mini_pause: autoDraw = True
+161.7037 	EXP 	New trial (rep=7, index=9): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+161.7278 	EXP 	mini_pause: autoDraw = False
+161.7278 	EXP 	mini_pause: autoDraw = False
+161.7278 	EXP 	image_L: ori = 0.0
+161.7278 	EXP 	image_L: image = 'FR.png'
+161.7278 	EXP 	image_R: ori = 135.0
+161.7278 	EXP 	image_R: image = 'F.png'
+161.7278 	EXP 	trial_count: height = 0.03
+161.7278 	EXP 	trial_count: height = 0.03
+161.7278 	EXP 	trial_count: height = 0.03
+161.7278 	EXP 	trial_count: text = 121
+161.7278 	EXP 	image_L: autoDraw = True
+161.7278 	EXP 	image_R: autoDraw = True
+161.7278 	EXP 	main_instr: autoDraw = True
+161.7278 	EXP 	trial_count: autoDraw = True
+162.4234 	DATA 	Keypress: n
+162.4527 	EXP 	image_L: autoDraw = False
+162.4527 	EXP 	image_R: autoDraw = False
+162.4527 	EXP 	main_instr: autoDraw = False
+162.4527 	EXP 	trial_count: autoDraw = False
+162.4527 	EXP 	mini_pause: autoDraw = True
+162.9368 	EXP 	New trial (rep=7, index=10): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+162.9554 	EXP 	mini_pause: autoDraw = False
+162.9554 	EXP 	mini_pause: autoDraw = False
+162.9554 	EXP 	image_L: ori = 0.0
+162.9554 	EXP 	image_L: image = 'FR.png'
+162.9554 	EXP 	image_R: ori = 270.0
+162.9554 	EXP 	image_R: image = 'F.png'
+162.9554 	EXP 	trial_count: height = 0.03
+162.9554 	EXP 	trial_count: height = 0.03
+162.9554 	EXP 	trial_count: height = 0.03
+162.9554 	EXP 	trial_count: text = 122
+162.9554 	EXP 	image_L: autoDraw = True
+162.9554 	EXP 	image_R: autoDraw = True
+162.9554 	EXP 	main_instr: autoDraw = True
+162.9554 	EXP 	trial_count: autoDraw = True
+163.5596 	DATA 	Keypress: n
+163.5856 	EXP 	image_L: autoDraw = False
+163.5856 	EXP 	image_R: autoDraw = False
+163.5856 	EXP 	main_instr: autoDraw = False
+163.5856 	EXP 	trial_count: autoDraw = False
+163.5856 	EXP 	mini_pause: autoDraw = True
+164.0714 	EXP 	New trial (rep=7, index=11): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+164.0927 	EXP 	mini_pause: autoDraw = False
+164.0927 	EXP 	mini_pause: autoDraw = False
+164.0927 	EXP 	image_L: ori = 0.0
+164.0927 	EXP 	image_L: image = 'F.png'
+164.0927 	EXP 	image_R: ori = 0.0
+164.0927 	EXP 	image_R: image = 'FR.png'
+164.0927 	EXP 	trial_count: height = 0.03
+164.0927 	EXP 	trial_count: height = 0.03
+164.0927 	EXP 	trial_count: height = 0.03
+164.0927 	EXP 	trial_count: text = 123
+164.0927 	EXP 	image_L: autoDraw = True
+164.0927 	EXP 	image_R: autoDraw = True
+164.0927 	EXP 	main_instr: autoDraw = True
+164.0927 	EXP 	trial_count: autoDraw = True
+164.5919 	DATA 	Keypress: n
+164.6026 	EXP 	image_L: autoDraw = False
+164.6026 	EXP 	image_R: autoDraw = False
+164.6026 	EXP 	main_instr: autoDraw = False
+164.6026 	EXP 	trial_count: autoDraw = False
+164.6026 	EXP 	mini_pause: autoDraw = True
+165.0875 	EXP 	New trial (rep=7, index=12): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+165.1082 	EXP 	mini_pause: autoDraw = False
+165.1082 	EXP 	mini_pause: autoDraw = False
+165.1082 	EXP 	image_L: ori = 0.0
+165.1082 	EXP 	image_L: image = 'F.png'
+165.1082 	EXP 	image_R: ori = 45.0
+165.1082 	EXP 	image_R: image = 'F.png'
+165.1082 	EXP 	trial_count: height = 0.03
+165.1082 	EXP 	trial_count: height = 0.03
+165.1082 	EXP 	trial_count: height = 0.03
+165.1082 	EXP 	trial_count: text = 124
+165.1082 	EXP 	image_L: autoDraw = True
+165.1082 	EXP 	image_R: autoDraw = True
+165.1082 	EXP 	main_instr: autoDraw = True
+165.1082 	EXP 	trial_count: autoDraw = True
+165.6917 	DATA 	Keypress: m
+165.7022 	EXP 	image_L: autoDraw = False
+165.7022 	EXP 	image_R: autoDraw = False
+165.7022 	EXP 	main_instr: autoDraw = False
+165.7022 	EXP 	trial_count: autoDraw = False
+165.7022 	EXP 	mini_pause: autoDraw = True
+166.1873 	EXP 	New trial (rep=7, index=13): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+166.2102 	EXP 	mini_pause: autoDraw = False
+166.2102 	EXP 	mini_pause: autoDraw = False
+166.2102 	EXP 	image_L: ori = 0.0
+166.2102 	EXP 	image_L: image = 'F.png'
+166.2102 	EXP 	image_R: ori = 180.0
+166.2102 	EXP 	image_R: image = 'FR.png'
+166.2102 	EXP 	trial_count: height = 0.03
+166.2102 	EXP 	trial_count: height = 0.03
+166.2102 	EXP 	trial_count: height = 0.03
+166.2102 	EXP 	trial_count: text = 125
+166.2102 	EXP 	image_L: autoDraw = True
+166.2102 	EXP 	image_R: autoDraw = True
+166.2102 	EXP 	main_instr: autoDraw = True
+166.2102 	EXP 	trial_count: autoDraw = True
+166.8590 	DATA 	Keypress: n
+166.8687 	EXP 	image_L: autoDraw = False
+166.8687 	EXP 	image_R: autoDraw = False
+166.8687 	EXP 	main_instr: autoDraw = False
+166.8687 	EXP 	trial_count: autoDraw = False
+166.8687 	EXP 	mini_pause: autoDraw = True
+167.3538 	EXP 	New trial (rep=7, index=14): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+167.3734 	EXP 	mini_pause: autoDraw = False
+167.3734 	EXP 	mini_pause: autoDraw = False
+167.3734 	EXP 	image_L: ori = 0.0
+167.3734 	EXP 	image_L: image = 'F.png'
+167.3734 	EXP 	image_R: ori = 225.0
+167.3734 	EXP 	image_R: image = 'FR.png'
+167.3734 	EXP 	trial_count: height = 0.03
+167.3734 	EXP 	trial_count: height = 0.03
+167.3734 	EXP 	trial_count: height = 0.03
+167.3734 	EXP 	trial_count: text = 126
+167.3734 	EXP 	image_L: autoDraw = True
+167.3734 	EXP 	image_R: autoDraw = True
+167.3734 	EXP 	main_instr: autoDraw = True
+167.3734 	EXP 	trial_count: autoDraw = True
+168.0415 	DATA 	Keypress: n
+168.0527 	EXP 	image_L: autoDraw = False
+168.0527 	EXP 	image_R: autoDraw = False
+168.0527 	EXP 	main_instr: autoDraw = False
+168.0527 	EXP 	trial_count: autoDraw = False
+168.0527 	EXP 	mini_pause: autoDraw = True
+168.5374 	EXP 	New trial (rep=7, index=15): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+168.5587 	EXP 	mini_pause: autoDraw = False
+168.5587 	EXP 	mini_pause: autoDraw = False
+168.5587 	EXP 	image_L: ori = 0.0
+168.5587 	EXP 	image_L: image = 'FR.png'
+168.5587 	EXP 	image_R: ori = 270.0
+168.5587 	EXP 	image_R: image = 'FR.png'
+168.5587 	EXP 	trial_count: height = 0.03
+168.5587 	EXP 	trial_count: height = 0.03
+168.5587 	EXP 	trial_count: height = 0.03
+168.5587 	EXP 	trial_count: text = 127
+168.5587 	EXP 	image_L: autoDraw = True
+168.5587 	EXP 	image_R: autoDraw = True
+168.5587 	EXP 	main_instr: autoDraw = True
+168.5587 	EXP 	trial_count: autoDraw = True
+169.2401 	DATA 	Keypress: m
+169.2688 	EXP 	image_L: autoDraw = False
+169.2688 	EXP 	image_R: autoDraw = False
+169.2688 	EXP 	main_instr: autoDraw = False
+169.2688 	EXP 	trial_count: autoDraw = False
+169.2688 	EXP 	mini_pause: autoDraw = True
+169.7541 	EXP 	New trial (rep=8, index=0): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+169.7764 	EXP 	mini_pause: autoDraw = False
+169.7764 	EXP 	mini_pause: autoDraw = False
+169.7764 	EXP 	image_L: ori = 0.0
+169.7764 	EXP 	image_L: image = 'F.png'
+169.7764 	EXP 	image_R: ori = 315.0
+169.7764 	EXP 	image_R: image = 'F.png'
+169.7764 	EXP 	trial_count: height = 0.03
+169.7764 	EXP 	trial_count: height = 0.03
+169.7764 	EXP 	trial_count: height = 0.03
+169.7764 	EXP 	trial_count: text = 128
+169.7764 	EXP 	image_L: autoDraw = True
+169.7764 	EXP 	image_R: autoDraw = True
+169.7764 	EXP 	main_instr: autoDraw = True
+169.7764 	EXP 	trial_count: autoDraw = True
+170.3268 	DATA 	Keypress: m
+170.3523 	EXP 	image_L: autoDraw = False
+170.3523 	EXP 	image_R: autoDraw = False
+170.3523 	EXP 	main_instr: autoDraw = False
+170.3523 	EXP 	trial_count: autoDraw = False
+170.3523 	EXP 	mini_pause: autoDraw = True
+170.8371 	EXP 	New trial (rep=8, index=1): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+170.8567 	EXP 	mini_pause: autoDraw = False
+170.8567 	EXP 	mini_pause: autoDraw = False
+170.8567 	EXP 	image_L: ori = 0.0
+170.8567 	EXP 	image_L: image = 'FR.png'
+170.8567 	EXP 	image_R: ori = 135.0
+170.8567 	EXP 	image_R: image = 'F.png'
+170.8567 	EXP 	trial_count: height = 0.03
+170.8567 	EXP 	trial_count: height = 0.03
+170.8567 	EXP 	trial_count: height = 0.03
+170.8567 	EXP 	trial_count: text = 129
+170.8567 	EXP 	image_L: autoDraw = True
+170.8567 	EXP 	image_R: autoDraw = True
+170.8567 	EXP 	main_instr: autoDraw = True
+170.8567 	EXP 	trial_count: autoDraw = True
+171.6754 	DATA 	Keypress: n
+171.6853 	EXP 	image_L: autoDraw = False
+171.6853 	EXP 	image_R: autoDraw = False
+171.6853 	EXP 	main_instr: autoDraw = False
+171.6853 	EXP 	trial_count: autoDraw = False
+171.6853 	EXP 	mini_pause: autoDraw = True
+172.1705 	EXP 	New trial (rep=8, index=2): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+172.1917 	EXP 	mini_pause: autoDraw = False
+172.1917 	EXP 	mini_pause: autoDraw = False
+172.1917 	EXP 	image_L: ori = 0.0
+172.1917 	EXP 	image_L: image = 'FR.png'
+172.1917 	EXP 	image_R: ori = 0.0
+172.1917 	EXP 	image_R: image = 'F.png'
+172.1917 	EXP 	trial_count: height = 0.03
+172.1917 	EXP 	trial_count: height = 0.03
+172.1917 	EXP 	trial_count: height = 0.03
+172.1917 	EXP 	trial_count: text = 130
+172.1917 	EXP 	image_L: autoDraw = True
+172.1917 	EXP 	image_R: autoDraw = True
+172.1917 	EXP 	main_instr: autoDraw = True
+172.1917 	EXP 	trial_count: autoDraw = True
+172.7248 	DATA 	Keypress: n
+172.7351 	EXP 	image_L: autoDraw = False
+172.7351 	EXP 	image_R: autoDraw = False
+172.7351 	EXP 	main_instr: autoDraw = False
+172.7351 	EXP 	trial_count: autoDraw = False
+172.7351 	EXP 	mini_pause: autoDraw = True
+173.2204 	EXP 	New trial (rep=8, index=3): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+173.2417 	EXP 	mini_pause: autoDraw = False
+173.2417 	EXP 	mini_pause: autoDraw = False
+173.2417 	EXP 	image_L: ori = 0.0
+173.2417 	EXP 	image_L: image = 'F.png'
+173.2417 	EXP 	image_R: ori = 90.0
+173.2417 	EXP 	image_R: image = 'FR.png'
+173.2417 	EXP 	trial_count: height = 0.03
+173.2417 	EXP 	trial_count: height = 0.03
+173.2417 	EXP 	trial_count: height = 0.03
+173.2417 	EXP 	trial_count: text = 131
+173.2417 	EXP 	image_L: autoDraw = True
+173.2417 	EXP 	image_R: autoDraw = True
+173.2417 	EXP 	main_instr: autoDraw = True
+173.2417 	EXP 	trial_count: autoDraw = True
+173.8237 	DATA 	Keypress: n
+173.8351 	EXP 	image_L: autoDraw = False
+173.8351 	EXP 	image_R: autoDraw = False
+173.8351 	EXP 	main_instr: autoDraw = False
+173.8351 	EXP 	trial_count: autoDraw = False
+173.8351 	EXP 	mini_pause: autoDraw = True
+174.3207 	EXP 	New trial (rep=8, index=4): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+174.3438 	EXP 	mini_pause: autoDraw = False
+174.3438 	EXP 	mini_pause: autoDraw = False
+174.3438 	EXP 	image_L: ori = 0.0
+174.3438 	EXP 	image_L: image = 'F.png'
+174.3438 	EXP 	image_R: ori = 225.0
+174.3438 	EXP 	image_R: image = 'F.png'
+174.3438 	EXP 	trial_count: height = 0.03
+174.3438 	EXP 	trial_count: height = 0.03
+174.3438 	EXP 	trial_count: height = 0.03
+174.3438 	EXP 	trial_count: text = 132
+174.3438 	EXP 	image_L: autoDraw = True
+174.3438 	EXP 	image_R: autoDraw = True
+174.3438 	EXP 	main_instr: autoDraw = True
+174.3438 	EXP 	trial_count: autoDraw = True
+175.5757 	DATA 	Keypress: m
+175.6017 	EXP 	image_L: autoDraw = False
+175.6017 	EXP 	image_R: autoDraw = False
+175.6017 	EXP 	main_instr: autoDraw = False
+175.6017 	EXP 	trial_count: autoDraw = False
+175.6017 	EXP 	mini_pause: autoDraw = True
+176.0867 	EXP 	New trial (rep=8, index=5): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+176.1097 	EXP 	mini_pause: autoDraw = False
+176.1097 	EXP 	mini_pause: autoDraw = False
+176.1097 	EXP 	image_L: ori = 0.0
+176.1097 	EXP 	image_L: image = 'F.png'
+176.1097 	EXP 	image_R: ori = 270.0
+176.1097 	EXP 	image_R: image = 'FR.png'
+176.1097 	EXP 	trial_count: height = 0.03
+176.1097 	EXP 	trial_count: height = 0.03
+176.1097 	EXP 	trial_count: height = 0.03
+176.1097 	EXP 	trial_count: text = 133
+176.1097 	EXP 	image_L: autoDraw = True
+176.1097 	EXP 	image_R: autoDraw = True
+176.1097 	EXP 	main_instr: autoDraw = True
+176.1097 	EXP 	trial_count: autoDraw = True
+176.8750 	DATA 	Keypress: n
+176.8847 	EXP 	image_L: autoDraw = False
+176.8847 	EXP 	image_R: autoDraw = False
+176.8847 	EXP 	main_instr: autoDraw = False
+176.8847 	EXP 	trial_count: autoDraw = False
+176.8847 	EXP 	mini_pause: autoDraw = True
+177.3702 	EXP 	New trial (rep=8, index=6): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+177.3920 	EXP 	mini_pause: autoDraw = False
+177.3920 	EXP 	mini_pause: autoDraw = False
+177.3920 	EXP 	image_L: ori = 0.0
+177.3920 	EXP 	image_L: image = 'F.png'
+177.3920 	EXP 	image_R: ori = 180.0
+177.3920 	EXP 	image_R: image = 'FR.png'
+177.3920 	EXP 	trial_count: height = 0.03
+177.3920 	EXP 	trial_count: height = 0.03
+177.3920 	EXP 	trial_count: height = 0.03
+177.3920 	EXP 	trial_count: text = 134
+177.3920 	EXP 	image_L: autoDraw = True
+177.3920 	EXP 	image_R: autoDraw = True
+177.3920 	EXP 	main_instr: autoDraw = True
+177.3920 	EXP 	trial_count: autoDraw = True
+178.0752 	DATA 	Keypress: n
+178.0850 	EXP 	image_L: autoDraw = False
+178.0850 	EXP 	image_R: autoDraw = False
+178.0850 	EXP 	main_instr: autoDraw = False
+178.0850 	EXP 	trial_count: autoDraw = False
+178.0850 	EXP 	mini_pause: autoDraw = True
+178.5699 	EXP 	New trial (rep=8, index=7): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+178.5918 	EXP 	mini_pause: autoDraw = False
+178.5918 	EXP 	mini_pause: autoDraw = False
+178.5918 	EXP 	image_L: ori = 0.0
+178.5918 	EXP 	image_L: image = 'F.png'
+178.5918 	EXP 	image_R: ori = 225.0
+178.5918 	EXP 	image_R: image = 'FR.png'
+178.5918 	EXP 	trial_count: height = 0.03
+178.5918 	EXP 	trial_count: height = 0.03
+178.5918 	EXP 	trial_count: height = 0.03
+178.5918 	EXP 	trial_count: text = 135
+178.5918 	EXP 	image_L: autoDraw = True
+178.5918 	EXP 	image_R: autoDraw = True
+178.5918 	EXP 	main_instr: autoDraw = True
+178.5918 	EXP 	trial_count: autoDraw = True
+179.1403 	DATA 	Keypress: n
+179.1514 	EXP 	image_L: autoDraw = False
+179.1514 	EXP 	image_R: autoDraw = False
+179.1514 	EXP 	main_instr: autoDraw = False
+179.1514 	EXP 	trial_count: autoDraw = False
+179.1514 	EXP 	mini_pause: autoDraw = True
+179.6363 	EXP 	New trial (rep=8, index=8): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+179.6598 	EXP 	mini_pause: autoDraw = False
+179.6598 	EXP 	mini_pause: autoDraw = False
+179.6598 	EXP 	image_L: ori = 0.0
+179.6598 	EXP 	image_L: image = 'FR.png'
+179.6598 	EXP 	image_R: ori = 45.0
+179.6598 	EXP 	image_R: image = 'F.png'
+179.6598 	EXP 	trial_count: height = 0.03
+179.6598 	EXP 	trial_count: height = 0.03
+179.6598 	EXP 	trial_count: height = 0.03
+179.6598 	EXP 	trial_count: text = 136
+179.6598 	EXP 	image_L: autoDraw = True
+179.6598 	EXP 	image_R: autoDraw = True
+179.6598 	EXP 	main_instr: autoDraw = True
+179.6598 	EXP 	trial_count: autoDraw = True
+180.2937 	DATA 	Keypress: n
+180.3180 	EXP 	image_L: autoDraw = False
+180.3180 	EXP 	image_R: autoDraw = False
+180.3180 	EXP 	main_instr: autoDraw = False
+180.3180 	EXP 	trial_count: autoDraw = False
+180.3180 	EXP 	mini_pause: autoDraw = True
+180.8033 	EXP 	New trial (rep=8, index=9): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+180.8242 	EXP 	mini_pause: autoDraw = False
+180.8242 	EXP 	mini_pause: autoDraw = False
+180.8242 	EXP 	image_L: ori = 0.0
+180.8242 	EXP 	image_L: image = 'FR.png'
+180.8242 	EXP 	image_R: ori = 135.0
+180.8242 	EXP 	image_R: image = 'FR.png'
+180.8242 	EXP 	trial_count: height = 0.03
+180.8242 	EXP 	trial_count: height = 0.03
+180.8242 	EXP 	trial_count: height = 0.03
+180.8242 	EXP 	trial_count: text = 137
+180.8242 	EXP 	image_L: autoDraw = True
+180.8242 	EXP 	image_R: autoDraw = True
+180.8242 	EXP 	main_instr: autoDraw = True
+180.8242 	EXP 	trial_count: autoDraw = True
+181.5252 	DATA 	Keypress: m
+181.5349 	EXP 	image_L: autoDraw = False
+181.5349 	EXP 	image_R: autoDraw = False
+181.5349 	EXP 	main_instr: autoDraw = False
+181.5349 	EXP 	trial_count: autoDraw = False
+181.5349 	EXP 	mini_pause: autoDraw = True
+182.0198 	EXP 	New trial (rep=8, index=10): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+182.0391 	EXP 	mini_pause: autoDraw = False
+182.0391 	EXP 	mini_pause: autoDraw = False
+182.0391 	EXP 	image_L: ori = 0.0
+182.0391 	EXP 	image_L: image = 'FR.png'
+182.0391 	EXP 	image_R: ori = 45.0
+182.0391 	EXP 	image_R: image = 'FR.png'
+182.0391 	EXP 	trial_count: height = 0.03
+182.0391 	EXP 	trial_count: height = 0.03
+182.0391 	EXP 	trial_count: height = 0.03
+182.0391 	EXP 	trial_count: text = 138
+182.0391 	EXP 	image_L: autoDraw = True
+182.0391 	EXP 	image_R: autoDraw = True
+182.0391 	EXP 	main_instr: autoDraw = True
+182.0391 	EXP 	trial_count: autoDraw = True
+182.6409 	DATA 	Keypress: m
+182.6512 	EXP 	image_L: autoDraw = False
+182.6512 	EXP 	image_R: autoDraw = False
+182.6512 	EXP 	main_instr: autoDraw = False
+182.6512 	EXP 	trial_count: autoDraw = False
+182.6512 	EXP 	mini_pause: autoDraw = True
+183.1369 	EXP 	New trial (rep=8, index=11): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+183.1560 	EXP 	mini_pause: autoDraw = False
+183.1560 	EXP 	mini_pause: autoDraw = False
+183.1560 	EXP 	image_L: ori = 0.0
+183.1560 	EXP 	image_L: image = 'FR.png'
+183.1560 	EXP 	image_R: ori = 90.0
+183.1560 	EXP 	image_R: image = 'FR.png'
+183.1560 	EXP 	trial_count: height = 0.03
+183.1560 	EXP 	trial_count: height = 0.03
+183.1560 	EXP 	trial_count: height = 0.03
+183.1560 	EXP 	trial_count: text = 139
+183.1560 	EXP 	image_L: autoDraw = True
+183.1560 	EXP 	image_R: autoDraw = True
+183.1560 	EXP 	main_instr: autoDraw = True
+183.1560 	EXP 	trial_count: autoDraw = True
+183.8094 	DATA 	Keypress: m
+183.8347 	EXP 	image_L: autoDraw = False
+183.8347 	EXP 	image_R: autoDraw = False
+183.8347 	EXP 	main_instr: autoDraw = False
+183.8347 	EXP 	trial_count: autoDraw = False
+183.8347 	EXP 	mini_pause: autoDraw = True
+184.3198 	EXP 	New trial (rep=8, index=12): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+184.3405 	EXP 	mini_pause: autoDraw = False
+184.3405 	EXP 	mini_pause: autoDraw = False
+184.3405 	EXP 	image_L: ori = 0.0
+184.3405 	EXP 	image_L: image = 'F.png'
+184.3405 	EXP 	image_R: ori = 0.0
+184.3405 	EXP 	image_R: image = 'F.png'
+184.3405 	EXP 	trial_count: height = 0.03
+184.3405 	EXP 	trial_count: height = 0.03
+184.3405 	EXP 	trial_count: height = 0.03
+184.3405 	EXP 	trial_count: text = 140
+184.3405 	EXP 	image_L: autoDraw = True
+184.3405 	EXP 	image_R: autoDraw = True
+184.3405 	EXP 	main_instr: autoDraw = True
+184.3405 	EXP 	trial_count: autoDraw = True
+185.0904 	DATA 	Keypress: m
+185.1011 	EXP 	image_L: autoDraw = False
+185.1011 	EXP 	image_R: autoDraw = False
+185.1011 	EXP 	main_instr: autoDraw = False
+185.1011 	EXP 	trial_count: autoDraw = False
+185.1011 	EXP 	mini_pause: autoDraw = True
+185.5854 	EXP 	New trial (rep=8, index=13): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+185.6014 	EXP 	mini_pause: autoDraw = False
+185.6014 	EXP 	mini_pause: autoDraw = False
+185.6014 	EXP 	image_L: ori = 0.0
+185.6014 	EXP 	image_L: image = 'F.png'
+185.6014 	EXP 	image_R: ori = 180.0
+185.6014 	EXP 	image_R: image = 'F.png'
+185.6014 	EXP 	trial_count: height = 0.03
+185.6014 	EXP 	trial_count: height = 0.03
+185.6014 	EXP 	trial_count: height = 0.03
+185.6014 	EXP 	trial_count: text = 141
+185.6014 	EXP 	image_L: autoDraw = True
+185.6014 	EXP 	image_R: autoDraw = True
+185.6014 	EXP 	main_instr: autoDraw = True
+185.6014 	EXP 	trial_count: autoDraw = True
+186.2263 	DATA 	Keypress: m
+186.2511 	EXP 	image_L: autoDraw = False
+186.2511 	EXP 	image_R: autoDraw = False
+186.2511 	EXP 	main_instr: autoDraw = False
+186.2511 	EXP 	trial_count: autoDraw = False
+186.2511 	EXP 	mini_pause: autoDraw = True
+186.7364 	EXP 	New trial (rep=8, index=14): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+186.7585 	EXP 	mini_pause: autoDraw = False
+186.7585 	EXP 	mini_pause: autoDraw = False
+186.7585 	EXP 	image_L: ori = 0.0
+186.7585 	EXP 	image_L: image = 'FR.png'
+186.7585 	EXP 	image_R: ori = 270.0
+186.7585 	EXP 	image_R: image = 'FR.png'
+186.7585 	EXP 	trial_count: height = 0.03
+186.7585 	EXP 	trial_count: height = 0.03
+186.7585 	EXP 	trial_count: height = 0.03
+186.7585 	EXP 	trial_count: text = 142
+186.7585 	EXP 	image_L: autoDraw = True
+186.7585 	EXP 	image_R: autoDraw = True
+186.7585 	EXP 	main_instr: autoDraw = True
+186.7585 	EXP 	trial_count: autoDraw = True
+187.4924 	DATA 	Keypress: m
+187.5011 	EXP 	image_L: autoDraw = False
+187.5011 	EXP 	image_R: autoDraw = False
+187.5011 	EXP 	main_instr: autoDraw = False
+187.5011 	EXP 	trial_count: autoDraw = False
+187.5011 	EXP 	mini_pause: autoDraw = True
+187.9860 	EXP 	New trial (rep=8, index=15): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+188.0067 	EXP 	mini_pause: autoDraw = False
+188.0067 	EXP 	mini_pause: autoDraw = False
+188.0067 	EXP 	image_L: ori = 0.0
+188.0067 	EXP 	image_L: image = 'FR.png'
+188.0067 	EXP 	image_R: ori = 315.0
+188.0067 	EXP 	image_R: image = 'F.png'
+188.0067 	EXP 	trial_count: height = 0.03
+188.0067 	EXP 	trial_count: height = 0.03
+188.0067 	EXP 	trial_count: height = 0.03
+188.0067 	EXP 	trial_count: text = 143
+188.0067 	EXP 	image_L: autoDraw = True
+188.0067 	EXP 	image_R: autoDraw = True
+188.0067 	EXP 	main_instr: autoDraw = True
+188.0067 	EXP 	trial_count: autoDraw = True
+188.6398 	DATA 	Keypress: n
+188.6512 	EXP 	image_L: autoDraw = False
+188.6512 	EXP 	image_R: autoDraw = False
+188.6512 	EXP 	main_instr: autoDraw = False
+188.6512 	EXP 	trial_count: autoDraw = False
+188.6512 	EXP 	mini_pause: autoDraw = True
+189.1365 	EXP 	New trial (rep=9, index=0): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'y'), ('corrAns', 'm'), ('angle', 315)])
+189.1559 	EXP 	mini_pause: autoDraw = False
+189.1559 	EXP 	mini_pause: autoDraw = False
+189.1559 	EXP 	image_L: ori = 0.0
+189.1559 	EXP 	image_L: image = 'FR.png'
+189.1559 	EXP 	image_R: ori = 315.0
+189.1559 	EXP 	image_R: image = 'FR.png'
+189.1559 	EXP 	trial_count: height = 0.03
+189.1559 	EXP 	trial_count: height = 0.03
+189.1559 	EXP 	trial_count: height = 0.03
+189.1559 	EXP 	trial_count: text = 144
+189.1559 	EXP 	image_L: autoDraw = True
+189.1559 	EXP 	image_R: autoDraw = True
+189.1559 	EXP 	main_instr: autoDraw = True
+189.1559 	EXP 	trial_count: autoDraw = True
+189.6901 	DATA 	Keypress: m
+189.7009 	EXP 	image_L: autoDraw = False
+189.7009 	EXP 	image_R: autoDraw = False
+189.7009 	EXP 	main_instr: autoDraw = False
+189.7009 	EXP 	trial_count: autoDraw = False
+189.7009 	EXP 	mini_pause: autoDraw = True
+190.1859 	EXP 	New trial (rep=9, index=1): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'n'), ('corrAns', 'n'), ('angle', 45)])
+190.2059 	EXP 	mini_pause: autoDraw = False
+190.2059 	EXP 	mini_pause: autoDraw = False
+190.2059 	EXP 	image_L: ori = 0.0
+190.2059 	EXP 	image_L: image = 'FR.png'
+190.2059 	EXP 	image_R: ori = 45.0
+190.2059 	EXP 	image_R: image = 'F.png'
+190.2059 	EXP 	trial_count: height = 0.03
+190.2059 	EXP 	trial_count: height = 0.03
+190.2059 	EXP 	trial_count: height = 0.03
+190.2059 	EXP 	trial_count: text = 145
+190.2059 	EXP 	image_L: autoDraw = True
+190.2059 	EXP 	image_R: autoDraw = True
+190.2059 	EXP 	main_instr: autoDraw = True
+190.2059 	EXP 	trial_count: autoDraw = True
+190.9230 	DATA 	Keypress: n
+190.9342 	EXP 	image_L: autoDraw = False
+190.9342 	EXP 	image_R: autoDraw = False
+190.9342 	EXP 	main_instr: autoDraw = False
+190.9342 	EXP 	trial_count: autoDraw = False
+190.9342 	EXP 	mini_pause: autoDraw = True
+191.4190 	EXP 	New trial (rep=9, index=2): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'n'), ('corrAns', 'n'), ('angle', 135)])
+191.4400 	EXP 	mini_pause: autoDraw = False
+191.4400 	EXP 	mini_pause: autoDraw = False
+191.4400 	EXP 	image_L: ori = 0.0
+191.4400 	EXP 	image_L: image = 'FR.png'
+191.4400 	EXP 	image_R: ori = 135.0
+191.4400 	EXP 	image_R: image = 'F.png'
+191.4400 	EXP 	trial_count: height = 0.03
+191.4400 	EXP 	trial_count: height = 0.03
+191.4400 	EXP 	trial_count: height = 0.03
+191.4400 	EXP 	trial_count: text = 146
+191.4400 	EXP 	image_L: autoDraw = True
+191.4400 	EXP 	image_R: autoDraw = True
+191.4400 	EXP 	main_instr: autoDraw = True
+191.4400 	EXP 	trial_count: autoDraw = True
+192.1591 	DATA 	Keypress: n
+192.1841 	EXP 	image_L: autoDraw = False
+192.1841 	EXP 	image_R: autoDraw = False
+192.1841 	EXP 	main_instr: autoDraw = False
+192.1841 	EXP 	trial_count: autoDraw = False
+192.1841 	EXP 	mini_pause: autoDraw = True
+192.6687 	EXP 	New trial (rep=9, index=3): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'y'), ('corrAns', 'm'), ('angle', 0)])
+192.6850 	EXP 	mini_pause: autoDraw = False
+192.6850 	EXP 	mini_pause: autoDraw = False
+192.6850 	EXP 	image_L: ori = 0.0
+192.6850 	EXP 	image_L: image = 'FR.png'
+192.6850 	EXP 	image_R: ori = 0.0
+192.6850 	EXP 	image_R: image = 'FR.png'
+192.6850 	EXP 	trial_count: height = 0.03
+192.6850 	EXP 	trial_count: height = 0.03
+192.6850 	EXP 	trial_count: height = 0.03
+192.6850 	EXP 	trial_count: text = 147
+192.6850 	EXP 	image_L: autoDraw = True
+192.6850 	EXP 	image_R: autoDraw = True
+192.6850 	EXP 	main_instr: autoDraw = True
+192.6850 	EXP 	trial_count: autoDraw = True
+193.2564 	DATA 	Keypress: m
+193.2673 	EXP 	image_L: autoDraw = False
+193.2673 	EXP 	image_R: autoDraw = False
+193.2673 	EXP 	main_instr: autoDraw = False
+193.2673 	EXP 	trial_count: autoDraw = False
+193.2673 	EXP 	mini_pause: autoDraw = True
+193.7523 	EXP 	New trial (rep=9, index=4): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'y'), ('corrAns', 'm'), ('angle', 180)])
+193.7714 	EXP 	mini_pause: autoDraw = False
+193.7714 	EXP 	mini_pause: autoDraw = False
+193.7714 	EXP 	image_L: ori = 0.0
+193.7714 	EXP 	image_L: image = 'F.png'
+193.7714 	EXP 	image_R: ori = 180.0
+193.7714 	EXP 	image_R: image = 'F.png'
+193.7714 	EXP 	trial_count: height = 0.03
+193.7714 	EXP 	trial_count: height = 0.03
+193.7714 	EXP 	trial_count: height = 0.03
+193.7714 	EXP 	trial_count: text = 148
+193.7714 	EXP 	image_L: autoDraw = True
+193.7714 	EXP 	image_R: autoDraw = True
+193.7714 	EXP 	main_instr: autoDraw = True
+193.7714 	EXP 	trial_count: autoDraw = True
+194.5390 	DATA 	Keypress: m
+194.5512 	EXP 	image_L: autoDraw = False
+194.5512 	EXP 	image_R: autoDraw = False
+194.5512 	EXP 	main_instr: autoDraw = False
+194.5512 	EXP 	trial_count: autoDraw = False
+194.5512 	EXP 	mini_pause: autoDraw = True
+195.0349 	EXP 	New trial (rep=9, index=5): OrderedDict([('leftori', 0), ('rightori', 315), ('same', 'n'), ('corrAns', 'n'), ('angle', 315)])
+195.0523 	EXP 	mini_pause: autoDraw = False
+195.0523 	EXP 	mini_pause: autoDraw = False
+195.0523 	EXP 	image_L: ori = 0.0
+195.0523 	EXP 	image_L: image = 'FR.png'
+195.0523 	EXP 	image_R: ori = 315.0
+195.0523 	EXP 	image_R: image = 'F.png'
+195.0523 	EXP 	trial_count: height = 0.03
+195.0523 	EXP 	trial_count: height = 0.03
+195.0523 	EXP 	trial_count: height = 0.03
+195.0523 	EXP 	trial_count: text = 149
+195.0523 	EXP 	image_L: autoDraw = True
+195.0523 	EXP 	image_R: autoDraw = True
+195.0523 	EXP 	main_instr: autoDraw = True
+195.0523 	EXP 	trial_count: autoDraw = True
+195.6903 	DATA 	Keypress: n
+195.7009 	EXP 	image_L: autoDraw = False
+195.7009 	EXP 	image_R: autoDraw = False
+195.7009 	EXP 	main_instr: autoDraw = False
+195.7009 	EXP 	trial_count: autoDraw = False
+195.7009 	EXP 	mini_pause: autoDraw = True
+196.1859 	EXP 	New trial (rep=9, index=6): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'y'), ('corrAns', 'm'), ('angle', 225)])
+196.2075 	EXP 	mini_pause: autoDraw = False
+196.2075 	EXP 	mini_pause: autoDraw = False
+196.2075 	EXP 	image_L: ori = 0.0
+196.2075 	EXP 	image_L: image = 'F.png'
+196.2075 	EXP 	image_R: ori = 225.0
+196.2075 	EXP 	image_R: image = 'F.png'
+196.2075 	EXP 	trial_count: height = 0.03
+196.2075 	EXP 	trial_count: height = 0.03
+196.2075 	EXP 	trial_count: height = 0.03
+196.2075 	EXP 	trial_count: text = 150
+196.2075 	EXP 	image_L: autoDraw = True
+196.2075 	EXP 	image_R: autoDraw = True
+196.2075 	EXP 	main_instr: autoDraw = True
+196.2075 	EXP 	trial_count: autoDraw = True
+196.7910 	DATA 	Keypress: m
+196.8173 	EXP 	image_L: autoDraw = False
+196.8173 	EXP 	image_R: autoDraw = False
+196.8173 	EXP 	main_instr: autoDraw = False
+196.8173 	EXP 	trial_count: autoDraw = False
+196.8173 	EXP 	mini_pause: autoDraw = True
+197.3025 	EXP 	New trial (rep=9, index=7): OrderedDict([('leftori', 0), ('rightori', 225), ('same', 'n'), ('corrAns', 'n'), ('angle', 225)])
+197.3245 	EXP 	mini_pause: autoDraw = False
+197.3245 	EXP 	mini_pause: autoDraw = False
+197.3245 	EXP 	image_L: ori = 0.0
+197.3245 	EXP 	image_L: image = 'F.png'
+197.3245 	EXP 	image_R: ori = 225.0
+197.3245 	EXP 	image_R: image = 'FR.png'
+197.3245 	EXP 	trial_count: height = 0.03
+197.3245 	EXP 	trial_count: height = 0.03
+197.3245 	EXP 	trial_count: height = 0.03
+197.3245 	EXP 	trial_count: text = 151
+197.3245 	EXP 	image_L: autoDraw = True
+197.3245 	EXP 	image_R: autoDraw = True
+197.3245 	EXP 	main_instr: autoDraw = True
+197.3245 	EXP 	trial_count: autoDraw = True
+198.0417 	DATA 	Keypress: n
+198.0672 	EXP 	image_L: autoDraw = False
+198.0672 	EXP 	image_R: autoDraw = False
+198.0672 	EXP 	main_instr: autoDraw = False
+198.0672 	EXP 	trial_count: autoDraw = False
+198.0672 	EXP 	mini_pause: autoDraw = True
+198.5527 	EXP 	New trial (rep=9, index=8): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'y'), ('corrAns', 'm'), ('angle', 270)])
+198.5750 	EXP 	mini_pause: autoDraw = False
+198.5750 	EXP 	mini_pause: autoDraw = False
+198.5750 	EXP 	image_L: ori = 0.0
+198.5750 	EXP 	image_L: image = 'FR.png'
+198.5750 	EXP 	image_R: ori = 270.0
+198.5750 	EXP 	image_R: image = 'FR.png'
+198.5750 	EXP 	trial_count: height = 0.03
+198.5750 	EXP 	trial_count: height = 0.03
+198.5750 	EXP 	trial_count: height = 0.03
+198.5750 	EXP 	trial_count: text = 152
+198.5750 	EXP 	image_L: autoDraw = True
+198.5750 	EXP 	image_R: autoDraw = True
+198.5750 	EXP 	main_instr: autoDraw = True
+198.5750 	EXP 	trial_count: autoDraw = True
+199.2580 	DATA 	Keypress: m
+199.2839 	EXP 	image_L: autoDraw = False
+199.2839 	EXP 	image_R: autoDraw = False
+199.2839 	EXP 	main_instr: autoDraw = False
+199.2839 	EXP 	trial_count: autoDraw = False
+199.2839 	EXP 	mini_pause: autoDraw = True
+199.7688 	EXP 	New trial (rep=9, index=9): OrderedDict([('leftori', 0), ('rightori', 0), ('same', 'n'), ('corrAns', 'n'), ('angle', 0)])
+199.7893 	EXP 	mini_pause: autoDraw = False
+199.7893 	EXP 	mini_pause: autoDraw = False
+199.7893 	EXP 	image_L: ori = 0.0
+199.7893 	EXP 	image_L: image = 'FR.png'
+199.7893 	EXP 	image_R: ori = 0.0
+199.7893 	EXP 	image_R: image = 'F.png'
+199.7893 	EXP 	trial_count: height = 0.03
+199.7893 	EXP 	trial_count: height = 0.03
+199.7893 	EXP 	trial_count: height = 0.03
+199.7893 	EXP 	trial_count: text = 153
+199.7893 	EXP 	image_L: autoDraw = True
+199.7893 	EXP 	image_R: autoDraw = True
+199.7893 	EXP 	main_instr: autoDraw = True
+199.7893 	EXP 	trial_count: autoDraw = True
+200.4082 	DATA 	Keypress: n
+200.4348 	EXP 	image_L: autoDraw = False
+200.4348 	EXP 	image_R: autoDraw = False
+200.4348 	EXP 	main_instr: autoDraw = False
+200.4348 	EXP 	trial_count: autoDraw = False
+200.4348 	EXP 	mini_pause: autoDraw = True
+200.9189 	EXP 	New trial (rep=9, index=10): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'n'), ('corrAns', 'n'), ('angle', 90)])
+200.9412 	EXP 	mini_pause: autoDraw = False
+200.9412 	EXP 	mini_pause: autoDraw = False
+200.9412 	EXP 	image_L: ori = 0.0
+200.9412 	EXP 	image_L: image = 'F.png'
+200.9412 	EXP 	image_R: ori = 90.0
+200.9412 	EXP 	image_R: image = 'FR.png'
+200.9412 	EXP 	trial_count: height = 0.03
+200.9412 	EXP 	trial_count: height = 0.03
+200.9412 	EXP 	trial_count: height = 0.03
+200.9412 	EXP 	trial_count: text = 154
+200.9412 	EXP 	image_L: autoDraw = True
+200.9412 	EXP 	image_R: autoDraw = True
+200.9412 	EXP 	main_instr: autoDraw = True
+200.9412 	EXP 	trial_count: autoDraw = True
+201.5749 	DATA 	Keypress: n
+201.6004 	EXP 	image_L: autoDraw = False
+201.6004 	EXP 	image_R: autoDraw = False
+201.6004 	EXP 	main_instr: autoDraw = False
+201.6004 	EXP 	trial_count: autoDraw = False
+201.6004 	EXP 	mini_pause: autoDraw = True
+202.0859 	EXP 	New trial (rep=9, index=11): OrderedDict([('leftori', 0), ('rightori', 45), ('same', 'y'), ('corrAns', 'm'), ('angle', 45)])
+202.1072 	EXP 	mini_pause: autoDraw = False
+202.1072 	EXP 	mini_pause: autoDraw = False
+202.1072 	EXP 	image_L: ori = 0.0
+202.1072 	EXP 	image_L: image = 'FR.png'
+202.1072 	EXP 	image_R: ori = 45.0
+202.1072 	EXP 	image_R: image = 'FR.png'
+202.1072 	EXP 	trial_count: height = 0.03
+202.1072 	EXP 	trial_count: height = 0.03
+202.1072 	EXP 	trial_count: height = 0.03
+202.1072 	EXP 	trial_count: text = 155
+202.1072 	EXP 	image_L: autoDraw = True
+202.1072 	EXP 	image_R: autoDraw = True
+202.1072 	EXP 	main_instr: autoDraw = True
+202.1072 	EXP 	trial_count: autoDraw = True
+202.6063 	DATA 	Keypress: m
+202.6173 	EXP 	image_L: autoDraw = False
+202.6173 	EXP 	image_R: autoDraw = False
+202.6173 	EXP 	main_instr: autoDraw = False
+202.6173 	EXP 	trial_count: autoDraw = False
+202.6173 	EXP 	mini_pause: autoDraw = True
+203.1025 	EXP 	New trial (rep=9, index=12): OrderedDict([('leftori', 0), ('rightori', 270), ('same', 'n'), ('corrAns', 'n'), ('angle', 270)])
+203.1249 	EXP 	mini_pause: autoDraw = False
+203.1249 	EXP 	mini_pause: autoDraw = False
+203.1249 	EXP 	image_L: ori = 0.0
+203.1249 	EXP 	image_L: image = 'FR.png'
+203.1249 	EXP 	image_R: ori = 270.0
+203.1249 	EXP 	image_R: image = 'F.png'
+203.1249 	EXP 	trial_count: height = 0.03
+203.1249 	EXP 	trial_count: height = 0.03
+203.1249 	EXP 	trial_count: height = 0.03
+203.1249 	EXP 	trial_count: text = 156
+203.1249 	EXP 	image_L: autoDraw = True
+203.1249 	EXP 	image_R: autoDraw = True
+203.1249 	EXP 	main_instr: autoDraw = True
+203.1249 	EXP 	trial_count: autoDraw = True
+203.7730 	DATA 	Keypress: n
+203.8001 	EXP 	image_L: autoDraw = False
+203.8001 	EXP 	image_R: autoDraw = False
+203.8001 	EXP 	main_instr: autoDraw = False
+203.8001 	EXP 	trial_count: autoDraw = False
+203.8001 	EXP 	mini_pause: autoDraw = True
+204.2851 	EXP 	New trial (rep=9, index=13): OrderedDict([('leftori', 0), ('rightori', 135), ('same', 'y'), ('corrAns', 'm'), ('angle', 135)])
+204.3030 	EXP 	mini_pause: autoDraw = False
+204.3030 	EXP 	mini_pause: autoDraw = False
+204.3030 	EXP 	image_L: ori = 0.0
+204.3030 	EXP 	image_L: image = 'FR.png'
+204.3030 	EXP 	image_R: ori = 135.0
+204.3030 	EXP 	image_R: image = 'FR.png'
+204.3030 	EXP 	trial_count: height = 0.03
+204.3030 	EXP 	trial_count: height = 0.03
+204.3030 	EXP 	trial_count: height = 0.03
+204.3030 	EXP 	trial_count: text = 157
+204.3030 	EXP 	image_L: autoDraw = True
+204.3030 	EXP 	image_R: autoDraw = True
+204.3030 	EXP 	main_instr: autoDraw = True
+204.3030 	EXP 	trial_count: autoDraw = True
+204.7910 	DATA 	Keypress: n
+204.8171 	EXP 	image_L: autoDraw = False
+204.8171 	EXP 	image_R: autoDraw = False
+204.8171 	EXP 	main_instr: autoDraw = False
+204.8171 	EXP 	trial_count: autoDraw = False
+204.8171 	EXP 	mini_pause: autoDraw = True
+205.3027 	EXP 	New trial (rep=9, index=14): OrderedDict([('leftori', 0), ('rightori', 90), ('same', 'y'), ('corrAns', 'm'), ('angle', 90)])
+205.3242 	EXP 	mini_pause: autoDraw = False
+205.3242 	EXP 	mini_pause: autoDraw = False
+205.3242 	EXP 	image_L: ori = 0.0
+205.3242 	EXP 	image_L: image = 'FR.png'
+205.3242 	EXP 	image_R: ori = 90.0
+205.3242 	EXP 	image_R: image = 'FR.png'
+205.3242 	EXP 	trial_count: height = 0.03
+205.3242 	EXP 	trial_count: height = 0.03
+205.3242 	EXP 	trial_count: height = 0.03
+205.3242 	EXP 	trial_count: text = 158
+205.3242 	EXP 	image_L: autoDraw = True
+205.3242 	EXP 	image_R: autoDraw = True
+205.3242 	EXP 	main_instr: autoDraw = True
+205.3242 	EXP 	trial_count: autoDraw = True
+205.9063 	DATA 	Keypress: m
+205.9172 	EXP 	image_L: autoDraw = False
+205.9172 	EXP 	image_R: autoDraw = False
+205.9172 	EXP 	main_instr: autoDraw = False
+205.9172 	EXP 	trial_count: autoDraw = False
+205.9172 	EXP 	mini_pause: autoDraw = True
+206.4021 	EXP 	New trial (rep=9, index=15): OrderedDict([('leftori', 0), ('rightori', 180), ('same', 'n'), ('corrAns', 'n'), ('angle', 180)])
+206.4230 	EXP 	mini_pause: autoDraw = False
+206.4230 	EXP 	mini_pause: autoDraw = False
+206.4230 	EXP 	image_L: ori = 0.0
+206.4230 	EXP 	image_L: image = 'FR.png'
+206.4230 	EXP 	image_R: ori = 180.0
+206.4230 	EXP 	image_R: image = 'F.png'
+206.4230 	EXP 	trial_count: height = 0.03
+206.4230 	EXP 	trial_count: height = 0.03
+206.4230 	EXP 	trial_count: height = 0.03
+206.4230 	EXP 	trial_count: text = 159
+206.4230 	EXP 	image_L: autoDraw = True
+206.4230 	EXP 	image_R: autoDraw = True
+206.4230 	EXP 	main_instr: autoDraw = True
+206.4230 	EXP 	trial_count: autoDraw = True
+207.1562 	DATA 	Keypress: n
+207.1668 	EXP 	image_L: autoDraw = False
+207.1668 	EXP 	image_R: autoDraw = False
+207.1668 	EXP 	main_instr: autoDraw = False
+207.1668 	EXP 	trial_count: autoDraw = False
+207.1668 	EXP 	mini_pause: autoDraw = True
+207.6669 	EXP 	mini_pause: autoDraw = False
+207.6669 	EXP 	mini_pause: autoDraw = False
+207.6669 	EXP 	end_txt: autoDraw = True
+208.4694 	DATA 	Keypress: space
+208.4837 	EXP 	end_txt: autoDraw = False
+208.7744 	EXP 	window1: mouseVisible = True
