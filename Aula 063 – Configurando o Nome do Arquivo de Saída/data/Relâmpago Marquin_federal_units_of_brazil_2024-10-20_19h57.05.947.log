@@ -1,0 +1,80 @@
+12.9384 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+12.9397 	INFO 	Loaded monitor calibration from ['2022_07_17 12:15']
+14.3167 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7070>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA1FD0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA1E20>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021F8EF4BF10>, multiSample=False, name='window1', numSamples=2, pos=[283.0, 84.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.3168 	EXP 	window1: backgroundImage = ''
+14.3168 	EXP 	window1: backgroundFit = 'none'
+14.3171 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.3176 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.3202 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.3224 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.3467 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3493 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3530 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3569 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3585 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3602 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3611 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3631 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3665 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3693 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3712 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3728 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3742 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3757 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3770 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3787 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3801 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3838 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3851 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3857 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.4011 	DEBUG 	Upload of Texture Font fontname complete
+14.4041 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.4044 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.4056 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.4062 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000021F8ECA7190>
+14.4294 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4321 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4345 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4349 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.4524 	DEBUG 	Upload of Texture Font fontname complete
+14.4586 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.4586 	EXP 	window1: recordFrameIntervals = False
+14.6497 	EXP 	window1: recordFrameIntervals = True
+14.8239 	WARNING 	t of last frame was 55.51ms (=1/18)
+15.0370 	EXP 	Screen (0) actual frame rate measured at 59.49Hz
+15.0370 	EXP 	window1: recordFrameIntervals = False
+15.0371 	EXP 	window1: mouseVisible = True
+15.0375 	EXP 	window1: mouseVisible = True
+15.0378 	EXP 	window1: mouseVisible = True
+15.0386 	EXP 	window1: mouseVisible = True
+15.0393 	EXP 	window1: mouseVisible = True
+15.0648 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0675 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0696 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0716 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0734 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0754 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0766 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0781 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0802 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0835 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.0840 	DEBUG 	Uploading Texture Font fontname to graphics card
+15.0845 	DEBUG 	Upload of Texture Font fontname complete
+15.0867 	EXP 	window1: mouseVisible = True
+15.0869 	EXP 	window1: mouseVisible = True
+15.0885 	EXP 	window1: mouseVisible = True
+15.0893 	EXP 	window1: mouseVisible = True
+15.1793 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+20.7156 	INFO 	keyboard.Keyboard is using iohub backend.
+20.7156 	INFO 	keyboard.Keyboard is using iohub backend.
+20.7157 	INFO 	keyboard.Keyboard is using iohub backend.
+20.7157 	INFO 	keyboard.Keyboard is using iohub backend.
+20.7157 	EXP 	federal_units_of_brazil: status = STARTED
+20.7160 	EXP 	window1: mouseVisible = True
+20.7670 	EXP 	Created welcome_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='welcome_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+20.7840 	EXP 	window1: mouseVisible = True
+20.7862 	DEBUG 	Saving data for federal_units_of_brazil ExperimentHandler
+20.7886 	INFO 	saved data to C:\Users\limap\OneDrive\Área de Trabalho\Aula 063 – Configurando o Nome do Arquivo de Saída\data/Relâmpago Marquin_federal_units_of_brazil_2024-10-20_19h57.05.947.psydat
+20.7907 	INFO 	saved data to 'C:\\Users\\limap\\OneDrive\\Área de Trabalho\\Aula 063 – Configurando o Nome do Arquivo de Saída\\data/Relâmpago Marquin_federal_units_of_brazil_2024-10-20_19h57.05.947.csv'

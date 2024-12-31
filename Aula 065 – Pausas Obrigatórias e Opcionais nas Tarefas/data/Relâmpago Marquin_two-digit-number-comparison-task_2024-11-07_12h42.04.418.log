@@ -1,0 +1,764 @@
+70.7374 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+70.7393 	INFO 	Loaded monitor calibration from ['2022_07_17 12:15']
+72.6440 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F11F0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1190>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583EEFA0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001565874E1F0>, multiSample=False, name='window1', numSamples=2, pos=[283.0, 84.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+72.6441 	EXP 	window1: backgroundImage = ''
+72.6442 	EXP 	window1: backgroundFit = 'none'
+72.6445 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.6454 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.6490 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.6503 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.6834 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.6872 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.6903 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.6937 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.6973 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.6986 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7009 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7036 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7052 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7068 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7096 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7132 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7156 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7183 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7224 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7255 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7289 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7311 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7331 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7358 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7375 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7381 	DEBUG 	Uploading Texture Font fontname to graphics card
+72.7505 	DEBUG 	Upload of Texture Font fontname complete
+72.7548 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.7553 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.7568 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.7586 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000156583F1310>
+72.7929 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7966 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.7995 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+72.8001 	DEBUG 	Uploading Texture Font fontname to graphics card
+72.8101 	DEBUG 	Upload of Texture Font fontname complete
+72.8155 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+72.8155 	EXP 	window1: recordFrameIntervals = False
+73.0138 	EXP 	window1: recordFrameIntervals = True
+73.1969 	EXP 	Screen (0) actual frame rate measured at 59.93Hz
+73.1970 	EXP 	window1: recordFrameIntervals = False
+73.1970 	EXP 	window1: mouseVisible = True
+73.1976 	EXP 	window1: mouseVisible = True
+73.1978 	EXP 	window1: mouseVisible = True
+73.1987 	EXP 	window1: mouseVisible = True
+73.2001 	EXP 	window1: mouseVisible = True
+73.2327 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2340 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2356 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2375 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2392 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2426 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2450 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2478 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2500 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2531 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+73.2542 	DEBUG 	Uploading Texture Font fontname to graphics card
+73.2550 	DEBUG 	Upload of Texture Font fontname complete
+73.2588 	EXP 	window1: mouseVisible = True
+73.2590 	EXP 	window1: mouseVisible = True
+73.2608 	EXP 	window1: mouseVisible = True
+73.2625 	EXP 	window1: mouseVisible = True
+73.3784 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+78.9696 	INFO 	keyboard.Keyboard is using iohub backend.
+78.9697 	INFO 	keyboard.Keyboard is using iohub backend.
+78.9698 	INFO 	keyboard.Keyboard is using iohub backend.
+78.9698 	INFO 	keyboard.Keyboard is using iohub backend.
+78.9698 	INFO 	keyboard.Keyboard is using iohub backend.
+78.9699 	INFO 	keyboard.Keyboard is using iohub backend.
+78.9699 	EXP 	two-digit-number-comparison-task: status = STARTED
+78.9702 	EXP 	window1: mouseVisible = True
+79.0124 	EXP 	Created welcome_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='welcome_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0126 	EXP 	window1: mouseVisible = True
+79.0143 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0144 	EXP 	window1: mouseVisible = True
+79.0161 	EXP 	Created number = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.35, italic=False, languageStyle='LTR', name='number', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0162 	EXP 	window1: mouseVisible = True
+79.0240 	EXP 	Created alternatives = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='arrows.jpg', interpolate=True, mask=None, maskParams=None, name='alternatives', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.75]), size=array([0.5, 0.3]), texRes=128.0, units='norm', win=Window(...))
+79.0243 	EXP 	window1: mouseVisible = True
+79.0280 	EXP 	Created left_alt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='left_alt', opacity=1.0, ori=0.0, pos=array([-0.6 , -0.75]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0282 	EXP 	window1: mouseVisible = True
+79.0297 	EXP 	Created right_alt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='right_alt', opacity=1.0, ori=0.0, pos=array([ 0.6 , -0.75]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0299 	EXP 	window1: mouseVisible = True
+79.0312 	EXP 	Created rest_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rest_prompt', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0313 	EXP 	window1: mouseVisible = True
+79.0331 	EXP 	Created rest_clock = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='rest_clock', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0333 	EXP 	window1: mouseVisible = True
+79.0344 	EXP 	Created thanks_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='thanks_prompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+79.0345 	EXP 	window1: mouseVisible = True
+79.1114 	EXP 	Created thanks_spacebar = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='thanks_spacebar', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+0.0661 	INFO 	Keyboard events cleared
+0.0657 	EXP 	welcome_msg: height = 0.12
+0.0657 	EXP 	welcome_msg: height = 0.12
+0.0657 	EXP 	welcome_msg: height = 0.12
+0.0657 	EXP 	welcome_msg: text = 'Olá, Relâmpago! \n    \n    Agradecemos sua disponibilidade em colaborar com nossa pesquisa!\n    \n    Pressione [Barra de Espaço] para iniciar.'
+0.0657 	EXP 	welcome_msg: autoDraw = True
+12.1149 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+12.1154 	EXP 	New trial (rep=0, index=0): None
+12.1909 	DATA 	Keypress: space
+12.2003 	INFO 	Keyboard events cleared
+12.1997 	EXP 	welcome_msg: autoDraw = False
+12.1997 	EXP 	instr_msg: height = 0.09
+12.1997 	EXP 	instr_msg: height = 0.09
+12.1997 	EXP 	instr_msg: height = 0.09
+12.1997 	EXP 	instr_msg: text = '\n    Nesta tarefa, você verá números de dois dígitos. Sua tarefa será responder o mais rápida e acuradamente possível se o número na tela é menor ou maior que 55.\n    \n    • Se o número na tela for MENOR QUE 55, responda [ ← ]. \n    • Se o número na tela for MAIOR QUE 55, responda [ → ].\n    \n    Pressione [Barra de Espaço] para iniciar.'
+12.1997 	EXP 	instr_msg: autoDraw = True
+15.4479 	DEBUG 	Read excel file with openpyxl: stim.xlsx
+15.4491 	EXP 	Imported stim.xlsx as conditions, 8 conditions, 2 params
+15.4501 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+15.4504 	EXP 	New trial (rep=0, index=0): {'target_number': 33, 'condition': 'lower'}
+15.5241 	DATA 	Keypress: space
+15.5320 	EXP 	instr_msg: autoDraw = False
+15.5320 	EXP 	number: height = 0.35
+15.5320 	EXP 	number: height = 0.35
+15.5320 	EXP 	number: height = 0.35
+15.5320 	EXP 	number: text = 33
+15.5320 	EXP 	left_alt: height = 0.1
+15.5320 	EXP 	left_alt: height = 0.1
+15.5320 	EXP 	left_alt: height = 0.1
+15.5320 	EXP 	left_alt: text = 'Menor que 55'
+15.5320 	EXP 	right_alt: height = 0.1
+15.5320 	EXP 	right_alt: height = 0.1
+15.5320 	EXP 	right_alt: height = 0.1
+15.5320 	EXP 	right_alt: text = 'Maior que 55'
+15.5320 	EXP 	alternatives: autoDraw = True
+15.5320 	EXP 	left_alt: autoDraw = True
+15.5320 	EXP 	right_alt: autoDraw = True
+17.4499 	INFO 	Keyboard events cleared
+17.4495 	EXP 	number: autoDraw = True
+18.0058 	EXP 	New trial (rep=0, index=1): {'target_number': 22, 'condition': 'lower'}
+18.0202 	DATA 	Keypress: right
+18.0334 	EXP 	number: autoDraw = False
+18.0334 	EXP 	alternatives: autoDraw = False
+18.0334 	EXP 	left_alt: autoDraw = False
+18.0334 	EXP 	right_alt: autoDraw = False
+18.0334 	EXP 	number: height = 0.35
+18.0334 	EXP 	number: height = 0.35
+18.0334 	EXP 	number: height = 0.35
+18.0334 	EXP 	number: text = 22
+18.0334 	EXP 	left_alt: text = 'Menor que 55'
+18.0334 	EXP 	right_alt: text = 'Maior que 55'
+18.0334 	EXP 	alternatives: autoDraw = True
+18.0334 	EXP 	left_alt: autoDraw = True
+18.0334 	EXP 	right_alt: autoDraw = True
+20.0165 	INFO 	Keyboard events cleared
+20.0160 	EXP 	number: autoDraw = True
+20.3030 	EXP 	New trial (rep=0, index=2): {'target_number': 99, 'condition': 'greater'}
+20.3134 	DATA 	Keypress: left
+20.3321 	EXP 	number: autoDraw = False
+20.3321 	EXP 	alternatives: autoDraw = False
+20.3321 	EXP 	left_alt: autoDraw = False
+20.3321 	EXP 	right_alt: autoDraw = False
+20.3321 	EXP 	number: height = 0.35
+20.3321 	EXP 	number: height = 0.35
+20.3321 	EXP 	number: height = 0.35
+20.3321 	EXP 	number: text = 99
+20.3321 	EXP 	left_alt: text = 'Menor que 55'
+20.3321 	EXP 	right_alt: text = 'Maior que 55'
+20.3321 	EXP 	alternatives: autoDraw = True
+20.3321 	EXP 	left_alt: autoDraw = True
+20.3321 	EXP 	right_alt: autoDraw = True
+22.3164 	INFO 	Keyboard events cleared
+22.3160 	EXP 	number: autoDraw = True
+22.9536 	EXP 	New trial (rep=0, index=3): {'target_number': 44, 'condition': 'lower'}
+22.9601 	DATA 	Keypress: right
+22.9816 	EXP 	number: autoDraw = False
+22.9816 	EXP 	alternatives: autoDraw = False
+22.9816 	EXP 	left_alt: autoDraw = False
+22.9816 	EXP 	right_alt: autoDraw = False
+22.9816 	EXP 	number: height = 0.35
+22.9816 	EXP 	number: height = 0.35
+22.9816 	EXP 	number: height = 0.35
+22.9816 	EXP 	number: text = 44
+22.9816 	EXP 	left_alt: text = 'Menor que 55'
+22.9816 	EXP 	right_alt: text = 'Maior que 55'
+22.9816 	EXP 	alternatives: autoDraw = True
+22.9816 	EXP 	left_alt: autoDraw = True
+22.9816 	EXP 	right_alt: autoDraw = True
+24.9663 	INFO 	Keyboard events cleared
+24.9659 	EXP 	number: autoDraw = True
+25.8030 	EXP 	New trial (rep=0, index=4): {'target_number': 77, 'condition': 'greater'}
+25.8131 	DATA 	Keypress: left
+25.8317 	EXP 	number: autoDraw = False
+25.8317 	EXP 	alternatives: autoDraw = False
+25.8317 	EXP 	left_alt: autoDraw = False
+25.8317 	EXP 	right_alt: autoDraw = False
+25.8317 	EXP 	number: height = 0.35
+25.8317 	EXP 	number: height = 0.35
+25.8317 	EXP 	number: height = 0.35
+25.8317 	EXP 	number: text = 77
+25.8317 	EXP 	left_alt: text = 'Menor que 55'
+25.8317 	EXP 	right_alt: text = 'Maior que 55'
+25.8317 	EXP 	alternatives: autoDraw = True
+25.8317 	EXP 	left_alt: autoDraw = True
+25.8317 	EXP 	right_alt: autoDraw = True
+27.8161 	INFO 	Keyboard events cleared
+27.8157 	EXP 	number: autoDraw = True
+28.3390 	EXP 	New trial (rep=0, index=5): {'target_number': 11, 'condition': 'lower'}
+28.3528 	DATA 	Keypress: right
+28.3652 	EXP 	number: autoDraw = False
+28.3652 	EXP 	alternatives: autoDraw = False
+28.3652 	EXP 	left_alt: autoDraw = False
+28.3652 	EXP 	right_alt: autoDraw = False
+28.3652 	EXP 	number: height = 0.35
+28.3652 	EXP 	number: height = 0.35
+28.3652 	EXP 	number: height = 0.35
+28.3652 	EXP 	number: text = 11
+28.3652 	EXP 	left_alt: text = 'Menor que 55'
+28.3652 	EXP 	right_alt: text = 'Maior que 55'
+28.3652 	EXP 	alternatives: autoDraw = True
+28.3652 	EXP 	left_alt: autoDraw = True
+28.3652 	EXP 	right_alt: autoDraw = True
+30.3490 	INFO 	Keyboard events cleared
+30.3486 	EXP 	number: autoDraw = True
+30.8891 	DATA 	Keypress: left
+30.9024 	EXP 	New trial (rep=0, index=6): {'target_number': 88, 'condition': 'greater'}
+30.9312 	EXP 	number: autoDraw = False
+30.9312 	EXP 	alternatives: autoDraw = False
+30.9312 	EXP 	left_alt: autoDraw = False
+30.9312 	EXP 	right_alt: autoDraw = False
+30.9312 	EXP 	number: height = 0.35
+30.9312 	EXP 	number: height = 0.35
+30.9312 	EXP 	number: height = 0.35
+30.9312 	EXP 	number: text = 88
+30.9312 	EXP 	left_alt: text = 'Menor que 55'
+30.9312 	EXP 	right_alt: text = 'Maior que 55'
+30.9312 	EXP 	alternatives: autoDraw = True
+30.9312 	EXP 	left_alt: autoDraw = True
+30.9312 	EXP 	right_alt: autoDraw = True
+32.9160 	INFO 	Keyboard events cleared
+32.9156 	EXP 	number: autoDraw = True
+33.5532 	EXP 	New trial (rep=0, index=7): {'target_number': 66, 'condition': 'greater'}
+33.5598 	DATA 	Keypress: right
+33.5813 	EXP 	number: autoDraw = False
+33.5813 	EXP 	alternatives: autoDraw = False
+33.5813 	EXP 	left_alt: autoDraw = False
+33.5813 	EXP 	right_alt: autoDraw = False
+33.5813 	EXP 	number: height = 0.35
+33.5813 	EXP 	number: height = 0.35
+33.5813 	EXP 	number: height = 0.35
+33.5813 	EXP 	number: text = 66
+33.5813 	EXP 	left_alt: text = 'Menor que 55'
+33.5813 	EXP 	right_alt: text = 'Maior que 55'
+33.5813 	EXP 	alternatives: autoDraw = True
+33.5813 	EXP 	left_alt: autoDraw = True
+33.5813 	EXP 	right_alt: autoDraw = True
+35.5658 	INFO 	Keyboard events cleared
+35.5654 	EXP 	number: autoDraw = True
+36.1106 	DATA 	Keypress: right
+36.1315 	INFO 	Keyboard events cleared
+36.1311 	EXP 	number: autoDraw = False
+36.1311 	EXP 	alternatives: autoDraw = False
+36.1311 	EXP 	left_alt: autoDraw = False
+36.1311 	EXP 	right_alt: autoDraw = False
+36.1311 	EXP 	rest_prompt: height = 0.1
+36.1311 	EXP 	rest_prompt: height = 0.1
+36.1311 	EXP 	rest_prompt: height = 0.1
+36.1311 	EXP 	rest_prompt: text = 'Pausa opcional de 1 minuto. Aproveite para tomar água e se alongar, ou pressione [Barra de Espaço] para prosseguir.'
+36.1311 	EXP 	rest_prompt: autoDraw = True
+36.1311 	EXP 	rest_clock: autoDraw = True
+96.0942 	EXP 	New trial (rep=1, index=0): None
+96.1633 	INFO 	Keyboard events cleared
+96.1628 	EXP 	rest_prompt: autoDraw = False
+96.1628 	EXP 	rest_clock: autoDraw = False
+96.1628 	EXP 	instr_msg: height = 0.09
+96.1628 	EXP 	instr_msg: height = 0.09
+96.1628 	EXP 	instr_msg: height = 0.09
+96.1628 	EXP 	instr_msg: text = '\n    A seguir, você realizará mais uma rodada da mesma tarefa.\n    \n    • Se o número na tela for MENOR QUE 55, responde [ ← ]. \n    • Se o número na tela for MAIOR QUE 55, responda [ → ].'
+96.1628 	EXP 	instr_msg: autoDraw = True
+121.1554 	DEBUG 	Read excel file with openpyxl: stim.xlsx
+121.1557 	EXP 	Imported stim.xlsx as conditions, 8 conditions, 2 params
+121.1562 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+121.1564 	EXP 	New trial (rep=0, index=0): {'target_number': 99, 'condition': 'greater'}
+121.1654 	DATA 	Keypress: space
+121.1742 	EXP 	instr_msg: autoDraw = False
+121.1742 	EXP 	number: height = 0.35
+121.1742 	EXP 	number: height = 0.35
+121.1742 	EXP 	number: height = 0.35
+121.1742 	EXP 	number: text = 99
+121.1742 	EXP 	left_alt: text = 'Menor que 55'
+121.1742 	EXP 	right_alt: text = 'Maior que 55'
+121.1742 	EXP 	alternatives: autoDraw = True
+121.1742 	EXP 	left_alt: autoDraw = True
+121.1742 	EXP 	right_alt: autoDraw = True
+123.1614 	INFO 	Keyboard events cleared
+123.1611 	EXP 	number: autoDraw = True
+123.8141 	EXP 	New trial (rep=0, index=1): {'target_number': 66, 'condition': 'greater'}
+123.8222 	DATA 	Keypress: right
+123.8479 	EXP 	number: autoDraw = False
+123.8479 	EXP 	alternatives: autoDraw = False
+123.8479 	EXP 	left_alt: autoDraw = False
+123.8479 	EXP 	right_alt: autoDraw = False
+123.8479 	EXP 	number: height = 0.35
+123.8479 	EXP 	number: height = 0.35
+123.8479 	EXP 	number: height = 0.35
+123.8479 	EXP 	number: text = 66
+123.8479 	EXP 	left_alt: text = 'Menor que 55'
+123.8479 	EXP 	right_alt: text = 'Maior que 55'
+123.8479 	EXP 	alternatives: autoDraw = True
+123.8479 	EXP 	left_alt: autoDraw = True
+123.8479 	EXP 	right_alt: autoDraw = True
+125.8275 	INFO 	Keyboard events cleared
+125.8271 	EXP 	number: autoDraw = True
+126.5979 	EXP 	New trial (rep=0, index=2): {'target_number': 11, 'condition': 'lower'}
+126.6041 	DATA 	Keypress: right
+126.6083 	EXP 	number: autoDraw = False
+126.6083 	EXP 	alternatives: autoDraw = False
+126.6083 	EXP 	left_alt: autoDraw = False
+126.6083 	EXP 	right_alt: autoDraw = False
+126.6083 	EXP 	number: height = 0.35
+126.6083 	EXP 	number: height = 0.35
+126.6083 	EXP 	number: height = 0.35
+126.6083 	EXP 	number: text = 11
+126.6083 	EXP 	left_alt: text = 'Menor que 55'
+126.6083 	EXP 	right_alt: text = 'Maior que 55'
+126.6083 	EXP 	alternatives: autoDraw = True
+126.6083 	EXP 	left_alt: autoDraw = True
+126.6083 	EXP 	right_alt: autoDraw = True
+128.6088 	INFO 	Keyboard events cleared
+128.6074 	EXP 	number: autoDraw = True
+129.2148 	EXP 	New trial (rep=0, index=3): {'target_number': 22, 'condition': 'lower'}
+129.2213 	DATA 	Keypress: left
+129.2444 	EXP 	number: autoDraw = False
+129.2444 	EXP 	alternatives: autoDraw = False
+129.2444 	EXP 	left_alt: autoDraw = False
+129.2444 	EXP 	right_alt: autoDraw = False
+129.2444 	EXP 	number: height = 0.35
+129.2444 	EXP 	number: height = 0.35
+129.2444 	EXP 	number: height = 0.35
+129.2444 	EXP 	number: text = 22
+129.2444 	EXP 	left_alt: text = 'Menor que 55'
+129.2444 	EXP 	right_alt: text = 'Maior que 55'
+129.2444 	EXP 	alternatives: autoDraw = True
+129.2444 	EXP 	left_alt: autoDraw = True
+129.2444 	EXP 	right_alt: autoDraw = True
+131.2275 	INFO 	Keyboard events cleared
+131.2271 	EXP 	number: autoDraw = True
+131.7646 	EXP 	New trial (rep=0, index=4): {'target_number': 77, 'condition': 'greater'}
+131.7705 	DATA 	Keypress: left
+131.7748 	EXP 	number: autoDraw = False
+131.7748 	EXP 	alternatives: autoDraw = False
+131.7748 	EXP 	left_alt: autoDraw = False
+131.7748 	EXP 	right_alt: autoDraw = False
+131.7748 	EXP 	number: height = 0.35
+131.7748 	EXP 	number: height = 0.35
+131.7748 	EXP 	number: height = 0.35
+131.7748 	EXP 	number: text = 77
+131.7748 	EXP 	left_alt: text = 'Menor que 55'
+131.7748 	EXP 	right_alt: text = 'Maior que 55'
+131.7748 	EXP 	alternatives: autoDraw = True
+131.7748 	EXP 	left_alt: autoDraw = True
+131.7748 	EXP 	right_alt: autoDraw = True
+133.7757 	INFO 	Keyboard events cleared
+133.7748 	EXP 	number: autoDraw = True
+134.8186 	EXP 	New trial (rep=0, index=5): {'target_number': 88, 'condition': 'greater'}
+134.8261 	DATA 	Keypress: right
+134.8394 	EXP 	number: autoDraw = False
+134.8394 	EXP 	alternatives: autoDraw = False
+134.8394 	EXP 	left_alt: autoDraw = False
+134.8394 	EXP 	right_alt: autoDraw = False
+134.8394 	EXP 	number: height = 0.35
+134.8394 	EXP 	number: height = 0.35
+134.8394 	EXP 	number: height = 0.35
+134.8394 	EXP 	number: text = 88
+134.8394 	EXP 	left_alt: text = 'Menor que 55'
+134.8394 	EXP 	right_alt: text = 'Maior que 55'
+134.8394 	EXP 	alternatives: autoDraw = True
+134.8394 	EXP 	left_alt: autoDraw = True
+134.8394 	EXP 	right_alt: autoDraw = True
+136.8272 	INFO 	Keyboard events cleared
+136.8267 	EXP 	number: autoDraw = True
+137.5807 	EXP 	New trial (rep=0, index=6): {'target_number': 33, 'condition': 'lower'}
+137.5866 	DATA 	Keypress: right
+137.5933 	EXP 	number: autoDraw = False
+137.5933 	EXP 	alternatives: autoDraw = False
+137.5933 	EXP 	left_alt: autoDraw = False
+137.5933 	EXP 	right_alt: autoDraw = False
+137.5933 	EXP 	number: height = 0.35
+137.5933 	EXP 	number: height = 0.35
+137.5933 	EXP 	number: height = 0.35
+137.5933 	EXP 	number: text = 33
+137.5933 	EXP 	left_alt: text = 'Menor que 55'
+137.5933 	EXP 	right_alt: text = 'Maior que 55'
+137.5933 	EXP 	alternatives: autoDraw = True
+137.5933 	EXP 	left_alt: autoDraw = True
+137.5933 	EXP 	right_alt: autoDraw = True
+139.5940 	INFO 	Keyboard events cleared
+139.5936 	EXP 	number: autoDraw = True
+140.2327 	DATA 	Keypress: left
+140.2484 	EXP 	New trial (rep=0, index=7): {'target_number': 44, 'condition': 'lower'}
+140.2769 	EXP 	number: autoDraw = False
+140.2769 	EXP 	alternatives: autoDraw = False
+140.2769 	EXP 	left_alt: autoDraw = False
+140.2769 	EXP 	right_alt: autoDraw = False
+140.2769 	EXP 	number: height = 0.35
+140.2769 	EXP 	number: height = 0.35
+140.2769 	EXP 	number: height = 0.35
+140.2769 	EXP 	number: text = 44
+140.2769 	EXP 	left_alt: text = 'Menor que 55'
+140.2769 	EXP 	right_alt: text = 'Maior que 55'
+140.2769 	EXP 	alternatives: autoDraw = True
+140.2769 	EXP 	left_alt: autoDraw = True
+140.2769 	EXP 	right_alt: autoDraw = True
+142.2602 	INFO 	Keyboard events cleared
+142.2598 	EXP 	number: autoDraw = True
+143.0670 	DATA 	Keypress: left
+143.0765 	INFO 	Keyboard events cleared
+143.0758 	EXP 	number: autoDraw = False
+143.0758 	EXP 	alternatives: autoDraw = False
+143.0758 	EXP 	left_alt: autoDraw = False
+143.0758 	EXP 	right_alt: autoDraw = False
+143.0758 	EXP 	rest_prompt: height = 0.1
+143.0758 	EXP 	rest_prompt: height = 0.1
+143.0758 	EXP 	rest_prompt: height = 0.1
+143.0758 	EXP 	rest_prompt: text = 'Pausa obrigatória de 5 minutos. Aguarde o fim do tempo para avançar.'
+143.0758 	EXP 	rest_prompt: autoDraw = True
+143.0758 	EXP 	rest_clock: autoDraw = True
+151.0223 	DATA 	Keypress: space
+152.8490 	DATA 	Keypress: space
+154.0865 	DATA 	Keypress: space
+155.3506 	DATA 	Keypress: space
+436.5013 	DATA 	Keypress: space
+436.8346 	DATA 	Keypress: space
+437.1534 	DATA 	Keypress: space
+437.4215 	DATA 	Keypress: space
+437.7535 	DATA 	Keypress: space
+438.0216 	DATA 	Keypress: space
+438.2878 	DATA 	Keypress: space
+438.5016 	DATA 	Keypress: space
+438.7348 	DATA 	Keypress: space
+438.9339 	DATA 	Keypress: space
+439.1206 	DATA 	Keypress: space
+439.3208 	DATA 	Keypress: space
+439.4537 	DATA 	Keypress: space
+443.0362 	EXP 	New trial (rep=2, index=0): None
+443.0483 	INFO 	Keyboard events cleared
+443.0477 	EXP 	rest_prompt: autoDraw = False
+443.0477 	EXP 	rest_clock: autoDraw = False
+443.0477 	EXP 	instr_msg: text = '\n    A seguir, você realizará mais uma rodada da mesma tarefa.\n    \n    • Se o número na tela for MENOR QUE 55, responde [ ← ]. \n    • Se o número na tela for MAIOR QUE 55, responda [ → ].'
+443.0477 	EXP 	instr_msg: autoDraw = True
+449.8568 	DEBUG 	Read excel file with openpyxl: stim.xlsx
+449.8575 	EXP 	Imported stim.xlsx as conditions, 8 conditions, 2 params
+449.8582 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+449.8585 	EXP 	New trial (rep=0, index=0): {'target_number': 99, 'condition': 'greater'}
+449.8649 	DATA 	Keypress: space
+449.8762 	EXP 	instr_msg: autoDraw = False
+449.8762 	EXP 	number: height = 0.35
+449.8762 	EXP 	number: height = 0.35
+449.8762 	EXP 	number: height = 0.35
+449.8762 	EXP 	number: text = 99
+449.8762 	EXP 	left_alt: text = 'Menor que 55'
+449.8762 	EXP 	right_alt: text = 'Maior que 55'
+449.8762 	EXP 	alternatives: autoDraw = True
+449.8762 	EXP 	left_alt: autoDraw = True
+449.8762 	EXP 	right_alt: autoDraw = True
+451.8624 	INFO 	Keyboard events cleared
+451.8620 	EXP 	number: autoDraw = True
+452.5517 	EXP 	New trial (rep=0, index=1): {'target_number': 66, 'condition': 'greater'}
+452.5557 	DATA 	Keypress: right
+452.5620 	EXP 	number: autoDraw = False
+452.5620 	EXP 	alternatives: autoDraw = False
+452.5620 	EXP 	left_alt: autoDraw = False
+452.5620 	EXP 	right_alt: autoDraw = False
+452.5620 	EXP 	number: height = 0.35
+452.5620 	EXP 	number: height = 0.35
+452.5620 	EXP 	number: height = 0.35
+452.5620 	EXP 	number: text = 66
+452.5620 	EXP 	left_alt: text = 'Menor que 55'
+452.5620 	EXP 	right_alt: text = 'Maior que 55'
+452.5620 	EXP 	alternatives: autoDraw = True
+452.5620 	EXP 	left_alt: autoDraw = True
+452.5620 	EXP 	right_alt: autoDraw = True
+454.5624 	INFO 	Keyboard events cleared
+454.5619 	EXP 	number: autoDraw = True
+455.1184 	EXP 	New trial (rep=0, index=2): {'target_number': 33, 'condition': 'lower'}
+455.1232 	DATA 	Keypress: right
+455.1422 	EXP 	number: autoDraw = False
+455.1422 	EXP 	alternatives: autoDraw = False
+455.1422 	EXP 	left_alt: autoDraw = False
+455.1422 	EXP 	right_alt: autoDraw = False
+455.1422 	EXP 	number: height = 0.35
+455.1422 	EXP 	number: height = 0.35
+455.1422 	EXP 	number: height = 0.35
+455.1422 	EXP 	number: text = 33
+455.1422 	EXP 	left_alt: text = 'Menor que 55'
+455.1422 	EXP 	right_alt: text = 'Maior que 55'
+455.1422 	EXP 	alternatives: autoDraw = True
+455.1422 	EXP 	left_alt: autoDraw = True
+455.1422 	EXP 	right_alt: autoDraw = True
+457.1284 	INFO 	Keyboard events cleared
+457.1279 	EXP 	number: autoDraw = True
+457.7052 	DATA 	Keypress: left
+457.7196 	EXP 	New trial (rep=0, index=3): {'target_number': 88, 'condition': 'greater'}
+457.7418 	EXP 	number: autoDraw = False
+457.7418 	EXP 	alternatives: autoDraw = False
+457.7418 	EXP 	left_alt: autoDraw = False
+457.7418 	EXP 	right_alt: autoDraw = False
+457.7418 	EXP 	number: height = 0.35
+457.7418 	EXP 	number: height = 0.35
+457.7418 	EXP 	number: height = 0.35
+457.7418 	EXP 	number: text = 88
+457.7418 	EXP 	left_alt: text = 'Menor que 55'
+457.7418 	EXP 	right_alt: text = 'Maior que 55'
+457.7418 	EXP 	alternatives: autoDraw = True
+457.7418 	EXP 	left_alt: autoDraw = True
+457.7418 	EXP 	right_alt: autoDraw = True
+459.7429 	INFO 	Keyboard events cleared
+459.7421 	EXP 	number: autoDraw = True
+460.2354 	DATA 	Keypress: right
+460.2527 	EXP 	New trial (rep=0, index=4): {'target_number': 44, 'condition': 'lower'}
+460.2747 	EXP 	number: autoDraw = False
+460.2747 	EXP 	alternatives: autoDraw = False
+460.2747 	EXP 	left_alt: autoDraw = False
+460.2747 	EXP 	right_alt: autoDraw = False
+460.2747 	EXP 	number: height = 0.35
+460.2747 	EXP 	number: height = 0.35
+460.2747 	EXP 	number: height = 0.35
+460.2747 	EXP 	number: text = 44
+460.2747 	EXP 	left_alt: text = 'Menor que 55'
+460.2747 	EXP 	right_alt: text = 'Maior que 55'
+460.2747 	EXP 	alternatives: autoDraw = True
+460.2747 	EXP 	left_alt: autoDraw = True
+460.2747 	EXP 	right_alt: autoDraw = True
+462.2619 	INFO 	Keyboard events cleared
+462.2615 	EXP 	number: autoDraw = True
+462.8657 	EXP 	New trial (rep=0, index=5): {'target_number': 11, 'condition': 'lower'}
+462.8702 	DATA 	Keypress: left
+462.8801 	EXP 	number: autoDraw = False
+462.8801 	EXP 	alternatives: autoDraw = False
+462.8801 	EXP 	left_alt: autoDraw = False
+462.8801 	EXP 	right_alt: autoDraw = False
+462.8801 	EXP 	number: height = 0.35
+462.8801 	EXP 	number: height = 0.35
+462.8801 	EXP 	number: height = 0.35
+462.8801 	EXP 	number: text = 11
+462.8801 	EXP 	left_alt: text = 'Menor que 55'
+462.8801 	EXP 	right_alt: text = 'Maior que 55'
+462.8801 	EXP 	alternatives: autoDraw = True
+462.8801 	EXP 	left_alt: autoDraw = True
+462.8801 	EXP 	right_alt: autoDraw = True
+464.8809 	INFO 	Keyboard events cleared
+464.8805 	EXP 	number: autoDraw = True
+465.1864 	DATA 	Keypress: right
+465.1985 	EXP 	New trial (rep=0, index=6): {'target_number': 77, 'condition': 'greater'}
+465.2102 	EXP 	number: autoDraw = False
+465.2102 	EXP 	alternatives: autoDraw = False
+465.2102 	EXP 	left_alt: autoDraw = False
+465.2102 	EXP 	right_alt: autoDraw = False
+465.2102 	EXP 	number: height = 0.35
+465.2102 	EXP 	number: height = 0.35
+465.2102 	EXP 	number: height = 0.35
+465.2102 	EXP 	number: text = 77
+465.2102 	EXP 	left_alt: text = 'Menor que 55'
+465.2102 	EXP 	right_alt: text = 'Maior que 55'
+465.2102 	EXP 	alternatives: autoDraw = True
+465.2102 	EXP 	left_alt: autoDraw = True
+465.2102 	EXP 	right_alt: autoDraw = True
+467.1857 	DATA 	Keypress: left
+467.2153 	INFO 	Keyboard events cleared
+467.2148 	EXP 	number: autoDraw = True
+467.6180 	EXP 	New trial (rep=0, index=7): {'target_number': 22, 'condition': 'lower'}
+467.6222 	DATA 	Keypress: left
+467.6406 	EXP 	number: autoDraw = False
+467.6406 	EXP 	alternatives: autoDraw = False
+467.6406 	EXP 	left_alt: autoDraw = False
+467.6406 	EXP 	right_alt: autoDraw = False
+467.6406 	EXP 	number: height = 0.35
+467.6406 	EXP 	number: height = 0.35
+467.6406 	EXP 	number: height = 0.35
+467.6406 	EXP 	number: text = 22
+467.6406 	EXP 	left_alt: text = 'Menor que 55'
+467.6406 	EXP 	right_alt: text = 'Maior que 55'
+467.6406 	EXP 	alternatives: autoDraw = True
+467.6406 	EXP 	left_alt: autoDraw = True
+467.6406 	EXP 	right_alt: autoDraw = True
+469.6277 	INFO 	Keyboard events cleared
+469.6273 	EXP 	number: autoDraw = True
+470.1859 	DATA 	Keypress: right
+470.2273 	INFO 	Keyboard events cleared
+470.2266 	EXP 	number: autoDraw = False
+470.2266 	EXP 	alternatives: autoDraw = False
+470.2266 	EXP 	left_alt: autoDraw = False
+470.2266 	EXP 	right_alt: autoDraw = False
+470.2266 	EXP 	rest_prompt: height = 0.1
+470.2266 	EXP 	rest_prompt: height = 0.1
+470.2266 	EXP 	rest_prompt: height = 0.1
+470.2266 	EXP 	rest_prompt: text = 'Pausa opcional de 1 minuto. Aproveite para tomar água e se alongar, ou pressione [Barra de Espaço] para prosseguir.'
+470.2266 	EXP 	rest_prompt: autoDraw = True
+470.2266 	EXP 	rest_clock: autoDraw = True
+489.0187 	DATA 	Keypress: space
+489.0463 	EXP 	New trial (rep=3, index=0): None
+489.0604 	INFO 	Keyboard events cleared
+489.0599 	EXP 	rest_prompt: autoDraw = False
+489.0599 	EXP 	rest_clock: autoDraw = False
+489.0599 	EXP 	instr_msg: text = '\n    A seguir, você realizará mais uma rodada da mesma tarefa.\n    \n    • Se o número na tela for MENOR QUE 55, responde [ ← ]. \n    • Se o número na tela for MAIOR QUE 55, responda [ → ].'
+489.0599 	EXP 	instr_msg: autoDraw = True
+504.3339 	DEBUG 	Read excel file with openpyxl: stim.xlsx
+504.3342 	EXP 	Imported stim.xlsx as conditions, 8 conditions, 2 params
+504.3346 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+504.3348 	EXP 	New trial (rep=0, index=0): {'target_number': 44, 'condition': 'lower'}
+504.3410 	DATA 	Keypress: space
+504.3585 	EXP 	instr_msg: autoDraw = False
+504.3585 	EXP 	number: height = 0.35
+504.3585 	EXP 	number: height = 0.35
+504.3585 	EXP 	number: height = 0.35
+504.3585 	EXP 	number: text = 44
+504.3585 	EXP 	left_alt: text = 'Menor que 55'
+504.3585 	EXP 	right_alt: text = 'Maior que 55'
+504.3585 	EXP 	alternatives: autoDraw = True
+504.3585 	EXP 	left_alt: autoDraw = True
+504.3585 	EXP 	right_alt: autoDraw = True
+506.3445 	INFO 	Keyboard events cleared
+506.3437 	EXP 	number: autoDraw = True
+507.3488 	EXP 	New trial (rep=0, index=1): {'target_number': 33, 'condition': 'lower'}
+507.3529 	DATA 	Keypress: left
+507.3588 	EXP 	number: autoDraw = False
+507.3588 	EXP 	alternatives: autoDraw = False
+507.3588 	EXP 	left_alt: autoDraw = False
+507.3588 	EXP 	right_alt: autoDraw = False
+507.3588 	EXP 	number: height = 0.35
+507.3588 	EXP 	number: height = 0.35
+507.3588 	EXP 	number: height = 0.35
+507.3588 	EXP 	number: text = 33
+507.3588 	EXP 	left_alt: text = 'Menor que 55'
+507.3588 	EXP 	right_alt: text = 'Maior que 55'
+507.3588 	EXP 	alternatives: autoDraw = True
+507.3588 	EXP 	left_alt: autoDraw = True
+507.3588 	EXP 	right_alt: autoDraw = True
+509.1513 	DATA 	Keypress: right
+509.3593 	INFO 	Keyboard events cleared
+509.3589 	EXP 	number: autoDraw = True
+510.0151 	EXP 	New trial (rep=0, index=2): {'target_number': 22, 'condition': 'lower'}
+510.0199 	DATA 	Keypress: left
+510.0384 	EXP 	number: autoDraw = False
+510.0384 	EXP 	alternatives: autoDraw = False
+510.0384 	EXP 	left_alt: autoDraw = False
+510.0384 	EXP 	right_alt: autoDraw = False
+510.0384 	EXP 	number: height = 0.35
+510.0384 	EXP 	number: height = 0.35
+510.0384 	EXP 	number: height = 0.35
+510.0384 	EXP 	number: text = 22
+510.0384 	EXP 	left_alt: text = 'Menor que 55'
+510.0384 	EXP 	right_alt: text = 'Maior que 55'
+510.0384 	EXP 	alternatives: autoDraw = True
+510.0384 	EXP 	left_alt: autoDraw = True
+510.0384 	EXP 	right_alt: autoDraw = True
+511.8155 	DATA 	Keypress: right
+512.0260 	INFO 	Keyboard events cleared
+512.0255 	EXP 	number: autoDraw = True
+513.4640 	DATA 	Keypress: left
+513.4820 	EXP 	New trial (rep=0, index=3): {'target_number': 77, 'condition': 'greater'}
+513.4925 	EXP 	number: autoDraw = False
+513.4925 	EXP 	alternatives: autoDraw = False
+513.4925 	EXP 	left_alt: autoDraw = False
+513.4925 	EXP 	right_alt: autoDraw = False
+513.4925 	EXP 	number: height = 0.35
+513.4925 	EXP 	number: height = 0.35
+513.4925 	EXP 	number: height = 0.35
+513.4925 	EXP 	number: text = 77
+513.4925 	EXP 	left_alt: text = 'Menor que 55'
+513.4925 	EXP 	right_alt: text = 'Maior que 55'
+513.4925 	EXP 	alternatives: autoDraw = True
+513.4925 	EXP 	left_alt: autoDraw = True
+513.4925 	EXP 	right_alt: autoDraw = True
+515.4925 	INFO 	Keyboard events cleared
+515.4920 	EXP 	number: autoDraw = True
+516.2654 	EXP 	New trial (rep=0, index=4): {'target_number': 11, 'condition': 'lower'}
+516.2730 	DATA 	Keypress: right
+516.2929 	EXP 	number: autoDraw = False
+516.2929 	EXP 	alternatives: autoDraw = False
+516.2929 	EXP 	left_alt: autoDraw = False
+516.2929 	EXP 	right_alt: autoDraw = False
+516.2929 	EXP 	number: height = 0.35
+516.2929 	EXP 	number: height = 0.35
+516.2929 	EXP 	number: height = 0.35
+516.2929 	EXP 	number: text = 11
+516.2929 	EXP 	left_alt: text = 'Menor que 55'
+516.2929 	EXP 	right_alt: text = 'Maior que 55'
+516.2929 	EXP 	alternatives: autoDraw = True
+516.2929 	EXP 	left_alt: autoDraw = True
+516.2929 	EXP 	right_alt: autoDraw = True
+518.2726 	INFO 	Keyboard events cleared
+518.2722 	EXP 	number: autoDraw = True
+520.2727 	EXP 	number: autoDraw = False
+520.2796 	EXP 	New trial (rep=0, index=5): {'target_number': 99, 'condition': 'greater'}
+520.2920 	EXP 	number: autoDraw = False
+520.2920 	EXP 	alternatives: autoDraw = False
+520.2920 	EXP 	left_alt: autoDraw = False
+520.2920 	EXP 	right_alt: autoDraw = False
+520.2920 	EXP 	number: height = 0.35
+520.2920 	EXP 	number: height = 0.35
+520.2920 	EXP 	number: height = 0.35
+520.2920 	EXP 	number: text = 99
+520.2920 	EXP 	left_alt: text = 'Menor que 55'
+520.2920 	EXP 	right_alt: text = 'Maior que 55'
+520.2920 	EXP 	alternatives: autoDraw = True
+520.2920 	EXP 	left_alt: autoDraw = True
+520.2920 	EXP 	right_alt: autoDraw = True
+521.1630 	DATA 	Keypress: left
+522.2641 	DATA 	Keypress: right
+522.2726 	INFO 	Keyboard events cleared
+522.2722 	EXP 	number: autoDraw = True
+522.7149 	EXP 	New trial (rep=0, index=6): {'target_number': 88, 'condition': 'greater'}
+522.7200 	DATA 	Keypress: right
+522.7374 	EXP 	number: autoDraw = False
+522.7374 	EXP 	alternatives: autoDraw = False
+522.7374 	EXP 	left_alt: autoDraw = False
+522.7374 	EXP 	right_alt: autoDraw = False
+522.7374 	EXP 	number: height = 0.35
+522.7374 	EXP 	number: height = 0.35
+522.7374 	EXP 	number: height = 0.35
+522.7374 	EXP 	number: text = 88
+522.7374 	EXP 	left_alt: text = 'Menor que 55'
+522.7374 	EXP 	right_alt: text = 'Maior que 55'
+522.7374 	EXP 	alternatives: autoDraw = True
+522.7374 	EXP 	left_alt: autoDraw = True
+522.7374 	EXP 	right_alt: autoDraw = True
+524.7252 	INFO 	Keyboard events cleared
+524.7248 	EXP 	number: autoDraw = True
+524.9954 	EXP 	New trial (rep=0, index=7): {'target_number': 66, 'condition': 'greater'}
+524.9999 	DATA 	Keypress: left
+525.0048 	EXP 	number: autoDraw = False
+525.0048 	EXP 	alternatives: autoDraw = False
+525.0048 	EXP 	left_alt: autoDraw = False
+525.0048 	EXP 	right_alt: autoDraw = False
+525.0048 	EXP 	number: height = 0.35
+525.0048 	EXP 	number: height = 0.35
+525.0048 	EXP 	number: height = 0.35
+525.0048 	EXP 	number: text = 66
+525.0048 	EXP 	left_alt: text = 'Menor que 55'
+525.0048 	EXP 	right_alt: text = 'Maior que 55'
+525.0048 	EXP 	alternatives: autoDraw = True
+525.0048 	EXP 	left_alt: autoDraw = True
+525.0048 	EXP 	right_alt: autoDraw = True
+527.0053 	INFO 	Keyboard events cleared
+527.0049 	EXP 	number: autoDraw = True
+527.3153 	DATA 	Keypress: right
+527.3245 	INFO 	Keyboard events cleared
+527.3239 	EXP 	number: autoDraw = False
+527.3239 	EXP 	alternatives: autoDraw = False
+527.3239 	EXP 	left_alt: autoDraw = False
+527.3239 	EXP 	right_alt: autoDraw = False
+527.3239 	EXP 	rest_prompt: text = 'Pausa opcional de 1 minuto. Aproveite para tomar água e se alongar, ou pressione [Barra de Espaço] para prosseguir.'
+527.3239 	EXP 	rest_prompt: autoDraw = False
+527.3239 	EXP 	rest_clock: autoDraw = False
+527.3239 	EXP 	thanks_prompt: height = 0.12
+527.3239 	EXP 	thanks_prompt: height = 0.12
+527.3239 	EXP 	thanks_prompt: height = 0.12
+527.3239 	EXP 	thanks_prompt: text = 'Esta atividade acabou, Relâmpago.\n    \n    Favor chamar o pesquisador! ☺'
+527.3239 	EXP 	thanks_prompt: autoDraw = True
+527.3239 	EXP 	thanks_spacebar: autoDraw = True
+534.2152 	DATA 	Keypress: space
+534.2247 	EXP 	thanks_prompt: autoDraw = False
+534.2247 	EXP 	thanks_spacebar: autoDraw = False
+534.2273 	EXP 	two-digit-number-comparison-task: status = STOPPED
+534.2478 	INFO 	saved data to 'C:\\Users\\limap\\OneDrive\\Documentos\\Psychology\\8. YouTube\\psychopy-em-portugues\\Aula 065 – Pausas Obrigatórias e Opcionais nas Tarefas\\data/Relâmpago Marquin_two-digit-number-comparison-task_2024-11-07_12h42.04.418.csv'
+534.2500 	INFO 	saved data to C:\Users\limap\OneDrive\Documentos\Psychology\8. YouTube\psychopy-em-portugues\Aula 065 – Pausas Obrigatórias e Opcionais nas Tarefas\data/Relâmpago Marquin_two-digit-number-comparison-task_2024-11-07_12h42.04.418.psydat
+534.3482 	EXP 	window1: mouseVisible = True
+535.0644 	DEBUG 	Saving data for two-digit-number-comparison-task ExperimentHandler

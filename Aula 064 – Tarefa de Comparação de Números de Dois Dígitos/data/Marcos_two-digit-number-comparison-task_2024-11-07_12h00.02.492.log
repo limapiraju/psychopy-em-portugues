@@ -1,0 +1,126 @@
+30.1519 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+30.1550 	INFO 	Loaded monitor calibration from ['2022_07_17 12:15']
+33.5886 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5070>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1A8FD0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1A8E20>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C08A50BFA0>, multiSample=False, name='window1', numSamples=2, pos=[283.0, 84.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+33.5887 	EXP 	window1: backgroundImage = ''
+33.5888 	EXP 	window1: backgroundFit = 'none'
+33.5894 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.5908 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.5961 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.5975 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.6424 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6444 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6468 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6502 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6540 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6561 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6580 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6606 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6619 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6633 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6648 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6678 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6725 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6757 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6780 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6811 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6842 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6869 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6888 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6918 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6938 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.6948 	DEBUG 	Uploading Texture Font fontname to graphics card
+33.7253 	DEBUG 	Upload of Texture Font fontname complete
+33.7289 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.7297 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.7312 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.7332 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001C08A1B5190>
+33.7699 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.7742 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.7774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+33.7780 	DEBUG 	Uploading Texture Font fontname to graphics card
+33.8076 	DEBUG 	Upload of Texture Font fontname complete
+33.8204 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+33.8205 	EXP 	window1: recordFrameIntervals = False
+34.1247 	EXP 	window1: recordFrameIntervals = True
+34.1904 	WARNING 	t of last frame was 31.68ms (=1/31)
+34.2105 	WARNING 	t of last frame was 20.06ms (=1/49)
+34.2349 	WARNING 	t of last frame was 24.43ms (=1/40)
+34.2583 	WARNING 	t of last frame was 23.40ms (=1/42)
+34.2899 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+35.8764 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+35.8765 	EXP 	window1: mouseVisible = True
+35.8774 	EXP 	window1: mouseVisible = True
+35.8779 	EXP 	window1: mouseVisible = True
+35.8802 	EXP 	window1: mouseVisible = True
+35.8833 	EXP 	window1: mouseVisible = True
+35.9232 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9250 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9269 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9299 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9328 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9364 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9393 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9421 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9465 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9501 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+35.9508 	DEBUG 	Uploading Texture Font fontname to graphics card
+35.9515 	DEBUG 	Upload of Texture Font fontname complete
+35.9553 	EXP 	window1: mouseVisible = True
+35.9554 	EXP 	window1: mouseVisible = True
+35.9561 	EXP 	window1: mouseVisible = True
+35.9567 	EXP 	window1: mouseVisible = True
+36.1769 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+47.8121 	INFO 	keyboard.Keyboard is using iohub backend.
+47.8123 	INFO 	keyboard.Keyboard is using iohub backend.
+47.8125 	INFO 	keyboard.Keyboard is using iohub backend.
+47.8125 	INFO 	keyboard.Keyboard is using iohub backend.
+47.8126 	INFO 	keyboard.Keyboard is using iohub backend.
+47.8127 	INFO 	keyboard.Keyboard is using iohub backend.
+47.8128 	EXP 	two-digit-number-comparison-task: status = STARTED
+47.8133 	EXP 	window1: mouseVisible = True
+47.9766 	EXP 	Created welcome_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='welcome_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+47.9771 	EXP 	window1: mouseVisible = True
+47.9840 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+47.9853 	EXP 	window1: mouseVisible = True
+47.9923 	EXP 	Created number = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.35, italic=False, languageStyle='LTR', name='number', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+47.9926 	EXP 	window1: mouseVisible = True
+48.0102 	EXP 	Created alternatives = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='arrows.jpg', interpolate=True, mask=None, maskParams=None, name='alternatives', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.75]), size=array([0.5, 0.3]), texRes=128.0, units='norm', win=Window(...))
+48.0105 	EXP 	window1: mouseVisible = True
+48.0150 	EXP 	Created left_alt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='left_alt', opacity=1.0, ori=0.0, pos=array([-0.6 , -0.75]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+48.0154 	EXP 	window1: mouseVisible = True
+48.0198 	EXP 	Created right_alt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='right_alt', opacity=1.0, ori=0.0, pos=array([ 0.6 , -0.75]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+48.0205 	EXP 	window1: mouseVisible = True
+48.0247 	EXP 	Created rest_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rest_prompt', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+48.0249 	EXP 	window1: mouseVisible = True
+48.0297 	EXP 	Created rest_clock = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='rest_clock', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+48.0300 	EXP 	window1: mouseVisible = True
+48.0340 	EXP 	Created thanks_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='thanks_prompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+48.0343 	EXP 	window1: mouseVisible = True
+48.2768 	EXP 	Created thanks_spacebar = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='thanks_spacebar', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+0.1115 	INFO 	Keyboard events cleared
+0.1107 	EXP 	welcome_msg: height = 0.12
+0.1107 	EXP 	welcome_msg: height = 0.12
+0.1107 	EXP 	welcome_msg: height = 0.12
+0.1107 	EXP 	welcome_msg: text = 'Olá, Marcos! \n    \n    Agradecemos sua disponibilidade em colaborar com nossa pesquisa!\n    \n    Pressione [Barra de Espaço] para iniciar.'
+0.1107 	EXP 	welcome_msg: autoDraw = True
+10.5292 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+10.5300 	EXP 	New trial (rep=0, index=0): None
+10.6196 	DATA 	Keypress: space
+10.6439 	INFO 	Keyboard events cleared
+10.6433 	EXP 	welcome_msg: autoDraw = False
+10.6433 	EXP 	instr_msg: height = 0.09
+10.6433 	EXP 	instr_msg: height = 0.09
+10.6433 	EXP 	instr_msg: height = 0.09
+10.6433 	EXP 	instr_msg: text = '\n    Nesta tarefa, você verá números de dois dígitos. Sua tarefa será responder o mais rápida e acuradamente possível se o número na tela é menor ou maior que 55.\n    \n    • Se o número na tela for MENOR QUE 55, responda [ → ]. \n    • Se o número na tela for MAIOR QUE 55, responda [ ← ].\n    \n    Pressione [Barra de Espaço] para iniciar.'
+10.6433 	EXP 	instr_msg: autoDraw = True
+86.2734 	DATA 	Keypress: escape
+86.3381 	EXP 	two-digit-number-comparison-task: status = STOPPED
+86.3609 	EXP 	instr_msg: autoDraw = False
+86.3708 	EXP 	two-digit-number-comparison-task: status = STOPPED
+86.3795 	INFO 	saved data to 'C:\\Users\\limap\\OneDrive\\Documentos\\Psychology\\8. YouTube\\psychopy-em-portugues\\Aula 064 – Tarefa de Comparação de Números de Dois Dígitos\\data/Marcos_two-digit-number-comparison-task_2024-11-07_12h00.02.492.csv'
+86.3813 	INFO 	saved data to C:\Users\limap\OneDrive\Documentos\Psychology\8. YouTube\psychopy-em-portugues\Aula 064 – Tarefa de Comparação de Números de Dois Dígitos\data/Marcos_two-digit-number-comparison-task_2024-11-07_12h00.02.492.psydat
+86.5129 	EXP 	window1: mouseVisible = True
+87.0537 	DEBUG 	Saving data for two-digit-number-comparison-task ExperimentHandler

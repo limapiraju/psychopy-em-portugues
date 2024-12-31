@@ -1,0 +1,1005 @@
+14.5924 	WARNING 	Requested an unavailable screen number - using first available.
+15.9732 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A13A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1340>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1190>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000016A3DA9A280>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1366,  768]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.9732 	EXP 	window1: backgroundImage = ''
+15.9732 	EXP 	window1: backgroundFit = 'none'
+15.9735 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+15.9737 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+15.9770 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+15.9780 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+16.0500 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+16.0501 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+16.0508 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+16.0514 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000016A3D6A1520>
+16.0883 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+16.0883 	EXP 	window1: recordFrameIntervals = False
+16.2453 	EXP 	window1: recordFrameIntervals = True
+16.4283 	EXP 	Screen (1) actual frame rate measured at 60.09Hz
+16.4284 	EXP 	window1: recordFrameIntervals = False
+16.4285 	EXP 	window1: mouseVisible = False
+20.6417 	EXP 	posner: status = STARTED
+20.6420 	EXP 	window1: mouseVisible = False
+20.7811 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.09000000000000001, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+20.7813 	EXP 	window1: mouseVisible = False
+20.7882 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.20000000000000004, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1.8)
+20.7883 	EXP 	window1: mouseVisible = False
+20.7954 	EXP 	Created cue_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='cue_stim', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+20.7956 	EXP 	window1: mouseVisible = False
+20.8084 	EXP 	Created target_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='images/mario.png', interpolate=True, mask=None, maskParams=None, name='target_stim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='norm', win=Window(...))
+20.8085 	EXP 	window1: mouseVisible = False
+20.8263 	EXP 	Created reminder = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='reminder', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=UNKNOWN, text='Responda [←] ou [→]. \n', units='norm', win=Window(...), wrapWidth=1.8)
+20.8265 	EXP 	window1: mouseVisible = False
+20.8278 	EXP 	Created feedback_rt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='feedback_rt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+20.8279 	EXP 	window1: mouseVisible = False
+20.8295 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+0.0058 	EXP 	instr_msg: autoDraw = True
+5.9171 	DATA 	Keypress: space
+5.9588 	EXP 	Imported conditions.xlsx as conditions, 12 conditions, 4 params
+5.9598 	EXP 	Created sequence: fullRandom, trialTypes=12, nReps=4, seed=None
+5.9601 	EXP 	New trial (rep=0, index=0): {'cue': 'images/no_arrow.png', 'target_x': -0.55, 'is_valid': 0, 'corr': 'left'}
+5.9662 	EXP 	instr_msg: autoDraw = False
+5.9662 	EXP 	cue_stim: ori = 0.0
+5.9662 	EXP 	cue_stim: image = 'images/no_arrow.png'
+5.9662 	EXP 	fixation: autoDraw = True
+6.7825 	EXP 	cue_stim: autoDraw = True
+6.7849 	EXP 	fixation: autoDraw = False
+6.9480 	EXP 	target_stim: autoDraw = True
+6.9977 	EXP 	cue_stim: autoDraw = False
+7.2814 	DATA 	Keypress: left
+7.2826 	EXP 	fixation: autoDraw = False
+7.2826 	EXP 	cue_stim: autoDraw = False
+7.2826 	EXP 	target_stim: autoDraw = False
+7.2826 	EXP 	reminder: autoDraw = False
+7.2826 	EXP 	feedback_rt: height = 0.12
+7.2826 	EXP 	feedback_rt: height = 0.12
+7.2826 	EXP 	feedback_rt: height = 0.12
+7.2826 	EXP 	feedback_rt: text = 'Tempo de Reação: 312 ms'
+7.2826 	EXP 	feedback_rt: autoDraw = True
+8.2813 	EXP 	New trial (rep=0, index=1): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+8.2978 	EXP 	feedback_rt: autoDraw = False
+8.2978 	EXP 	cue_stim: ori = 0.0
+8.2978 	EXP 	cue_stim: image = 'images/arrow_left.png'
+8.2978 	EXP 	fixation: autoDraw = True
+9.0815 	EXP 	cue_stim: autoDraw = True
+9.0978 	EXP 	fixation: autoDraw = False
+9.2811 	EXP 	cue_stim: autoDraw = False
+9.2811 	EXP 	target_stim: autoDraw = True
+9.5040 	DATA 	Keypress: left
+9.5144 	EXP 	fixation: autoDraw = False
+9.5144 	EXP 	cue_stim: autoDraw = False
+9.5144 	EXP 	target_stim: autoDraw = False
+9.5144 	EXP 	reminder: autoDraw = False
+9.5144 	EXP 	feedback_rt: height = 0.12
+9.5144 	EXP 	feedback_rt: height = 0.12
+9.5144 	EXP 	feedback_rt: height = 0.12
+9.5144 	EXP 	feedback_rt: text = 'Tempo de Reação: 211 ms'
+9.5144 	EXP 	feedback_rt: autoDraw = True
+10.4991 	EXP 	New trial (rep=0, index=2): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+10.5146 	EXP 	feedback_rt: autoDraw = False
+10.5146 	EXP 	feedback_rt: autoDraw = False
+10.5146 	EXP 	cue_stim: ori = 0.0
+10.5146 	EXP 	cue_stim: image = 'images/arrow_right.png'
+10.5146 	EXP 	fixation: autoDraw = True
+11.3145 	EXP 	fixation: autoDraw = False
+11.3145 	EXP 	cue_stim: autoDraw = True
+11.5144 	EXP 	cue_stim: autoDraw = False
+11.5144 	EXP 	target_stim: autoDraw = True
+11.7915 	DATA 	Keypress: right
+11.7975 	EXP 	fixation: autoDraw = False
+11.7975 	EXP 	cue_stim: autoDraw = False
+11.7975 	EXP 	target_stim: autoDraw = False
+11.7975 	EXP 	reminder: autoDraw = False
+11.7975 	EXP 	feedback_rt: height = 0.12
+11.7975 	EXP 	feedback_rt: height = 0.12
+11.7975 	EXP 	feedback_rt: height = 0.12
+11.7975 	EXP 	feedback_rt: text = 'Tempo de Reação: 257 ms'
+11.7975 	EXP 	feedback_rt: autoDraw = True
+12.7822 	EXP 	New trial (rep=0, index=3): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+12.7977 	EXP 	feedback_rt: autoDraw = False
+12.7977 	EXP 	feedback_rt: autoDraw = False
+12.7977 	EXP 	cue_stim: ori = 0.0
+12.7977 	EXP 	cue_stim: image = 'images/arrow_left.png'
+12.7977 	EXP 	fixation: autoDraw = True
+13.5976 	EXP 	fixation: autoDraw = False
+13.5976 	EXP 	cue_stim: autoDraw = True
+13.7977 	EXP 	cue_stim: autoDraw = False
+13.7977 	EXP 	target_stim: autoDraw = True
+14.0371 	DATA 	Keypress: left
+14.0476 	EXP 	fixation: autoDraw = False
+14.0476 	EXP 	cue_stim: autoDraw = False
+14.0476 	EXP 	target_stim: autoDraw = False
+14.0476 	EXP 	reminder: autoDraw = False
+14.0476 	EXP 	feedback_rt: height = 0.12
+14.0476 	EXP 	feedback_rt: height = 0.12
+14.0476 	EXP 	feedback_rt: height = 0.12
+14.0476 	EXP 	feedback_rt: text = 'Tempo de Reação: 222 ms'
+14.0476 	EXP 	feedback_rt: autoDraw = True
+15.0320 	EXP 	New trial (rep=0, index=4): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+15.0476 	EXP 	feedback_rt: autoDraw = False
+15.0476 	EXP 	feedback_rt: autoDraw = False
+15.0476 	EXP 	cue_stim: ori = 0.0
+15.0476 	EXP 	cue_stim: image = 'images/arrow_left.png'
+15.0476 	EXP 	fixation: autoDraw = True
+15.8477 	EXP 	fixation: autoDraw = False
+15.8477 	EXP 	cue_stim: autoDraw = True
+16.0480 	EXP 	cue_stim: autoDraw = False
+16.0480 	EXP 	target_stim: autoDraw = True
+16.3062 	DATA 	Keypress: left
+16.3142 	EXP 	fixation: autoDraw = False
+16.3142 	EXP 	cue_stim: autoDraw = False
+16.3142 	EXP 	target_stim: autoDraw = False
+16.3142 	EXP 	reminder: autoDraw = False
+16.3142 	EXP 	feedback_rt: height = 0.12
+16.3142 	EXP 	feedback_rt: height = 0.12
+16.3142 	EXP 	feedback_rt: height = 0.12
+16.3142 	EXP 	feedback_rt: text = 'Tempo de Reação: 244 ms'
+16.3142 	EXP 	feedback_rt: autoDraw = True
+17.2983 	EXP 	New trial (rep=0, index=5): {'cue': 'images/arrow_left.png', 'target_x': 0.55, 'is_valid': -1, 'corr': 'right'}
+17.3149 	EXP 	feedback_rt: autoDraw = False
+17.3149 	EXP 	feedback_rt: autoDraw = False
+17.3149 	EXP 	cue_stim: ori = 0.0
+17.3149 	EXP 	cue_stim: image = 'images/arrow_left.png'
+17.3149 	EXP 	fixation: autoDraw = True
+18.1142 	EXP 	fixation: autoDraw = False
+18.1142 	EXP 	cue_stim: autoDraw = True
+18.3142 	EXP 	cue_stim: autoDraw = False
+18.3142 	EXP 	target_stim: autoDraw = True
+18.5217 	DATA 	Keypress: left
+18.5305 	EXP 	fixation: autoDraw = False
+18.5305 	EXP 	cue_stim: autoDraw = False
+18.5305 	EXP 	target_stim: autoDraw = False
+18.5305 	EXP 	reminder: autoDraw = False
+18.5305 	EXP 	feedback_rt: height = 0.12
+18.5305 	EXP 	feedback_rt: height = 0.12
+18.5305 	EXP 	feedback_rt: height = 0.12
+18.5305 	EXP 	feedback_rt: text = 'Tempo de Reação: 187 ms'
+18.5305 	EXP 	feedback_rt: autoDraw = True
+19.5153 	EXP 	New trial (rep=0, index=6): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+19.5308 	EXP 	feedback_rt: autoDraw = False
+19.5308 	EXP 	feedback_rt: autoDraw = False
+19.5308 	EXP 	cue_stim: ori = 0.0
+19.5308 	EXP 	cue_stim: image = 'images/arrow_right.png'
+19.5308 	EXP 	fixation: autoDraw = True
+20.3314 	EXP 	fixation: autoDraw = False
+20.3314 	EXP 	cue_stim: autoDraw = True
+20.5306 	EXP 	cue_stim: autoDraw = False
+20.5306 	EXP 	target_stim: autoDraw = True
+20.8192 	DATA 	Keypress: right
+20.8304 	EXP 	fixation: autoDraw = False
+20.8304 	EXP 	cue_stim: autoDraw = False
+20.8304 	EXP 	target_stim: autoDraw = False
+20.8304 	EXP 	reminder: autoDraw = False
+20.8304 	EXP 	feedback_rt: height = 0.12
+20.8304 	EXP 	feedback_rt: height = 0.12
+20.8304 	EXP 	feedback_rt: height = 0.12
+20.8304 	EXP 	feedback_rt: text = 'Tempo de Reação: 273 ms'
+20.8304 	EXP 	feedback_rt: autoDraw = True
+21.8152 	EXP 	New trial (rep=0, index=7): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+21.8307 	EXP 	feedback_rt: autoDraw = False
+21.8307 	EXP 	feedback_rt: autoDraw = False
+21.8307 	EXP 	cue_stim: ori = 0.0
+21.8307 	EXP 	cue_stim: image = 'images/arrow_left.png'
+21.8307 	EXP 	fixation: autoDraw = True
+22.6304 	EXP 	fixation: autoDraw = False
+22.6304 	EXP 	cue_stim: autoDraw = True
+22.8302 	EXP 	cue_stim: autoDraw = False
+22.8302 	EXP 	target_stim: autoDraw = True
+23.0901 	DATA 	Keypress: left
+23.0970 	EXP 	fixation: autoDraw = False
+23.0970 	EXP 	cue_stim: autoDraw = False
+23.0970 	EXP 	target_stim: autoDraw = False
+23.0970 	EXP 	reminder: autoDraw = False
+23.0970 	EXP 	feedback_rt: height = 0.12
+23.0970 	EXP 	feedback_rt: height = 0.12
+23.0970 	EXP 	feedback_rt: height = 0.12
+23.0970 	EXP 	feedback_rt: text = 'Tempo de Reação: 246 ms'
+23.0970 	EXP 	feedback_rt: autoDraw = True
+24.0814 	EXP 	New trial (rep=0, index=8): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+24.0978 	EXP 	feedback_rt: autoDraw = False
+24.0978 	EXP 	feedback_rt: autoDraw = False
+24.0978 	EXP 	cue_stim: ori = 0.0
+24.0978 	EXP 	cue_stim: image = 'images/arrow_right.png'
+24.0978 	EXP 	fixation: autoDraw = True
+24.8967 	EXP 	cue_stim: autoDraw = True
+24.9132 	EXP 	fixation: autoDraw = False
+25.0970 	EXP 	cue_stim: autoDraw = False
+25.0970 	EXP 	target_stim: autoDraw = True
+25.3326 	DATA 	Keypress: right
+25.3633 	EXP 	fixation: autoDraw = False
+25.3633 	EXP 	cue_stim: autoDraw = False
+25.3633 	EXP 	target_stim: autoDraw = False
+25.3633 	EXP 	reminder: autoDraw = False
+25.3633 	EXP 	feedback_rt: height = 0.12
+25.3633 	EXP 	feedback_rt: height = 0.12
+25.3633 	EXP 	feedback_rt: height = 0.12
+25.3633 	EXP 	feedback_rt: text = 'Tempo de Reação: 234 ms'
+25.3633 	EXP 	feedback_rt: autoDraw = True
+26.3474 	EXP 	New trial (rep=0, index=9): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+26.3633 	EXP 	feedback_rt: autoDraw = False
+26.3633 	EXP 	feedback_rt: autoDraw = False
+26.3633 	EXP 	cue_stim: ori = 0.0
+26.3633 	EXP 	cue_stim: image = 'images/arrow_left.png'
+26.3633 	EXP 	fixation: autoDraw = True
+27.1638 	EXP 	fixation: autoDraw = False
+27.1638 	EXP 	cue_stim: autoDraw = True
+27.3635 	EXP 	cue_stim: autoDraw = False
+27.3635 	EXP 	target_stim: autoDraw = True
+27.5883 	DATA 	Keypress: left
+27.5969 	EXP 	fixation: autoDraw = False
+27.5969 	EXP 	cue_stim: autoDraw = False
+27.5969 	EXP 	target_stim: autoDraw = False
+27.5969 	EXP 	reminder: autoDraw = False
+27.5969 	EXP 	feedback_rt: height = 0.12
+27.5969 	EXP 	feedback_rt: height = 0.12
+27.5969 	EXP 	feedback_rt: height = 0.12
+27.5969 	EXP 	feedback_rt: text = 'Tempo de Reação: 208 ms'
+27.5969 	EXP 	feedback_rt: autoDraw = True
+28.5809 	EXP 	New trial (rep=0, index=10): {'cue': 'images/no_arrow.png', 'target_x': -0.55, 'is_valid': 0, 'corr': 'left'}
+28.5965 	EXP 	feedback_rt: autoDraw = False
+28.5965 	EXP 	feedback_rt: autoDraw = False
+28.5965 	EXP 	cue_stim: ori = 0.0
+28.5965 	EXP 	cue_stim: image = 'images/no_arrow.png'
+28.5965 	EXP 	fixation: autoDraw = True
+29.3970 	EXP 	fixation: autoDraw = False
+29.3970 	EXP 	cue_stim: autoDraw = True
+29.5971 	EXP 	cue_stim: autoDraw = False
+29.5971 	EXP 	target_stim: autoDraw = True
+29.8541 	DATA 	Keypress: left
+29.8634 	EXP 	fixation: autoDraw = False
+29.8634 	EXP 	cue_stim: autoDraw = False
+29.8634 	EXP 	target_stim: autoDraw = False
+29.8634 	EXP 	reminder: autoDraw = False
+29.8634 	EXP 	feedback_rt: height = 0.12
+29.8634 	EXP 	feedback_rt: height = 0.12
+29.8634 	EXP 	feedback_rt: height = 0.12
+29.8634 	EXP 	feedback_rt: text = 'Tempo de Reação: 247 ms'
+29.8634 	EXP 	feedback_rt: autoDraw = True
+30.8483 	EXP 	New trial (rep=0, index=11): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+30.8638 	EXP 	feedback_rt: autoDraw = False
+30.8638 	EXP 	feedback_rt: autoDraw = False
+30.8638 	EXP 	cue_stim: ori = 0.0
+30.8638 	EXP 	cue_stim: image = 'images/arrow_right.png'
+30.8638 	EXP 	fixation: autoDraw = True
+31.6638 	EXP 	fixation: autoDraw = False
+31.6638 	EXP 	cue_stim: autoDraw = True
+31.8637 	EXP 	cue_stim: autoDraw = False
+31.8637 	EXP 	target_stim: autoDraw = True
+32.0873 	DATA 	Keypress: right
+32.0972 	EXP 	fixation: autoDraw = False
+32.0972 	EXP 	cue_stim: autoDraw = False
+32.0972 	EXP 	target_stim: autoDraw = False
+32.0972 	EXP 	reminder: autoDraw = False
+32.0972 	EXP 	feedback_rt: height = 0.12
+32.0972 	EXP 	feedback_rt: height = 0.12
+32.0972 	EXP 	feedback_rt: height = 0.12
+32.0972 	EXP 	feedback_rt: text = 'Tempo de Reação: 203 ms'
+32.0972 	EXP 	feedback_rt: autoDraw = True
+33.0812 	EXP 	New trial (rep=1, index=0): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+33.0967 	EXP 	feedback_rt: autoDraw = False
+33.0967 	EXP 	feedback_rt: autoDraw = False
+33.0967 	EXP 	cue_stim: ori = 0.0
+33.0967 	EXP 	cue_stim: image = 'images/arrow_left.png'
+33.0967 	EXP 	fixation: autoDraw = True
+33.8970 	EXP 	fixation: autoDraw = False
+33.8970 	EXP 	cue_stim: autoDraw = True
+34.0969 	EXP 	cue_stim: autoDraw = False
+34.0969 	EXP 	target_stim: autoDraw = True
+34.3723 	DATA 	Keypress: left
+34.3800 	EXP 	fixation: autoDraw = False
+34.3800 	EXP 	cue_stim: autoDraw = False
+34.3800 	EXP 	target_stim: autoDraw = False
+34.3800 	EXP 	reminder: autoDraw = False
+34.3800 	EXP 	feedback_rt: height = 0.12
+34.3800 	EXP 	feedback_rt: height = 0.12
+34.3800 	EXP 	feedback_rt: height = 0.12
+34.3800 	EXP 	feedback_rt: text = 'Tempo de Reação: 266 ms'
+34.3800 	EXP 	feedback_rt: autoDraw = True
+35.3645 	EXP 	New trial (rep=1, index=1): {'cue': 'images/arrow_left.png', 'target_x': 0.55, 'is_valid': -1, 'corr': 'right'}
+35.3800 	EXP 	feedback_rt: autoDraw = False
+35.3800 	EXP 	feedback_rt: autoDraw = False
+35.3800 	EXP 	cue_stim: ori = 0.0
+35.3800 	EXP 	cue_stim: image = 'images/arrow_left.png'
+35.3800 	EXP 	fixation: autoDraw = True
+36.1801 	EXP 	fixation: autoDraw = False
+36.1801 	EXP 	cue_stim: autoDraw = True
+36.3799 	EXP 	cue_stim: autoDraw = False
+36.3799 	EXP 	target_stim: autoDraw = True
+36.7028 	DATA 	Keypress: right
+36.7130 	EXP 	fixation: autoDraw = False
+36.7130 	EXP 	cue_stim: autoDraw = False
+36.7130 	EXP 	target_stim: autoDraw = False
+36.7130 	EXP 	reminder: autoDraw = False
+36.7130 	EXP 	feedback_rt: height = 0.12
+36.7130 	EXP 	feedback_rt: height = 0.12
+36.7130 	EXP 	feedback_rt: height = 0.12
+36.7130 	EXP 	feedback_rt: text = 'Tempo de Reação: 313 ms'
+36.7130 	EXP 	feedback_rt: autoDraw = True
+37.6979 	EXP 	New trial (rep=1, index=2): {'cue': 'images/no_arrow.png', 'target_x': 0.55, 'is_valid': 0, 'corr': 'right'}
+37.7141 	EXP 	feedback_rt: autoDraw = False
+37.7141 	EXP 	feedback_rt: autoDraw = False
+37.7141 	EXP 	cue_stim: ori = 0.0
+37.7141 	EXP 	cue_stim: image = 'images/no_arrow.png'
+37.7141 	EXP 	fixation: autoDraw = True
+38.5132 	EXP 	cue_stim: autoDraw = True
+38.5296 	EXP 	fixation: autoDraw = False
+38.7131 	EXP 	cue_stim: autoDraw = False
+38.7131 	EXP 	target_stim: autoDraw = True
+39.0209 	DATA 	Keypress: right
+39.0296 	EXP 	fixation: autoDraw = False
+39.0296 	EXP 	cue_stim: autoDraw = False
+39.0296 	EXP 	target_stim: autoDraw = False
+39.0296 	EXP 	reminder: autoDraw = False
+39.0296 	EXP 	feedback_rt: height = 0.12
+39.0296 	EXP 	feedback_rt: height = 0.12
+39.0296 	EXP 	feedback_rt: height = 0.12
+39.0296 	EXP 	feedback_rt: text = 'Tempo de Reação: 299 ms'
+39.0296 	EXP 	feedback_rt: autoDraw = True
+40.0142 	EXP 	New trial (rep=1, index=3): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+40.0305 	EXP 	feedback_rt: autoDraw = False
+40.0305 	EXP 	feedback_rt: autoDraw = False
+40.0305 	EXP 	cue_stim: ori = 0.0
+40.0305 	EXP 	cue_stim: image = 'images/arrow_right.png'
+40.0305 	EXP 	fixation: autoDraw = True
+40.8299 	EXP 	fixation: autoDraw = False
+40.8299 	EXP 	cue_stim: autoDraw = True
+41.0301 	EXP 	cue_stim: autoDraw = False
+41.0301 	EXP 	target_stim: autoDraw = True
+41.2855 	DATA 	Keypress: right
+41.2966 	EXP 	fixation: autoDraw = False
+41.2966 	EXP 	cue_stim: autoDraw = False
+41.2966 	EXP 	target_stim: autoDraw = False
+41.2966 	EXP 	reminder: autoDraw = False
+41.2966 	EXP 	feedback_rt: height = 0.12
+41.2966 	EXP 	feedback_rt: height = 0.12
+41.2966 	EXP 	feedback_rt: height = 0.12
+41.2966 	EXP 	feedback_rt: text = 'Tempo de Reação: 237 ms'
+41.2966 	EXP 	feedback_rt: autoDraw = True
+42.2808 	EXP 	New trial (rep=1, index=4): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+42.2965 	EXP 	feedback_rt: autoDraw = False
+42.2965 	EXP 	feedback_rt: autoDraw = False
+42.2965 	EXP 	cue_stim: ori = 0.0
+42.2965 	EXP 	cue_stim: image = 'images/arrow_right.png'
+42.2965 	EXP 	fixation: autoDraw = True
+43.0967 	EXP 	fixation: autoDraw = False
+43.0967 	EXP 	cue_stim: autoDraw = True
+43.2963 	EXP 	cue_stim: autoDraw = False
+43.2963 	EXP 	target_stim: autoDraw = True
+43.5365 	DATA 	Keypress: right
+43.5464 	EXP 	fixation: autoDraw = False
+43.5464 	EXP 	cue_stim: autoDraw = False
+43.5464 	EXP 	target_stim: autoDraw = False
+43.5464 	EXP 	reminder: autoDraw = False
+43.5464 	EXP 	feedback_rt: height = 0.12
+43.5464 	EXP 	feedback_rt: height = 0.12
+43.5464 	EXP 	feedback_rt: height = 0.12
+43.5464 	EXP 	feedback_rt: text = 'Tempo de Reação: 219 ms'
+43.5464 	EXP 	feedback_rt: autoDraw = True
+44.5305 	EXP 	New trial (rep=1, index=5): {'cue': 'images/arrow_right.png', 'target_x': -0.55, 'is_valid': -1, 'corr': 'left'}
+44.5461 	EXP 	feedback_rt: autoDraw = False
+44.5461 	EXP 	feedback_rt: autoDraw = False
+44.5461 	EXP 	cue_stim: ori = 0.0
+44.5461 	EXP 	cue_stim: image = 'images/arrow_right.png'
+44.5461 	EXP 	fixation: autoDraw = True
+45.3465 	EXP 	fixation: autoDraw = False
+45.3465 	EXP 	cue_stim: autoDraw = True
+45.5462 	EXP 	cue_stim: autoDraw = False
+45.5462 	EXP 	target_stim: autoDraw = True
+45.8860 	DATA 	Keypress: left
+45.8958 	EXP 	fixation: autoDraw = False
+45.8958 	EXP 	cue_stim: autoDraw = False
+45.8958 	EXP 	target_stim: autoDraw = False
+45.8958 	EXP 	reminder: autoDraw = False
+45.8958 	EXP 	feedback_rt: height = 0.12
+45.8958 	EXP 	feedback_rt: height = 0.12
+45.8958 	EXP 	feedback_rt: height = 0.12
+45.8958 	EXP 	feedback_rt: text = 'Tempo de Reação: 330 ms'
+45.8958 	EXP 	feedback_rt: autoDraw = True
+46.8805 	EXP 	New trial (rep=1, index=6): {'cue': 'images/arrow_left.png', 'target_x': 0.55, 'is_valid': -1, 'corr': 'right'}
+46.8959 	EXP 	feedback_rt: autoDraw = False
+46.8959 	EXP 	feedback_rt: autoDraw = False
+46.8959 	EXP 	cue_stim: ori = 0.0
+46.8959 	EXP 	cue_stim: image = 'images/arrow_left.png'
+46.8959 	EXP 	fixation: autoDraw = True
+47.6965 	EXP 	fixation: autoDraw = False
+47.6965 	EXP 	cue_stim: autoDraw = True
+47.8965 	EXP 	cue_stim: autoDraw = False
+47.8965 	EXP 	target_stim: autoDraw = True
+48.2081 	DATA 	Keypress: right
+48.2124 	EXP 	fixation: autoDraw = False
+48.2124 	EXP 	cue_stim: autoDraw = False
+48.2124 	EXP 	target_stim: autoDraw = False
+48.2124 	EXP 	reminder: autoDraw = False
+48.2124 	EXP 	feedback_rt: height = 0.12
+48.2124 	EXP 	feedback_rt: height = 0.12
+48.2124 	EXP 	feedback_rt: height = 0.12
+48.2124 	EXP 	feedback_rt: text = 'Tempo de Reação: 291 ms'
+48.2124 	EXP 	feedback_rt: autoDraw = True
+49.1975 	EXP 	New trial (rep=1, index=7): {'cue': 'images/no_arrow.png', 'target_x': 0.55, 'is_valid': 0, 'corr': 'right'}
+49.2130 	EXP 	feedback_rt: autoDraw = False
+49.2130 	EXP 	feedback_rt: autoDraw = False
+49.2130 	EXP 	cue_stim: ori = 0.0
+49.2130 	EXP 	cue_stim: image = 'images/no_arrow.png'
+49.2130 	EXP 	fixation: autoDraw = True
+50.0124 	EXP 	fixation: autoDraw = False
+50.0124 	EXP 	cue_stim: autoDraw = True
+50.2128 	EXP 	cue_stim: autoDraw = False
+50.2128 	EXP 	target_stim: autoDraw = True
+50.5028 	DATA 	Keypress: right
+50.5125 	EXP 	fixation: autoDraw = False
+50.5125 	EXP 	cue_stim: autoDraw = False
+50.5125 	EXP 	target_stim: autoDraw = False
+50.5125 	EXP 	reminder: autoDraw = False
+50.5125 	EXP 	feedback_rt: height = 0.12
+50.5125 	EXP 	feedback_rt: height = 0.12
+50.5125 	EXP 	feedback_rt: height = 0.12
+50.5125 	EXP 	feedback_rt: text = 'Tempo de Reação: 272 ms'
+50.5125 	EXP 	feedback_rt: autoDraw = True
+51.4973 	EXP 	New trial (rep=1, index=8): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+51.5130 	EXP 	feedback_rt: autoDraw = False
+51.5130 	EXP 	feedback_rt: autoDraw = False
+51.5130 	EXP 	cue_stim: ori = 0.0
+51.5130 	EXP 	cue_stim: image = 'images/arrow_left.png'
+51.5130 	EXP 	fixation: autoDraw = True
+52.3128 	EXP 	fixation: autoDraw = False
+52.3128 	EXP 	cue_stim: autoDraw = True
+52.5127 	EXP 	cue_stim: autoDraw = False
+52.5127 	EXP 	target_stim: autoDraw = True
+52.7521 	DATA 	Keypress: left
+52.7624 	EXP 	fixation: autoDraw = False
+52.7624 	EXP 	cue_stim: autoDraw = False
+52.7624 	EXP 	target_stim: autoDraw = False
+52.7624 	EXP 	reminder: autoDraw = False
+52.7624 	EXP 	feedback_rt: height = 0.12
+52.7624 	EXP 	feedback_rt: height = 0.12
+52.7624 	EXP 	feedback_rt: height = 0.12
+52.7624 	EXP 	feedback_rt: text = 'Tempo de Reação: 226 ms'
+52.7624 	EXP 	feedback_rt: autoDraw = True
+53.7472 	EXP 	New trial (rep=1, index=9): {'cue': 'images/no_arrow.png', 'target_x': -0.55, 'is_valid': 0, 'corr': 'left'}
+53.7630 	EXP 	feedback_rt: autoDraw = False
+53.7630 	EXP 	feedback_rt: autoDraw = False
+53.7630 	EXP 	cue_stim: ori = 0.0
+53.7630 	EXP 	cue_stim: image = 'images/no_arrow.png'
+53.7630 	EXP 	fixation: autoDraw = True
+54.5624 	EXP 	fixation: autoDraw = False
+54.5624 	EXP 	cue_stim: autoDraw = True
+54.7627 	EXP 	cue_stim: autoDraw = False
+54.7627 	EXP 	target_stim: autoDraw = True
+55.0184 	DATA 	Keypress: left
+55.0294 	EXP 	fixation: autoDraw = False
+55.0294 	EXP 	cue_stim: autoDraw = False
+55.0294 	EXP 	target_stim: autoDraw = False
+55.0294 	EXP 	reminder: autoDraw = False
+55.0294 	EXP 	feedback_rt: height = 0.12
+55.0294 	EXP 	feedback_rt: height = 0.12
+55.0294 	EXP 	feedback_rt: height = 0.12
+55.0294 	EXP 	feedback_rt: text = 'Tempo de Reação: 248 ms'
+55.0294 	EXP 	feedback_rt: autoDraw = True
+56.0127 	EXP 	New trial (rep=1, index=10): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+56.0291 	EXP 	feedback_rt: autoDraw = False
+56.0291 	EXP 	feedback_rt: autoDraw = False
+56.0291 	EXP 	cue_stim: ori = 0.0
+56.0291 	EXP 	cue_stim: image = 'images/arrow_left.png'
+56.0291 	EXP 	fixation: autoDraw = True
+56.8292 	EXP 	fixation: autoDraw = False
+56.8292 	EXP 	cue_stim: autoDraw = True
+57.0291 	EXP 	cue_stim: autoDraw = False
+57.0291 	EXP 	target_stim: autoDraw = True
+57.3353 	DATA 	Keypress: left
+57.3467 	EXP 	fixation: autoDraw = False
+57.3467 	EXP 	cue_stim: autoDraw = False
+57.3467 	EXP 	target_stim: autoDraw = False
+57.3467 	EXP 	reminder: autoDraw = False
+57.3467 	EXP 	feedback_rt: height = 0.12
+57.3467 	EXP 	feedback_rt: height = 0.12
+57.3467 	EXP 	feedback_rt: height = 0.12
+57.3467 	EXP 	feedback_rt: text = 'Tempo de Reação: 288 ms'
+57.3467 	EXP 	feedback_rt: autoDraw = True
+58.3463 	EXP 	New trial (rep=1, index=11): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+58.3622 	EXP 	feedback_rt: autoDraw = False
+58.3622 	EXP 	cue_stim: ori = 0.0
+58.3622 	EXP 	cue_stim: image = 'images/arrow_right.png'
+58.3622 	EXP 	fixation: autoDraw = True
+59.1456 	EXP 	cue_stim: autoDraw = True
+59.1624 	EXP 	fixation: autoDraw = False
+59.3457 	EXP 	cue_stim: autoDraw = False
+59.3457 	EXP 	target_stim: autoDraw = True
+59.5809 	DATA 	Keypress: right
+59.6126 	EXP 	fixation: autoDraw = False
+59.6126 	EXP 	cue_stim: autoDraw = False
+59.6126 	EXP 	target_stim: autoDraw = False
+59.6126 	EXP 	reminder: autoDraw = False
+59.6126 	EXP 	feedback_rt: height = 0.12
+59.6126 	EXP 	feedback_rt: height = 0.12
+59.6126 	EXP 	feedback_rt: height = 0.12
+59.6126 	EXP 	feedback_rt: text = 'Tempo de Reação: 234 ms'
+59.6126 	EXP 	feedback_rt: autoDraw = True
+60.5966 	EXP 	New trial (rep=2, index=0): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+60.6121 	EXP 	feedback_rt: autoDraw = False
+60.6121 	EXP 	feedback_rt: autoDraw = False
+60.6121 	EXP 	cue_stim: ori = 0.0
+60.6121 	EXP 	cue_stim: image = 'images/arrow_right.png'
+60.6121 	EXP 	fixation: autoDraw = True
+61.4121 	EXP 	fixation: autoDraw = False
+61.4121 	EXP 	cue_stim: autoDraw = True
+61.6117 	EXP 	cue_stim: autoDraw = False
+61.6117 	EXP 	target_stim: autoDraw = True
+61.8348 	DATA 	Keypress: right
+61.8453 	EXP 	fixation: autoDraw = False
+61.8453 	EXP 	cue_stim: autoDraw = False
+61.8453 	EXP 	target_stim: autoDraw = False
+61.8453 	EXP 	reminder: autoDraw = False
+61.8453 	EXP 	feedback_rt: height = 0.12
+61.8453 	EXP 	feedback_rt: height = 0.12
+61.8453 	EXP 	feedback_rt: height = 0.12
+61.8453 	EXP 	feedback_rt: text = 'Tempo de Reação: 216 ms'
+61.8453 	EXP 	feedback_rt: autoDraw = True
+62.8299 	EXP 	New trial (rep=2, index=1): {'cue': 'images/arrow_right.png', 'target_x': -0.55, 'is_valid': -1, 'corr': 'left'}
+62.8452 	EXP 	feedback_rt: autoDraw = False
+62.8452 	EXP 	feedback_rt: autoDraw = False
+62.8452 	EXP 	cue_stim: ori = 0.0
+62.8452 	EXP 	cue_stim: image = 'images/arrow_right.png'
+62.8452 	EXP 	fixation: autoDraw = True
+63.6455 	EXP 	fixation: autoDraw = False
+63.6455 	EXP 	cue_stim: autoDraw = True
+63.8454 	EXP 	cue_stim: autoDraw = False
+63.8454 	EXP 	target_stim: autoDraw = True
+64.1343 	DATA 	Keypress: left
+64.1454 	EXP 	fixation: autoDraw = False
+64.1454 	EXP 	cue_stim: autoDraw = False
+64.1454 	EXP 	target_stim: autoDraw = False
+64.1454 	EXP 	reminder: autoDraw = False
+64.1454 	EXP 	feedback_rt: height = 0.12
+64.1454 	EXP 	feedback_rt: height = 0.12
+64.1454 	EXP 	feedback_rt: height = 0.12
+64.1454 	EXP 	feedback_rt: text = 'Tempo de Reação: 279 ms'
+64.1454 	EXP 	feedback_rt: autoDraw = True
+65.1298 	EXP 	New trial (rep=2, index=2): {'cue': 'images/arrow_right.png', 'target_x': -0.55, 'is_valid': -1, 'corr': 'left'}
+65.1452 	EXP 	feedback_rt: autoDraw = False
+65.1452 	EXP 	feedback_rt: autoDraw = False
+65.1452 	EXP 	cue_stim: ori = 0.0
+65.1452 	EXP 	cue_stim: image = 'images/arrow_right.png'
+65.1452 	EXP 	fixation: autoDraw = True
+65.9454 	EXP 	fixation: autoDraw = False
+65.9454 	EXP 	cue_stim: autoDraw = True
+66.1451 	EXP 	cue_stim: autoDraw = False
+66.1451 	EXP 	target_stim: autoDraw = True
+66.4521 	DATA 	Keypress: left
+66.4621 	EXP 	fixation: autoDraw = False
+66.4621 	EXP 	cue_stim: autoDraw = False
+66.4621 	EXP 	target_stim: autoDraw = False
+66.4621 	EXP 	reminder: autoDraw = False
+66.4621 	EXP 	feedback_rt: height = 0.12
+66.4621 	EXP 	feedback_rt: height = 0.12
+66.4621 	EXP 	feedback_rt: height = 0.12
+66.4621 	EXP 	feedback_rt: text = 'Tempo de Reação: 299 ms'
+66.4621 	EXP 	feedback_rt: autoDraw = True
+67.4462 	EXP 	New trial (rep=2, index=3): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+67.4620 	EXP 	feedback_rt: autoDraw = False
+67.4620 	EXP 	feedback_rt: autoDraw = False
+67.4620 	EXP 	cue_stim: ori = 0.0
+67.4620 	EXP 	cue_stim: image = 'images/arrow_left.png'
+67.4620 	EXP 	fixation: autoDraw = True
+68.2615 	EXP 	fixation: autoDraw = False
+68.2615 	EXP 	cue_stim: autoDraw = True
+68.4614 	EXP 	cue_stim: autoDraw = False
+68.4614 	EXP 	target_stim: autoDraw = True
+68.6510 	DATA 	Keypress: left
+68.6613 	EXP 	fixation: autoDraw = False
+68.6613 	EXP 	cue_stim: autoDraw = False
+68.6613 	EXP 	target_stim: autoDraw = False
+68.6613 	EXP 	reminder: autoDraw = False
+68.6613 	EXP 	feedback_rt: height = 0.12
+68.6613 	EXP 	feedback_rt: height = 0.12
+68.6613 	EXP 	feedback_rt: height = 0.12
+68.6613 	EXP 	feedback_rt: text = 'Tempo de Reação: 182 ms'
+68.6613 	EXP 	feedback_rt: autoDraw = True
+69.6455 	EXP 	New trial (rep=2, index=4): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+69.6614 	EXP 	feedback_rt: autoDraw = False
+69.6614 	EXP 	feedback_rt: autoDraw = False
+69.6614 	EXP 	cue_stim: ori = 0.0
+69.6614 	EXP 	cue_stim: image = 'images/arrow_right.png'
+69.6614 	EXP 	fixation: autoDraw = True
+70.4616 	EXP 	fixation: autoDraw = False
+70.4616 	EXP 	cue_stim: autoDraw = True
+70.6617 	EXP 	cue_stim: autoDraw = False
+70.6617 	EXP 	target_stim: autoDraw = True
+70.9173 	DATA 	Keypress: right
+70.9281 	EXP 	fixation: autoDraw = False
+70.9281 	EXP 	cue_stim: autoDraw = False
+70.9281 	EXP 	target_stim: autoDraw = False
+70.9281 	EXP 	reminder: autoDraw = False
+70.9281 	EXP 	feedback_rt: height = 0.12
+70.9281 	EXP 	feedback_rt: height = 0.12
+70.9281 	EXP 	feedback_rt: height = 0.12
+70.9281 	EXP 	feedback_rt: text = 'Tempo de Reação: 245 ms'
+70.9281 	EXP 	feedback_rt: autoDraw = True
+71.9132 	EXP 	New trial (rep=2, index=5): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+71.9283 	EXP 	feedback_rt: autoDraw = False
+71.9283 	EXP 	feedback_rt: autoDraw = False
+71.9283 	EXP 	cue_stim: ori = 0.0
+71.9283 	EXP 	cue_stim: image = 'images/arrow_right.png'
+71.9283 	EXP 	fixation: autoDraw = True
+72.7283 	EXP 	fixation: autoDraw = False
+72.7283 	EXP 	cue_stim: autoDraw = True
+72.9283 	EXP 	cue_stim: autoDraw = False
+72.9283 	EXP 	target_stim: autoDraw = True
+73.2184 	DATA 	Keypress: right
+73.2281 	EXP 	fixation: autoDraw = False
+73.2281 	EXP 	cue_stim: autoDraw = False
+73.2281 	EXP 	target_stim: autoDraw = False
+73.2281 	EXP 	reminder: autoDraw = False
+73.2281 	EXP 	feedback_rt: height = 0.12
+73.2281 	EXP 	feedback_rt: height = 0.12
+73.2281 	EXP 	feedback_rt: height = 0.12
+73.2281 	EXP 	feedback_rt: text = 'Tempo de Reação: 283 ms'
+73.2281 	EXP 	feedback_rt: autoDraw = True
+74.2129 	EXP 	New trial (rep=2, index=6): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+74.2281 	EXP 	feedback_rt: autoDraw = False
+74.2281 	EXP 	feedback_rt: autoDraw = False
+74.2281 	EXP 	cue_stim: ori = 0.0
+74.2281 	EXP 	cue_stim: image = 'images/arrow_left.png'
+74.2281 	EXP 	fixation: autoDraw = True
+75.0283 	EXP 	fixation: autoDraw = False
+75.0283 	EXP 	cue_stim: autoDraw = True
+75.2283 	EXP 	cue_stim: autoDraw = False
+75.2283 	EXP 	target_stim: autoDraw = True
+75.4687 	DATA 	Keypress: left
+75.4779 	EXP 	fixation: autoDraw = False
+75.4779 	EXP 	cue_stim: autoDraw = False
+75.4779 	EXP 	target_stim: autoDraw = False
+75.4779 	EXP 	reminder: autoDraw = False
+75.4779 	EXP 	feedback_rt: height = 0.12
+75.4779 	EXP 	feedback_rt: height = 0.12
+75.4779 	EXP 	feedback_rt: height = 0.12
+75.4779 	EXP 	feedback_rt: text = 'Tempo de Reação: 223 ms'
+75.4779 	EXP 	feedback_rt: autoDraw = True
+76.4623 	EXP 	New trial (rep=2, index=7): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+76.4779 	EXP 	feedback_rt: autoDraw = False
+76.4779 	EXP 	feedback_rt: autoDraw = False
+76.4779 	EXP 	cue_stim: ori = 0.0
+76.4779 	EXP 	cue_stim: image = 'images/arrow_left.png'
+76.4779 	EXP 	fixation: autoDraw = True
+77.2780 	EXP 	fixation: autoDraw = False
+77.2780 	EXP 	cue_stim: autoDraw = True
+77.4779 	EXP 	cue_stim: autoDraw = False
+77.4779 	EXP 	target_stim: autoDraw = True
+77.6838 	DATA 	Keypress: left
+77.6950 	EXP 	fixation: autoDraw = False
+77.6950 	EXP 	cue_stim: autoDraw = False
+77.6950 	EXP 	target_stim: autoDraw = False
+77.6950 	EXP 	reminder: autoDraw = False
+77.6950 	EXP 	feedback_rt: height = 0.12
+77.6950 	EXP 	feedback_rt: height = 0.12
+77.6950 	EXP 	feedback_rt: height = 0.12
+77.6950 	EXP 	feedback_rt: text = 'Tempo de Reação: 197 ms'
+77.6950 	EXP 	feedback_rt: autoDraw = True
+78.6788 	EXP 	New trial (rep=2, index=8): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+78.6945 	EXP 	feedback_rt: autoDraw = False
+78.6945 	EXP 	feedback_rt: autoDraw = False
+78.6945 	EXP 	cue_stim: ori = 0.0
+78.6945 	EXP 	cue_stim: image = 'images/arrow_left.png'
+78.6945 	EXP 	fixation: autoDraw = True
+79.4946 	EXP 	fixation: autoDraw = False
+79.4946 	EXP 	cue_stim: autoDraw = True
+79.6944 	EXP 	cue_stim: autoDraw = False
+79.6944 	EXP 	target_stim: autoDraw = True
+79.9834 	DATA 	Keypress: left
+79.9943 	EXP 	fixation: autoDraw = False
+79.9943 	EXP 	cue_stim: autoDraw = False
+79.9943 	EXP 	target_stim: autoDraw = False
+79.9943 	EXP 	reminder: autoDraw = False
+79.9943 	EXP 	feedback_rt: height = 0.12
+79.9943 	EXP 	feedback_rt: height = 0.12
+79.9943 	EXP 	feedback_rt: height = 0.12
+79.9943 	EXP 	feedback_rt: text = 'Tempo de Reação: 268 ms'
+79.9943 	EXP 	feedback_rt: autoDraw = True
+80.9789 	EXP 	New trial (rep=2, index=9): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+80.9944 	EXP 	feedback_rt: autoDraw = False
+80.9944 	EXP 	feedback_rt: autoDraw = False
+80.9944 	EXP 	cue_stim: ori = 0.0
+80.9944 	EXP 	cue_stim: image = 'images/arrow_left.png'
+80.9944 	EXP 	fixation: autoDraw = True
+81.7946 	EXP 	fixation: autoDraw = False
+81.7946 	EXP 	cue_stim: autoDraw = True
+81.9945 	EXP 	cue_stim: autoDraw = False
+81.9945 	EXP 	target_stim: autoDraw = True
+82.2352 	DATA 	Keypress: left
+82.2445 	EXP 	fixation: autoDraw = False
+82.2445 	EXP 	cue_stim: autoDraw = False
+82.2445 	EXP 	target_stim: autoDraw = False
+82.2445 	EXP 	reminder: autoDraw = False
+82.2445 	EXP 	feedback_rt: height = 0.12
+82.2445 	EXP 	feedback_rt: height = 0.12
+82.2445 	EXP 	feedback_rt: height = 0.12
+82.2445 	EXP 	feedback_rt: text = 'Tempo de Reação: 232 ms'
+82.2445 	EXP 	feedback_rt: autoDraw = True
+83.2287 	EXP 	New trial (rep=2, index=10): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+83.2444 	EXP 	feedback_rt: autoDraw = False
+83.2444 	EXP 	feedback_rt: autoDraw = False
+83.2444 	EXP 	cue_stim: ori = 0.0
+83.2444 	EXP 	cue_stim: image = 'images/arrow_left.png'
+83.2444 	EXP 	fixation: autoDraw = True
+84.0443 	EXP 	fixation: autoDraw = False
+84.0443 	EXP 	cue_stim: autoDraw = True
+84.2441 	EXP 	cue_stim: autoDraw = False
+84.2441 	EXP 	target_stim: autoDraw = True
+84.4513 	DATA 	Keypress: left
+84.4609 	EXP 	fixation: autoDraw = False
+84.4609 	EXP 	cue_stim: autoDraw = False
+84.4609 	EXP 	target_stim: autoDraw = False
+84.4609 	EXP 	reminder: autoDraw = False
+84.4609 	EXP 	feedback_rt: height = 0.12
+84.4609 	EXP 	feedback_rt: height = 0.12
+84.4609 	EXP 	feedback_rt: height = 0.12
+84.4609 	EXP 	feedback_rt: text = 'Tempo de Reação: 199 ms'
+84.4609 	EXP 	feedback_rt: autoDraw = True
+85.4451 	EXP 	New trial (rep=2, index=11): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+85.4607 	EXP 	feedback_rt: autoDraw = False
+85.4607 	EXP 	feedback_rt: autoDraw = False
+85.4607 	EXP 	cue_stim: ori = 0.0
+85.4607 	EXP 	cue_stim: image = 'images/arrow_right.png'
+85.4607 	EXP 	fixation: autoDraw = True
+86.2609 	EXP 	fixation: autoDraw = False
+86.2609 	EXP 	cue_stim: autoDraw = True
+86.4610 	EXP 	cue_stim: autoDraw = False
+86.4610 	EXP 	target_stim: autoDraw = True
+86.7172 	DATA 	Keypress: right
+86.7271 	EXP 	fixation: autoDraw = False
+86.7271 	EXP 	cue_stim: autoDraw = False
+86.7271 	EXP 	target_stim: autoDraw = False
+86.7271 	EXP 	reminder: autoDraw = False
+86.7271 	EXP 	feedback_rt: height = 0.12
+86.7271 	EXP 	feedback_rt: height = 0.12
+86.7271 	EXP 	feedback_rt: height = 0.12
+86.7271 	EXP 	feedback_rt: text = 'Tempo de Reação: 247 ms'
+86.7271 	EXP 	feedback_rt: autoDraw = True
+87.7116 	EXP 	New trial (rep=3, index=0): {'cue': 'images/arrow_right.png', 'target_x': -0.55, 'is_valid': -1, 'corr': 'left'}
+87.7278 	EXP 	feedback_rt: autoDraw = False
+87.7278 	EXP 	feedback_rt: autoDraw = False
+87.7278 	EXP 	cue_stim: ori = 0.0
+87.7278 	EXP 	cue_stim: image = 'images/arrow_right.png'
+87.7278 	EXP 	fixation: autoDraw = True
+88.5279 	EXP 	fixation: autoDraw = False
+88.5279 	EXP 	cue_stim: autoDraw = True
+88.7277 	EXP 	cue_stim: autoDraw = False
+88.7277 	EXP 	target_stim: autoDraw = True
+89.0131 	DATA 	Keypress: left
+89.0442 	EXP 	fixation: autoDraw = False
+89.0442 	EXP 	cue_stim: autoDraw = False
+89.0442 	EXP 	target_stim: autoDraw = False
+89.0442 	EXP 	reminder: autoDraw = False
+89.0442 	EXP 	feedback_rt: height = 0.12
+89.0442 	EXP 	feedback_rt: height = 0.12
+89.0442 	EXP 	feedback_rt: height = 0.12
+89.0442 	EXP 	feedback_rt: text = 'Tempo de Reação: 284 ms'
+89.0442 	EXP 	feedback_rt: autoDraw = True
+90.0285 	EXP 	New trial (rep=3, index=1): {'cue': 'images/no_arrow.png', 'target_x': 0.55, 'is_valid': 0, 'corr': 'right'}
+90.0442 	EXP 	feedback_rt: autoDraw = False
+90.0442 	EXP 	feedback_rt: autoDraw = False
+90.0442 	EXP 	cue_stim: ori = 0.0
+90.0442 	EXP 	cue_stim: image = 'images/no_arrow.png'
+90.0442 	EXP 	fixation: autoDraw = True
+90.8439 	EXP 	fixation: autoDraw = False
+90.8439 	EXP 	cue_stim: autoDraw = True
+91.0447 	EXP 	cue_stim: autoDraw = False
+91.0447 	EXP 	target_stim: autoDraw = True
+91.3179 	DATA 	Keypress: right
+91.3273 	EXP 	fixation: autoDraw = False
+91.3273 	EXP 	cue_stim: autoDraw = False
+91.3273 	EXP 	target_stim: autoDraw = False
+91.3273 	EXP 	reminder: autoDraw = False
+91.3273 	EXP 	feedback_rt: height = 0.12
+91.3273 	EXP 	feedback_rt: height = 0.12
+91.3273 	EXP 	feedback_rt: height = 0.12
+91.3273 	EXP 	feedback_rt: text = 'Tempo de Reação: 263 ms'
+91.3273 	EXP 	feedback_rt: autoDraw = True
+92.3115 	EXP 	New trial (rep=3, index=2): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+92.3275 	EXP 	feedback_rt: autoDraw = False
+92.3275 	EXP 	feedback_rt: autoDraw = False
+92.3275 	EXP 	cue_stim: ori = 0.0
+92.3275 	EXP 	cue_stim: image = 'images/arrow_right.png'
+92.3275 	EXP 	fixation: autoDraw = True
+93.1277 	EXP 	fixation: autoDraw = False
+93.1277 	EXP 	cue_stim: autoDraw = True
+93.3272 	EXP 	cue_stim: autoDraw = False
+93.3272 	EXP 	target_stim: autoDraw = True
+93.6007 	DATA 	Keypress: right
+93.6105 	EXP 	fixation: autoDraw = False
+93.6105 	EXP 	cue_stim: autoDraw = False
+93.6105 	EXP 	target_stim: autoDraw = False
+93.6105 	EXP 	reminder: autoDraw = False
+93.6105 	EXP 	feedback_rt: height = 0.12
+93.6105 	EXP 	feedback_rt: height = 0.12
+93.6105 	EXP 	feedback_rt: height = 0.12
+93.6105 	EXP 	feedback_rt: text = 'Tempo de Reação: 260 ms'
+93.6105 	EXP 	feedback_rt: autoDraw = True
+94.5948 	EXP 	New trial (rep=3, index=3): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+94.6106 	EXP 	feedback_rt: autoDraw = False
+94.6106 	EXP 	feedback_rt: autoDraw = False
+94.6106 	EXP 	cue_stim: ori = 0.0
+94.6106 	EXP 	cue_stim: image = 'images/arrow_right.png'
+94.6106 	EXP 	fixation: autoDraw = True
+95.4104 	EXP 	fixation: autoDraw = False
+95.4104 	EXP 	cue_stim: autoDraw = True
+95.6104 	EXP 	cue_stim: autoDraw = False
+95.6104 	EXP 	target_stim: autoDraw = True
+95.8995 	DATA 	Keypress: right
+95.9103 	EXP 	fixation: autoDraw = False
+95.9103 	EXP 	cue_stim: autoDraw = False
+95.9103 	EXP 	target_stim: autoDraw = False
+95.9103 	EXP 	reminder: autoDraw = False
+95.9103 	EXP 	feedback_rt: height = 0.12
+95.9103 	EXP 	feedback_rt: height = 0.12
+95.9103 	EXP 	feedback_rt: height = 0.12
+95.9103 	EXP 	feedback_rt: text = 'Tempo de Reação: 274 ms'
+95.9103 	EXP 	feedback_rt: autoDraw = True
+96.8948 	EXP 	New trial (rep=3, index=4): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+96.9104 	EXP 	feedback_rt: autoDraw = False
+96.9104 	EXP 	feedback_rt: autoDraw = False
+96.9104 	EXP 	cue_stim: ori = 0.0
+96.9104 	EXP 	cue_stim: image = 'images/arrow_left.png'
+96.9104 	EXP 	fixation: autoDraw = True
+97.7105 	EXP 	fixation: autoDraw = False
+97.7105 	EXP 	cue_stim: autoDraw = True
+97.9104 	EXP 	cue_stim: autoDraw = False
+97.9104 	EXP 	target_stim: autoDraw = True
+98.1661 	DATA 	Keypress: left
+98.1772 	EXP 	fixation: autoDraw = False
+98.1772 	EXP 	cue_stim: autoDraw = False
+98.1772 	EXP 	target_stim: autoDraw = False
+98.1772 	EXP 	reminder: autoDraw = False
+98.1772 	EXP 	feedback_rt: height = 0.12
+98.1772 	EXP 	feedback_rt: height = 0.12
+98.1772 	EXP 	feedback_rt: height = 0.12
+98.1772 	EXP 	feedback_rt: text = 'Tempo de Reação: 237 ms'
+98.1772 	EXP 	feedback_rt: autoDraw = True
+99.1611 	EXP 	New trial (rep=3, index=5): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+99.1771 	EXP 	feedback_rt: autoDraw = False
+99.1771 	EXP 	feedback_rt: autoDraw = False
+99.1771 	EXP 	cue_stim: ori = 0.0
+99.1771 	EXP 	cue_stim: image = 'images/arrow_left.png'
+99.1771 	EXP 	fixation: autoDraw = True
+99.9770 	EXP 	fixation: autoDraw = False
+99.9770 	EXP 	cue_stim: autoDraw = True
+100.1770 	EXP 	cue_stim: autoDraw = False
+100.1770 	EXP 	target_stim: autoDraw = True
+100.4832 	DATA 	Keypress: left
+100.4934 	EXP 	fixation: autoDraw = False
+100.4934 	EXP 	cue_stim: autoDraw = False
+100.4934 	EXP 	target_stim: autoDraw = False
+100.4934 	EXP 	reminder: autoDraw = False
+100.4934 	EXP 	feedback_rt: height = 0.12
+100.4934 	EXP 	feedback_rt: height = 0.12
+100.4934 	EXP 	feedback_rt: height = 0.12
+100.4934 	EXP 	feedback_rt: text = 'Tempo de Reação: 298 ms'
+100.4934 	EXP 	feedback_rt: autoDraw = True
+101.4777 	EXP 	New trial (rep=3, index=6): {'cue': 'images/arrow_left.png', 'target_x': 0.55, 'is_valid': -1, 'corr': 'right'}
+101.4939 	EXP 	feedback_rt: autoDraw = False
+101.4939 	EXP 	feedback_rt: autoDraw = False
+101.4939 	EXP 	cue_stim: ori = 0.0
+101.4939 	EXP 	cue_stim: image = 'images/arrow_left.png'
+101.4939 	EXP 	fixation: autoDraw = True
+102.2935 	EXP 	fixation: autoDraw = False
+102.2935 	EXP 	cue_stim: autoDraw = True
+102.4936 	EXP 	cue_stim: autoDraw = False
+102.4936 	EXP 	target_stim: autoDraw = True
+102.8167 	DATA 	Keypress: right
+102.8269 	EXP 	fixation: autoDraw = False
+102.8269 	EXP 	cue_stim: autoDraw = False
+102.8269 	EXP 	target_stim: autoDraw = False
+102.8269 	EXP 	reminder: autoDraw = False
+102.8269 	EXP 	feedback_rt: height = 0.12
+102.8269 	EXP 	feedback_rt: height = 0.12
+102.8269 	EXP 	feedback_rt: height = 0.12
+102.8269 	EXP 	feedback_rt: text = 'Tempo de Reação: 303 ms'
+102.8269 	EXP 	feedback_rt: autoDraw = True
+103.8112 	EXP 	New trial (rep=3, index=7): {'cue': 'images/no_arrow.png', 'target_x': -0.55, 'is_valid': 0, 'corr': 'left'}
+103.8270 	EXP 	feedback_rt: autoDraw = False
+103.8270 	EXP 	feedback_rt: autoDraw = False
+103.8270 	EXP 	cue_stim: ori = 0.0
+103.8270 	EXP 	cue_stim: image = 'images/no_arrow.png'
+103.8270 	EXP 	fixation: autoDraw = True
+104.6267 	EXP 	fixation: autoDraw = False
+104.6267 	EXP 	cue_stim: autoDraw = True
+104.8269 	EXP 	cue_stim: autoDraw = False
+104.8269 	EXP 	target_stim: autoDraw = True
+105.1504 	DATA 	Keypress: left
+105.1599 	EXP 	fixation: autoDraw = False
+105.1599 	EXP 	cue_stim: autoDraw = False
+105.1599 	EXP 	target_stim: autoDraw = False
+105.1599 	EXP 	reminder: autoDraw = False
+105.1599 	EXP 	feedback_rt: height = 0.12
+105.1599 	EXP 	feedback_rt: height = 0.12
+105.1599 	EXP 	feedback_rt: height = 0.12
+105.1599 	EXP 	feedback_rt: text = 'Tempo de Reação: 304 ms'
+105.1599 	EXP 	feedback_rt: autoDraw = True
+106.1446 	EXP 	New trial (rep=3, index=8): {'cue': 'images/no_arrow.png', 'target_x': 0.55, 'is_valid': 0, 'corr': 'right'}
+106.1599 	EXP 	feedback_rt: autoDraw = False
+106.1599 	EXP 	feedback_rt: autoDraw = False
+106.1599 	EXP 	cue_stim: ori = 0.0
+106.1599 	EXP 	cue_stim: image = 'images/no_arrow.png'
+106.1599 	EXP 	fixation: autoDraw = True
+106.9599 	EXP 	fixation: autoDraw = False
+106.9599 	EXP 	cue_stim: autoDraw = True
+107.1602 	EXP 	cue_stim: autoDraw = False
+107.1602 	EXP 	target_stim: autoDraw = True
+107.4285 	DATA 	Keypress: right
+107.4598 	EXP 	fixation: autoDraw = False
+107.4598 	EXP 	cue_stim: autoDraw = False
+107.4598 	EXP 	target_stim: autoDraw = False
+107.4598 	EXP 	reminder: autoDraw = False
+107.4598 	EXP 	feedback_rt: height = 0.12
+107.4598 	EXP 	feedback_rt: height = 0.12
+107.4598 	EXP 	feedback_rt: height = 0.12
+107.4598 	EXP 	feedback_rt: text = 'Tempo de Reação: 266 ms'
+107.4598 	EXP 	feedback_rt: autoDraw = True
+108.4439 	EXP 	New trial (rep=3, index=9): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+108.4599 	EXP 	feedback_rt: autoDraw = False
+108.4599 	EXP 	feedback_rt: autoDraw = False
+108.4599 	EXP 	cue_stim: ori = 0.0
+108.4599 	EXP 	cue_stim: image = 'images/arrow_right.png'
+108.4599 	EXP 	fixation: autoDraw = True
+109.2600 	EXP 	fixation: autoDraw = False
+109.2600 	EXP 	cue_stim: autoDraw = True
+109.4595 	EXP 	cue_stim: autoDraw = False
+109.4595 	EXP 	target_stim: autoDraw = True
+109.7326 	DATA 	Keypress: right
+109.7430 	EXP 	fixation: autoDraw = False
+109.7430 	EXP 	cue_stim: autoDraw = False
+109.7430 	EXP 	target_stim: autoDraw = False
+109.7430 	EXP 	reminder: autoDraw = False
+109.7430 	EXP 	feedback_rt: height = 0.12
+109.7430 	EXP 	feedback_rt: height = 0.12
+109.7430 	EXP 	feedback_rt: height = 0.12
+109.7430 	EXP 	feedback_rt: text = 'Tempo de Reação: 264 ms'
+109.7430 	EXP 	feedback_rt: autoDraw = True
+110.7278 	EXP 	New trial (rep=3, index=10): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+110.7429 	EXP 	feedback_rt: autoDraw = False
+110.7429 	EXP 	feedback_rt: autoDraw = False
+110.7429 	EXP 	cue_stim: ori = 0.0
+110.7429 	EXP 	cue_stim: image = 'images/arrow_right.png'
+110.7429 	EXP 	fixation: autoDraw = True
+111.5431 	EXP 	fixation: autoDraw = False
+111.5431 	EXP 	cue_stim: autoDraw = True
+111.7433 	EXP 	cue_stim: autoDraw = False
+111.7433 	EXP 	target_stim: autoDraw = True
+111.9831 	DATA 	Keypress: right
+111.9929 	EXP 	fixation: autoDraw = False
+111.9929 	EXP 	cue_stim: autoDraw = False
+111.9929 	EXP 	target_stim: autoDraw = False
+111.9929 	EXP 	reminder: autoDraw = False
+111.9929 	EXP 	feedback_rt: height = 0.12
+111.9929 	EXP 	feedback_rt: height = 0.12
+111.9929 	EXP 	feedback_rt: height = 0.12
+111.9929 	EXP 	feedback_rt: text = 'Tempo de Reação: 228 ms'
+111.9929 	EXP 	feedback_rt: autoDraw = True
+112.9775 	EXP 	New trial (rep=3, index=11): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+112.9929 	EXP 	feedback_rt: autoDraw = False
+112.9929 	EXP 	feedback_rt: autoDraw = False
+112.9929 	EXP 	cue_stim: ori = 0.0
+112.9929 	EXP 	cue_stim: image = 'images/arrow_right.png'
+112.9929 	EXP 	fixation: autoDraw = True
+113.7931 	EXP 	fixation: autoDraw = False
+113.7931 	EXP 	cue_stim: autoDraw = True
+113.9930 	EXP 	cue_stim: autoDraw = False
+113.9930 	EXP 	target_stim: autoDraw = True
+114.2122 	DATA 	Keypress: right
+114.2433 	EXP 	fixation: autoDraw = False
+114.2433 	EXP 	cue_stim: autoDraw = False
+114.2433 	EXP 	target_stim: autoDraw = False
+114.2433 	EXP 	reminder: autoDraw = False
+114.2433 	EXP 	feedback_rt: height = 0.12
+114.2433 	EXP 	feedback_rt: height = 0.12
+114.2433 	EXP 	feedback_rt: height = 0.12
+114.2433 	EXP 	feedback_rt: text = 'Tempo de Reação: 218 ms'
+114.2433 	EXP 	feedback_rt: autoDraw = True
+115.2600 	EXP 	feedback_rt: autoDraw = False
+115.2600 	EXP 	feedback_rt: autoDraw = False
+115.2600 	EXP 	thanks_msg: height = 0.10000000000000002
+115.2600 	EXP 	thanks_msg: height = 0.10000000000000002
+115.2600 	EXP 	thanks_msg: height = 0.10000000000000002
+115.2600 	EXP 	thanks_msg: text = 'Tempos de Reação:\n\nPistas Neutras: 277 ms\nPistas Válidas: 239 ms\nPistas Inválidas: 286 ms\n\nPressione [Barra de Espaço] para finalizar a sessão.'
+115.2600 	EXP 	thanks_msg: autoDraw = True
+145.6779 	DATA 	Keypress: space
+145.7080 	EXP 	thanks_msg: autoDraw = False
+145.7080 	EXP 	posner: status = STOPPED
+145.9016 	EXP 	window1: mouseVisible = True

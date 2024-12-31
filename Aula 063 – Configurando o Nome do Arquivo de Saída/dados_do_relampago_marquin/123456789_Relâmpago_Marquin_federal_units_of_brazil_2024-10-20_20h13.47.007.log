@@ -1,0 +1,301 @@
+18.7379 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+18.7390 	INFO 	Loaded monitor calibration from ['2022_07_17 12:15']
+20.1064 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC0190>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC0130>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07ABDF40>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EA07D9C0D0>, multiSample=False, name='window1', numSamples=2, pos=[283.0, 84.0], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.1065 	EXP 	window1: backgroundImage = ''
+20.1065 	EXP 	window1: backgroundFit = 'none'
+20.1068 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1070 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1098 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1118 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1351 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1367 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1382 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1399 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1414 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1427 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1453 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1471 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1482 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1501 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1528 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1545 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1562 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1577 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1592 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1622 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1638 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1649 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1659 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1675 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1687 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.1691 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.1761 	DEBUG 	Upload of Texture Font fontname complete
+20.1794 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1795 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1802 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.1808 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x000001EA07AC02B0>
+20.2029 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2046 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.2064 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.2150 	DEBUG 	Upload of Texture Font fontname complete
+20.2197 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.2198 	EXP 	window1: recordFrameIntervals = False
+20.4125 	EXP 	window1: recordFrameIntervals = True
+20.5965 	EXP 	Screen (0) actual frame rate measured at 60.05Hz
+20.5966 	EXP 	window1: recordFrameIntervals = False
+20.5966 	EXP 	window1: mouseVisible = True
+20.5970 	EXP 	window1: mouseVisible = True
+20.5971 	EXP 	window1: mouseVisible = True
+20.5981 	EXP 	window1: mouseVisible = True
+20.5988 	EXP 	window1: mouseVisible = True
+20.6212 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6227 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6242 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6259 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6289 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6308 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6336 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6352 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6367 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6371 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.6376 	DEBUG 	Upload of Texture Font fontname complete
+20.6410 	EXP 	window1: mouseVisible = True
+20.6411 	EXP 	window1: mouseVisible = True
+20.6421 	EXP 	window1: mouseVisible = True
+20.6429 	EXP 	window1: mouseVisible = True
+20.7387 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+25.5982 	INFO 	keyboard.Keyboard is using iohub backend.
+25.5983 	INFO 	keyboard.Keyboard is using iohub backend.
+25.5983 	INFO 	keyboard.Keyboard is using iohub backend.
+25.5983 	INFO 	keyboard.Keyboard is using iohub backend.
+25.5983 	EXP 	federal_units_of_brazil: status = STARTED
+25.5986 	EXP 	window1: mouseVisible = True
+25.6341 	EXP 	Created welcome_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='welcome_msg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+25.6353 	EXP 	window1: mouseVisible = True
+25.7268 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+25.7270 	EXP 	window1: mouseVisible = True
+25.7304 	EXP 	Created item_probe = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='item_probe', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+25.7390 	EXP 	window1: mouseVisible = True
+25.7459 	EXP 	window1: mouseVisible = True
+25.7461 	EXP 	window1: mouseVisible = True
+25.7468 	EXP 	window1: mouseVisible = True
+25.7474 	EXP 	window1: mouseVisible = True
+25.7716 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7720 	DEBUG 	Uploading Texture Font fontname to graphics card
+25.7729 	DEBUG 	Upload of Texture Font fontname complete
+25.7745 	EXP 	window1: mouseVisible = True
+25.7747 	EXP 	window1: mouseVisible = True
+25.7755 	EXP 	window1: mouseVisible = True
+25.7762 	EXP 	window1: mouseVisible = True
+25.8013 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8038 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8062 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8093 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8122 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8144 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8184 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8214 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8238 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8242 	DEBUG 	Uploading Texture Font fontname to graphics card
+25.8262 	DEBUG 	Upload of Texture Font fontname complete
+25.8292 	EXP 	window1: mouseVisible = True
+25.8294 	EXP 	window1: mouseVisible = True
+25.8300 	EXP 	window1: mouseVisible = True
+25.8306 	EXP 	window1: mouseVisible = True
+25.8539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8544 	DEBUG 	Uploading Texture Font fontname to graphics card
+25.8563 	DEBUG 	Upload of Texture Font fontname complete
+25.8580 	EXP 	window1: mouseVisible = True
+25.8583 	EXP 	window1: mouseVisible = True
+25.8593 	EXP 	window1: mouseVisible = True
+25.8601 	EXP 	window1: mouseVisible = True
+25.8815 	EXP 	window1: mouseVisible = True
+25.8817 	EXP 	window1: mouseVisible = True
+25.8831 	EXP 	window1: mouseVisible = True
+25.8852 	EXP 	window1: mouseVisible = True
+25.9080 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.9084 	DEBUG 	Uploading Texture Font fontname to graphics card
+25.9110 	DEBUG 	Upload of Texture Font fontname complete
+25.9128 	EXP 	window1: mouseVisible = True
+25.9130 	EXP 	window1: mouseVisible = True
+25.9137 	EXP 	window1: mouseVisible = True
+25.9143 	EXP 	window1: mouseVisible = True
+25.9382 	EXP 	window1: mouseVisible = True
+25.9397 	EXP 	window1: mouseVisible = True
+25.9782 	EXP 	Created item_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Times New Roman', granularity=1.0, labelColor=None, labelHeight=0.06, labelWrapWidth=None, labels=('0', '1', '2'), lineColor=None, markerColor=None, name='item_slider', opacity=None, ori=0.0, pos=array([ 0. , -0.5]), readOnly=False, self=UNKNOWN, size=array([1.4, 0.1]), startValue=None, style='radio', styleTweaks=[], ticks=array([0, 1, 2]), units='norm', win=Window(...))
+25.9784 	EXP 	window1: mouseVisible = True
+25.9806 	EXP 	Created alt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='alt1', opacity=1.0, ori=0.0, pos=array([-0.7 , -0.65]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+25.9808 	EXP 	window1: mouseVisible = True
+25.9821 	EXP 	Created alt2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='alt2', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.65]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+25.9822 	EXP 	window1: mouseVisible = True
+25.9862 	EXP 	Created alt3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='alt3', opacity=1.0, ori=0.0, pos=array([ 0.7 , -0.65]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+25.9864 	EXP 	window1: mouseVisible = True
+25.9883 	EXP 	Created thanks_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='thanks_prompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+25.9885 	EXP 	window1: mouseVisible = True
+26.0184 	EXP 	Created thanks_spacebar = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='thanks_spacebar', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+0.0106 	EXP 	item_slider: autoLog = True
+0.0106 	EXP 	item_slider: ticks = <class 'numpy.ndarray'>
+0.0106 	EXP 	item_slider: styleTweaks = []
+0.0106 	EXP 	item_slider: styleTweaks = []
+0.0106 	EXP 	item_slider: styleTweaks = []
+0.0106 	EXP 	item_slider: styleTweaks = []
+0.0106 	EXP 	item_slider: ticks = <class 'numpy.ndarray'>
+0.0106 	EXP 	item_slider: contrast = 1.0
+0.0106 	EXP 	item_slider: markerPos = None
+0.0106 	EXP 	item_slider: autoLog = True
+0.0607 	INFO 	Keyboard events cleared
+0.0602 	EXP 	welcome_msg: height = 0.12
+0.0602 	EXP 	welcome_msg: height = 0.12
+0.0602 	EXP 	welcome_msg: height = 0.12
+0.0602 	EXP 	welcome_msg: text = 'Olá, participante! \n    \n    Agradecemos sua disponibilidade em colaborar com nossa pesquisa!\n    \n    Pressione [Barra de Espaço] para avançar.'
+0.0602 	EXP 	welcome_msg: autoDraw = True
+1.0062 	DATA 	Keypress: space
+1.0274 	INFO 	Keyboard events cleared
+1.0268 	EXP 	welcome_msg: autoDraw = False
+1.0268 	EXP 	instr_msg: autoDraw = True
+1.6148 	EXP 	Created sequence: sequential, trialTypes=1, nReps=27, seed=None
+1.6151 	EXP 	New trial (rep=0, index=0): None
+1.6540 	DATA 	Keypress: space
+1.7102 	EXP 	instr_msg: autoDraw = False
+1.7102 	EXP 	item_probe: height = 0.15
+1.7102 	EXP 	item_probe: height = 0.15
+1.7102 	EXP 	item_probe: height = 0.15
+1.7102 	EXP 	item_probe: text = 'Minas Gerais'
+1.7102 	EXP 	item_slider: markerPos = None
+1.7102 	EXP 	item_slider: markerPos = None
+1.7102 	EXP 	alt1: height = 0.08
+1.7102 	EXP 	alt1: height = 0.08
+1.7102 	EXP 	alt1: height = 0.08
+1.7102 	EXP 	alt1: text = 'Belo Horizonte'
+1.7102 	EXP 	alt2: height = 0.08
+1.7102 	EXP 	alt2: height = 0.08
+1.7102 	EXP 	alt2: height = 0.08
+1.7102 	EXP 	alt2: text = 'Maceió'
+1.7102 	EXP 	alt3: height = 0.08
+1.7102 	EXP 	alt3: height = 0.08
+1.7102 	EXP 	alt3: height = 0.08
+1.7102 	EXP 	alt3: text = 'Aracaju'
+1.7102 	EXP 	item_probe: autoDraw = True
+1.7102 	EXP 	item_slider: autoDraw = True
+1.7102 	EXP 	alt1: autoDraw = True
+1.7102 	EXP 	alt2: autoDraw = True
+1.7102 	EXP 	alt3: autoDraw = True
+1.7759 	DATA 	Keypress: space
+2.3777 	DATA 	Mouse: Left button down, pos=(408,159)
+2.4265 	EXP 	item_slider: markerPos = 1.0285714285714285
+2.4600 	EXP 	item_slider: markerPos = 1.0285714285714285
+2.4650 	DATA 	Mouse:  Left button up, pos=(408,158)
+2.4933 	EXP 	item_slider: markerPos = 1
+2.5026 	EXP 	New trial (rep=1, index=0): None
+2.5599 	EXP 	item_probe: autoDraw = False
+2.5599 	EXP 	item_slider: autoDraw = False
+2.5599 	EXP 	alt1: autoDraw = False
+2.5599 	EXP 	alt2: autoDraw = False
+2.5599 	EXP 	alt3: autoDraw = False
+2.5599 	EXP 	item_probe: height = 0.15
+2.5599 	EXP 	item_probe: height = 0.15
+2.5599 	EXP 	item_probe: height = 0.15
+2.5599 	EXP 	item_probe: text = 'Rio Grande do Sul'
+2.5599 	EXP 	item_slider: markerPos = None
+2.5599 	EXP 	item_slider: markerPos = None
+2.5599 	EXP 	alt1: height = 0.08
+2.5599 	EXP 	alt1: height = 0.08
+2.5599 	EXP 	alt1: height = 0.08
+2.5599 	EXP 	alt1: text = 'Maceió'
+2.5599 	EXP 	alt2: height = 0.08
+2.5599 	EXP 	alt2: height = 0.08
+2.5599 	EXP 	alt2: height = 0.08
+2.5599 	EXP 	alt2: text = 'Boa Vista'
+2.5599 	EXP 	alt3: height = 0.08
+2.5599 	EXP 	alt3: height = 0.08
+2.5599 	EXP 	alt3: height = 0.08
+2.5599 	EXP 	alt3: text = 'Porto Alegre'
+2.5599 	EXP 	item_probe: autoDraw = True
+2.5599 	EXP 	item_slider: autoDraw = True
+2.5599 	EXP 	alt1: autoDraw = True
+2.5599 	EXP 	alt2: autoDraw = True
+2.5599 	EXP 	alt3: autoDraw = True
+2.8664 	DATA 	Mouse: Left button down, pos=(683,141)
+2.8935 	EXP 	item_slider: markerPos = 2.0107142857142857
+2.9270 	EXP 	item_slider: markerPos = 2.0107142857142857
+2.9485 	DATA 	Mouse:  Left button up, pos=(682,142)
+2.9599 	EXP 	item_slider: markerPos = 2.0107142857142857
+2.9934 	EXP 	item_slider: markerPos = 2
+3.0004 	EXP 	New trial (rep=2, index=0): None
+3.0437 	EXP 	item_probe: autoDraw = False
+3.0437 	EXP 	item_slider: autoDraw = False
+3.0437 	EXP 	alt1: autoDraw = False
+3.0437 	EXP 	alt2: autoDraw = False
+3.0437 	EXP 	alt3: autoDraw = False
+3.0437 	EXP 	item_probe: height = 0.15
+3.0437 	EXP 	item_probe: height = 0.15
+3.0437 	EXP 	item_probe: height = 0.15
+3.0437 	EXP 	item_probe: text = 'Rondônia'
+3.0437 	EXP 	item_slider: markerPos = None
+3.0437 	EXP 	item_slider: markerPos = None
+3.0437 	EXP 	alt1: height = 0.08
+3.0437 	EXP 	alt1: height = 0.08
+3.0437 	EXP 	alt1: height = 0.08
+3.0437 	EXP 	alt1: text = 'Florianópolis'
+3.0437 	EXP 	alt2: height = 0.08
+3.0437 	EXP 	alt2: height = 0.08
+3.0437 	EXP 	alt2: height = 0.08
+3.0437 	EXP 	alt2: text = 'Porto Velho'
+3.0437 	EXP 	alt3: height = 0.08
+3.0437 	EXP 	alt3: height = 0.08
+3.0437 	EXP 	alt3: height = 0.08
+3.0437 	EXP 	alt3: text = 'Belém'
+3.0437 	EXP 	item_probe: autoDraw = True
+3.0437 	EXP 	item_slider: autoDraw = True
+3.0437 	EXP 	alt1: autoDraw = True
+3.0437 	EXP 	alt2: autoDraw = True
+3.0437 	EXP 	alt3: autoDraw = True
+3.5771 	DATA 	Mouse: Left button down, pos=(127,153)
+3.6265 	EXP 	item_slider: markerPos = 0.025000000000000022
+3.6597 	EXP 	item_slider: markerPos = 0.025000000000000022
+3.6808 	DATA 	Mouse:  Left button up, pos=(127,153)
+3.6932 	EXP 	item_slider: markerPos = 0.025000000000000022
+3.7266 	EXP 	item_slider: markerPos = 0
+3.7335 	EXP 	New trial (rep=3, index=0): None
+3.7768 	EXP 	item_probe: autoDraw = False
+3.7768 	EXP 	item_slider: autoDraw = False
+3.7768 	EXP 	alt1: autoDraw = False
+3.7768 	EXP 	alt2: autoDraw = False
+3.7768 	EXP 	alt3: autoDraw = False
+3.7768 	EXP 	item_probe: height = 0.15
+3.7768 	EXP 	item_probe: height = 0.15
+3.7768 	EXP 	item_probe: height = 0.15
+3.7768 	EXP 	item_probe: text = 'Sergipe'
+3.7768 	EXP 	item_slider: markerPos = None
+3.7768 	EXP 	item_slider: markerPos = None
+3.7768 	EXP 	alt1: height = 0.08
+3.7768 	EXP 	alt1: height = 0.08
+3.7768 	EXP 	alt1: height = 0.08
+3.7768 	EXP 	alt1: text = 'Campo Grande'
+3.7768 	EXP 	alt2: height = 0.08
+3.7768 	EXP 	alt2: height = 0.08
+3.7768 	EXP 	alt2: height = 0.08
+3.7768 	EXP 	alt2: text = 'Aracaju'
+3.7768 	EXP 	alt3: height = 0.08
+3.7768 	EXP 	alt3: height = 0.08
+3.7768 	EXP 	alt3: height = 0.08
+3.7768 	EXP 	alt3: text = 'São Luís'
+3.7768 	EXP 	item_probe: autoDraw = True
+3.7768 	EXP 	item_slider: autoDraw = True
+3.7768 	EXP 	alt1: autoDraw = True
+3.7768 	EXP 	alt2: autoDraw = True
+3.7768 	EXP 	alt3: autoDraw = True
+4.1306 	DATA 	Keypress: escape
+4.2628 	EXP 	federal_units_of_brazil: status = STOPPED
+4.2776 	EXP 	item_probe: autoDraw = False
+4.2776 	EXP 	item_slider: autoDraw = False
+4.2776 	EXP 	alt1: autoDraw = False
+4.2776 	EXP 	alt2: autoDraw = False
+4.2776 	EXP 	alt3: autoDraw = False
+4.2805 	EXP 	federal_units_of_brazil: status = STOPPED
+4.2881 	INFO 	saved data to 'C:\\Users\\limap\\OneDrive\\Área de Trabalho\\Aula 063 – Configurando o Nome do Arquivo de Saída\\dados_do_relampago_marquin/123456789_Relâmpago_Marquin_federal_units_of_brazil_2024-10-20_20h13.47.007.csv'
+4.2899 	INFO 	saved data to C:\Users\limap\OneDrive\Área de Trabalho\Aula 063 – Configurando o Nome do Arquivo de Saída\dados_do_relampago_marquin/123456789_Relâmpago_Marquin_federal_units_of_brazil_2024-10-20_20h13.47.007.psydat
+4.3459 	EXP 	window1: mouseVisible = True
+4.6473 	DEBUG 	Saving data for federal_units_of_brazil ExperimentHandler

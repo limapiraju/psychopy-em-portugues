@@ -1,0 +1,362 @@
+27.7381 	INFO 	Loaded monitor calibration from ['2022_07_17 12:15']
+27.7615 	WARNING 	Requested an unavailable screen number - using first available.
+29.1921 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4070>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678DFFD0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678DFE20>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025567C38F40>, multiSample=False, name='window1', numSamples=2, pos=[283.0, 84.0], screen=1, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+29.1923 	EXP 	window1: backgroundImage = ''
+29.1923 	EXP 	window1: backgroundFit = 'none'
+29.1926 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.1930 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.1979 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.1987 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.2265 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2294 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2309 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2327 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2345 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2357 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2373 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2391 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2410 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2426 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2441 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2461 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2507 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2525 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2542 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2553 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2564 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2584 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2598 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.2612 	DEBUG 	Uploading Texture Font fontname to graphics card
+29.2687 	DEBUG 	Upload of Texture Font fontname complete
+29.2708 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.2710 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.2716 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.2722 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x00000255678E4160>
+29.2985 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.3003 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.3020 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+29.3024 	DEBUG 	Uploading Texture Font fontname to graphics card
+29.3128 	DEBUG 	Upload of Texture Font fontname complete
+29.3180 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+29.3180 	EXP 	window1: recordFrameIntervals = False
+29.5108 	EXP 	window1: recordFrameIntervals = True
+29.7306 	WARNING 	t of last frame was 20.64ms (=1/48)
+29.8302 	WARNING 	t of last frame was 20.18ms (=1/49)
+29.9962 	EXP 	Screen (1) actual frame rate measured at 60.34Hz
+29.9962 	EXP 	window1: recordFrameIntervals = False
+29.9963 	EXP 	window1: mouseVisible = True
+29.9970 	EXP 	window1: mouseVisible = True
+29.9973 	EXP 	window1: mouseVisible = True
+29.9981 	EXP 	window1: mouseVisible = True
+30.0003 	EXP 	window1: mouseVisible = True
+30.0235 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0251 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0279 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0300 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0317 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0334 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0347 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0362 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0397 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+30.0401 	DEBUG 	Uploading Texture Font fontname to graphics card
+30.0406 	DEBUG 	Upload of Texture Font fontname complete
+30.0429 	EXP 	window1: mouseVisible = True
+30.0434 	EXP 	window1: mouseVisible = True
+30.0464 	EXP 	window1: mouseVisible = True
+30.0485 	EXP 	window1: mouseVisible = True
+30.1444 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+35.2145 	INFO 	keyboard.Keyboard is using iohub backend.
+35.2146 	INFO 	keyboard.Keyboard is using iohub backend.
+35.2147 	INFO 	keyboard.Keyboard is using iohub backend.
+35.2148 	INFO 	keyboard.Keyboard is using iohub backend.
+35.2149 	EXP 	posner: status = STARTED
+35.2153 	EXP 	window1: mouseVisible = True
+35.3554 	EXP 	Created instr_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='instr_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+35.3556 	EXP 	window1: mouseVisible = True
+35.3642 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1.8)
+35.3643 	EXP 	window1: mouseVisible = True
+35.3696 	EXP 	Created cue_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='cue_stim', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+35.3697 	EXP 	window1: mouseVisible = True
+35.3858 	EXP 	Created target_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='images/mario.png', interpolate=True, mask=None, maskParams=None, name='target_stim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='norm', win=Window(...))
+35.3860 	EXP 	window1: mouseVisible = True
+35.4052 	EXP 	Created reminder = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='reminder', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=UNKNOWN, text='Responda [←] ou [→]. \n', units='norm', win=Window(...), wrapWidth=1.8)
+35.4054 	EXP 	window1: mouseVisible = True
+35.4069 	EXP 	Created feedback_rt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='feedback_rt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+35.4070 	EXP 	window1: mouseVisible = True
+35.4112 	EXP 	Created thanks_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thanks_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+0.0358 	INFO 	Keyboard events cleared
+0.0346 	EXP 	instr_msg: autoDraw = True
+35.5616 	DEBUG 	Read excel file with openpyxl: conditions.xlsx
+35.5627 	EXP 	Imported conditions.xlsx as conditions, 12 conditions, 4 params
+35.5652 	EXP 	Created sequence: fullRandom, trialTypes=12, nReps=1, seed=None
+35.5656 	EXP 	New trial (rep=0, index=0): {'cue': 'images/no_arrow.png', 'target_x': -0.55, 'is_valid': 0, 'corr': 'left'}
+35.5737 	DATA 	Keypress: space
+35.5821 	EXP 	instr_msg: autoDraw = False
+35.5821 	EXP 	cue_stim: ori = 0.0
+35.5821 	EXP 	cue_stim: image = 'images/no_arrow.png'
+35.5821 	EXP 	fixation: autoDraw = True
+36.4047 	EXP 	cue_stim: autoDraw = True
+36.4163 	EXP 	fixation: autoDraw = False
+36.5509 	INFO 	Keyboard events cleared
+36.5506 	EXP 	target_stim: autoDraw = True
+36.6161 	EXP 	cue_stim: autoDraw = False
+37.3396 	DATA 	Keypress: left
+37.3487 	EXP 	fixation: autoDraw = False
+37.3487 	EXP 	cue_stim: autoDraw = False
+37.3487 	EXP 	target_stim: autoDraw = False
+37.3487 	EXP 	reminder: autoDraw = False
+37.3487 	EXP 	feedback_rt: height = 0.12
+37.3487 	EXP 	feedback_rt: height = 0.12
+37.3487 	EXP 	feedback_rt: height = 0.12
+37.3487 	EXP 	feedback_rt: text = 'Tempo de Reação: 756 ms'
+37.3487 	EXP 	feedback_rt: autoDraw = True
+38.3378 	EXP 	New trial (rep=0, index=1): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+38.3651 	EXP 	feedback_rt: autoDraw = False
+38.3651 	EXP 	cue_stim: ori = 0.0
+38.3651 	EXP 	cue_stim: image = 'images/arrow_left.png'
+38.3651 	EXP 	fixation: autoDraw = True
+39.1324 	EXP 	cue_stim: autoDraw = True
+39.1656 	EXP 	fixation: autoDraw = False
+39.3326 	INFO 	Keyboard events cleared
+39.3322 	EXP 	cue_stim: autoDraw = False
+39.3322 	EXP 	target_stim: autoDraw = True
+40.5831 	DATA 	Keypress: left
+40.5984 	EXP 	fixation: autoDraw = False
+40.5984 	EXP 	cue_stim: autoDraw = False
+40.5984 	EXP 	target_stim: autoDraw = False
+40.5984 	EXP 	reminder: autoDraw = False
+40.5984 	EXP 	feedback_rt: height = 0.12
+40.5984 	EXP 	feedback_rt: height = 0.12
+40.5984 	EXP 	feedback_rt: height = 0.12
+40.5984 	EXP 	feedback_rt: text = 'Tempo de Reação: 1230 ms'
+40.5984 	EXP 	feedback_rt: autoDraw = True
+41.5864 	EXP 	New trial (rep=0, index=2): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+41.5998 	EXP 	feedback_rt: autoDraw = False
+41.5998 	EXP 	cue_stim: ori = 0.0
+41.5998 	EXP 	cue_stim: image = 'images/arrow_left.png'
+41.5998 	EXP 	fixation: autoDraw = True
+42.3825 	EXP 	cue_stim: autoDraw = True
+42.3988 	EXP 	fixation: autoDraw = False
+42.5828 	INFO 	Keyboard events cleared
+42.5824 	EXP 	cue_stim: autoDraw = False
+42.5824 	EXP 	target_stim: autoDraw = True
+45.5824 	EXP 	reminder: autoDraw = True
+51.8468 	DATA 	Keypress: left
+51.8646 	EXP 	fixation: autoDraw = False
+51.8646 	EXP 	cue_stim: autoDraw = False
+51.8646 	EXP 	target_stim: autoDraw = False
+51.8646 	EXP 	reminder: autoDraw = False
+51.8646 	EXP 	feedback_rt: height = 0.12
+51.8646 	EXP 	feedback_rt: height = 0.12
+51.8646 	EXP 	feedback_rt: height = 0.12
+51.8646 	EXP 	feedback_rt: text = 'Tempo de Reação: 9252 ms'
+51.8646 	EXP 	feedback_rt: autoDraw = True
+52.8526 	EXP 	New trial (rep=0, index=3): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+52.8822 	EXP 	feedback_rt: autoDraw = False
+52.8822 	EXP 	cue_stim: ori = 0.0
+52.8822 	EXP 	cue_stim: image = 'images/arrow_right.png'
+52.8822 	EXP 	fixation: autoDraw = True
+53.6496 	EXP 	cue_stim: autoDraw = True
+53.6819 	EXP 	fixation: autoDraw = False
+53.8491 	INFO 	Keyboard events cleared
+53.8488 	EXP 	target_stim: autoDraw = True
+53.8651 	EXP 	cue_stim: autoDraw = False
+56.8486 	EXP 	reminder: autoDraw = True
+58.0046 	DATA 	Keypress: right
+58.0310 	EXP 	fixation: autoDraw = False
+58.0310 	EXP 	cue_stim: autoDraw = False
+58.0310 	EXP 	target_stim: autoDraw = False
+58.0310 	EXP 	reminder: autoDraw = False
+58.0310 	EXP 	feedback_rt: height = 0.12
+58.0310 	EXP 	feedback_rt: height = 0.12
+58.0310 	EXP 	feedback_rt: height = 0.12
+58.0310 	EXP 	feedback_rt: text = 'Tempo de Reação: 4154 ms'
+58.0310 	EXP 	feedback_rt: autoDraw = True
+59.0184 	EXP 	New trial (rep=0, index=4): {'cue': 'images/arrow_right.png', 'target_x': -0.55, 'is_valid': -1, 'corr': 'left'}
+59.0313 	EXP 	feedback_rt: autoDraw = False
+59.0313 	EXP 	feedback_rt: autoDraw = False
+59.0313 	EXP 	cue_stim: ori = 0.0
+59.0313 	EXP 	cue_stim: image = 'images/arrow_right.png'
+59.0313 	EXP 	fixation: autoDraw = True
+59.8317 	EXP 	fixation: autoDraw = False
+59.8317 	EXP 	cue_stim: autoDraw = True
+60.0319 	INFO 	Keyboard events cleared
+60.0314 	EXP 	cue_stim: autoDraw = False
+60.0314 	EXP 	target_stim: autoDraw = True
+63.0312 	EXP 	reminder: autoDraw = True
+68.5916 	DATA 	Keypress: left
+68.5974 	EXP 	fixation: autoDraw = False
+68.5974 	EXP 	cue_stim: autoDraw = False
+68.5974 	EXP 	target_stim: autoDraw = False
+68.5974 	EXP 	reminder: autoDraw = False
+68.5974 	EXP 	feedback_rt: height = 0.12
+68.5974 	EXP 	feedback_rt: height = 0.12
+68.5974 	EXP 	feedback_rt: height = 0.12
+68.5974 	EXP 	feedback_rt: text = 'Tempo de Reação: 8546 ms'
+68.5974 	EXP 	feedback_rt: autoDraw = True
+69.5846 	EXP 	New trial (rep=0, index=5): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+69.5974 	EXP 	feedback_rt: autoDraw = False
+69.5974 	EXP 	feedback_rt: autoDraw = False
+69.5974 	EXP 	cue_stim: ori = 0.0
+69.5974 	EXP 	cue_stim: image = 'images/arrow_left.png'
+69.5974 	EXP 	fixation: autoDraw = True
+70.3974 	EXP 	fixation: autoDraw = False
+70.3974 	EXP 	cue_stim: autoDraw = True
+70.5978 	INFO 	Keyboard events cleared
+70.5974 	EXP 	cue_stim: autoDraw = False
+70.5974 	EXP 	target_stim: autoDraw = True
+73.3889 	DATA 	Keypress: left
+73.3971 	EXP 	fixation: autoDraw = False
+73.3971 	EXP 	cue_stim: autoDraw = False
+73.3971 	EXP 	target_stim: autoDraw = False
+73.3971 	EXP 	reminder: autoDraw = False
+73.3971 	EXP 	feedback_rt: height = 0.12
+73.3971 	EXP 	feedback_rt: height = 0.12
+73.3971 	EXP 	feedback_rt: height = 0.12
+73.3971 	EXP 	feedback_rt: text = 'Tempo de Reação: 2782 ms'
+73.3971 	EXP 	feedback_rt: autoDraw = True
+74.3842 	EXP 	New trial (rep=0, index=6): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+74.3972 	EXP 	feedback_rt: autoDraw = False
+74.3972 	EXP 	feedback_rt: autoDraw = False
+74.3972 	EXP 	cue_stim: ori = 0.0
+74.3972 	EXP 	cue_stim: image = 'images/arrow_right.png'
+74.3972 	EXP 	fixation: autoDraw = True
+75.1973 	EXP 	fixation: autoDraw = False
+75.1973 	EXP 	cue_stim: autoDraw = True
+75.3990 	INFO 	Keyboard events cleared
+75.3984 	EXP 	cue_stim: autoDraw = False
+75.3984 	EXP 	target_stim: autoDraw = True
+78.3969 	EXP 	reminder: autoDraw = True
+79.3552 	DATA 	Keypress: right
+79.3634 	EXP 	fixation: autoDraw = False
+79.3634 	EXP 	cue_stim: autoDraw = False
+79.3634 	EXP 	target_stim: autoDraw = False
+79.3634 	EXP 	reminder: autoDraw = False
+79.3634 	EXP 	feedback_rt: height = 0.12
+79.3634 	EXP 	feedback_rt: height = 0.12
+79.3634 	EXP 	feedback_rt: height = 0.12
+79.3634 	EXP 	feedback_rt: text = 'Tempo de Reação: 3940 ms'
+79.3634 	EXP 	feedback_rt: autoDraw = True
+80.3505 	EXP 	New trial (rep=0, index=7): {'cue': 'images/arrow_left.png', 'target_x': 0.55, 'is_valid': -1, 'corr': 'right'}
+80.3643 	EXP 	feedback_rt: autoDraw = False
+80.3643 	EXP 	feedback_rt: autoDraw = False
+80.3643 	EXP 	cue_stim: ori = 0.0
+80.3643 	EXP 	cue_stim: image = 'images/arrow_left.png'
+80.3643 	EXP 	fixation: autoDraw = True
+81.1635 	EXP 	fixation: autoDraw = False
+81.1635 	EXP 	cue_stim: autoDraw = True
+81.3640 	INFO 	Keyboard events cleared
+81.3636 	EXP 	cue_stim: autoDraw = False
+81.3636 	EXP 	target_stim: autoDraw = True
+84.3636 	EXP 	reminder: autoDraw = True
+84.6103 	DATA 	Keypress: right
+84.6293 	EXP 	fixation: autoDraw = False
+84.6293 	EXP 	cue_stim: autoDraw = False
+84.6293 	EXP 	target_stim: autoDraw = False
+84.6293 	EXP 	reminder: autoDraw = False
+84.6293 	EXP 	feedback_rt: height = 0.12
+84.6293 	EXP 	feedback_rt: height = 0.12
+84.6293 	EXP 	feedback_rt: height = 0.12
+84.6293 	EXP 	feedback_rt: text = 'Tempo de Reação: 3230 ms'
+84.6293 	EXP 	feedback_rt: autoDraw = True
+85.6169 	EXP 	New trial (rep=0, index=8): {'cue': 'images/arrow_left.png', 'target_x': -0.55, 'is_valid': 1, 'corr': 'left'}
+85.6299 	EXP 	feedback_rt: autoDraw = False
+85.6299 	EXP 	cue_stim: ori = 0.0
+85.6299 	EXP 	cue_stim: image = 'images/arrow_left.png'
+85.6299 	EXP 	fixation: autoDraw = True
+86.4143 	EXP 	cue_stim: autoDraw = True
+86.4300 	EXP 	fixation: autoDraw = False
+86.6140 	INFO 	Keyboard events cleared
+86.6136 	EXP 	cue_stim: autoDraw = False
+86.6136 	EXP 	target_stim: autoDraw = True
+89.6159 	EXP 	reminder: autoDraw = True
+89.6655 	DATA 	Keypress: left
+89.6815 	EXP 	fixation: autoDraw = False
+89.6815 	EXP 	cue_stim: autoDraw = False
+89.6815 	EXP 	target_stim: autoDraw = False
+89.6815 	EXP 	reminder: autoDraw = False
+89.6815 	EXP 	feedback_rt: height = 0.12
+89.6815 	EXP 	feedback_rt: height = 0.12
+89.6815 	EXP 	feedback_rt: height = 0.12
+89.6815 	EXP 	feedback_rt: text = 'Tempo de Reação: 3029 ms'
+89.6815 	EXP 	feedback_rt: autoDraw = True
+90.6707 	EXP 	New trial (rep=0, index=9): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+90.6969 	EXP 	feedback_rt: autoDraw = False
+90.6969 	EXP 	cue_stim: ori = 0.0
+90.6969 	EXP 	cue_stim: image = 'images/arrow_right.png'
+90.6969 	EXP 	fixation: autoDraw = True
+91.4647 	EXP 	cue_stim: autoDraw = True
+91.4967 	EXP 	fixation: autoDraw = False
+91.6635 	INFO 	Keyboard events cleared
+91.6631 	EXP 	cue_stim: autoDraw = False
+91.6631 	EXP 	target_stim: autoDraw = True
+94.1891 	DATA 	Keypress: right
+94.1966 	EXP 	fixation: autoDraw = False
+94.1966 	EXP 	cue_stim: autoDraw = False
+94.1966 	EXP 	target_stim: autoDraw = False
+94.1966 	EXP 	reminder: autoDraw = False
+94.1966 	EXP 	feedback_rt: height = 0.12
+94.1966 	EXP 	feedback_rt: height = 0.12
+94.1966 	EXP 	feedback_rt: height = 0.12
+94.1966 	EXP 	feedback_rt: text = 'Tempo de Reação: 2508 ms'
+94.1966 	EXP 	feedback_rt: autoDraw = True
+95.1849 	EXP 	New trial (rep=0, index=10): {'cue': 'images/no_arrow.png', 'target_x': 0.55, 'is_valid': 0, 'corr': 'right'}
+95.2136 	EXP 	feedback_rt: autoDraw = False
+95.2136 	EXP 	cue_stim: ori = 0.0
+95.2136 	EXP 	cue_stim: image = 'images/no_arrow.png'
+95.2136 	EXP 	fixation: autoDraw = True
+95.9973 	EXP 	cue_stim: autoDraw = True
+96.0137 	EXP 	fixation: autoDraw = False
+96.1969 	INFO 	Keyboard events cleared
+96.1964 	EXP 	cue_stim: autoDraw = False
+96.1964 	EXP 	target_stim: autoDraw = True
+99.1961 	EXP 	reminder: autoDraw = True
+101.6407 	DATA 	Keypress: right
+101.6464 	EXP 	fixation: autoDraw = False
+101.6464 	EXP 	cue_stim: autoDraw = False
+101.6464 	EXP 	target_stim: autoDraw = False
+101.6464 	EXP 	reminder: autoDraw = False
+101.6464 	EXP 	feedback_rt: height = 0.12
+101.6464 	EXP 	feedback_rt: height = 0.12
+101.6464 	EXP 	feedback_rt: height = 0.12
+101.6464 	EXP 	feedback_rt: text = 'Tempo de Reação: 5430 ms'
+101.6464 	EXP 	feedback_rt: autoDraw = True
+102.6323 	EXP 	New trial (rep=0, index=11): {'cue': 'images/arrow_right.png', 'target_x': 0.55, 'is_valid': 1, 'corr': 'right'}
+102.6620 	EXP 	feedback_rt: autoDraw = False
+102.6620 	EXP 	feedback_rt: autoDraw = False
+102.6620 	EXP 	cue_stim: ori = 0.0
+102.6620 	EXP 	cue_stim: image = 'images/arrow_right.png'
+102.6620 	EXP 	fixation: autoDraw = True
+103.4463 	EXP 	cue_stim: autoDraw = True
+103.4623 	EXP 	fixation: autoDraw = False
+103.6469 	INFO 	Keyboard events cleared
+103.6465 	EXP 	cue_stim: autoDraw = False
+103.6465 	EXP 	target_stim: autoDraw = True
+105.6065 	DATA 	Keypress: right
+105.6124 	EXP 	fixation: autoDraw = False
+105.6124 	EXP 	cue_stim: autoDraw = False
+105.6124 	EXP 	target_stim: autoDraw = False
+105.6124 	EXP 	reminder: autoDraw = False
+105.6124 	EXP 	feedback_rt: height = 0.12
+105.6124 	EXP 	feedback_rt: height = 0.12
+105.6124 	EXP 	feedback_rt: height = 0.12
+105.6124 	EXP 	feedback_rt: text = 'Tempo de Reação: 1941 ms'
+105.6124 	EXP 	feedback_rt: autoDraw = True
+106.6620 	INFO 	Keyboard events cleared
+106.6615 	EXP 	feedback_rt: autoDraw = False
+106.6615 	EXP 	feedback_rt: autoDraw = False
+106.6615 	EXP 	thanks_msg: height = 0.1
+106.6615 	EXP 	thanks_msg: height = 0.1
+106.6615 	EXP 	thanks_msg: height = 0.1
+106.6615 	EXP 	thanks_msg: text = 'Tempos de Reação:\n\nPistas Neutras: 3094 ms\nPistas Válidas: 3605 ms\nPistas Inválidas: 5889 ms\n\nPressione [Barra de Espaço] para finalizar a sessão.'
+106.6615 	EXP 	thanks_msg: autoDraw = True
+139.1822 	DATA 	Keypress: space
+139.1943 	EXP 	thanks_msg: autoDraw = False
+139.1968 	EXP 	posner: status = STOPPED
+139.2089 	INFO 	saved data to 'C:\\Users\\limap\\OneDrive\\Documentos\\Psychology\\8. YouTube\\psychopy-em-portugues\\Aula 066 – Paradigma de Dicas Preditivas de Posner (Posner Cueing Task)\\data/Relâmpago Marquin_posner_2024-11-08_15h31.40.519.csv'
+139.2127 	INFO 	saved data to C:\Users\limap\OneDrive\Documentos\Psychology\8. YouTube\psychopy-em-portugues\Aula 066 – Paradigma de Dicas Preditivas de Posner (Posner Cueing Task)\data/Relâmpago Marquin_posner_2024-11-08_15h31.40.519.psydat
+139.2680 	EXP 	window1: mouseVisible = True
+140.0521 	DEBUG 	Saving data for posner ExperimentHandler
